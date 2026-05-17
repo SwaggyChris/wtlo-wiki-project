@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="sunGrad" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffb26b" />
+      <stop offset="60%" stop-color="#ff7a59" />
+      <stop offset="100%" stop-color="#ff4b6b" />
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="8" fill="#0b0b0b" />
+
+  <!-- sun (lower half visible) -->
+  <g transform="translate(0,4)">
+    <circle cx="24" cy="28" r="14" fill="url(#sunGrad)" />
+    <!-- horizon silhouette -->
+    <path d="M6 30 C14 26 18 26 24 28 C30 30 34 30 42 28 L42 36 L6 36 Z" fill="#060606" />
+  </g>
+
+  <!-- subtle rim light -->
+  <ellipse cx="24" cy="28" rx="12" ry="4" fill="rgba(255,255,255,0.03)" />
+</svg>
