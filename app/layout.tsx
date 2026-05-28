@@ -3,10 +3,16 @@ import type { ReactNode } from "react";
 import "./globals.css";
 import AppShell from "@/components/AppShell";
 
-export const metadata: Metadata = {
+
+export const metadata = {
   title: "WTLO Wiki",
-  description: "WTLO Wiki project concept for Will To Live Online.",
+  icons: {
+    icon: "/favicon.ico?v=20",
+    shortcut: "/favicon.ico?v=20",
+    apple: "/favicon.ico?v=20",
+  },
 };
+
 
 export default function RootLayout({
   children,
