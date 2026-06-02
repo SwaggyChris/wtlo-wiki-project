@@ -38253,7 +38253,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Leatherworking - Beginner/Hard leather/Result/T_Inventory_HardLeather.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - Hard Leather/Result/T_Inventory_HardLeather.png",
       "imageDesc": "T_Inventory_HardLeather.png"
     },
     {
@@ -38320,14 +38320,14 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Healing Stimulator/Result/T_Inventory_Healing_Stimulator.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - Healing Stimulator/Result/T_Inventory_Healing_Stimulator.png",
       "imageDesc": "T_Inventory_Healing_Stimulator.png"
     },
     {
       "name": "Pharmacist-K",
       "type": "Recipe",
       "level": 0,
-      "detail": "Pharmacist-K crafting recipe. Station: Inventory. Module: Pharmacist - Beginner.",
+      "detail": "Pharmacist-K crafting recipe. Station: Inventory.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
@@ -38349,37 +38349,42 @@ const WTLO_DATABASE_DATA = {
       "craftingStation": "Inventory",
       "craftingModule": "Pharmacist - Beginner",
       "craftingNotes": [
-        "Added from the updated flattened Crafting Recipes asset directory."
+        "Added from the updated Crafting Recipes directory."
       ],
       "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Pharmacist-K/Required",
       "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Pharmacist-K/Result",
       "craftingRequiredImages": [
         {
           "name": "Battery A2",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Pharmacist-K/Required/T_Inventory_Icon_Battery_A2.png",
           "imageDesc": "T_Inventory_Icon_Battery_A2.png"
         },
         {
           "name": "DrawingExtractor",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Pharmacist-K/Required/T_Inventory_Icon_DrawingExtractor.png",
           "imageDesc": "T_Inventory_Icon_DrawingExtractor.png"
         },
         {
           "name": "Extractor",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Pharmacist-K/Required/T_Inventory_Icon_Extractor.png",
           "imageDesc": "T_Inventory_Icon_Extractor.png"
         },
         {
           "name": "Flask",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Pharmacist-K/Required/T_Inventory_Icon_Flask.png",
           "imageDesc": "T_Inventory_Icon_Flask.png"
         },
         {
           "name": "Tube",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Pharmacist-K/Required/T_Inventory_Icon_Tube.png",
           "imageDesc": "T_Inventory_Icon_Tube.png"
@@ -38388,11 +38393,14 @@ const WTLO_DATABASE_DATA = {
       "craftingResultImages": [
         {
           "name": "Extractor",
+          "quantity": "",
           "type": "Result",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Pharmacist-K/Result/T_Inventory_Icon_Extractor.png",
           "imageDesc": "T_Inventory_Icon_Extractor.png"
         }
       ],
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - Pharmacist-K/Result/T_Inventory_Icon_Extractor.png",
+      "imageDesc": "T_Inventory_Icon_Extractor.png",
       "craftingRecipeOrder": 3
     },
     {
@@ -38436,6 +38444,7 @@ const WTLO_DATABASE_DATA = {
         },
         {
           "name": "Extractor",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Awl/Required/T_Inventory_Icon_Extractor.png",
           "imageDesc": "T_Inventory_Icon_Extractor.png"
@@ -38472,7 +38481,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Awl/Result/T_Inventory_Stimulator_Awl.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Awl/Result/T_Inventory_Stimulator_Awl.png",
       "imageDesc": "T_Inventory_Stimulator_Awl.png"
     },
     {
@@ -38509,30 +38518,35 @@ const WTLO_DATABASE_DATA = {
       "craftingRequiredImages": [
         {
           "name": "BigLizzardHorn",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Fortuna/Require/T_Inventory_BigLizzardHorn.png",
           "imageDesc": "T_Inventory_BigLizzardHorn.png"
         },
         {
           "name": "Calendula",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Fortuna/Require/T_Inventory_Calendula.png",
           "imageDesc": "T_Inventory_Calendula.png"
         },
         {
           "name": "Extractor",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Fortuna/Require/T_Inventory_Icon_Extractor.png",
           "imageDesc": "T_Inventory_Icon_Extractor.png"
         },
         {
           "name": "SmallStimulatorContainer",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Fortuna/Require/T_Inventory_Icon_SmallStimulatorContainer.png",
           "imageDesc": "T_Inventory_Icon_SmallStimulatorContainer.png"
         },
         {
           "name": "Jelly Biomaterial",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Fortuna/Require/T_Inventory_Jelly_Biomaterial.png",
           "imageDesc": "T_Inventory_Jelly_Biomaterial.png"
@@ -38541,14 +38555,15 @@ const WTLO_DATABASE_DATA = {
       "craftingResultImages": [
         {
           "name": "Fortuna",
+          "quantity": "",
           "type": "Result",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Fortuna/Result/T_Inventory_Fortuna.png",
           "imageDesc": "T_Inventory_Fortuna.png"
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "",
-      "imageDesc": ""
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Fortuna/Result/T_Inventory_Fortuna.png",
+      "imageDesc": "T_Inventory_Fortuna.png"
     },
     {
       "name": "Stimulator Mustang",
@@ -38584,30 +38599,35 @@ const WTLO_DATABASE_DATA = {
       "craftingRequiredImages": [
         {
           "name": "Calendula",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Mustang/Require/T_Inventory_Calendula.png",
           "imageDesc": "T_Inventory_Calendula.png"
         },
         {
           "name": "Horn of a deer",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Mustang/Require/T_Inventory_Horn_of_a_deer.png",
           "imageDesc": "T_Inventory_Horn_of_a_deer.png"
         },
         {
           "name": "SmallStimulatorContainer",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Mustang/Require/T_Inventory_Icon_SmallStimulatorContainer.png",
           "imageDesc": "T_Inventory_Icon_SmallStimulatorContainer.png"
         },
         {
           "name": "Toadstool",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Mustang/Require/T_Inventory_Toadstool.png",
           "imageDesc": "T_Inventory_Toadstool.png"
         },
         {
           "name": "Yarrow",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Mustang/Require/T_Inventory_Yarrow.png",
           "imageDesc": "T_Inventory_Yarrow.png"
@@ -38616,14 +38636,15 @@ const WTLO_DATABASE_DATA = {
       "craftingResultImages": [
         {
           "name": "Mustang",
+          "quantity": "",
           "type": "Result",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Mustang/Result/T_Inventory_Mustang.png",
           "imageDesc": "T_Inventory_Mustang.png"
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "",
-      "imageDesc": ""
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Mustang/Result/T_Inventory_Mustang.png",
+      "imageDesc": "T_Inventory_Mustang.png"
     },
     {
       "name": "Stimulator Smart-ass",
@@ -38659,30 +38680,35 @@ const WTLO_DATABASE_DATA = {
       "craftingRequiredImages": [
         {
           "name": "CarpBrains",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Smart-ass/Require/T_Inventory_Icon_CarpBrains.png",
           "imageDesc": "T_Inventory_Icon_CarpBrains.png"
         },
         {
           "name": "Extractor",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Smart-ass/Require/T_Inventory_Icon_Extractor.png",
           "imageDesc": "T_Inventory_Icon_Extractor.png"
         },
         {
           "name": "Fish Fat",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Smart-ass/Require/T_Inventory_Icon_Fish_Fat.png",
           "imageDesc": "T_Inventory_Icon_Fish_Fat.png"
         },
         {
           "name": "SmallStimulatorContainer",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Smart-ass/Require/T_Inventory_Icon_SmallStimulatorContainer.png",
           "imageDesc": "T_Inventory_Icon_SmallStimulatorContainer.png"
         },
         {
           "name": "RadioactiveMetal",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Smart-ass/Require/T_Inventory_RadioactiveMetal.png",
           "imageDesc": "T_Inventory_RadioactiveMetal.png"
@@ -38691,14 +38717,15 @@ const WTLO_DATABASE_DATA = {
       "craftingResultImages": [
         {
           "name": "Smart-Ass",
+          "quantity": "",
           "type": "Result",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Smart-ass/Result/T_Inventory_Smart-Ass.png",
           "imageDesc": "T_Inventory_Smart-Ass.png"
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "",
-      "imageDesc": ""
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Smart-ass/Result/T_Inventory_Smart-Ass.png",
+      "imageDesc": "T_Inventory_Smart-Ass.png"
     },
     {
       "name": "Stimulator Tough Guy",
@@ -38755,6 +38782,7 @@ const WTLO_DATABASE_DATA = {
         },
         {
           "name": "Creepy Gland",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Tough Guy/Required/T_Inventory_Creepy_Gland.png",
           "imageDesc": "T_Inventory_Creepy_Gland.png"
@@ -38768,6 +38796,7 @@ const WTLO_DATABASE_DATA = {
         },
         {
           "name": "Extractor",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Tough Guy/Required/T_Inventory_Icon_Extractor.png",
           "imageDesc": "T_Inventory_Icon_Extractor.png"
@@ -38790,7 +38819,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Tough Guy/Result/T_Inventory_Stimulator_ToughGuy.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Tough Guy/Result/T_Inventory_Stimulator_ToughGuy.png",
       "imageDesc": "T_Inventory_Stimulator_ToughGuy.png"
     },
     {
@@ -38827,6 +38856,7 @@ const WTLO_DATABASE_DATA = {
       "craftingRequiredImages": [
         {
           "name": "Antidot",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Coal Filter/Required/T_Inventory_Antidot.png",
           "imageDesc": "T_Inventory_Antidot.png"
@@ -38870,7 +38900,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Coal Filter/Result/T_Inventory_Icon_CoalFilter.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - Coal Filter/Result/T_Inventory_Icon_CoalFilter.png",
       "imageDesc": "T_Inventory_Icon_CoalFilter.png"
     },
     {
@@ -38935,6 +38965,7 @@ const WTLO_DATABASE_DATA = {
         },
         {
           "name": "ThickPaper",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Smoke Grenade/Required/T_Inventory_Icon_ThickPaper.png",
           "imageDesc": "T_Inventory_Icon_ThickPaper.png"
@@ -38950,7 +38981,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Smoke Grenade/Result/T_Inventory_Icon_RDG-2B.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - Smoke Grenade/Result/T_Inventory_Icon_RDG-2B.png",
       "imageDesc": "T_Inventory_Icon_RDG-2B.png"
     },
     {
@@ -39008,6 +39039,7 @@ const WTLO_DATABASE_DATA = {
         },
         {
           "name": "ThickPaper",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Gas Grenade/Required/T_Inventory_Icon_ThickPaper.png",
           "imageDesc": "T_Inventory_Icon_ThickPaper.png"
@@ -39030,14 +39062,14 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Gas Grenade/Result/T_Inventory_Icon_GasGrenade.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - Gas Grenade/Result/T_Inventory_Icon_GasGrenade.png",
       "imageDesc": "T_Inventory_Icon_GasGrenade.png"
     },
     {
       "name": "Full Strange Map",
       "type": "Recipe",
       "level": 0,
-      "detail": "Full Strange Map crafting recipe. Station: Inventory. Module: Energy Modules - Beginner.",
+      "detail": "Full Strange Map crafting recipe. Station: Inventory.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
@@ -39059,43 +39091,49 @@ const WTLO_DATABASE_DATA = {
       "craftingStation": "Inventory",
       "craftingModule": "Energy Modules - Beginner",
       "craftingNotes": [
-        "Added from the updated flattened Crafting Recipes asset directory."
+        "Added from the updated Crafting Recipes directory."
       ],
       "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Full Strange Map/Required",
       "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Full Strange Map/Result",
       "craftingRequiredImages": [
         {
           "name": "Insulating Tape",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Full Strange Map/Required/T_Inventory_Icon_Insulating_Tape.png",
           "imageDesc": "T_Inventory_Icon_Insulating_Tape.png"
         },
         {
           "name": "Part map01",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Full Strange Map/Required/T_Inventory_Icon_Part_map01.png",
           "imageDesc": "T_Inventory_Icon_Part_map01.png"
         },
         {
           "name": "Part map02",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Full Strange Map/Required/T_Inventory_Icon_Part_map02.png",
           "imageDesc": "T_Inventory_Icon_Part_map02.png"
         },
         {
           "name": "Part map03",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Full Strange Map/Required/T_Inventory_Icon_Part_map03.png",
           "imageDesc": "T_Inventory_Icon_Part_map03.png"
         },
         {
           "name": "Part map04",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Full Strange Map/Required/T_Inventory_Icon_Part_map04.png",
           "imageDesc": "T_Inventory_Icon_Part_map04.png"
         },
         {
           "name": "Part map05",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Full Strange Map/Required/T_Inventory_Icon_Part_map05.png",
           "imageDesc": "T_Inventory_Icon_Part_map05.png"
@@ -39104,12 +39142,184 @@ const WTLO_DATABASE_DATA = {
       "craftingResultImages": [
         {
           "name": "Full map",
+          "quantity": "",
           "type": "Result",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Full Strange Map/Result/T_Inventory_Icon_Full_map.png",
           "imageDesc": "T_Inventory_Icon_Full_map.png"
         }
       ],
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - Full Strange Map/Result/T_Inventory_Icon_Full_map.png",
+      "imageDesc": "T_Inventory_Icon_Full_map.png",
       "craftingRecipeOrder": 12
+    },
+    {
+      "name": "Lead from battery",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Lead from battery crafting recipe. Station: Inventory.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 13",
+        "Crafting station: Inventory",
+        "Crafting module: Energy Modules - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Lead from battery/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Lead from battery/Result"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Inventory",
+      "craftingModule": "Energy Modules - Beginner",
+      "craftingNotes": [
+        "Added from the updated Crafting Recipes directory."
+      ],
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Lead from battery/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Lead from battery/Result",
+      "craftingRequiredImages": [],
+      "craftingResultImages": [
+        {
+          "name": "Lead",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Lead from battery/Result/T_Inventory_Lead.png",
+          "imageDesc": "T_Inventory_Lead.png"
+        }
+      ],
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - Lead from battery/Result/T_Inventory_Lead.png",
+      "imageDesc": "T_Inventory_Lead.png",
+      "craftingRecipeOrder": 13
+    },
+    {
+      "name": "Lockpick",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Lockpick crafting recipe. Station: Inventory.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 14",
+        "Crafting station: Inventory",
+        "Crafting module: Energy Modules - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Lockpick/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Lockpick/Result"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Inventory",
+      "craftingModule": "Energy Modules - Beginner",
+      "craftingNotes": [
+        "Added from the updated Crafting Recipes directory."
+      ],
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Lockpick/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Lockpick/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "LongNosePliers",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Lockpick/Required/T_Inventory_Icon_LongNosePliers.png",
+          "imageDesc": "T_Inventory_Icon_LongNosePliers.png"
+        },
+        {
+          "name": "Piece of wire",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Lockpick/Required/T_Inventory_Icon_Piece_of_wire.png",
+          "imageDesc": "T_Inventory_Icon_Piece_of_wire.png"
+        },
+        {
+          "name": "Pliers",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Lockpick/Required/T_Inventory_Icon_Pliers.png",
+          "imageDesc": "T_Inventory_Icon_Pliers.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Picklock",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Lockpick/Result/T_Inventory_Icon_Picklock.png",
+          "imageDesc": "T_Inventory_Icon_Picklock.png"
+        }
+      ],
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - Lockpick/Result/T_Inventory_Icon_Picklock.png",
+      "imageDesc": "T_Inventory_Icon_Picklock.png",
+      "craftingRecipeOrder": 14
+    },
+    {
+      "name": "Lockpick blanks",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Lockpick blanks crafting recipe. Station: Inventory.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 15",
+        "Crafting station: Inventory",
+        "Crafting module: Energy Modules - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Lockpick blanks/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Lockpick blanks/Result"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Inventory",
+      "craftingModule": "Energy Modules - Beginner",
+      "craftingNotes": [
+        "Added from the updated Crafting Recipes directory."
+      ],
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Lockpick blanks/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Lockpick blanks/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Pliers",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Lockpick blanks/Required/T_Inventory_Icon_Pliers.png",
+          "imageDesc": "T_Inventory_Icon_Pliers.png"
+        },
+        {
+          "name": "Steel Wire",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Lockpick blanks/Required/T_Inventory_Icon_Steel_Wire.png",
+          "imageDesc": "T_Inventory_Icon_Steel_Wire.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Piece of wire",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Lockpick blanks/Result/T_Inventory_Icon_Piece_of_wire.png",
+          "imageDesc": "T_Inventory_Icon_Piece_of_wire.png"
+        }
+      ],
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - Lockpick blanks/Result/T_Inventory_Icon_Piece_of_wire.png",
+      "imageDesc": "T_Inventory_Icon_Piece_of_wire.png",
+      "craftingRecipeOrder": 15
     },
     {
       "name": "Armor Modification Kit",
@@ -39119,7 +39329,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 13",
+        "Recipe order: 16",
         "Crafting station: Inventory",
         "Crafting module: Weapon Modification",
         "Required folder: /db-assets/Crafting Recipes/Inventory - Armor Modification Kit/Require",
@@ -39139,42 +39349,48 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Inventory",
       "craftingModule": "Weapon Modification",
-      "craftingRecipeOrder": 13,
+      "craftingRecipeOrder": 16,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Armor Modification Kit/Require",
       "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Armor Modification Kit/Result",
       "craftingRequiredImages": [
         {
           "name": "Armor ModificationParts",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Armor Modification Kit/Require/T_Armor_ModificationParts.png",
           "imageDesc": "T_Armor_ModificationParts.png"
         },
         {
           "name": "NDP Polymer",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Armor Modification Kit/Require/T_Inventory_NDP_Polymer.png",
           "imageDesc": "T_Inventory_NDP_Polymer.png"
         },
         {
           "name": "Rubber",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Armor Modification Kit/Require/T_Inventory_Rubber.png",
           "imageDesc": "T_Inventory_Rubber.png"
         },
         {
           "name": "StrongPlastic",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Armor Modification Kit/Require/T_Inventory_StrongPlastic.png",
           "imageDesc": "T_Inventory_StrongPlastic.png"
         },
         {
           "name": "Titanium Powder",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Armor Modification Kit/Require/T_Inventory_Titanium_Powder.png",
           "imageDesc": "T_Inventory_Titanium_Powder.png"
         },
         {
-          "name": "InventoryIcon ArmorModificationBlueprint",
+          "name": "ArmorModificationBlueprint",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Armor Modification Kit/Require/T_InventoryIcon_ArmorModificationBlueprint.png",
           "imageDesc": "T_InventoryIcon_ArmorModificationBlueprint.png"
@@ -39183,14 +39399,15 @@ const WTLO_DATABASE_DATA = {
       "craftingResultImages": [
         {
           "name": "ClothesModificationKit",
+          "quantity": "",
           "type": "Result",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Armor Modification Kit/Result/T_Inventory_Icon_ClothesModificationKit.png",
           "imageDesc": "T_Inventory_Icon_ClothesModificationKit.png"
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "",
-      "imageDesc": ""
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - Armor Modification Kit/Result/T_Inventory_Icon_ClothesModificationKit.png",
+      "imageDesc": "T_Inventory_Icon_ClothesModificationKit.png"
     },
     {
       "name": "Assault Rifle Modification Kit - Accuracy",
@@ -39200,7 +39417,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 14",
+        "Recipe order: 17",
         "Crafting station: Inventory",
         "Crafting module: Weapon Modification",
         "Required folder: /db-assets/Crafting Recipes/Inventory - Assault Rifle Modification Kit - Accuracy/Required",
@@ -39220,7 +39437,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Inventory",
       "craftingModule": "Weapon Modification",
-      "craftingRecipeOrder": 14,
+      "craftingRecipeOrder": 17,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification Kit - Accuracy/Required",
       "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification Kit - Accuracy/Result",
       "craftingRequiredImages": [
@@ -39284,7 +39501,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification - Beginner/Assault Rifle Modification kit - Accuracy/Result/T_AssaultRifle_ModificationKit_Accuracy_1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification Kit - Accuracy/Result/T_AssaultRifle_ModificationKit_Accuracy_1.png",
       "imageDesc": "T_AssaultRifle_ModificationKit_Accuracy_1.png"
     },
     {
@@ -39295,7 +39512,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 15",
+        "Recipe order: 18",
         "Crafting station: Inventory",
         "Crafting module: Weapon Modification",
         "Required folder: /db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit  - Damage/Required",
@@ -39315,7 +39532,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Inventory",
       "craftingModule": "Weapon Modification",
-      "craftingRecipeOrder": 15,
+      "craftingRecipeOrder": 18,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit  - Damage/Required",
       "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit  - Damage/Result",
       "craftingRequiredImages": [
@@ -39379,18 +39596,18 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification - Beginner/Assault Rifle Modification kit  - Damage/Result/T_AssaultRifle_ModificationKit_Damage_1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit  - Damage/Result/T_AssaultRifle_ModificationKit_Damage_1.png",
       "imageDesc": "T_AssaultRifle_ModificationKit_Damage_1.png"
     },
     {
-      "name": "Assault Rifle Modification kit - Durability",
+      "name": "Assault Rifle Modification Kit - Durability",
       "type": "Recipe",
       "level": 0,
       "detail": "Assault Rifle Modification Kit - Durability crafting recipe. Station: Inventory. Module: Weapon modification. Required: [1] Assault Rifle modification blueprint - Durability; [100] Assault Rifle modification parts - Durability; [10] NDP Polymer; [20] Rubber; [5] Hard Plastic. Result: Assault Rifle Modification Kit - Durability.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 16",
+        "Recipe order: 19",
         "Crafting station: Inventory",
         "Crafting module: Weapon Modification",
         "Required folder: /db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit - Durability/Required",
@@ -39410,36 +39627,41 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Inventory",
       "craftingModule": "Weapon Modification",
-      "craftingRecipeOrder": 16,
+      "craftingRecipeOrder": 19,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit - Durability/Required",
       "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit - Durability/Result",
       "craftingRequiredImages": [
         {
           "name": "AssaultRifle ModificationParts Durability 1",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit - Durability/Required/T_AssaultRifle_ModificationParts_Durability_1.png",
           "imageDesc": "T_AssaultRifle_ModificationParts_Durability_1.png"
         },
         {
           "name": "NDP Polymer",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit - Durability/Required/T_Inventory_NDP_Polymer.png",
           "imageDesc": "T_Inventory_NDP_Polymer.png"
         },
         {
           "name": "Rubber",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit - Durability/Required/T_Inventory_Rubber.png",
           "imageDesc": "T_Inventory_Rubber.png"
         },
         {
           "name": "StrongPlastic",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit - Durability/Required/T_Inventory_StrongPlastic.png",
           "imageDesc": "T_Inventory_StrongPlastic.png"
         },
         {
-          "name": "InventoryIcon AssaultRifleModificationBlueprint Durability",
+          "name": "AssaultRifleModificationBlueprint Durability",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit - Durability/Required/T_InventoryIcon_AssaultRifleModificationBlueprint_Durability.png",
           "imageDesc": "T_InventoryIcon_AssaultRifleModificationBlueprint_Durability.png"
@@ -39448,14 +39670,15 @@ const WTLO_DATABASE_DATA = {
       "craftingResultImages": [
         {
           "name": "AssaultRifle ModificationKit Durability 1",
+          "quantity": "",
           "type": "Result",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit - Durability/Result/T_AssaultRifle_ModificationKit_Durability_1.png",
           "imageDesc": "T_AssaultRifle_ModificationKit_Durability_1.png"
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "",
-      "imageDesc": ""
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit - Durability/Result/T_AssaultRifle_ModificationKit_Durability_1.png",
+      "imageDesc": "T_AssaultRifle_ModificationKit_Durability_1.png"
     },
     {
       "name": "Handgun Modification Kit - Accuracy",
@@ -39465,7 +39688,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 17",
+        "Recipe order: 20",
         "Crafting station: Inventory",
         "Crafting module: Weapon Modification",
         "Required folder: /db-assets/Crafting Recipes/Inventory - Handgun Modification kit - Accuracy/Required",
@@ -39485,12 +39708,13 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Inventory",
       "craftingModule": "Weapon Modification",
-      "craftingRecipeOrder": 17,
+      "craftingRecipeOrder": 20,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Handgun Modification kit - Accuracy/Required",
       "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Handgun Modification kit - Accuracy/Result",
       "craftingRequiredImages": [
         {
           "name": "Handgun ModificationParts Accuracy 1",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Handgun Modification kit - Accuracy/Required/T_Handgun_ModificationParts_Accuracy_1.png",
           "imageDesc": "T_Handgun_ModificationParts_Accuracy_1.png"
@@ -39548,7 +39772,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification - Beginner/Handgun Modification kit - Accuracy/Result/T_Handgun_ModificationKit_Accuracy_1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - Handgun Modification kit - Accuracy/Result/T_Handgun_ModificationKit_Accuracy_1.png",
       "imageDesc": "T_Handgun_ModificationKit_Accuracy_1.png"
     },
     {
@@ -39559,7 +39783,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 18",
+        "Recipe order: 21",
         "Crafting station: Inventory",
         "Crafting module: Weapon Modification",
         "Required folder: /db-assets/Crafting Recipes/Inventory - Hangun Modification kit - Damage/Required",
@@ -39579,7 +39803,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Inventory",
       "craftingModule": "Weapon Modification",
-      "craftingRecipeOrder": 18,
+      "craftingRecipeOrder": 21,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Hangun Modification kit - Damage/Required",
       "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Hangun Modification kit - Damage/Result",
       "craftingRequiredImages": [
@@ -39592,6 +39816,7 @@ const WTLO_DATABASE_DATA = {
         },
         {
           "name": "Handgun ModificationParts Damage 1",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Hangun Modification kit - Damage/Required/T_Handgun_ModificationParts_Damage_1.png",
           "imageDesc": "T_Handgun_ModificationParts_Damage_1.png"
@@ -39642,25 +39867,25 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification - Beginner/Hangun Modification kit - Damage/Result/T_Handgun_ModificationKit_Damage_1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - Hangun Modification kit - Damage/Result/T_Handgun_ModificationKit_Damage_1.png",
       "imageDesc": "T_Handgun_ModificationKit_Damage_1.png"
     },
     {
-      "name": "Hangun Modification - Durability",
+      "name": "Handgun Modification Kit - Durability",
       "type": "Recipe",
       "level": 0,
       "detail": "Handgun Modification Kit - Durability crafting recipe. Station: Inventory. Module: Weapon modification. Required: [1] Handgun modification blueprint - Durability; [100] Handgun modification parts - Durability; [10] NDP Polymer; [20] Rubber; [5] Hard Plastic. Result: Handgun Modification Kit - Durability.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 19",
+        "Recipe order: 22",
         "Crafting station: Inventory",
         "Crafting module: Weapon Modification",
-        "Required folder: /db-assets/Crafting Recipes/Inventory - Hangun Modification - Durability/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory - Hangun Modification - Durability/Result",
         "Required: [1] Handgun modification blueprint - Durability; [100] Handgun modification parts - Durability; [10] NDP Polymer; [20] Rubber; [5] Hard Plastic",
         "Result: Handgun Modification Kit - Durability",
-        "Source: Pasted text(8).txt"
+        "Source: Pasted text(8).txt",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Hangun Modification - Durability/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Hangun Modification - Durability/Result"
       ],
       "locations": [
         "Minayev's Territory",
@@ -39673,16 +39898,58 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Inventory",
       "craftingModule": "Weapon Modification",
-      "craftingRecipeOrder": 19,
+      "craftingRecipeOrder": 22,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Hangun Modification - Durability/Required",
       "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Hangun Modification - Durability/Result",
-      "craftingRequiredImages": [],
-      "craftingResultImages": [],
-      "craftingNotes": [
-        "No result PNG was found in the current directory listing."
+      "craftingRequiredImages": [
+        {
+          "name": "Handgun Modification Parts Durability",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Hangun Modification - Durability/Required/T_Handgun_ModificationParts_Durability_1.png",
+          "imageDesc": "T_Handgun_ModificationParts_Durability_1.png"
+        },
+        {
+          "name": "Handgun Modification Blueprint Durability",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Hangun Modification - Durability/Required/T_InventoryIcon_HandgunModificationBlueprint_Durability.png",
+          "imageDesc": "T_InventoryIcon_HandgunModificationBlueprint_Durability.png"
+        },
+        {
+          "name": "NDP Polymer",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Hangun Modification - Durability/Required/T_Inventory_NDP_Polymer.png",
+          "imageDesc": "T_Inventory_NDP_Polymer.png"
+        },
+        {
+          "name": "Rubber",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Hangun Modification - Durability/Required/T_Inventory_Rubber.png",
+          "imageDesc": "T_Inventory_Rubber.png"
+        },
+        {
+          "name": "Strong Plastic",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Hangun Modification - Durability/Required/T_Inventory_StrongPlastic.png",
+          "imageDesc": "T_Inventory_StrongPlastic.png"
+        }
       ],
-      "imageUrl": "",
-      "imageDesc": ""
+      "craftingResultImages": [
+        {
+          "name": "Handgun Modification Kit Durability",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Hangun Modification - Durability/Result/T_Handgun_ModificationKit_Durability_1.png",
+          "imageDesc": "T_Handgun_ModificationKit_Durability_1.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - Hangun Modification - Durability/Result/T_Handgun_ModificationKit_Durability_1.png",
+      "imageDesc": "T_Handgun_ModificationKit_Durability_1.png"
     },
     {
       "name": "Rifle Modification Kit - Accuracy",
@@ -39692,7 +39959,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 20",
+        "Recipe order: 23",
         "Crafting station: Inventory",
         "Crafting module: Weapon Modification",
         "Required folder: /db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Accuracy/Required",
@@ -39712,48 +39979,55 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Inventory",
       "craftingModule": "Weapon Modification",
-      "craftingRecipeOrder": 20,
+      "craftingRecipeOrder": 23,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Accuracy/Required",
       "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Accuracy/Result",
       "craftingRequiredImages": [
         {
           "name": "NDP Polymer",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Accuracy/Required/T_Inventory_NDP_Polymer.png",
           "imageDesc": "T_Inventory_NDP_Polymer.png"
         },
         {
           "name": "Rubber",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Accuracy/Required/T_Inventory_Rubber.png",
           "imageDesc": "T_Inventory_Rubber.png"
         },
         {
           "name": "StrongPlastic",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Accuracy/Required/T_Inventory_StrongPlastic.png",
           "imageDesc": "T_Inventory_StrongPlastic.png"
         },
         {
-          "name": "InventoryIcon RifleModificationBlueprint Accuracy",
+          "name": "RifleModificationBlueprint Accuracy",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Accuracy/Required/T_InventoryIcon_RifleModificationBlueprint_Accuracy.png",
           "imageDesc": "T_InventoryIcon_RifleModificationBlueprint_Accuracy.png"
         },
         {
           "name": "Rifle ModificationParts Accuracy 1",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Accuracy/Required/T_Rifle_ModificationParts_Accuracy_1.png",
           "imageDesc": "T_Rifle_ModificationParts_Accuracy_1.png"
         },
         {
           "name": "Rifle ModificationParts Damage 1",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Accuracy/Required/T_Rifle_ModificationParts_Damage_1.png",
           "imageDesc": "T_Rifle_ModificationParts_Damage_1.png"
         },
         {
           "name": "Rifle ModificationParts Durability 1",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Accuracy/Required/T_Rifle_ModificationParts_Durability_1.png",
           "imageDesc": "T_Rifle_ModificationParts_Durability_1.png"
@@ -39762,14 +40036,15 @@ const WTLO_DATABASE_DATA = {
       "craftingResultImages": [
         {
           "name": "Rifle ModificationKit Accuracy 1",
+          "quantity": "",
           "type": "Result",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Accuracy/Result/T_Rifle_ModificationKit_Accuracy_1.png",
           "imageDesc": "T_Rifle_ModificationKit_Accuracy_1.png"
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "",
-      "imageDesc": ""
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Accuracy/Result/T_Rifle_ModificationKit_Accuracy_1.png",
+      "imageDesc": "T_Rifle_ModificationKit_Accuracy_1.png"
     },
     {
       "name": "Rifle Modification Kit - Damage",
@@ -39779,7 +40054,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 21",
+        "Recipe order: 24",
         "Crafting station: Inventory",
         "Crafting module: Weapon Modification",
         "Required folder: /db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Damage/Required",
@@ -39799,48 +40074,55 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Inventory",
       "craftingModule": "Weapon Modification",
-      "craftingRecipeOrder": 21,
+      "craftingRecipeOrder": 24,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Damage/Required",
       "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Damage/Result",
       "craftingRequiredImages": [
         {
           "name": "NDP Polymer",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Damage/Required/T_Inventory_NDP_Polymer.png",
           "imageDesc": "T_Inventory_NDP_Polymer.png"
         },
         {
           "name": "Rubber",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Damage/Required/T_Inventory_Rubber.png",
           "imageDesc": "T_Inventory_Rubber.png"
         },
         {
           "name": "StrongPlastic",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Damage/Required/T_Inventory_StrongPlastic.png",
           "imageDesc": "T_Inventory_StrongPlastic.png"
         },
         {
-          "name": "InventoryIcon RifleModificationBlueprint Damage",
+          "name": "RifleModificationBlueprint Damage",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Damage/Required/T_InventoryIcon_RifleModificationBlueprint_Damage.png",
           "imageDesc": "T_InventoryIcon_RifleModificationBlueprint_Damage.png"
         },
         {
           "name": "Rifle ModificationParts Accuracy 1",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Damage/Required/T_Rifle_ModificationParts_Accuracy_1.png",
           "imageDesc": "T_Rifle_ModificationParts_Accuracy_1.png"
         },
         {
           "name": "Rifle ModificationParts Damage 1",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Damage/Required/T_Rifle_ModificationParts_Damage_1.png",
           "imageDesc": "T_Rifle_ModificationParts_Damage_1.png"
         },
         {
           "name": "Rifle ModificationParts Durability 1",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Damage/Required/T_Rifle_ModificationParts_Durability_1.png",
           "imageDesc": "T_Rifle_ModificationParts_Durability_1.png"
@@ -39849,14 +40131,15 @@ const WTLO_DATABASE_DATA = {
       "craftingResultImages": [
         {
           "name": "Rifle ModificationKit Damage 1",
+          "quantity": "",
           "type": "Result",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Damage/Result/T_Rifle_ModificationKit_Damage_1.png",
           "imageDesc": "T_Rifle_ModificationKit_Damage_1.png"
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "",
-      "imageDesc": ""
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Damage/Result/T_Rifle_ModificationKit_Damage_1.png",
+      "imageDesc": "T_Rifle_ModificationKit_Damage_1.png"
     },
     {
       "name": "Rifle Modification Kit - Durability",
@@ -39866,7 +40149,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 22",
+        "Recipe order: 25",
         "Crafting station: Inventory",
         "Crafting module: Weapon Modification",
         "Required folder: /db-assets/Crafting Recipes/Inventory - Rifle Modifcation kit  - Durability/Required",
@@ -39886,18 +40169,20 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Inventory",
       "craftingModule": "Weapon Modification",
-      "craftingRecipeOrder": 22,
+      "craftingRecipeOrder": 25,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Rifle Modifcation kit  - Durability/Required",
       "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Rifle Modifcation kit  - Durability/Result",
       "craftingRequiredImages": [
         {
-          "name": "InventoryIcon RifleModificationBlueprint Durability",
+          "name": "RifleModificationBlueprint Durability",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modifcation kit  - Durability/Required/T_InventoryIcon_RifleModificationBlueprint_Durability.png",
           "imageDesc": "T_InventoryIcon_RifleModificationBlueprint_Durability.png"
         },
         {
           "name": "Rifle ModificationParts Durability 1",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modifcation kit  - Durability/Required/T_Rifle_ModificationParts_Durability_1.png",
           "imageDesc": "T_Rifle_ModificationParts_Durability_1.png"
@@ -39906,14 +40191,15 @@ const WTLO_DATABASE_DATA = {
       "craftingResultImages": [
         {
           "name": "Rifle ModificationKit Durability 1",
+          "quantity": "",
           "type": "Result",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modifcation kit  - Durability/Result/T_Rifle_ModificationKit_Durability_1.png",
           "imageDesc": "T_Rifle_ModificationKit_Durability_1.png"
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification - Beginner/Assault Rifle Modification kit - Durability/Result/T_AssaultRifle_ModificationKit_Durability_1.png",
-      "imageDesc": "T_AssaultRifle_ModificationKit_Durability_1.png"
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modifcation kit  - Durability/Result/T_Rifle_ModificationKit_Durability_1.png",
+      "imageDesc": "T_Rifle_ModificationKit_Durability_1.png"
     },
     {
       "name": "Shotgun Modification Kit - Accuracy",
@@ -39923,7 +40209,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 23",
+        "Recipe order: 26",
         "Crafting station: Inventory",
         "Crafting module: Weapon Modification",
         "Required folder: /db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Accurarcy/Required",
@@ -39943,7 +40229,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Inventory",
       "craftingModule": "Weapon Modification",
-      "craftingRecipeOrder": 23,
+      "craftingRecipeOrder": 26,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Accurarcy/Required",
       "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Accurarcy/Result",
       "craftingRequiredImages": [
@@ -39977,6 +40263,7 @@ const WTLO_DATABASE_DATA = {
         },
         {
           "name": "Shotgun ModificationParts Accuracy 1",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Accurarcy/Required/T_Shotgun_ModificationParts_Accuracy_1.png",
           "imageDesc": "T_Shotgun_ModificationParts_Accuracy_1.png"
@@ -40006,7 +40293,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification - Beginner/Shotgun Modification kit - Accurarcy/Result/T_Shotgun_ModificationKit_Accuracy_1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Accurarcy/Result/T_Shotgun_ModificationKit_Accuracy_1.png",
       "imageDesc": "T_Shotgun_ModificationKit_Accuracy_1.png"
     },
     {
@@ -40017,7 +40304,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 24",
+        "Recipe order: 27",
         "Crafting station: Inventory",
         "Crafting module: Weapon Modification",
         "Required folder: /db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Damage/Required",
@@ -40037,7 +40324,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Inventory",
       "craftingModule": "Weapon Modification",
-      "craftingRecipeOrder": 24,
+      "craftingRecipeOrder": 27,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Damage/Required",
       "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Damage/Result",
       "craftingRequiredImages": [
@@ -40078,6 +40365,7 @@ const WTLO_DATABASE_DATA = {
         },
         {
           "name": "Shotgun ModificationParts Damage 1",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Damage/Required/T_Shotgun_ModificationParts_Damage_1.png",
           "imageDesc": "T_Shotgun_ModificationParts_Damage_1.png"
@@ -40100,7 +40388,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification - Beginner/Shotgun Modification kit - Damage/Result/T_Shotgun_ModificationKit_Damage_1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Damage/Result/T_Shotgun_ModificationKit_Damage_1.png",
       "imageDesc": "T_Shotgun_ModificationKit_Damage_1.png"
     },
     {
@@ -40111,7 +40399,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 25",
+        "Recipe order: 28",
         "Crafting station: Inventory",
         "Crafting module: Weapon Modification",
         "Required folder: /db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Durability/Required",
@@ -40131,7 +40419,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Inventory",
       "craftingModule": "Weapon Modification",
-      "craftingRecipeOrder": 25,
+      "craftingRecipeOrder": 28,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Durability/Required",
       "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Durability/Result",
       "craftingRequiredImages": [
@@ -40165,6 +40453,7 @@ const WTLO_DATABASE_DATA = {
         },
         {
           "name": "Shotgun ModificationParts Durability 1",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Durability/Required/T_Shotgun_ModificationParts_Durability_1.png",
           "imageDesc": "T_Shotgun_ModificationParts_Durability_1.png"
@@ -40180,7 +40469,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification - Beginner/Shotgun Modification kit - Durability/Result/T_Shotgun_ModificationKit_Durability_1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Durability/Result/T_Shotgun_ModificationKit_Durability_1.png",
       "imageDesc": "T_Shotgun_ModificationKit_Durability_1.png"
     },
     {
@@ -40191,7 +40480,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 26",
+        "Recipe order: 29",
         "Crafting station: Inventory",
         "Crafting module: Weapon Modification",
         "Required folder: /db-assets/Crafting Recipes/Inventory - SMG Modification kit  - Accuracy/Required",
@@ -40211,7 +40500,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Inventory",
       "craftingModule": "Weapon Modification",
-      "craftingRecipeOrder": 26,
+      "craftingRecipeOrder": 29,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit  - Accuracy/Required",
       "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit  - Accuracy/Result",
       "craftingRequiredImages": [
@@ -40275,7 +40564,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification - Beginner/SMG Modification kit  - Accuracy/Result/T_SMG_ModificationKit_Accuracy_1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit  - Accuracy/Result/T_SMG_ModificationKit_Accuracy_1.png",
       "imageDesc": "T_SMG_ModificationKit_Accuracy_1.png"
     },
     {
@@ -40286,7 +40575,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 27",
+        "Recipe order: 30",
         "Crafting station: Inventory",
         "Crafting module: Weapon Modification",
         "Required folder: /db-assets/Crafting Recipes/Inventory - SMG Modification kit - Damage/Required",
@@ -40306,7 +40595,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Inventory",
       "craftingModule": "Weapon Modification",
-      "craftingRecipeOrder": 27,
+      "craftingRecipeOrder": 30,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit - Damage/Required",
       "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit - Damage/Result",
       "craftingRequiredImages": [
@@ -40370,7 +40659,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification - Beginner/SMG Modification kit - Damage/Result/T_SMG_ModificationKit_Damage_1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit - Damage/Result/T_SMG_ModificationKit_Damage_1.png",
       "imageDesc": "T_SMG_ModificationKit_Damage_1.png"
     },
     {
@@ -40381,7 +40670,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 28",
+        "Recipe order: 31",
         "Crafting station: Inventory",
         "Crafting module: Weapon Modification",
         "Required folder: /db-assets/Crafting Recipes/Inventory - SMG Modification kit - Durability/Required",
@@ -40401,7 +40690,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Inventory",
       "craftingModule": "Weapon Modification",
-      "craftingRecipeOrder": 28,
+      "craftingRecipeOrder": 31,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit - Durability/Required",
       "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit - Durability/Result",
       "craftingRequiredImages": [
@@ -40451,18 +40740,18 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification - Beginner/SMG Modification kit - Durability/Result/T_SMG_ModificationKit_Durability_1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit - Durability/Result/T_SMG_ModificationKit_Durability_1.png",
       "imageDesc": "T_SMG_ModificationKit_Durability_1.png"
     },
     {
       "name": "Campfire Kit",
       "type": "Recipe",
       "level": 0,
-      "detail": "Campfire Kit crafting recipe. Station: Inventory. Module: Campfire recipes - Beginner.",
+      "detail": "Campfire Kit crafting recipe. Station: Inventory.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 29",
+        "Recipe order: 32",
         "Crafting station: Inventory",
         "Crafting module: Campfire recipes - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Inventory - Campfire Kit/Required",
@@ -40480,19 +40769,21 @@ const WTLO_DATABASE_DATA = {
       "craftingStation": "Inventory",
       "craftingModule": "Campfire recipes - Beginner",
       "craftingNotes": [
-        "Added from the updated flattened Crafting Recipes asset directory."
+        "Added from the updated Crafting Recipes directory."
       ],
       "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Campfire Kit/Required",
       "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Campfire Kit/Result",
       "craftingRequiredImages": [
         {
           "name": "Matches",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Campfire Kit/Required/T_Inventory_Icon_Matches.png",
           "imageDesc": "T_Inventory_Icon_Matches.png"
         },
         {
           "name": "Wood",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Campfire Kit/Required/T_Inventory_Wood.png",
           "imageDesc": "T_Inventory_Wood.png"
@@ -40501,12 +40792,110 @@ const WTLO_DATABASE_DATA = {
       "craftingResultImages": [
         {
           "name": "CampfireKit",
+          "quantity": "",
           "type": "Result",
           "imageUrl": "/db-assets/Crafting Recipes/Inventory - Campfire Kit/Result/T_Inventory_Icon_CampfireKit.png",
           "imageDesc": "T_Inventory_Icon_CampfireKit.png"
         }
       ],
-      "craftingRecipeOrder": 29
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - Campfire Kit/Result/T_Inventory_Icon_CampfireKit.png",
+      "imageDesc": "T_Inventory_Icon_CampfireKit.png",
+      "craftingRecipeOrder": 32
+    },
+    {
+      "name": "Ratburger",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Ratburger crafting recipe. Station: Inventory. Module: Ratburger recipe. Required: [1] Bread Loaf; [1] Salt; [1] Vinegar; [1] Fried rat meat; [1] Lizard venom. Result: Ratburger.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 33",
+        "Crafting station: Inventory",
+        "Crafting module: Campfire recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Ratburger/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Ratburger/Result",
+        "Required: [1] Bread Loaf; [1] Salt; [1] Vinegar; [1] Fried rat meat; [1] Lizard venom",
+        "Result: Ratburger",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Inventory",
+      "craftingModule": "Campfire recipes - Beginner",
+      "craftingRecipeOrder": 33,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Ratburger/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Ratburger/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Bread",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Ratburger/Required/T_Inventory_Icon_Bread.png",
+          "imageDesc": "T_Inventory_Icon_Bread.png"
+        },
+        {
+          "name": "Fried Rat Meat",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Ratburger/Required/T_Inventory_Icon_Fried_Rat_Meat.png",
+          "imageDesc": "T_Inventory_Icon_Fried_Rat_Meat.png"
+        },
+        {
+          "name": "Salt",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Ratburger/Required/T_Inventory_Icon_Salt.png",
+          "imageDesc": "T_Inventory_Icon_Salt.png"
+        },
+        {
+          "name": "Vinegar",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Ratburger/Required/T_Inventory_Icon_Vinegar.png",
+          "imageDesc": "T_Inventory_Icon_Vinegar.png"
+        },
+        {
+          "name": "LizzardVenom",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Ratburger/Required/T_Inventory_LizzardVenom.png",
+          "imageDesc": "T_Inventory_LizzardVenom.png"
+        },
+        {
+          "name": "RatAss",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Ratburger/Required/T_Inventory_RatAss.png",
+          "imageDesc": "T_Inventory_RatAss.png"
+        },
+        {
+          "name": "RatMeat",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Ratburger/Required/T_Inventory_RatMeat.png",
+          "imageDesc": "T_Inventory_RatMeat.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Ratburger",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Ratburger/Result/T_Inventory_Icon_Ratburger.png",
+          "imageDesc": "T_Inventory_Icon_Ratburger.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - Ratburger/Result/T_Inventory_Icon_Ratburger.png",
+      "imageDesc": "T_Inventory_Icon_Ratburger.png"
     },
     {
       "name": "Gasoline Filter",
@@ -40516,7 +40905,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 30",
+        "Recipe order: 34",
         "Crafting station: Inventory",
         "Crafting module: Gasoline filter",
         "Required folder: /db-assets/Crafting Recipes/Inventory - Gasoline Filter/Required",
@@ -40536,7 +40925,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Inventory",
       "craftingModule": "Gasoline filter",
-      "craftingRecipeOrder": 30,
+      "craftingRecipeOrder": 34,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Gasoline Filter/Required",
       "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Gasoline Filter/Result",
       "craftingRequiredImages": [
@@ -40572,7 +40961,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Gasoline Filter/Result/T_Inventory_Icon_Gasoline_Filter.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - Gasoline Filter/Result/T_Inventory_Icon_Gasoline_Filter.png",
       "imageDesc": "T_Inventory_Icon_Gasoline_Filter.png"
     },
     {
@@ -40583,7 +40972,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 31",
+        "Recipe order: 35",
         "Crafting station: Inventory",
         "Crafting module: Anti-burn salve recipe",
         "Required folder: /db-assets/Crafting Recipes/Inventory - Anti-burn Salve/Require",
@@ -40603,7 +40992,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Inventory",
       "craftingModule": "Anti-burn salve recipe",
-      "craftingRecipeOrder": 31,
+      "craftingRecipeOrder": 35,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Anti-burn Salve/Require",
       "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Anti-burn Salve/Result",
       "craftingRequiredImages": [
@@ -40646,250 +41035,8 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Anti-burn salve/Result/T_Inventory_Anti-Burn_Salve.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory - Anti-burn Salve/Result/T_Inventory_Anti-Burn_Salve.png",
       "imageDesc": "T_Inventory_Anti-Burn_Salve.png"
-    },
-    {
-      "name": "Lead from battery",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Lead from battery crafting recipe. Station: Inventory. Module: Blacksmithing recipes - Beginner.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 32",
-        "Crafting station: Inventory",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Inventory - Lead from battery/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory - Lead from battery/Result"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Inventory",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "craftingNotes": [
-        "Added from the updated flattened Crafting Recipes asset directory."
-      ],
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Lead from battery/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Lead from battery/Result",
-      "craftingRequiredImages": [],
-      "craftingResultImages": [
-        {
-          "name": "Lead",
-          "type": "Result",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Lead from battery/Result/T_Inventory_Lead.png",
-          "imageDesc": "T_Inventory_Lead.png"
-        }
-      ],
-      "craftingRecipeOrder": 32
-    },
-    {
-      "name": "Lockpick",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Lockpick crafting recipe. Station: Inventory. Module: Blacksmithing recipes - Beginner.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 33",
-        "Crafting station: Inventory",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Inventory - Lockpick/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory - Lockpick/Result"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Inventory",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "craftingNotes": [
-        "Added from the updated flattened Crafting Recipes asset directory."
-      ],
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Lockpick/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Lockpick/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "LongNosePliers",
-          "type": "Required",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Lockpick/Required/T_Inventory_Icon_LongNosePliers.png",
-          "imageDesc": "T_Inventory_Icon_LongNosePliers.png"
-        },
-        {
-          "name": "Piece of wire",
-          "type": "Required",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Lockpick/Required/T_Inventory_Icon_Piece_of_wire.png",
-          "imageDesc": "T_Inventory_Icon_Piece_of_wire.png"
-        },
-        {
-          "name": "Pliers",
-          "type": "Required",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Lockpick/Required/T_Inventory_Icon_Pliers.png",
-          "imageDesc": "T_Inventory_Icon_Pliers.png"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Picklock",
-          "type": "Result",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Lockpick/Result/T_Inventory_Icon_Picklock.png",
-          "imageDesc": "T_Inventory_Icon_Picklock.png"
-        }
-      ],
-      "craftingRecipeOrder": 33
-    },
-    {
-      "name": "Lockpick blanks",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Lockpick blanks crafting recipe. Station: Inventory. Module: Blacksmithing recipes - Beginner.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 34",
-        "Crafting station: Inventory",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Inventory - Lockpick blanks/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory - Lockpick blanks/Result"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Inventory",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "craftingNotes": [
-        "Added from the updated flattened Crafting Recipes asset directory."
-      ],
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Lockpick blanks/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Lockpick blanks/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Pliers",
-          "type": "Required",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Lockpick blanks/Required/T_Inventory_Icon_Pliers.png",
-          "imageDesc": "T_Inventory_Icon_Pliers.png"
-        },
-        {
-          "name": "Steel Wire",
-          "type": "Required",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Lockpick blanks/Required/T_Inventory_Icon_Steel_Wire.png",
-          "imageDesc": "T_Inventory_Icon_Steel_Wire.png"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Piece of wire",
-          "type": "Result",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Lockpick blanks/Result/T_Inventory_Icon_Piece_of_wire.png",
-          "imageDesc": "T_Inventory_Icon_Piece_of_wire.png"
-        }
-      ],
-      "craftingRecipeOrder": 34
-    },
-    {
-      "name": "Ratburger",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Ratburger crafting recipe. Station: Inventory. Module: Ratburger recipe. Required: [1] Bread Loaf; [1] Salt; [1] Vinegar; [1] Fried rat meat; [1] Lizard venom. Result: Ratburger.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 35",
-        "Crafting station: Inventory",
-        "Crafting module: Campfire - Advanced",
-        "Required folder: /db-assets/Crafting Recipes/Inventory - Ratburger/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory - Ratburger/Result",
-        "Required: [1] Bread Loaf; [1] Salt; [1] Vinegar; [1] Fried rat meat; [1] Lizard venom",
-        "Result: Ratburger",
-        "Source: Pasted text(8).txt"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Inventory",
-      "craftingModule": "Campfire - Advanced",
-      "craftingRecipeOrder": 35,
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Ratburger/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Ratburger/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Bread",
-          "type": "Required",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Ratburger/Required/T_Inventory_Icon_Bread.png",
-          "imageDesc": "T_Inventory_Icon_Bread.png"
-        },
-        {
-          "name": "Fried Rat Meat",
-          "type": "Required",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Ratburger/Required/T_Inventory_Icon_Fried_Rat_Meat.png",
-          "imageDesc": "T_Inventory_Icon_Fried_Rat_Meat.png"
-        },
-        {
-          "name": "Salt",
-          "type": "Required",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Ratburger/Required/T_Inventory_Icon_Salt.png",
-          "imageDesc": "T_Inventory_Icon_Salt.png"
-        },
-        {
-          "name": "Vinegar",
-          "type": "Required",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Ratburger/Required/T_Inventory_Icon_Vinegar.png",
-          "imageDesc": "T_Inventory_Icon_Vinegar.png"
-        },
-        {
-          "name": "LizzardVenom",
-          "type": "Required",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Ratburger/Required/T_Inventory_LizzardVenom.png",
-          "imageDesc": "T_Inventory_LizzardVenom.png"
-        },
-        {
-          "name": "RatAss",
-          "type": "Required",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Ratburger/Required/T_Inventory_RatAss.png",
-          "imageDesc": "T_Inventory_RatAss.png"
-        },
-        {
-          "name": "RatMeat",
-          "type": "Required",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Ratburger/Required/T_Inventory_RatMeat.png",
-          "imageDesc": "T_Inventory_RatMeat.png"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Ratburger",
-          "type": "Result",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Ratburger/Result/T_Inventory_Icon_Ratburger.png",
-          "imageDesc": "T_Inventory_Icon_Ratburger.png"
-        }
-      ],
-      "craftingNotes": [],
-      "imageUrl": "",
-      "imageDesc": ""
     },
     {
       "name": "Treated Firespider Shell",
@@ -40924,24 +41071,28 @@ const WTLO_DATABASE_DATA = {
       "craftingRequiredImages": [
         {
           "name": "Alkali",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Furnace - Treated Firespider Shell/Require/T_Inventory_Alkali.png",
           "imageDesc": "T_Inventory_Alkali.png"
         },
         {
           "name": "Coal",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Furnace - Treated Firespider Shell/Require/T_Inventory_Coal.png",
           "imageDesc": "T_Inventory_Coal.png"
         },
         {
           "name": "FireSpiderBiomaterial",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Furnace - Treated Firespider Shell/Require/T_Inventory_FireSpiderBiomaterial.png",
           "imageDesc": "T_Inventory_FireSpiderBiomaterial.png"
         },
         {
           "name": "FireSpiderShell",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Furnace - Treated Firespider Shell/Require/T_Inventory_FireSpiderShell.png",
           "imageDesc": "T_Inventory_FireSpiderShell.png"
@@ -40950,20 +41101,21 @@ const WTLO_DATABASE_DATA = {
       "craftingResultImages": [
         {
           "name": "TreatedFireSpiderShell",
+          "quantity": "",
           "type": "Result",
           "imageUrl": "/db-assets/Crafting Recipes/Furnace - Treated Firespider Shell/Result/T_Inventory_TreatedFireSpiderShell.png",
           "imageDesc": "T_Inventory_TreatedFireSpiderShell.png"
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "",
-      "imageDesc": ""
+      "imageUrl": "/db-assets/Crafting Recipes/Furnace - Treated Firespider Shell/Result/T_Inventory_TreatedFireSpiderShell.png",
+      "imageDesc": "T_Inventory_TreatedFireSpiderShell.png"
     },
     {
       "name": "Small Glass Tubes",
       "type": "Recipe",
       "level": 0,
-      "detail": "Small Glass Tubes crafting recipe. Station: Furnace. Module: Pharmacist - Beginner.",
+      "detail": "Small Glass Tubes crafting recipe. Station: Furnace.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
@@ -40984,8 +41136,7 @@ const WTLO_DATABASE_DATA = {
       "craftingStation": "Furnace",
       "craftingModule": "Pharmacist - Beginner",
       "craftingNotes": [
-        "Added from the updated flattened Crafting Recipes asset directory.",
-        "No result PNG was found in the current directory listing."
+        "Added from the updated Crafting Recipes directory."
       ],
       "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace - Small Glass Tubes/Required",
       "resultImageFolder": "/db-assets/Crafting Recipes/Furnace - Small Glass Tubes/Result",
@@ -41056,7 +41207,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Furnace/Polymares - Beginner/Polymer cloth/Result/T_Inventory_PolymerCloth.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Furnace - Polymer Cloth/Result/T_Inventory_PolymerCloth.png",
       "imageDesc": "T_Inventory_PolymerCloth.png"
     },
     {
@@ -41092,6 +41243,7 @@ const WTLO_DATABASE_DATA = {
       "craftingRequiredImages": [
         {
           "name": "Chrome",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Furnace - Armor Steel/Required/T_Inventory_Chrome.png",
           "imageDesc": "T_Inventory_Chrome.png"
@@ -41135,53 +41287,8 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing - Beginner/Armor Steel/Result/T_Inventory_ArmorSteel.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Furnace - Armor Steel/Result/T_Inventory_ArmorSteel.png",
       "imageDesc": "T_Inventory_ArmorSteel.png"
-    },
-    {
-      "name": "Casted Lead from battery",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Lead extracted from a battery crafting recipe. Station: Furnace. Module: Blacksmithing recipes - Beginner. Required: Small Battery (Small Battery method); [2] Coal (Small Battery method); UPS Battery (UPS Battery method); [2] Coal (UPS Battery method); Medium Battery (Medium Battery method); [2] Coal (Medium Battery method); Large Battery (Large Battery method); [2] Coal (Large Battery method). Result: [1] Casted lead (Small Battery method); [1] Casted lead (UPS Battery method); [5] Casted lead (Medium Battery method); [8] Casted lead (Large Battery method).",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 40",
-        "Crafting station: Furnace",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Furnace - Casted Lead from battery/Required",
-        "Result folder: /db-assets/Crafting Recipes/Furnace - Casted Lead from battery/Result",
-        "Required: Small Battery (Small Battery method); [2] Coal (Small Battery method); UPS Battery (UPS Battery method); [2] Coal (UPS Battery method); Medium Battery (Medium Battery method); [2] Coal (Medium Battery method); Large Battery (Large Battery method); [2] Coal (Large Battery method)",
-        "Result: [1] Casted lead (Small Battery method); [1] Casted lead (UPS Battery method); [5] Casted lead (Medium Battery method); [8] Casted lead (Large Battery method)",
-        "Source: Pasted text(8).txt"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Furnace",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "craftingRecipeOrder": 40,
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace - Casted Lead from battery/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Furnace - Casted Lead from battery/Result",
-      "craftingRequiredImages": [],
-      "craftingResultImages": [
-        {
-          "name": "Casted lead",
-          "quantity": "8",
-          "type": "Result",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Casted Lead from battery/Result/T_Inventory_CastedLead.png",
-          "imageDesc": "T_Inventory_CastedLead.png",
-          "method": "Large Battery method"
-        }
-      ],
-      "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing - Beginner/Lead extracted from battery/Result/T_Inventory_CastedLead.png",
-      "imageDesc": "T_Inventory_CastedLead.png"
     },
     {
       "name": "Casted Lead from scratch",
@@ -41191,7 +41298,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 41",
+        "Recipe order: 40",
         "Crafting station: Furnace",
         "Crafting module: Blacksmithing recipes - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Furnace - Casted Lead from scratch/Required",
@@ -41210,7 +41317,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Furnace",
       "craftingModule": "Blacksmithing recipes - Beginner",
-      "craftingRecipeOrder": 41,
+      "craftingRecipeOrder": 40,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace - Casted Lead from scratch/Required",
       "resultImageFolder": "/db-assets/Crafting Recipes/Furnace - Casted Lead from scratch/Result",
       "craftingRequiredImages": [
@@ -41239,18 +41346,18 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing - Beginner/Casted Lead from scratch/Result/T_Inventory_CastedLead.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Furnace - Casted Lead from scratch/Result/T_Inventory_CastedLead.png",
       "imageDesc": "T_Inventory_CastedLead.png"
     },
     {
       "name": "Charcoal",
       "type": "Recipe",
       "level": 0,
-      "detail": "Charcoal crafting recipe. Station: Furnace. Module: Blacksmithing recipes - Beginner.",
+      "detail": "Charcoal crafting recipe. Station: Furnace.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 42",
+        "Recipe order: 41",
         "Crafting station: Furnace",
         "Crafting module: Blacksmithing recipes - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Furnace - Charcoal/Required",
@@ -41267,13 +41374,14 @@ const WTLO_DATABASE_DATA = {
       "craftingStation": "Furnace",
       "craftingModule": "Blacksmithing recipes - Beginner",
       "craftingNotes": [
-        "Added from the updated flattened Crafting Recipes asset directory."
+        "Added from the updated Crafting Recipes directory."
       ],
       "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace - Charcoal/Required",
       "resultImageFolder": "/db-assets/Crafting Recipes/Furnace - Charcoal/Result",
       "craftingRequiredImages": [
         {
           "name": "Wood",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Furnace - Charcoal/Required/T_Inventory_Wood.png",
           "imageDesc": "T_Inventory_Wood.png"
@@ -41282,12 +41390,15 @@ const WTLO_DATABASE_DATA = {
       "craftingResultImages": [
         {
           "name": "Charcoal",
+          "quantity": "",
           "type": "Result",
           "imageUrl": "/db-assets/Crafting Recipes/Furnace - Charcoal/Result/T_Inventory_Charcoal.png",
           "imageDesc": "T_Inventory_Charcoal.png"
         }
       ],
-      "craftingRecipeOrder": 42
+      "imageUrl": "/db-assets/Crafting Recipes/Furnace - Charcoal/Result/T_Inventory_Charcoal.png",
+      "imageDesc": "T_Inventory_Charcoal.png",
+      "craftingRecipeOrder": 41
     },
     {
       "name": "Copper from Ore",
@@ -41297,7 +41408,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 43",
+        "Recipe order: 42",
         "Crafting station: Furnace",
         "Crafting module: Blacksmithing recipes - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Furnace - Copper from Ore/Required",
@@ -41316,7 +41427,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Furnace",
       "craftingModule": "Blacksmithing recipes - Beginner",
-      "craftingRecipeOrder": 43,
+      "craftingRecipeOrder": 42,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace - Copper from Ore/Required",
       "resultImageFolder": "/db-assets/Crafting Recipes/Furnace - Copper from Ore/Result",
       "craftingRequiredImages": [
@@ -41345,7 +41456,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing - Beginner/Copper from Ore/Result/T_Inventory_Copper.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Furnace - Copper from Ore/Result/T_Inventory_Copper.png",
       "imageDesc": "T_Inventory_Copper.png"
     },
     {
@@ -41356,7 +41467,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 44",
+        "Recipe order: 43",
         "Crafting station: Furnace",
         "Crafting module: Blacksmithing recipes - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Furnace - Gold from Ore/Required",
@@ -41375,7 +41486,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Furnace",
       "craftingModule": "Blacksmithing recipes - Beginner",
-      "craftingRecipeOrder": 44,
+      "craftingRecipeOrder": 43,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace - Gold from Ore/Required",
       "resultImageFolder": "/db-assets/Crafting Recipes/Furnace - Gold from Ore/Result",
       "craftingRequiredImages": [
@@ -41397,13 +41508,14 @@ const WTLO_DATABASE_DATA = {
       "craftingResultImages": [
         {
           "name": "Gold",
+          "quantity": "",
           "type": "Result",
           "imageUrl": "/db-assets/Crafting Recipes/Furnace - Gold from Ore/Result/T_Inventory_Gold.png",
           "imageDesc": "T_Inventory_Gold.png"
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing - Beginner/Gold from Ore/Result/T_Inventory_Gold.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Furnace - Gold from Ore/Result/T_Inventory_Gold.png",
       "imageDesc": "T_Inventory_Gold.png"
     },
     {
@@ -41414,7 +41526,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 45",
+        "Recipe order: 44",
         "Crafting station: Furnace",
         "Crafting module: Blacksmithing recipes - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Furnace - Gun Steel/Required",
@@ -41433,7 +41545,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Furnace",
       "craftingModule": "Blacksmithing recipes - Beginner",
-      "craftingRecipeOrder": 45,
+      "craftingRecipeOrder": 44,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace - Gun Steel/Required",
       "resultImageFolder": "/db-assets/Crafting Recipes/Furnace - Gun Steel/Result",
       "craftingRequiredImages": [
@@ -41476,18 +41588,18 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing - Beginner/Gun Steel/Result/T_Inventory_GunSteel.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Furnace - Gun Steel/Result/T_Inventory_GunSteel.png",
       "imageDesc": "T_Inventory_GunSteel.png"
     },
     {
       "name": "Iron from broken Armor plate",
       "type": "Recipe",
       "level": 0,
-      "detail": "Iron from broken Armor plate crafting recipe. Station: Furnace. Module: Blacksmithing recipes - Beginner.",
+      "detail": "Iron from broken Armor plate crafting recipe. Station: Furnace.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 46",
+        "Recipe order: 45",
         "Crafting station: Furnace",
         "Crafting module: Blacksmithing recipes - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required",
@@ -41504,121 +41616,140 @@ const WTLO_DATABASE_DATA = {
       "craftingStation": "Furnace",
       "craftingModule": "Blacksmithing recipes - Beginner",
       "craftingNotes": [
-        "Added from the updated flattened Crafting Recipes asset directory."
+        "Added from the updated Crafting Recipes directory."
       ],
       "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required",
       "resultImageFolder": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Result",
       "craftingRequiredImages": [
         {
           "name": "Coal",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_Coal.png",
           "imageDesc": "T_Inventory_Coal.png"
         },
         {
           "name": "SteelArmorPlate SH-1 M1",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SH-1_M1.png",
           "imageDesc": "T_Inventory_SteelArmorPlate_SH-1_M1.png"
         },
         {
           "name": "SteelArmorPlate SH-1",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SH-1.png",
           "imageDesc": "T_Inventory_SteelArmorPlate_SH-1.png"
         },
         {
           "name": "SteelArmorPlate SH-2 M1",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SH-2_M1.png",
           "imageDesc": "T_Inventory_SteelArmorPlate_SH-2_M1.png"
         },
         {
           "name": "SteelArmorPlate SH-2",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SH-2.png",
           "imageDesc": "T_Inventory_SteelArmorPlate_SH-2.png"
         },
         {
           "name": "SteelArmorPlate SH-3 M1",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SH-3_M1.png",
           "imageDesc": "T_Inventory_SteelArmorPlate_SH-3_M1.png"
         },
         {
           "name": "SteelArmorPlate SH-3",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SH-3.png",
           "imageDesc": "T_Inventory_SteelArmorPlate_SH-3.png"
         },
         {
           "name": "SteelArmorPlate SL-1 M1",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SL-1_M1.png",
           "imageDesc": "T_Inventory_SteelArmorPlate_SL-1_M1.png"
         },
         {
           "name": "SteelArmorPlate SL-1",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SL-1.png",
           "imageDesc": "T_Inventory_SteelArmorPlate_SL-1.png"
         },
         {
           "name": "SteelArmorPlate SL-2 M1",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SL-2_M1.png",
           "imageDesc": "T_Inventory_SteelArmorPlate_SL-2_M1.png"
         },
         {
           "name": "SteelArmorPlate SL-2",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SL-2.png",
           "imageDesc": "T_Inventory_SteelArmorPlate_SL-2.png"
         },
         {
           "name": "SteelArmorPlate SL-3 M1",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SL-3_M1.png",
           "imageDesc": "T_Inventory_SteelArmorPlate_SL-3_M1.png"
         },
         {
           "name": "SteelArmorPlate SL-3",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SL-3.png",
           "imageDesc": "T_Inventory_SteelArmorPlate_SL-3.png"
         },
         {
           "name": "SteelArmorPlate SM-1 M1",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SM-1_M1.png",
           "imageDesc": "T_Inventory_SteelArmorPlate_SM-1_M1.png"
         },
         {
           "name": "SteelArmorPlate SM-1",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SM-1.png",
           "imageDesc": "T_Inventory_SteelArmorPlate_SM-1.png"
         },
         {
           "name": "SteelArmorPlate SM-2 M1",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SM-2_M1.png",
           "imageDesc": "T_Inventory_SteelArmorPlate_SM-2_M1.png"
         },
         {
           "name": "SteelArmorPlate SM-2",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SM-2.png",
           "imageDesc": "T_Inventory_SteelArmorPlate_SM-2.png"
         },
         {
           "name": "SteelArmorPlate SM-3 M1",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SM-3_M1.png",
           "imageDesc": "T_Inventory_SteelArmorPlate_SM-3_M1.png"
         },
         {
           "name": "SteelArmorPlate SM-3",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SM-3.png",
           "imageDesc": "T_Inventory_SteelArmorPlate_SM-3.png"
@@ -41627,22 +41758,25 @@ const WTLO_DATABASE_DATA = {
       "craftingResultImages": [
         {
           "name": "Iron",
+          "quantity": "",
           "type": "Result",
           "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Result/T_Inventory_Iron.png",
           "imageDesc": "T_Inventory_Iron.png"
         }
       ],
-      "craftingRecipeOrder": 46
+      "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Result/T_Inventory_Iron.png",
+      "imageDesc": "T_Inventory_Iron.png",
+      "craftingRecipeOrder": 45
     },
     {
-      "name": "Iron from ore",
+      "name": "Iron from Ore",
       "type": "Recipe",
       "level": 0,
       "detail": "Iron from Ore crafting recipe. Station: Furnace. Module: Blacksmithing recipes - Beginner. Required: [1] Ferrous metal; [2] Coal. Result: [1] Iron.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 47",
+        "Recipe order: 46",
         "Crafting station: Furnace",
         "Crafting module: Blacksmithing recipes - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Furnace - Iron from ore/Require",
@@ -41661,18 +41795,20 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Furnace",
       "craftingModule": "Blacksmithing recipes - Beginner",
-      "craftingRecipeOrder": 47,
+      "craftingRecipeOrder": 46,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace - Iron from ore/Require",
       "resultImageFolder": "/db-assets/Crafting Recipes/Furnace - Iron from ore/Result",
       "craftingRequiredImages": [
         {
           "name": "Coal",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from ore/Require/T_Inventory_Coal.png",
           "imageDesc": "T_Inventory_Coal.png"
         },
         {
           "name": "FerrousMetal",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from ore/Require/T_Inventory_FerrousMetal.png",
           "imageDesc": "T_Inventory_FerrousMetal.png"
@@ -41681,14 +41817,15 @@ const WTLO_DATABASE_DATA = {
       "craftingResultImages": [
         {
           "name": "Iron",
+          "quantity": "",
           "type": "Result",
           "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from ore/Result/T_Inventory_Iron.png",
           "imageDesc": "T_Inventory_Iron.png"
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "",
-      "imageDesc": ""
+      "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from ore/Result/T_Inventory_Iron.png",
+      "imageDesc": "T_Inventory_Iron.png"
     },
     {
       "name": "Iron from scratch",
@@ -41698,13 +41835,86 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
+        "Recipe order: 47",
+        "Crafting station: Furnace",
+        "Crafting module: Blacksmithing recipes - Beginner",
+        "Required: [30] Bolt (Method 1); [2] Coal (Method 1); [3] Spanner (Method 2); [2] Coal (Method 2); [1] Horseshoe (Method 3); [2] Coal (Method 3)",
+        "Result: [1] Iron (Method 1); [1] Iron (Method 2); [1] Iron (Method 3)",
+        "Source: Pasted text(8).txt",
+        "Required folder: /db-assets/Crafting Recipes/Furnace - Iron from scratch/Required",
+        "Result folder: /db-assets/Crafting Recipes/Furnace - Iron from scratch/Result"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Furnace",
+      "craftingModule": "Blacksmithing recipes - Beginner",
+      "craftingRecipeOrder": 47,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace - Iron from scratch/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Furnace - Iron from scratch/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Coal",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from scratch/Required/T_Inventory_Coal.png",
+          "imageDesc": "T_Inventory_Coal.png"
+        },
+        {
+          "name": "Bolt",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from scratch/Required/T_Inventory_Icon_Bolt.png",
+          "imageDesc": "T_Inventory_Icon_Bolt.png"
+        },
+        {
+          "name": "Horseshoe",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from scratch/Required/T_Inventory_Icon_Horseshoe.png",
+          "imageDesc": "T_Inventory_Icon_Horseshoe.png"
+        },
+        {
+          "name": "Spanner",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from scratch/Required/T_Inventory_Icon_Spanner.png",
+          "imageDesc": "T_Inventory_Icon_Spanner.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Iron",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from scratch/Result/T_Inventory_Iron.png",
+          "imageDesc": "T_Inventory_Iron.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from scratch/Result/T_Inventory_Iron.png",
+      "imageDesc": "T_Inventory_Iron.png"
+    },
+    {
+      "name": "Lead extracted from a battery",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Lead extracted from a battery crafting recipe. Station: Furnace. Module: Blacksmithing recipes - Beginner. Required: Small Battery (Small Battery method); [2] Coal (Small Battery method); UPS Battery (UPS Battery method); [2] Coal (UPS Battery method); Medium Battery (Medium Battery method); [2] Coal (Medium Battery method); Large Battery (Large Battery method); [2] Coal (Large Battery method). Result: [1] Casted lead (Small Battery method); [1] Casted lead (UPS Battery method); [5] Casted lead (Medium Battery method); [8] Casted lead (Large Battery method).",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
         "Recipe order: 48",
         "Crafting station: Furnace",
         "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Furnace - Iron from scratch/Required",
-        "Result folder: /db-assets/Crafting Recipes/Furnace - Iron from scratch/Result",
-        "Required: [30] Bolt (Method 1); [2] Coal (Method 1); [3] Spanner (Method 2); [2] Coal (Method 2); [1] Horseshoe (Method 3); [2] Coal (Method 3)",
-        "Result: [1] Iron (Method 1); [1] Iron (Method 2); [1] Iron (Method 3)",
+        "Required folder: /db-assets/Crafting Recipes/Furnace - Casted Lead from battery/Required",
+        "Result folder: /db-assets/Crafting Recipes/Furnace - Casted Lead from battery/Result",
+        "Required: Small Battery (Small Battery method); [2] Coal (Small Battery method); UPS Battery (UPS Battery method); [2] Coal (UPS Battery method); Medium Battery (Medium Battery method); [2] Coal (Medium Battery method); Large Battery (Large Battery method); [2] Coal (Large Battery method)",
+        "Result: [1] Casted lead (Small Battery method); [1] Casted lead (UPS Battery method); [5] Casted lead (Medium Battery method); [8] Casted lead (Large Battery method)",
         "Source: Pasted text(8).txt"
       ],
       "locations": [
@@ -41718,48 +41928,22 @@ const WTLO_DATABASE_DATA = {
       "craftingStation": "Furnace",
       "craftingModule": "Blacksmithing recipes - Beginner",
       "craftingRecipeOrder": 48,
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace - Iron from scratch/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Furnace - Iron from scratch/Result",
-      "craftingRequiredImages": [
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace - Casted Lead from battery/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Furnace - Casted Lead from battery/Result",
+      "craftingRequiredImages": [],
+      "craftingResultImages": [
         {
-          "name": "Coal",
-          "quantity": "2",
-          "type": "Required",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from scratch/Required/T_Inventory_Coal.png",
-          "imageDesc": "T_Inventory_Coal.png",
-          "method": "Method 3"
-        },
-        {
-          "name": "Bolt",
-          "quantity": "30",
-          "type": "Required",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from scratch/Required/T_Inventory_Icon_Bolt.png",
-          "imageDesc": "T_Inventory_Icon_Bolt.png",
-          "method": "Method 1"
-        },
-        {
-          "name": "Horseshoe",
-          "quantity": "1",
-          "type": "Required",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from scratch/Required/T_Inventory_Icon_Horseshoe.png",
-          "imageDesc": "T_Inventory_Icon_Horseshoe.png",
-          "method": "Method 3"
-        },
-        {
-          "name": "Spanner",
-          "quantity": "3",
-          "type": "Required",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from scratch/Required/T_Inventory_Icon_Spanner.png",
-          "imageDesc": "T_Inventory_Icon_Spanner.png",
-          "method": "Method 2"
+          "name": "Casted lead",
+          "quantity": "8",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Casted Lead from battery/Result/T_Inventory_CastedLead.png",
+          "imageDesc": "T_Inventory_CastedLead.png",
+          "method": "Large Battery method"
         }
       ],
-      "craftingResultImages": [],
-      "craftingNotes": [
-        "No result PNG was found in the current directory listing."
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing - Beginner/Iron from scratch/Result/T_Inventory_Iron.png",
-      "imageDesc": "T_Inventory_Iron.png"
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Furnace - Casted Lead from battery/Result/T_Inventory_CastedLead.png",
+      "imageDesc": "T_Inventory_CastedLead.png"
     },
     {
       "name": ".308 WIN Bullet",
@@ -41818,7 +42002,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo - .308  WIN FMJ M1/Result/T_Inventory_Icon_308WIN_Bullet.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .308 WIN Bullet/Result/T_Inventory_Icon_308WIN_Bullet.png",
       "imageDesc": "T_Inventory_Icon_308WIN_Bullet.png"
     },
     {
@@ -41855,6 +42039,7 @@ const WTLO_DATABASE_DATA = {
       "craftingRequiredImages": [
         {
           "name": "CastedLead",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .308 WIN Case/Required/T_Inventory_CastedLead.png",
           "imageDesc": "T_Inventory_CastedLead.png"
@@ -41877,14 +42062,14 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo - .308  WIN FMJ M1/Result/T_Inventory_Icon_308WIN_Case.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .308 WIN Case/Result/T_Inventory_Icon_308WIN_Case.png",
       "imageDesc": "T_Inventory_Icon_308WIN_Case.png"
     },
     {
       "name": "Small Stimulator Container",
       "type": "Recipe",
       "level": 0,
-      "detail": "Small Stimulator Container crafting recipe. Station: Press Machine. Module: Pharmacist - Beginner.",
+      "detail": "Small Stimulator Container crafting recipe. Station: Press Machine.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
@@ -41906,8 +42091,7 @@ const WTLO_DATABASE_DATA = {
       "craftingStation": "Press Machine",
       "craftingModule": "Pharmacist - Beginner",
       "craftingNotes": [
-        "Added from the updated flattened Crafting Recipes asset directory.",
-        "No result PNG was found in the current directory listing."
+        "Added from the updated Crafting Recipes directory."
       ],
       "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - Small Stimulator Container/Required",
       "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - Small Stimulator Container/Result",
@@ -41972,7 +42156,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Polymers - Beginner/Chitin cloth/Result/T_Inventory_ChitinCloth.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Chitin Cloth/Result/T_Inventory_ChitinCloth.png",
       "imageDesc": "T_Inventory_ChitinCloth.png"
     },
     {
@@ -42023,6 +42207,7 @@ const WTLO_DATABASE_DATA = {
         },
         {
           "name": "Cotton",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Leather Reinforce Jacket/Required/T_Inventory_Icon_Cotton.png",
           "imageDesc": "T_Inventory_Icon_Cotton.png"
@@ -42038,7 +42223,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Leather reinforced armor - Jacket/Result/T_Inventory_Leather_Reinforced_Jacket.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Leather Reinforce Jacket/Result/T_Inventory_Leather_Reinforced_Jacket.png",
       "imageDesc": "T_Inventory_Leather_Reinforced_Jacket.png"
     },
     {
@@ -42119,7 +42304,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipe - M1 armor plates/Result/T_Inventory_SteelArmorPlate_SH-1_M1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-1 M1/Result/T_Inventory_SteelArmorPlate_SH-1_M1.png",
       "imageDesc": "T_Inventory_SteelArmorPlate_SH-1_M1.png"
     },
     {
@@ -42200,7 +42385,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipe - M1 armor plates/Result/T_Inventory_SteelArmorPlate_SH-2_M1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-2 M1/Result/T_Inventory_SteelArmorPlate_SH-2_M1.png",
       "imageDesc": "T_Inventory_SteelArmorPlate_SH-2_M1.png"
     },
     {
@@ -42281,7 +42466,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipe - M1 armor plates/Result/T_Inventory_SteelArmorPlate_SH-3_M1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-3 M1/Result/T_Inventory_SteelArmorPlate_SH-3_M1.png",
       "imageDesc": "T_Inventory_SteelArmorPlate_SH-3_M1.png"
     },
     {
@@ -42325,6 +42510,7 @@ const WTLO_DATABASE_DATA = {
         },
         {
           "name": "GunSteel",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-1 M1/Require/T_Inventory_GunSteel.png",
           "imageDesc": "T_Inventory_GunSteel.png"
@@ -42361,7 +42547,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipe - M1 armor plates/Result/T_Inventory_SteelArmorPlate_SL-1_M1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-1 M1/Result/T_Inventory_SteelArmorPlate_SL-1_M1.png",
       "imageDesc": "T_Inventory_SteelArmorPlate_SL-1_M1.png"
     },
     {
@@ -42442,7 +42628,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipe - M1 armor plates/Result/T_Inventory_SteelArmorPlate_SL-2_M1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-2 M1/Result/T_Inventory_SteelArmorPlate_SL-2_M1.png",
       "imageDesc": "T_Inventory_SteelArmorPlate_SL-2_M1.png"
     },
     {
@@ -42523,7 +42709,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipe - M1 armor plates/Result/T_Inventory_SteelArmorPlate_SL-3_M1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-3 M1/Result/T_Inventory_SteelArmorPlate_SL-3_M1.png",
       "imageDesc": "T_Inventory_SteelArmorPlate_SL-3_M1.png"
     },
     {
@@ -42537,11 +42723,11 @@ const WTLO_DATABASE_DATA = {
         "Recipe order: 60",
         "Crafting station: Press Machine",
         "Crafting module: Blacksmithing recipes - M1 armor plates",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-1 M1/Require",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-1 M1/Result",
         "Required: [6] Iron; [1] Armor Steel; [1] Gun Steel; [80] Titanium Powder; [40] NDP Powder",
         "Result: Steel Armor Plate SM-1 M1",
-        "Source: Pasted text(8).txt"
+        "Source: Pasted text(8).txt",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-1 M1/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-1 M1/Result"
       ],
       "locations": [
         "Minayev's Territory",
@@ -42560,45 +42746,51 @@ const WTLO_DATABASE_DATA = {
       "craftingRequiredImages": [
         {
           "name": "Armor Steel",
-          "quantity": "1",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-1 M1/Require/T_Inventory_ArmorSteel.png",
           "imageDesc": "T_Inventory_ArmorSteel.png"
         },
         {
           "name": "Gun Steel",
-          "quantity": "1",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-1 M1/Require/T_Inventory_GunSteel.png",
           "imageDesc": "T_Inventory_GunSteel.png"
         },
         {
           "name": "Iron",
-          "quantity": "6",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-1 M1/Require/T_Inventory_Iron.png",
           "imageDesc": "T_Inventory_Iron.png"
         },
         {
-          "name": "NDP Powder",
-          "quantity": "40",
+          "name": "NDP Polymer",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-1 M1/Require/T_Inventory_NDP_Polymer.png",
           "imageDesc": "T_Inventory_NDP_Polymer.png"
         },
         {
           "name": "Titanium Powder",
-          "quantity": "80",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-1 M1/Require/T_Inventory_Titanium_Powder.png",
           "imageDesc": "T_Inventory_Titanium_Powder.png"
         }
       ],
-      "craftingResultImages": [],
-      "craftingNotes": [
-        "No result PNG was found in the current directory listing."
+      "craftingResultImages": [
+        {
+          "name": "Steel Armor Plate SM-1 M1",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-1 M1/Result/T_Inventory_SteelArmorPlate_SM-1_M1.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SM-1_M1.png"
+        }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipe - M1 armor plates/Result/T_Inventory_SteelArmorPlate_SM-1_M1.png",
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-1 M1/Result/T_Inventory_SteelArmorPlate_SM-1_M1.png",
       "imageDesc": "T_Inventory_SteelArmorPlate_SM-1_M1.png"
     },
     {
@@ -42679,7 +42871,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipe - M1 armor plates/Result/T_Inventory_SteelArmorPlate_SM-2_M1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-2 M1/Result/T_Inventory_SteelArmorPlate_SM-2_M1.png",
       "imageDesc": "T_Inventory_SteelArmorPlate_SM-2_M1.png"
     },
     {
@@ -42760,7 +42952,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipe - M1 armor plates/Result/T_Inventory_SteelArmorPlate_SM-3_M1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-3 M1/Result/T_Inventory_SteelArmorPlate_SM-3_M1.png",
       "imageDesc": "T_Inventory_SteelArmorPlate_SM-3_M1.png"
     },
     {
@@ -42827,7 +43019,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing - Advanced/Result/T_Inventory_SteelArmorPlate_SH-1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-1/Result/T_Inventory_SteelArmorPlate_SH-1.png",
       "imageDesc": "T_Inventory_SteelArmorPlate_SH-1.png"
     },
     {
@@ -42894,7 +43086,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing - Advanced/Result/T_Inventory_SteelArmorPlate_SH-2.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-2/Result/T_Inventory_SteelArmorPlate_SH-2.png",
       "imageDesc": "T_Inventory_SteelArmorPlate_SH-2.png"
     },
     {
@@ -42961,7 +43153,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing - Advanced/Result/T_Inventory_SteelArmorPlate_SH-3.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-3/Result/T_Inventory_SteelArmorPlate_SH-3.png",
       "imageDesc": "T_Inventory_SteelArmorPlate_SH-3.png"
     },
     {
@@ -43005,6 +43197,7 @@ const WTLO_DATABASE_DATA = {
         },
         {
           "name": "GunSteel",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-1/Require/T_Inventory_GunSteel.png",
           "imageDesc": "T_Inventory_GunSteel.png"
@@ -43027,7 +43220,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing - Advanced/Result/T_Inventory_SteelArmorPlate_SL-1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-1/Result/T_Inventory_SteelArmorPlate_SL-1.png",
       "imageDesc": "T_Inventory_SteelArmorPlate_SL-1.png"
     },
     {
@@ -43094,7 +43287,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing - Advanced/Result/T_Inventory_SteelArmorPlate_SL-2.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-2/Result/T_Inventory_SteelArmorPlate_SL-2.png",
       "imageDesc": "T_Inventory_SteelArmorPlate_SL-2.png"
     },
     {
@@ -43161,7 +43354,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing - Advanced/Result/T_Inventory_SteelArmorPlate_SL-3.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-3/Result/T_Inventory_SteelArmorPlate_SL-3.png",
       "imageDesc": "T_Inventory_SteelArmorPlate_SL-3.png"
     },
     {
@@ -43228,7 +43421,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing - Advanced/Result/T_Inventory_SteelArmorPlate_SM-1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-1/Result/T_Inventory_SteelArmorPlate_SM-1.png",
       "imageDesc": "T_Inventory_SteelArmorPlate_SM-1.png"
     },
     {
@@ -43295,7 +43488,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing - Advanced/Result/T_Inventory_SteelArmorPlate_SM-2.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-2/Result/T_Inventory_SteelArmorPlate_SM-2.png",
       "imageDesc": "T_Inventory_SteelArmorPlate_SM-2.png"
     },
     {
@@ -43362,56 +43555,8 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing - Advanced/Result/T_Inventory_SteelArmorPlate_SM-3.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-3/Result/T_Inventory_SteelArmorPlate_SM-3.png",
       "imageDesc": "T_Inventory_SteelArmorPlate_SM-3.png"
-    },
-    {
-      "name": "Titanium Powder",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Titanium Powder crafting recipe. Station: Press Machine. Module: Blacksmithing recipes - Advanced.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 72",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Advanced",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine - Titanium Powder/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine - Titanium Powder/Result"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Advanced",
-      "craftingNotes": [
-        "Added from the updated flattened Crafting Recipes asset directory."
-      ],
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - Titanium Powder/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - Titanium Powder/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Titanium Ore",
-          "type": "Required",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Titanium Powder/Required/T_Inventory_Titanium_Ore.png",
-          "imageDesc": "T_Inventory_Titanium_Ore.png"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Titanium Powder",
-          "type": "Result",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Titanium Powder/Result/T_Inventory_Titanium_Powder.png",
-          "imageDesc": "T_Inventory_Titanium_Powder.png"
-        }
-      ],
-      "craftingRecipeOrder": 72
     },
     {
       "name": "NDP Powder from Crystals",
@@ -43421,7 +43566,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 73",
+        "Recipe order: 72",
         "Crafting station: Press Machine",
         "Crafting module: Energy Modules - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Press Machine - NDP Powder from Crystals/Required",
@@ -43441,7 +43586,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Press Machine",
       "craftingModule": "Energy Modules - Beginner",
-      "craftingRecipeOrder": 73,
+      "craftingRecipeOrder": 72,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - NDP Powder from Crystals/Required",
       "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - NDP Powder from Crystals/Result",
       "craftingRequiredImages": [
@@ -43481,7 +43626,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Energy Module - Beginner/NPD Powder from crystals/Result/T_Inventory_NDP_Powder.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - NDP Powder from Crystals/Result/T_Inventory_NDP_Powder.png",
       "imageDesc": "T_Inventory_NDP_Powder.png"
     },
     {
@@ -43492,7 +43637,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 74",
+        "Recipe order: 73",
         "Crafting station: Press Machine",
         "Crafting module: Energy Modules - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Press Machine - NDP Powder from stones/Required",
@@ -43512,7 +43657,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Press Machine",
       "craftingModule": "Energy Modules - Beginner",
-      "craftingRecipeOrder": 74,
+      "craftingRecipeOrder": 73,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - NDP Powder from stones/Required",
       "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - NDP Powder from stones/Result",
       "craftingRequiredImages": [
@@ -43552,7 +43697,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Energy Module - Beginner/NDP Powder from stones/Result/T_Inventory_NDP_Powder.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - NDP Powder from stones/Result/T_Inventory_NDP_Powder.png",
       "imageDesc": "T_Inventory_NDP_Powder.png"
     },
     {
@@ -43563,7 +43708,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 75",
+        "Recipe order: 74",
         "Crafting station: Press Machine",
         "Crafting module: Ammo - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Press Machine - .30-06 Bullet/Require",
@@ -43583,7 +43728,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Press Machine",
       "craftingModule": "Ammo - Beginner",
-      "craftingRecipeOrder": 75,
+      "craftingRecipeOrder": 74,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - .30-06 Bullet/Require",
       "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - .30-06 Bullet/Result",
       "craftingRequiredImages": [
@@ -43612,7 +43757,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_30-06_Bullet.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .30-06 Bullet/Result/T_Inventory_Icon_30-06_Bullet.png",
       "imageDesc": "T_Inventory_Icon_30-06_Bullet.png"
     },
     {
@@ -43623,7 +43768,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 76",
+        "Recipe order: 75",
         "Crafting station: Press Machine",
         "Crafting module: Ammo - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Press Machine - .30-06 Case/Require",
@@ -43643,7 +43788,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Press Machine",
       "craftingModule": "Ammo - Beginner",
-      "craftingRecipeOrder": 76,
+      "craftingRecipeOrder": 75,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - .30-06 Case/Require",
       "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - .30-06 Case/Result",
       "craftingRequiredImages": [
@@ -43665,7 +43810,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_30-06_Case.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .30-06 Case/Result/T_Inventory_Icon_30-06_Case.png",
       "imageDesc": "T_Inventory_Icon_30-06_Case.png"
     },
     {
@@ -43676,7 +43821,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 77",
+        "Recipe order: 76",
         "Crafting station: Press Machine",
         "Crafting module: Ammo - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Press Machine - .44 Magnum Bullet/Require",
@@ -43696,7 +43841,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Press Machine",
       "craftingModule": "Ammo - Beginner",
-      "craftingRecipeOrder": 77,
+      "craftingRecipeOrder": 76,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - .44 Magnum Bullet/Require",
       "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - .44 Magnum Bullet/Result",
       "craftingRequiredImages": [
@@ -43725,7 +43870,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_44_Magnum_Bullet.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .44 Magnum Bullet/Result/T_Inventory_Icon_44_Magnum_Bullet.png",
       "imageDesc": "T_Inventory_Icon_44_Magnum_Bullet.png"
     },
     {
@@ -43736,7 +43881,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 78",
+        "Recipe order: 77",
         "Crafting station: Press Machine",
         "Crafting module: Ammo - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Press Machine - .44 Magnum Case/Require",
@@ -43756,7 +43901,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Press Machine",
       "craftingModule": "Ammo - Beginner",
-      "craftingRecipeOrder": 78,
+      "craftingRecipeOrder": 77,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - .44 Magnum Case/Require",
       "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - .44 Magnum Case/Result",
       "craftingRequiredImages": [
@@ -43778,7 +43923,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_44_Magnum_Case.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .44 Magnum Case/Result/T_Inventory_Icon_44_Magnum_Case.png",
       "imageDesc": "T_Inventory_Icon_44_Magnum_Case.png"
     },
     {
@@ -43789,7 +43934,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 79",
+        "Recipe order: 78",
         "Crafting station: Press Machine",
         "Crafting module: Ammo - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Press Machine - .45 ACP Bullet/Require",
@@ -43809,7 +43954,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Press Machine",
       "craftingModule": "Ammo - Beginner",
-      "craftingRecipeOrder": 79,
+      "craftingRecipeOrder": 78,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - .45 ACP Bullet/Require",
       "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - .45 ACP Bullet/Result",
       "craftingRequiredImages": [
@@ -43838,7 +43983,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_45ACP_Bullet.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .45 ACP Bullet/Result/T_Inventory_Icon_45ACP_Bullet.png",
       "imageDesc": "T_Inventory_Icon_45ACP_Bullet.png"
     },
     {
@@ -43849,7 +43994,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 80",
+        "Recipe order: 79",
         "Crafting station: Press Machine",
         "Crafting module: Ammo - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Press Machine - .45 ACP Case/Require",
@@ -43869,7 +44014,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Press Machine",
       "craftingModule": "Ammo - Beginner",
-      "craftingRecipeOrder": 80,
+      "craftingRecipeOrder": 79,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - .45 ACP Case/Require",
       "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - .45 ACP Case/Result",
       "craftingRequiredImages": [
@@ -43891,7 +44036,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_45ACP_Case.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .45 ACP Case/Result/T_Inventory_Icon_45ACP_Case.png",
       "imageDesc": "T_Inventory_Icon_45ACP_Case.png"
     },
     {
@@ -43902,7 +44047,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 81",
+        "Recipe order: 80",
         "Crafting station: Press Machine",
         "Crafting module: Ammo - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Press Machine - .500 Magnum Bullet/Require",
@@ -43922,7 +44067,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Press Machine",
       "craftingModule": "Ammo - Beginner",
-      "craftingRecipeOrder": 81,
+      "craftingRecipeOrder": 80,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - .500 Magnum Bullet/Require",
       "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - .500 Magnum Bullet/Result",
       "craftingRequiredImages": [
@@ -43951,7 +44096,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_500_Magnum_Bullet.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .500 Magnum Bullet/Result/T_Inventory_Icon_500_Magnum_Bullet.png",
       "imageDesc": "T_Inventory_Icon_500_Magnum_Bullet.png"
     },
     {
@@ -43962,7 +44107,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 82",
+        "Recipe order: 81",
         "Crafting station: Press Machine",
         "Crafting module: Ammo - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Press Machine - .500 Magnum Case/Require",
@@ -43982,7 +44127,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Press Machine",
       "craftingModule": "Ammo - Beginner",
-      "craftingRecipeOrder": 82,
+      "craftingRecipeOrder": 81,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - .500 Magnum Case/Require",
       "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - .500 Magnum Case/Result",
       "craftingRequiredImages": [
@@ -44004,7 +44149,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_500_Magnum_Case.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .500 Magnum Case/Result/T_Inventory_Icon_500_Magnum_Case.png",
       "imageDesc": "T_Inventory_Icon_500_Magnum_Case.png"
     },
     {
@@ -44015,7 +44160,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 83",
+        "Recipe order: 82",
         "Crafting station: Press Machine",
         "Crafting module: Ammo - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Press Machine - 12 Ga. Case/Require",
@@ -44035,7 +44180,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Press Machine",
       "craftingModule": "Ammo - Beginner",
-      "craftingRecipeOrder": 83,
+      "craftingRecipeOrder": 82,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 12 Ga. Case/Require",
       "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 12 Ga. Case/Result",
       "craftingRequiredImages": [
@@ -44049,6 +44194,7 @@ const WTLO_DATABASE_DATA = {
         },
         {
           "name": "PlasticBottle",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 12 Ga. Case/Require/T_Inventory_Icon_PlasticBottle.png",
           "imageDesc": "T_Inventory_Icon_PlasticBottle.png"
@@ -44065,7 +44211,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_12Ga_Case.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 12 Ga. Case/Result/T_Inventory_Icon_12Ga_Case.png",
       "imageDesc": "T_Inventory_Icon_12Ga_Case.png"
     },
     {
@@ -44076,7 +44222,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 84",
+        "Recipe order: 83",
         "Crafting station: Press Machine",
         "Crafting module: Ammo - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Press Machine - 5.45x39 Bullet/Require",
@@ -44096,7 +44242,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Press Machine",
       "craftingModule": "Ammo - Beginner",
-      "craftingRecipeOrder": 84,
+      "craftingRecipeOrder": 83,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 5.45x39 Bullet/Require",
       "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 5.45x39 Bullet/Result",
       "craftingRequiredImages": [
@@ -44125,7 +44271,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_5_45x39_Bullet.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 5.45x39 Bullet/Result/T_Inventory_Icon_5_45x39_Bullet.png",
       "imageDesc": "T_Inventory_Icon_5_45x39_Bullet.png"
     },
     {
@@ -44136,7 +44282,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 85",
+        "Recipe order: 84",
         "Crafting station: Press Machine",
         "Crafting module: Ammo - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Press Machine - 5.45x39 Case/Require",
@@ -44156,7 +44302,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Press Machine",
       "craftingModule": "Ammo - Beginner",
-      "craftingRecipeOrder": 85,
+      "craftingRecipeOrder": 84,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 5.45x39 Case/Require",
       "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 5.45x39 Case/Result",
       "craftingRequiredImages": [
@@ -44178,7 +44324,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_5_45x39_Case.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 5.45x39 Case/Result/T_Inventory_Icon_5_45x39_Case.png",
       "imageDesc": "T_Inventory_Icon_5_45x39_Case.png"
     },
     {
@@ -44189,7 +44335,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 86",
+        "Recipe order: 85",
         "Crafting station: Press Machine",
         "Crafting module: Ammo - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Press Machine - 5.56x45 Bullet/Require",
@@ -44209,7 +44355,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Press Machine",
       "craftingModule": "Ammo - Beginner",
-      "craftingRecipeOrder": 86,
+      "craftingRecipeOrder": 85,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 5.56x45 Bullet/Require",
       "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 5.56x45 Bullet/Result",
       "craftingRequiredImages": [
@@ -44238,7 +44384,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_5_56x45_Bullet.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 5.56x45 Bullet/Result/T_Inventory_Icon_5_56x45_Bullet.png",
       "imageDesc": "T_Inventory_Icon_5_56x45_Bullet.png"
     },
     {
@@ -44249,7 +44395,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 87",
+        "Recipe order: 86",
         "Crafting station: Press Machine",
         "Crafting module: Ammo - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Press Machine - 5.56x45 Case/Require",
@@ -44269,7 +44415,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Press Machine",
       "craftingModule": "Ammo - Beginner",
-      "craftingRecipeOrder": 87,
+      "craftingRecipeOrder": 86,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 5.56x45 Case/Require",
       "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 5.56x45 Case/Result",
       "craftingRequiredImages": [
@@ -44291,7 +44437,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_5_56x45_Case.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 5.56x45 Case/Result/T_Inventory_Icon_5_56x45_Case.png",
       "imageDesc": "T_Inventory_Icon_5_56x45_Case.png"
     },
     {
@@ -44302,7 +44448,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 88",
+        "Recipe order: 87",
         "Crafting station: Press Machine",
         "Crafting module: Ammo - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Press Machine - 5.7x28 Bullet/Require",
@@ -44322,7 +44468,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Press Machine",
       "craftingModule": "Ammo - Beginner",
-      "craftingRecipeOrder": 88,
+      "craftingRecipeOrder": 87,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 5.7x28 Bullet/Require",
       "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 5.7x28 Bullet/Result",
       "craftingRequiredImages": [
@@ -44351,7 +44497,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_5_7x28_Bullet.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 5.7x28 Bullet/Result/T_Inventory_Icon_5_7x28_Bullet.png",
       "imageDesc": "T_Inventory_Icon_5_7x28_Bullet.png"
     },
     {
@@ -44362,7 +44508,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 89",
+        "Recipe order: 88",
         "Crafting station: Press Machine",
         "Crafting module: Ammo - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Press Machine - 5.7x28 Case/Require",
@@ -44382,7 +44528,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Press Machine",
       "craftingModule": "Ammo - Beginner",
-      "craftingRecipeOrder": 89,
+      "craftingRecipeOrder": 88,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 5.7x28 Case/Require",
       "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 5.7x28 Case/Result",
       "craftingRequiredImages": [
@@ -44404,7 +44550,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_5_7x28_Case.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 5.7x28 Case/Result/T_Inventory_Icon_5_7x28_Case.png",
       "imageDesc": "T_Inventory_Icon_5_7x28_Case.png"
     },
     {
@@ -44415,7 +44561,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 90",
+        "Recipe order: 89",
         "Crafting station: Press Machine",
         "Crafting module: Ammo - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Press Machine - 7.62x39 Bullet/Require",
@@ -44435,7 +44581,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Press Machine",
       "craftingModule": "Ammo - Beginner",
-      "craftingRecipeOrder": 90,
+      "craftingRecipeOrder": 89,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 7.62x39 Bullet/Require",
       "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 7.62x39 Bullet/Result",
       "craftingRequiredImages": [
@@ -44464,7 +44610,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_7_62x39_Bullet.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 7.62x39 Bullet/Result/T_Inventory_Icon_7_62x39_Bullet.png",
       "imageDesc": "T_Inventory_Icon_7_62x39_Bullet.png"
     },
     {
@@ -44475,7 +44621,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 91",
+        "Recipe order: 90",
         "Crafting station: Press Machine",
         "Crafting module: Ammo - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Press Machine - 7.62x39 Case/Require",
@@ -44495,7 +44641,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Press Machine",
       "craftingModule": "Ammo - Beginner",
-      "craftingRecipeOrder": 91,
+      "craftingRecipeOrder": 90,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 7.62x39 Case/Require",
       "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 7.62x39 Case/Result",
       "craftingRequiredImages": [
@@ -44517,7 +44663,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_7_62x39_Case.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 7.62x39 Case/Result/T_Inventory_Icon_7_62x39_Case.png",
       "imageDesc": "T_Inventory_Icon_7_62x39_Case.png"
     },
     {
@@ -44528,7 +44674,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 92",
+        "Recipe order: 91",
         "Crafting station: Press Machine",
         "Crafting module: Ammo - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Press Machine - 7.62x54 Bullet/Require",
@@ -44548,7 +44694,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Press Machine",
       "craftingModule": "Ammo - Beginner",
-      "craftingRecipeOrder": 92,
+      "craftingRecipeOrder": 91,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 7.62x54 Bullet/Require",
       "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 7.62x54 Bullet/Result",
       "craftingRequiredImages": [
@@ -44577,7 +44723,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_7_62x54_Bullet.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 7.62x54 Bullet/Result/T_Inventory_Icon_7_62x54_Bullet.png",
       "imageDesc": "T_Inventory_Icon_7_62x54_Bullet.png"
     },
     {
@@ -44588,7 +44734,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 93",
+        "Recipe order: 92",
         "Crafting station: Press Machine",
         "Crafting module: Ammo - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Press Machine - 7.62x54 Case/Require",
@@ -44608,7 +44754,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Press Machine",
       "craftingModule": "Ammo - Beginner",
-      "craftingRecipeOrder": 93,
+      "craftingRecipeOrder": 92,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 7.62x54 Case/Require",
       "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 7.62x54 Case/Result",
       "craftingRequiredImages": [
@@ -44630,7 +44776,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_7_62x54_Case.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 7.62x54 Case/Result/T_Inventory_Icon_7_62x54_Case.png",
       "imageDesc": "T_Inventory_Icon_7_62x54_Case.png"
     },
     {
@@ -44641,7 +44787,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 94",
+        "Recipe order: 93",
         "Crafting station: Press Machine",
         "Crafting module: Ammo - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Press Machine - 9x19 Bullet/Require",
@@ -44661,7 +44807,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Press Machine",
       "craftingModule": "Ammo - Beginner",
-      "craftingRecipeOrder": 94,
+      "craftingRecipeOrder": 93,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 9x19 Bullet/Require",
       "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 9x19 Bullet/Result",
       "craftingRequiredImages": [
@@ -44690,7 +44836,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_9x19_Bullet.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 9x19 Bullet/Result/T_Inventory_Icon_9x19_Bullet.png",
       "imageDesc": "T_Inventory_Icon_9x19_Bullet.png"
     },
     {
@@ -44701,7 +44847,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 95",
+        "Recipe order: 94",
         "Crafting station: Press Machine",
         "Crafting module: Ammo - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Press Machine - 9x19 Case/Require",
@@ -44721,7 +44867,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Press Machine",
       "craftingModule": "Ammo - Beginner",
-      "craftingRecipeOrder": 95,
+      "craftingRecipeOrder": 94,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 9x19 Case/Require",
       "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 9x19 Case/Result",
       "craftingRequiredImages": [
@@ -44743,7 +44889,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_9x19_Case.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 9x19 Case/Result/T_Inventory_Icon_9x19_Case.png",
       "imageDesc": "T_Inventory_Icon_9x19_Case.png"
     },
     {
@@ -44754,7 +44900,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 96",
+        "Recipe order: 95",
         "Crafting station: Press Machine",
         "Crafting module: Ammo - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Press Machine - 9x21 Bullet/Require",
@@ -44774,7 +44920,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Press Machine",
       "craftingModule": "Ammo - Beginner",
-      "craftingRecipeOrder": 96,
+      "craftingRecipeOrder": 95,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 9x21 Bullet/Require",
       "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 9x21 Bullet/Result",
       "craftingRequiredImages": [
@@ -44803,7 +44949,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_9x21_Bullet.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 9x21 Bullet/Result/T_Inventory_Icon_9x21_Bullet.png",
       "imageDesc": "T_Inventory_Icon_9x21_Bullet.png"
     },
     {
@@ -44814,7 +44960,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 97",
+        "Recipe order: 96",
         "Crafting station: Press Machine",
         "Crafting module: Ammo - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Press Machine - 9x21 Case/Require",
@@ -44834,7 +44980,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Press Machine",
       "craftingModule": "Ammo - Beginner",
-      "craftingRecipeOrder": 97,
+      "craftingRecipeOrder": 96,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 9x21 Case/Require",
       "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 9x21 Case/Result",
       "craftingRequiredImages": [
@@ -44856,7 +45002,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_9x21_Case.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 9x21 Case/Result/T_Inventory_Icon_9x21_Case.png",
       "imageDesc": "T_Inventory_Icon_9x21_Case.png"
     },
     {
@@ -44867,7 +45013,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 98",
+        "Recipe order: 97",
         "Crafting station: Press Machine",
         "Crafting module: Ammo - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Press Machine - 9x39 Bullet/Require",
@@ -44887,12 +45033,13 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Press Machine",
       "craftingModule": "Ammo - Beginner",
-      "craftingRecipeOrder": 98,
+      "craftingRecipeOrder": 97,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 9x39 Bullet/Require",
       "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 9x39 Bullet/Result",
       "craftingRequiredImages": [
         {
           "name": "ArmorSteel",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 9x39 Bullet/Require/T_Inventory_ArmorSteel.png",
           "imageDesc": "T_Inventory_ArmorSteel.png"
@@ -44922,7 +45069,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_9x39_Bullet.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 9x39 Bullet/Result/T_Inventory_Icon_9x39_Bullet.png",
       "imageDesc": "T_Inventory_Icon_9x39_Bullet.png"
     },
     {
@@ -44933,7 +45080,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 99",
+        "Recipe order: 98",
         "Crafting station: Press Machine",
         "Crafting module: Ammo - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Press Machine - 9x39 Case/Require",
@@ -44953,7 +45100,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Press Machine",
       "craftingModule": "Ammo - Beginner",
-      "craftingRecipeOrder": 99,
+      "craftingRecipeOrder": 98,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 9x39 Case/Require",
       "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 9x39 Case/Result",
       "craftingRequiredImages": [
@@ -44975,7 +45122,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_9x39_Case.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 9x39 Case/Result/T_Inventory_Icon_9x39_Case.png",
       "imageDesc": "T_Inventory_Icon_9x39_Case.png"
     },
     {
@@ -44986,7 +45133,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 100",
+        "Recipe order: 99",
         "Crafting station: Press Machine",
         "Crafting module: Ammo - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Press Machine - Large Primer/Require",
@@ -45006,7 +45153,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Press Machine",
       "craftingModule": "Ammo - Beginner",
-      "craftingRecipeOrder": 100,
+      "craftingRecipeOrder": 99,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - Large Primer/Require",
       "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - Large Primer/Result",
       "craftingRequiredImages": [
@@ -45035,7 +45182,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_Large_Primer.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Large Primer/Result/T_Inventory_Icon_Large_Primer.png",
       "imageDesc": "T_Inventory_Icon_Large_Primer.png"
     },
     {
@@ -45046,7 +45193,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 101",
+        "Recipe order: 100",
         "Crafting station: Press Machine",
         "Crafting module: Ammo - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Press Machine - Medium Primer/Require",
@@ -45066,7 +45213,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Press Machine",
       "craftingModule": "Ammo - Beginner",
-      "craftingRecipeOrder": 101,
+      "craftingRecipeOrder": 100,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - Medium Primer/Require",
       "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - Medium Primer/Result",
       "craftingRequiredImages": [
@@ -45095,7 +45242,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_Medium_Primer.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Medium Primer/Result/T_Inventory_Icon_Medium_Primer.png",
       "imageDesc": "T_Inventory_Icon_Medium_Primer.png"
     },
     {
@@ -45106,7 +45253,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 102",
+        "Recipe order: 101",
         "Crafting station: Press Machine",
         "Crafting module: Ammo - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Press Machine - Small Primer/Require",
@@ -45126,7 +45273,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Press Machine",
       "craftingModule": "Ammo - Beginner",
-      "craftingRecipeOrder": 102,
+      "craftingRecipeOrder": 101,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - Small Primer/Require",
       "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - Small Primer/Result",
       "craftingRequiredImages": [
@@ -45155,8 +45302,60 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_Small_Primer.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Small Primer/Result/T_Inventory_Icon_Small_Primer.png",
       "imageDesc": "T_Inventory_Icon_Small_Primer.png"
+    },
+    {
+      "name": "Titanium Powder",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Titanium Powder crafting recipe. Station: Press Machine.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 102",
+        "Crafting station: Press Machine",
+        "Crafting module: Blacksmithing recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - Titanium Powder/Required",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - Titanium Powder/Result"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Blacksmithing recipes - Beginner",
+      "craftingNotes": [
+        "Added from the updated Crafting Recipes directory."
+      ],
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - Titanium Powder/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - Titanium Powder/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Titanium Ore",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Titanium Powder/Required/T_Inventory_Titanium_Ore.png",
+          "imageDesc": "T_Inventory_Titanium_Ore.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Titanium Powder",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Titanium Powder/Result/T_Inventory_Titanium_Powder.png",
+          "imageDesc": "T_Inventory_Titanium_Powder.png"
+        }
+      ],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Titanium Powder/Result/T_Inventory_Titanium_Powder.png",
+      "imageDesc": "T_Inventory_Titanium_Powder.png",
+      "craftingRecipeOrder": 102
     },
     {
       "name": "Chitin Reinforce Pants",
@@ -45199,6 +45398,7 @@ const WTLO_DATABASE_DATA = {
         },
         {
           "name": "Cotton",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Chitin Reinforce Pants/Required/T_Inventory_Icon_Cotton.png",
           "imageDesc": "T_Inventory_Icon_Cotton.png"
@@ -45235,7 +45435,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor/Chitin reinforced trousers/Result/T_Inventory_Chitin_Reinforced_Pants.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Chitin Reinforce Pants/Result/T_Inventory_Chitin_Reinforced_Pants.png",
       "imageDesc": "T_Inventory_Chitin_Reinforced_Pants.png"
     },
     {
@@ -45279,6 +45479,7 @@ const WTLO_DATABASE_DATA = {
         },
         {
           "name": "Cotton",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Chitin Reinforce Jacket/Required/T_Inventory_Icon_Cotton.png",
           "imageDesc": "T_Inventory_Icon_Cotton.png"
@@ -45315,70 +45516,8 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor/Chitin reinforced jacket/Result/T_Inventory_Chitin_Reinforced_Jacket.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Chitin Reinforce Jacket/Result/T_Inventory_Chitin_Reinforced_Jacket.png",
       "imageDesc": "T_Inventory_Chitin_Reinforced_Jacket.png"
-    },
-    {
-      "name": "Fuel Tablets",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Fuel Tablets crafting recipe. Station: Chemical Station. Module: Fuel tablets - Quest. Required: [1] Calcium acetate; [3] Alcohol; [1] Bottle of distilled water. Result: Fuel Tablet.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 105",
-        "Crafting station: Chemical Station",
-        "Crafting module: Energy Modules - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Chemical Station - Fuel Tablets/Required",
-        "Result folder: /db-assets/Crafting Recipes/Chemical Station - Fuel Tablets/Result",
-        "Required: [1] Calcium acetate; [3] Alcohol; [1] Bottle of distilled water",
-        "Result: Fuel Tablet",
-        "Source: Pasted text(8).txt"
-      ],
-      "locations": [
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Chemical Station",
-      "craftingModule": "Energy Modules - Beginner",
-      "craftingRecipeOrder": 105,
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Chemical Station - Fuel Tablets/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Chemical Station - Fuel Tablets/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Alcohol",
-          "type": "Required",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Fuel Tablets/Required/T_Inventory_Icon_Alcohol.png",
-          "imageDesc": "T_Inventory_Icon_Alcohol.png"
-        },
-        {
-          "name": "BottleOfDistilledWater",
-          "type": "Required",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Fuel Tablets/Required/T_Inventory_Icon_BottleOfDistilledWater.png",
-          "imageDesc": "T_Inventory_Icon_BottleOfDistilledWater.png"
-        },
-        {
-          "name": "CalciumAcetate",
-          "type": "Required",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Fuel Tablets/Required/T_Inventory_Icon_CalciumAcetate.png",
-          "imageDesc": "T_Inventory_Icon_CalciumAcetate.png"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "FuelTablets",
-          "type": "Result",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Fuel Tablets/Result/T_Inventory_Icon_FuelTablets.png",
-          "imageDesc": "T_Inventory_Icon_FuelTablets.png"
-        }
-      ],
-      "craftingNotes": [],
-      "imageUrl": "",
-      "imageDesc": ""
     },
     {
       "name": "NDP Battery M1",
@@ -45388,7 +45527,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 106",
+        "Recipe order: 105",
         "Crafting station: Chemical Station",
         "Crafting module: Energy Modules - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Chemical Station - NDP Battery M1/Required",
@@ -45407,18 +45546,20 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Chemical Station",
       "craftingModule": "Energy Modules - Beginner",
-      "craftingRecipeOrder": 106,
+      "craftingRecipeOrder": 105,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Chemical Station - NDP Battery M1/Required",
       "resultImageFolder": "/db-assets/Crafting Recipes/Chemical Station - NDP Battery M1/Result",
       "craftingRequiredImages": [
         {
           "name": "NDP Polymer",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - NDP Battery M1/Required/T_Inventory_NDP_Polymer.png",
           "imageDesc": "T_Inventory_NDP_Polymer.png"
         },
         {
           "name": "NDP Battery M1 Blank",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - NDP Battery M1/Required/T_NDP_Battery_M1_Blank.png",
           "imageDesc": "T_NDP_Battery_M1_Blank.png"
@@ -45434,7 +45575,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/Energy Module - Beginner/Result/T_NDP_Battery_M1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - NDP Battery M1/Result/T_NDP_Battery_M1.png",
       "imageDesc": "T_NDP_Battery_M1.png"
     },
     {
@@ -45445,7 +45586,7 @@ const WTLO_DATABASE_DATA = {
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 107",
+        "Recipe order: 106",
         "Crafting station: Chemical Station",
         "Crafting module: Energy Modules - Beginner",
         "Required folder: /db-assets/Crafting Recipes/Chemical Station - NDP Polymer/Required",
@@ -45464,7 +45605,7 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Chemical Station",
       "craftingModule": "Energy Modules - Beginner",
-      "craftingRecipeOrder": 107,
+      "craftingRecipeOrder": 106,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Chemical Station - NDP Polymer/Required",
       "resultImageFolder": "/db-assets/Crafting Recipes/Chemical Station - NDP Polymer/Result",
       "craftingRequiredImages": [
@@ -45493,8 +45634,74 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/Energy Module - Beginner/Result/T_Inventory_NDP_Polymer.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - NDP Polymer/Result/T_Inventory_NDP_Polymer.png",
       "imageDesc": "T_Inventory_NDP_Polymer.png"
+    },
+    {
+      "name": "Fuel Tablets",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Fuel Tablets crafting recipe. Station: Chemical Station. Module: Fuel tablets - Quest. Required: [1] Calcium acetate; [3] Alcohol; [1] Bottle of distilled water. Result: Fuel Tablet.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 107",
+        "Crafting station: Chemical Station",
+        "Crafting module: Gasoline filter",
+        "Required folder: /db-assets/Crafting Recipes/Chemical Station - Fuel Tablets/Required",
+        "Result folder: /db-assets/Crafting Recipes/Chemical Station - Fuel Tablets/Result",
+        "Required: [1] Calcium acetate; [3] Alcohol; [1] Bottle of distilled water",
+        "Result: Fuel Tablet",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Chemical Station",
+      "craftingModule": "Gasoline filter",
+      "craftingRecipeOrder": 107,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Chemical Station - Fuel Tablets/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Chemical Station - Fuel Tablets/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Alcohol",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Fuel Tablets/Required/T_Inventory_Icon_Alcohol.png",
+          "imageDesc": "T_Inventory_Icon_Alcohol.png"
+        },
+        {
+          "name": "BottleOfDistilledWater",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Fuel Tablets/Required/T_Inventory_Icon_BottleOfDistilledWater.png",
+          "imageDesc": "T_Inventory_Icon_BottleOfDistilledWater.png"
+        },
+        {
+          "name": "CalciumAcetate",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Fuel Tablets/Required/T_Inventory_Icon_CalciumAcetate.png",
+          "imageDesc": "T_Inventory_Icon_CalciumAcetate.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "FuelTablets",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Fuel Tablets/Result/T_Inventory_Icon_FuelTablets.png",
+          "imageDesc": "T_Inventory_Icon_FuelTablets.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Fuel Tablets/Result/T_Inventory_Icon_FuelTablets.png",
+      "imageDesc": "T_Inventory_Icon_FuelTablets.png"
     },
     {
       "name": "Low Grade Fuel",
@@ -45529,24 +45736,28 @@ const WTLO_DATABASE_DATA = {
       "craftingRequiredImages": [
         {
           "name": "BlackJelly Oil",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Low Grade Fuel/Required/T_Inventory_BlackJelly_Oil.png",
           "imageDesc": "T_Inventory_BlackJelly_Oil.png"
         },
         {
           "name": "Coal",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Low Grade Fuel/Required/T_Inventory_Coal.png",
           "imageDesc": "T_Inventory_Coal.png"
         },
         {
           "name": "Canister",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Low Grade Fuel/Required/T_Inventory_Icon_Canister.png",
           "imageDesc": "T_Inventory_Icon_Canister.png"
         },
         {
           "name": "Vodka",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Low Grade Fuel/Required/T_Inventory_Icon_Vodka.png",
           "imageDesc": "T_Inventory_Icon_Vodka.png"
@@ -45555,14 +45766,15 @@ const WTLO_DATABASE_DATA = {
       "craftingResultImages": [
         {
           "name": "Canister with old fuel",
+          "quantity": "",
           "type": "Result",
           "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Low Grade Fuel/Result/T_Inventory_Icon_Canister_with_old_fuel.png",
           "imageDesc": "T_Inventory_Icon_Canister_with_old_fuel.png"
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "",
-      "imageDesc": ""
+      "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Low Grade Fuel/Result/T_Inventory_Icon_Canister_with_old_fuel.png",
+      "imageDesc": "T_Inventory_Icon_Canister_with_old_fuel.png"
     },
     {
       "name": "Purified Gasoline",
@@ -45620,6 +45832,7 @@ const WTLO_DATABASE_DATA = {
       "craftingResultImages": [
         {
           "name": "Canister With Fuel",
+          "quantity": "",
           "type": "Result",
           "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Purified Gasoline/Result/T_Inventory_Icon_Canister_With_Fuel.png",
           "imageDesc": "T_Inventory_Icon_Canister_With_Fuel.png"
@@ -45635,8 +45848,8 @@ const WTLO_DATABASE_DATA = {
       "craftingNotes": [
         "The supplied text lists the requirements; the output is identified by the recipe name."
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/Purified Gasoline/Result/T_Inventory_Icon_Canister.png",
-      "imageDesc": "T_Inventory_Icon_Canister.png"
+      "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Purified Gasoline/Result/T_Inventory_Icon_Canister_With_Fuel.png",
+      "imageDesc": "T_Inventory_Icon_Canister_With_Fuel.png"
     },
     {
       "name": "Gun Powder",
@@ -45701,7 +45914,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/Ammo - Beginner/Result/T_Inventory_Gun_Powder.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Gun Powder/Result/T_Inventory_Gun_Powder.png",
       "imageDesc": "T_Inventory_Gun_Powder.png"
     },
     {
@@ -45737,24 +45950,28 @@ const WTLO_DATABASE_DATA = {
       "craftingRequiredImages": [
         {
           "name": "Calendula",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Big-eyed Catfish/Required/T_Inventory_Calendula.png",
           "imageDesc": "T_Inventory_Calendula.png"
         },
         {
           "name": "Camomile",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Big-eyed Catfish/Required/T_Inventory_Camomile.png",
           "imageDesc": "T_Inventory_Camomile.png"
         },
         {
           "name": "Fish2",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Big-eyed Catfish/Required/T_Inventory_Fish2.png",
           "imageDesc": "T_Inventory_Fish2.png"
         },
         {
           "name": "Field Kit",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Big-eyed Catfish/Required/T_Inventory_Icon_Field_Kit.png",
           "imageDesc": "T_Inventory_Icon_Field_Kit.png"
@@ -45763,14 +45980,15 @@ const WTLO_DATABASE_DATA = {
       "craftingResultImages": [
         {
           "name": "FriedFish2",
+          "quantity": "",
           "type": "Result",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Big-eyed Catfish/Result/T_Inventory_Icon_FriedFish2.png",
           "imageDesc": "T_Inventory_Icon_FriedFish2.png"
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "",
-      "imageDesc": ""
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Big-eyed Catfish/Result/T_Inventory_Icon_FriedFish2.png",
+      "imageDesc": "T_Inventory_Icon_FriedFish2.png"
     },
     {
       "name": "Fried Blind Fish",
@@ -45805,24 +46023,28 @@ const WTLO_DATABASE_DATA = {
       "craftingRequiredImages": [
         {
           "name": "Camomile",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Blind Fish/Required/T_Inventory_Camomile.png",
           "imageDesc": "T_Inventory_Camomile.png"
         },
         {
           "name": "Dracocephalum",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Blind Fish/Required/T_Inventory_Dracocephalum.png",
           "imageDesc": "T_Inventory_Dracocephalum.png"
         },
         {
           "name": "Fish3",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Blind Fish/Required/T_Inventory_Fish3.png",
           "imageDesc": "T_Inventory_Fish3.png"
         },
         {
           "name": "Field Kit",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Blind Fish/Required/T_Inventory_Icon_Field_Kit.png",
           "imageDesc": "T_Inventory_Icon_Field_Kit.png"
@@ -45831,14 +46053,15 @@ const WTLO_DATABASE_DATA = {
       "craftingResultImages": [
         {
           "name": "FriedFish3",
+          "quantity": "",
           "type": "Result",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Blind Fish/Result/T_Inventory_Icon_FriedFish3.png",
           "imageDesc": "T_Inventory_Icon_FriedFish3.png"
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "",
-      "imageDesc": ""
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Blind Fish/Result/T_Inventory_Icon_FriedFish3.png",
+      "imageDesc": "T_Inventory_Icon_FriedFish3.png"
     },
     {
       "name": "Fried Carp",
@@ -45873,6 +46096,7 @@ const WTLO_DATABASE_DATA = {
       "craftingRequiredImages": [
         {
           "name": "BigheadCarp",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Carp/Required/T_Inventory_Icon_BigheadCarp.png",
           "imageDesc": "T_Inventory_Icon_BigheadCarp.png"
@@ -45902,7 +46126,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Fisherman Recipes - Beginner/Result/T_Inventory_Icon_FriedCarp.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Carp/Result/T_Inventory_Icon_FriedCarp.png",
       "imageDesc": "T_Inventory_Icon_FriedCarp.png"
     },
     {
@@ -45938,18 +46162,21 @@ const WTLO_DATABASE_DATA = {
       "craftingRequiredImages": [
         {
           "name": "Camomile",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Spiked Crucian/Required/T_Inventory_Camomile.png",
           "imageDesc": "T_Inventory_Camomile.png"
         },
         {
           "name": "Fish1",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Spiked Crucian/Required/T_Inventory_Fish1.png",
           "imageDesc": "T_Inventory_Fish1.png"
         },
         {
           "name": "Field Kit",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Spiked Crucian/Required/T_Inventory_Icon_Field_Kit.png",
           "imageDesc": "T_Inventory_Icon_Field_Kit.png"
@@ -45958,14 +46185,15 @@ const WTLO_DATABASE_DATA = {
       "craftingResultImages": [
         {
           "name": "FriedFish1",
+          "quantity": "",
           "type": "Result",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Spiked Crucian/Result/T_Inventory_Icon_FriedFish1.png",
           "imageDesc": "T_Inventory_Icon_FriedFish1.png"
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "",
-      "imageDesc": ""
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Spiked Crucian/Result/T_Inventory_Icon_FriedFish1.png",
+      "imageDesc": "T_Inventory_Icon_FriedFish1.png"
     },
     {
       "name": "Chamomile Tea",
@@ -45978,11 +46206,11 @@ const WTLO_DATABASE_DATA = {
         "Recipe order: 115",
         "Crafting station: Campfire",
         "Crafting module: Campfire recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Campfire - Chamomile Tea/Required",
-        "Result folder: /db-assets/Crafting Recipes/Campfire - Chamomile Tea/Result",
         "Required: [1] Chamomile; [1] Bottle of distilled water",
         "Result: Chamomile Tea",
-        "Source: Pasted text(8).txt"
+        "Source: Pasted text(8).txt",
+        "Required folder: /db-assets/Crafting Recipes/Campfire - Chamomile Tea/Required",
+        "Result folder: /db-assets/Crafting Recipes/Campfire - Chamomile Tea/Result"
       ],
       "locations": [
         "Minayev's Territory",
@@ -45999,17 +46227,31 @@ const WTLO_DATABASE_DATA = {
       "resultImageFolder": "/db-assets/Crafting Recipes/Campfire - Chamomile Tea/Result",
       "craftingRequiredImages": [
         {
-          "name": "BottleOfDistilledWater",
+          "name": "Chamomile",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Chamomile Tea/Required/T_Inventory_Camomile.png",
+          "imageDesc": "T_Inventory_Camomile.png"
+        },
+        {
+          "name": "Bottle Of Distilled Water",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Chamomile Tea/Required/T_Inventory_Icon_BottleOfDistilledWater.png",
           "imageDesc": "T_Inventory_Icon_BottleOfDistilledWater.png"
         }
       ],
-      "craftingResultImages": [],
-      "craftingNotes": [
-        "No result PNG was found in the current directory listing."
+      "craftingResultImages": [
+        {
+          "name": "Chamomile Tea",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Chamomile Tea/Result/T_Inventory_Icon_Chamomile_Tea.png",
+          "imageDesc": "T_Inventory_Icon_Chamomile_Tea.png"
+        }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipe - Beginner/Result/T_Inventory_Icon_Chamomile_Tea.png",
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire - Chamomile Tea/Result/T_Inventory_Icon_Chamomile_Tea.png",
       "imageDesc": "T_Inventory_Icon_Chamomile_Tea.png"
     },
     {
@@ -46045,6 +46287,7 @@ const WTLO_DATABASE_DATA = {
       "craftingRequiredImages": [
         {
           "name": "BottleOfDirtyWater",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Distilled Water/Required/T_Inventory_Icon_BottleOfDirtyWater.png",
           "imageDesc": "T_Inventory_Icon_BottleOfDirtyWater.png"
@@ -46053,14 +46296,15 @@ const WTLO_DATABASE_DATA = {
       "craftingResultImages": [
         {
           "name": "BottleOfDistilledWater",
+          "quantity": "",
           "type": "Result",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Distilled Water/Result/T_Inventory_Icon_BottleOfDistilledWater.png",
           "imageDesc": "T_Inventory_Icon_BottleOfDistilledWater.png"
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "",
-      "imageDesc": ""
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire - Distilled Water/Result/T_Inventory_Icon_BottleOfDistilledWater.png",
+      "imageDesc": "T_Inventory_Icon_BottleOfDistilledWater.png"
     },
     {
       "name": "Fried Boar Meat",
@@ -46095,6 +46339,7 @@ const WTLO_DATABASE_DATA = {
       "craftingRequiredImages": [
         {
           "name": "BoarMeat",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Boar Meat/Required/T_Inventory_BoarMeat.png",
           "imageDesc": "T_Inventory_BoarMeat.png"
@@ -46103,14 +46348,15 @@ const WTLO_DATABASE_DATA = {
       "craftingResultImages": [
         {
           "name": "Fried Boar Heart",
+          "quantity": "",
           "type": "Result",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Boar Meat/Result/T_Inventory_Icon_Fried_Boar_Heart.png",
           "imageDesc": "T_Inventory_Icon_Fried_Boar_Heart.png"
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "",
-      "imageDesc": ""
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Boar Meat/Result/T_Inventory_Icon_Fried_Boar_Heart.png",
+      "imageDesc": "T_Inventory_Icon_Fried_Boar_Heart.png"
     },
     {
       "name": "Fried Chicken Meat",
@@ -46161,7 +46407,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipe - Beginner/Result/T_Inventory_FriedChickenMeat.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Chicken Meat/Result/T_Inventory_FriedChickenMeat.png",
       "imageDesc": "T_Inventory_FriedChickenMeat.png"
     },
     {
@@ -46197,6 +46443,7 @@ const WTLO_DATABASE_DATA = {
       "craftingRequiredImages": [
         {
           "name": "Crab Meat",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Crab Meat/Required/T_Inventory_Crab_Meat.png",
           "imageDesc": "T_Inventory_Crab_Meat.png"
@@ -46205,14 +46452,15 @@ const WTLO_DATABASE_DATA = {
       "craftingResultImages": [
         {
           "name": "Fried Crab Meat",
+          "quantity": "",
           "type": "Result",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Crab Meat/Result/T_Inventory_Icon_Fried_Crab_Meat.png",
           "imageDesc": "T_Inventory_Icon_Fried_Crab_Meat.png"
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "",
-      "imageDesc": ""
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Crab Meat/Result/T_Inventory_Icon_Fried_Crab_Meat.png",
+      "imageDesc": "T_Inventory_Icon_Fried_Crab_Meat.png"
     },
     {
       "name": "Fried Deer Meat",
@@ -46263,7 +46511,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipe - Beginner/Result/T_Inventory_FriedDeerMeat.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Deer Meat/Result/T_Inventory_FriedDeerMeat.png",
       "imageDesc": "T_Inventory_FriedDeerMeat.png"
     },
     {
@@ -46299,6 +46547,7 @@ const WTLO_DATABASE_DATA = {
       "craftingRequiredImages": [
         {
           "name": "StrayDogMeat",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Dog Meat/Required/T_Inventory_StrayDogMeat.png",
           "imageDesc": "T_Inventory_StrayDogMeat.png"
@@ -46307,14 +46556,15 @@ const WTLO_DATABASE_DATA = {
       "craftingResultImages": [
         {
           "name": "Fried StrayDog Meat",
+          "quantity": "",
           "type": "Result",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Dog Meat/Result/T_Inventory_Icon_Fried_StrayDog_Meat.png",
           "imageDesc": "T_Inventory_Icon_Fried_StrayDog_Meat.png"
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "",
-      "imageDesc": ""
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Dog Meat/Result/T_Inventory_Icon_Fried_StrayDog_Meat.png",
+      "imageDesc": "T_Inventory_Icon_Fried_StrayDog_Meat.png"
     },
     {
       "name": "Fried Lizard Meat",
@@ -46349,6 +46599,7 @@ const WTLO_DATABASE_DATA = {
       "craftingRequiredImages": [
         {
           "name": "LizzardMeat",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Lizard Meat/Required/T_Inventory_LizzardMeat.png",
           "imageDesc": "T_Inventory_LizzardMeat.png"
@@ -46364,7 +46615,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipe - Beginner/Result/T_Inventory_Icon_Fried_Lizard_Meat.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Lizard Meat/Result/T_Inventory_Icon_Fried_Lizard_Meat.png",
       "imageDesc": "T_Inventory_Icon_Fried_Lizard_Meat.png"
     },
     {
@@ -46400,6 +46651,7 @@ const WTLO_DATABASE_DATA = {
       "craftingRequiredImages": [
         {
           "name": "MilkMushroom",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Mushrooms/Required/T_Inventory_MilkMushroom.png",
           "imageDesc": "T_Inventory_MilkMushroom.png"
@@ -46408,14 +46660,15 @@ const WTLO_DATABASE_DATA = {
       "craftingResultImages": [
         {
           "name": "Fried Mushrooms",
+          "quantity": "",
           "type": "Result",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Mushrooms/Result/T_Inventory_Icon_Fried_Mushrooms.png",
           "imageDesc": "T_Inventory_Icon_Fried_Mushrooms.png"
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "",
-      "imageDesc": ""
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Mushrooms/Result/T_Inventory_Icon_Fried_Mushrooms.png",
+      "imageDesc": "T_Inventory_Icon_Fried_Mushrooms.png"
     },
     {
       "name": "Fried Rabbit carcass",
@@ -46466,7 +46719,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipe - Beginner/Result/T_Inventory_Fried_rabbit_carcass.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Rabbit carcass/Result/T_Inventory_Fried_rabbit_carcass.png",
       "imageDesc": "T_Inventory_Fried_rabbit_carcass.png"
     },
     {
@@ -46518,7 +46771,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipe - Beginner/Result/T_Inventory_Icon_Fried_Rat_Meat.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Rat Meat/Result/T_Inventory_Icon_Fried_Rat_Meat.png",
       "imageDesc": "T_Inventory_Icon_Fried_Rat_Meat.png"
     },
     {
@@ -46554,18 +46807,21 @@ const WTLO_DATABASE_DATA = {
       "craftingRequiredImages": [
         {
           "name": "Salt",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried salted rat-ass on a stick/Required/T_Inventory_Icon_Salt.png",
           "imageDesc": "T_Inventory_Icon_Salt.png"
         },
         {
           "name": "RatAss",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried salted rat-ass on a stick/Required/T_Inventory_RatAss.png",
           "imageDesc": "T_Inventory_RatAss.png"
         },
         {
           "name": "Wood",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried salted rat-ass on a stick/Required/T_Inventory_Wood.png",
           "imageDesc": "T_Inventory_Wood.png"
@@ -46574,14 +46830,15 @@ const WTLO_DATABASE_DATA = {
       "craftingResultImages": [
         {
           "name": "Fried Salted Rat Ass On Stick",
+          "quantity": "",
           "type": "Result",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried salted rat-ass on a stick/Result/T_Inventory_Icon_Fried_Salted_Rat_Ass_On_Stick.png",
           "imageDesc": "T_Inventory_Icon_Fried_Salted_Rat_Ass_On_Stick.png"
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "",
-      "imageDesc": ""
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried salted rat-ass on a stick/Result/T_Inventory_Icon_Fried_Salted_Rat_Ass_On_Stick.png",
+      "imageDesc": "T_Inventory_Icon_Fried_Salted_Rat_Ass_On_Stick.png"
     },
     {
       "name": "Fried Watcher Meat",
@@ -46616,6 +46873,7 @@ const WTLO_DATABASE_DATA = {
       "craftingRequiredImages": [
         {
           "name": "WatcherMeat",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Watcher Meat/Required/T_Inventory_WatcherMeat.png",
           "imageDesc": "T_Inventory_WatcherMeat.png"
@@ -46631,7 +46889,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipe - Beginner/Result/T_Inventory_Icon_Fried_Watcher_Meat.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Watcher Meat/Result/T_Inventory_Icon_Fried_Watcher_Meat.png",
       "imageDesc": "T_Inventory_Icon_Fried_Watcher_Meat.png"
     },
     {
@@ -46667,6 +46925,7 @@ const WTLO_DATABASE_DATA = {
       "craftingRequiredImages": [
         {
           "name": "BottleOfDistilledWater",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Nettle Tea/Required/T_Inventory_Icon_BottleOfDistilledWater.png",
           "imageDesc": "T_Inventory_Icon_BottleOfDistilledWater.png"
@@ -46689,7 +46948,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipe - Beginner/Result/T_Inventory_Icon_Nettle_Tea.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire - Nettle Tea/Result/T_Inventory_Icon_Nettle_Tea.png",
       "imageDesc": "T_Inventory_Icon_Nettle_Tea.png"
     },
     {
@@ -46748,7 +47007,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipe - Beginner/Result/T_Inventory_Omelette.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire - Omelette/Result/T_Inventory_Omelette.png",
       "imageDesc": "T_Inventory_Omelette.png"
     },
     {
@@ -46784,6 +47043,7 @@ const WTLO_DATABASE_DATA = {
       "craftingRequiredImages": [
         {
           "name": "BottleOfDistilledWater",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Rose-bay Tea/Required/T_Inventory_Icon_BottleOfDistilledWater.png",
           "imageDesc": "T_Inventory_Icon_BottleOfDistilledWater.png"
@@ -46806,7 +47066,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipe - Beginner/Result/T_Inventory_Icon_Rose-bay_Tea.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire - Rose-bay Tea/Result/T_Inventory_Icon_Rose-bay_Tea.png",
       "imageDesc": "T_Inventory_Icon_Rose-bay_Tea.png"
     },
     {
@@ -46886,7 +47146,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Perfect  Broth/Result/T_Inventory_Grannys_broth.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire - Perfect Broth/Result/T_Inventory_Grannys_broth.png",
       "imageDesc": "T_Inventory_Grannys_broth.png"
     },
     {
@@ -46938,7 +47198,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipe - Beginner/Result/T_Inventory_Icon_Fried_Bear_Heart.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Bear Heart/Result/T_Inventory_Icon_Fried_Bear_Heart.png",
       "imageDesc": "T_Inventory_Icon_Fried_Bear_Heart.png"
     },
     {
@@ -46952,11 +47212,11 @@ const WTLO_DATABASE_DATA = {
         "Recipe order: 133",
         "Crafting station: Campfire",
         "Crafting module: Campfire - Advanced",
-        "Required folder: /db-assets/Crafting Recipes/Campfire - Fried Bear Meat/Required",
-        "Result folder: /db-assets/Crafting Recipes/Campfire - Fried Bear Meat/Result",
         "Required: [1] Bear Meat",
         "Result: Fried Bear meat",
-        "Source: Pasted text(8).txt"
+        "Source: Pasted text(8).txt",
+        "Required folder: /db-assets/Crafting Recipes/Campfire - Fried Bear Meat/Required",
+        "Result folder: /db-assets/Crafting Recipes/Campfire - Fried Bear Meat/Result"
       ],
       "locations": [
         "Minayev's Territory",
@@ -46971,12 +47231,26 @@ const WTLO_DATABASE_DATA = {
       "craftingRecipeOrder": 133,
       "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Bear Meat/Required",
       "resultImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Bear Meat/Result",
-      "craftingRequiredImages": [],
-      "craftingResultImages": [],
-      "craftingNotes": [
-        "No result PNG was found in the current directory listing."
+      "craftingRequiredImages": [
+        {
+          "name": "Bear Meat",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Bear Meat/Required/T_Inventory_Bear_Meat.png",
+          "imageDesc": "T_Inventory_Bear_Meat.png"
+        }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire Recipe - Advanced/Result/T_Inventory_Icon_Fried_Bear_Meat.png",
+      "craftingResultImages": [
+        {
+          "name": "Fried Bear Meat",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Bear Meat/Result/T_Inventory_Icon_Fried_Bear_Meat.png",
+          "imageDesc": "T_Inventory_Icon_Fried_Bear_Meat.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Bear Meat/Result/T_Inventory_Icon_Fried_Bear_Meat.png",
       "imageDesc": "T_Inventory_Icon_Fried_Bear_Meat.png"
     },
     {
@@ -47028,7 +47302,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire Recipe - Advanced/Result/T_Inventory_Icon_Fried_Bear_Sternum.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Bear Sternum/Result/T_Inventory_Icon_Fried_Bear_Sternum.png",
       "imageDesc": "T_Inventory_Icon_Fried_Bear_Sternum.png"
     },
     {
@@ -47064,18 +47338,21 @@ const WTLO_DATABASE_DATA = {
       "craftingRequiredImages": [
         {
           "name": "Hog of Coast Heart",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Heart of the Hog of Coast/Required/T_Inventory_Hog_of_Coast_Heart.png",
           "imageDesc": "T_Inventory_Hog_of_Coast_Heart.png"
         },
         {
           "name": "Salt",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Heart of the Hog of Coast/Required/T_Inventory_Icon_Salt.png",
           "imageDesc": "T_Inventory_Icon_Salt.png"
         },
         {
           "name": "Vinegar",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Heart of the Hog of Coast/Required/T_Inventory_Icon_Vinegar.png",
           "imageDesc": "T_Inventory_Icon_Vinegar.png"
@@ -47084,14 +47361,15 @@ const WTLO_DATABASE_DATA = {
       "craftingResultImages": [
         {
           "name": "Fried Heart of the Hog of Coast",
+          "quantity": "",
           "type": "Result",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Heart of the Hog of Coast/Result/T_Inventory_Icon_Fried_Heart_of_the_Hog_of_Coast.png",
           "imageDesc": "T_Inventory_Icon_Fried_Heart_of_the_Hog_of_Coast.png"
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "",
-      "imageDesc": ""
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Heart of the Hog of Coast/Result/T_Inventory_Icon_Fried_Heart_of_the_Hog_of_Coast.png",
+      "imageDesc": "T_Inventory_Icon_Fried_Heart_of_the_Hog_of_Coast.png"
     },
     {
       "name": "Fried Stingray Meat",
@@ -47126,6 +47404,7 @@ const WTLO_DATABASE_DATA = {
       "craftingRequiredImages": [
         {
           "name": "StingrayMeat",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Stingray Meat/Required/T_Inventory_StingrayMeat.png",
           "imageDesc": "T_Inventory_StingrayMeat.png"
@@ -47134,14 +47413,15 @@ const WTLO_DATABASE_DATA = {
       "craftingResultImages": [
         {
           "name": "Fried Stingray Meat",
+          "quantity": "",
           "type": "Result",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Stingray Meat/Result/T_Inventory_Icon_Fried_Stingray_Meat.png",
           "imageDesc": "T_Inventory_Icon_Fried_Stingray_Meat.png"
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "",
-      "imageDesc": ""
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Stingray Meat/Result/T_Inventory_Icon_Fried_Stingray_Meat.png",
+      "imageDesc": "T_Inventory_Icon_Fried_Stingray_Meat.png"
     },
     {
       "name": "Hemostatic Tea",
@@ -47206,7 +47486,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire Recipe - Advanced/Result/T_Inventory_Icon_HemostaticTea.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire - Hemostatic Tea/Result/T_Inventory_Icon_HemostaticTea.png",
       "imageDesc": "T_Inventory_Icon_HemostaticTea.png"
     },
     {
@@ -47242,12 +47522,14 @@ const WTLO_DATABASE_DATA = {
       "craftingRequiredImages": [
         {
           "name": "Bear Fat",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Melted Bear Fat/Required/T_Inventory_Bear_Fat.png",
           "imageDesc": "T_Inventory_Bear_Fat.png"
         },
         {
           "name": "Field Kit",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Melted Bear Fat/Required/T_Inventory_Icon_Field_Kit.png",
           "imageDesc": "T_Inventory_Icon_Field_Kit.png"
@@ -47256,14 +47538,15 @@ const WTLO_DATABASE_DATA = {
       "craftingResultImages": [
         {
           "name": "Melted Bear Fat",
+          "quantity": "",
           "type": "Result",
           "imageUrl": "/db-assets/Crafting Recipes/Campfire - Melted Bear Fat/Result/T_Inventory_Icon_Melted_Bear_Fat.png",
           "imageDesc": "T_Inventory_Icon_Melted_Bear_Fat.png"
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "",
-      "imageDesc": ""
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire - Melted Bear Fat/Result/T_Inventory_Icon_Melted_Bear_Fat.png",
+      "imageDesc": "T_Inventory_Icon_Melted_Bear_Fat.png"
     },
     {
       "name": "Fried Giant Crab Heart",
@@ -47335,7 +47618,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Fried Giant Crab Heart - Recipe/Result/T_Inventory_Icon_Fried_Giant_Crab_Heart.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Giant Crab Heart/Result/T_Inventory_Icon_Fried_Giant_Crab_Heart.png",
       "imageDesc": "T_Inventory_Icon_Fried_Giant_Crab_Heart.png"
     },
     {
@@ -47409,7 +47692,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.30-06 FMJ M1/Result/T_Inventory_Icon_30-06_FMJ_M1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .30-06 FMJ M1/Result/T_Inventory_Icon_30-06_FMJ_M1.png",
       "imageDesc": "T_Inventory_Icon_30-06_FMJ_M1.png"
     },
     {
@@ -47446,24 +47729,28 @@ const WTLO_DATABASE_DATA = {
       "craftingRequiredImages": [
         {
           "name": "Gun Powder",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .308 WIN FMJ M1/Required/T_Inventory_Gun_Powder.png",
           "imageDesc": "T_Inventory_Gun_Powder.png"
         },
         {
           "name": "308WIN Bullet",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .308 WIN FMJ M1/Required/T_Inventory_Icon_308WIN_Bullet.png",
           "imageDesc": "T_Inventory_Icon_308WIN_Bullet.png"
         },
         {
           "name": "308WIN Case",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .308 WIN FMJ M1/Required/T_Inventory_Icon_308WIN_Case.png",
           "imageDesc": "T_Inventory_Icon_308WIN_Case.png"
         },
         {
           "name": "Large Primer",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .308 WIN FMJ M1/Required/T_Inventory_Icon_Large_Primer.png",
           "imageDesc": "T_Inventory_Icon_Large_Primer.png"
@@ -47472,6 +47759,7 @@ const WTLO_DATABASE_DATA = {
       "craftingResultImages": [
         {
           "name": "308WIN FMJ M1",
+          "quantity": "",
           "type": "Result",
           "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .308 WIN FMJ M1/Result/T_Inventory_Icon_308WIN_FMJ_M1.png",
           "imageDesc": "T_Inventory_Icon_308WIN_FMJ_M1.png"
@@ -47480,7 +47768,7 @@ const WTLO_DATABASE_DATA = {
       "craftingNotes": [
         "Requirements/results were not supplied in the text."
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.308 WIN FMJ M1/Result/T_Inventory_Icon_308WIN_FMJ_M1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .308 WIN FMJ M1/Result/T_Inventory_Icon_308WIN_FMJ_M1.png",
       "imageDesc": "T_Inventory_Icon_308WIN_FMJ_M1.png"
     },
     {
@@ -47554,7 +47842,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.44 Magnum/Result/T_Inventory_Icon_44Magnum_FMJ.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .44 Magnum/Result/T_Inventory_Icon_44Magnum_FMJ.png",
       "imageDesc": "T_Inventory_Icon_44Magnum_FMJ.png"
     },
     {
@@ -47628,7 +47916,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.45ACP FMJ M1/Result/T_Inventory_Icon_45_ACP_FMJ_M1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .45 ACP FMJ M1/Result/T_Inventory_Icon_45_ACP_FMJ_M1.png",
       "imageDesc": "T_Inventory_Icon_45_ACP_FMJ_M1.png"
     },
     {
@@ -47702,7 +47990,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.500 Magnum/Result/T_Inventory_Icon_500SWMagnum_FMJ.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .500 Magnum/Result/T_Inventory_Icon_500SWMagnum_FMJ.png",
       "imageDesc": "T_Inventory_Icon_500SWMagnum_FMJ.png"
     },
     {
@@ -47746,6 +48034,7 @@ const WTLO_DATABASE_DATA = {
         },
         {
           "name": "12Ga Shot M1",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 12 Ga. Shot M1/Required/T_Inventory_Icon_12Ga_Shot_M1.png",
           "imageDesc": "T_Inventory_Icon_12Ga_Shot_M1.png"
@@ -47768,7 +48057,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 GAa Shot M1/Result/T_Inventory_Icon_12Ga_Case.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 12 Ga. Shot M1/Result/T_Inventory_Icon_12Ga_Case.png",
       "imageDesc": "T_Inventory_Icon_12Ga_Case.png"
     },
     {
@@ -47812,12 +48101,14 @@ const WTLO_DATABASE_DATA = {
         },
         {
           "name": "12Ga Case",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 12 Ga. Slug M1/Required/T_Inventory_Icon_12Ga_Case.png",
           "imageDesc": "T_Inventory_Icon_12Ga_Case.png"
         },
         {
           "name": "12Ga Slug",
+          "quantity": "",
           "type": "Required",
           "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 12 Ga. Slug M1/Required/T_Inventory_Icon_12Ga_Slug.png",
           "imageDesc": "T_Inventory_Icon_12Ga_Slug.png"
@@ -47840,7 +48131,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga Slug M1/Result/T_Inventory_Icon_12Ga_Slug_M1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 12 Ga. Slug M1/Result/T_Inventory_Icon_12Ga_Slug_M1.png",
       "imageDesc": "T_Inventory_Icon_12Ga_Slug_M1.png"
     },
     {
@@ -47914,7 +48205,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.45x39 FMJ M1/Result/T_Inventory_Icon_5_45x39_FMJ_M1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 5.45x39 FMJ M1/Result/T_Inventory_Icon_5_45x39_FMJ_M1.png",
       "imageDesc": "T_Inventory_Icon_5_45x39_FMJ_M1.png"
     },
     {
@@ -47988,7 +48279,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.56x45 FMJ M1/Result/T_Inventory_Icon_5_56x45_FMJ_M1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 5.56x45 FMJ M1/Result/T_Inventory_Icon_5_56x45_FMJ_M1.png",
       "imageDesc": "T_Inventory_Icon_5_56x45_FMJ_M1.png"
     },
     {
@@ -48062,7 +48353,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.7x28 FMJ M1/Result/T_Inventory_Icon_5_7x28_FMJ_M1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 5.7x28 FMJ M1/Result/T_Inventory_Icon_5_7x28_FMJ_M1.png",
       "imageDesc": "T_Inventory_Icon_5_7x28_FMJ_M1.png"
     },
     {
@@ -48136,7 +48427,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/7.62x39 FMJ M1/Result/T_Inventory_Icon_7_62x39_FMJ_M1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 7.62x39 FMJ M1/Result/T_Inventory_Icon_7_62x39_FMJ_M1.png",
       "imageDesc": "T_Inventory_Icon_7_62x39_FMJ_M1.png"
     },
     {
@@ -48210,7 +48501,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/7.62x54 FMJ M1/Result/T_Inventory_Icon_7_62x54_FMJ_M1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 7.62x54 FMJ M1/Result/T_Inventory_Icon_7_62x54_FMJ_M1.png",
       "imageDesc": "T_Inventory_Icon_7_62x54_FMJ_M1.png"
     },
     {
@@ -48284,7 +48575,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x19 FMJ M1/Result/T_Inventory_Icon_9x19_FMJ_M1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 9x19 FMJ M1/Result/T_Inventory_Icon_9x19_FMJ_M1.png",
       "imageDesc": "T_Inventory_Icon_9x19_FMJ_M1.png"
     },
     {
@@ -48358,7 +48649,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x21 FMJ M1/Result/T_InventoryIcon_9x21_FMJ_M1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 9x21 FMJ M1/Result/T_InventoryIcon_9x21_FMJ_M1.png",
       "imageDesc": "T_InventoryIcon_9x21_FMJ_M1.png"
     },
     {
@@ -48432,21 +48723,21 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x39 M1/Result/T_Inventory_Icon_9x39_M1.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 9x39 M1/Result/T_Inventory_Icon_9x39_M1.png",
       "imageDesc": "T_Inventory_Icon_9x39_M1.png"
     },
     {
       "name": "Drone Recon",
       "type": "Recipe",
       "level": 0,
-      "detail": "Drone Recon crafting recipe. Station: Big CNC Machine. Module: Crafted Weapon - Beginner.",
+      "detail": "Drone Recon crafting recipe. Station: Big CNC Machine.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
         "Recipe order: 155",
         "Crafting station: Big CNC Machine",
         "Crafting module: Crafted Weapon - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Big CNC Machine - Drone Recon/Required",
+        "Required folder: /db-assets/Crafting Recipes/Big CNC Machine - Drone Recon/Require",
         "Result folder: /db-assets/Crafting Recipes/Big CNC Machine - Drone Recon/Result"
       ],
       "locations": [
@@ -48456,14 +48747,66 @@ const WTLO_DATABASE_DATA = {
       "craftingStation": "Big CNC Machine",
       "craftingModule": "Crafted Weapon - Beginner",
       "craftingNotes": [
-        "Added from the updated flattened Crafting Recipes asset directory.",
-        "No result PNG was found in the current directory listing."
+        "Added from the updated Crafting Recipes directory."
       ],
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Big CNC Machine - Drone Recon/Required",
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Big CNC Machine - Drone Recon/Require",
       "resultImageFolder": "/db-assets/Crafting Recipes/Big CNC Machine - Drone Recon/Result",
-      "craftingRequiredImages": [],
-      "craftingResultImages": [],
-      "craftingRecipeOrder": 155
+      "craftingRequiredImages": [
+        {
+          "name": "Drone CPU",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - Drone Recon/Require/T_Inventory_Icon_Dron_CPU.png",
+          "imageDesc": "T_Inventory_Icon_Dron_CPU.png"
+        },
+        {
+          "name": "Drone Navigation Module",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - Drone Recon/Require/T_Inventory_Icon_Dron_Navigation_Module.png",
+          "imageDesc": "T_Inventory_Icon_Dron_Navigation_Module.png"
+        },
+        {
+          "name": "Drone Power Module",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - Drone Recon/Require/T_Inventory_Icon_Dron_Power_Module.png",
+          "imageDesc": "T_Inventory_Icon_Dron_Power_Module.png"
+        },
+        {
+          "name": "Production Module M1",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - Drone Recon/Require/T_Inventory_Icon_ProductionModule_M1.png",
+          "imageDesc": "T_Inventory_Icon_ProductionModule_M1.png"
+        },
+        {
+          "name": "NDP Polymer",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - Drone Recon/Require/T_Inventory_NDP_Polymer.png",
+          "imageDesc": "T_Inventory_NDP_Polymer.png"
+        },
+        {
+          "name": "Polymer",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - Drone Recon/Require/T_Inventory_Polymer.png",
+          "imageDesc": "T_Inventory_Polymer.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Controlled Drone",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - Drone Recon/Result/T_Inventory_Icon_ControlledDrone.png",
+          "imageDesc": "T_Inventory_Icon_ControlledDrone.png"
+        }
+      ],
+      "craftingRecipeOrder": 155,
+      "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - Drone Recon/Result/T_Inventory_Icon_ControlledDrone.png",
+      "imageDesc": "T_Inventory_Icon_ControlledDrone.png"
     },
     {
       "name": "L96A1 - Crafted",
@@ -48573,7 +48916,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/Result/T_L96_A1_Crafted_White.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - L96A1 - Crafted/Result/T_L96_A1_Crafted_White.png",
       "imageDesc": "T_L96_A1_Crafted_White.png"
     },
     {
@@ -48684,7 +49027,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/Result/T_MSR-10_Crafted_White.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - MSR-10 - Crafted/Result/T_MSR-10_Crafted_White.png",
       "imageDesc": "T_MSR-10_Crafted_White.png"
     },
     {
@@ -48795,7 +49138,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/Result/T_MSR-12_Crafted_White.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - MSR-12 - Crafted/Result/T_MSR-12_Crafted_White.png",
       "imageDesc": "T_MSR-12_Crafted_White.png"
     },
     {
@@ -48906,7 +49249,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/Result/T_Vepr-12_Crafted_White.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - Vepr-12 - Crafted/Result/T_Vepr-12_Crafted_White.png",
       "imageDesc": "T_Vepr-12_Crafted_White.png"
     },
     {
@@ -49017,7 +49360,7 @@ const WTLO_DATABASE_DATA = {
         }
       ],
       "craftingNotes": [],
-      "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/Result/T_WSC_PDW_Crafted_White.png",
+      "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - WSC PDW - Crafted/Result/T_WSC_PDW_Crafted_White.png",
       "imageDesc": "T_WSC_PDW_Crafted_White.png"
     }
   ],

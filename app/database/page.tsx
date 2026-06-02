@@ -589,17 +589,7 @@ const vendorOptions = ["Rafik", "Gosha", "Valera", "Karina", "Yuri", "Victoria",
 const difficultyOptions = ["Easy", "Normal", "Medium", "Moderate", "Hard", "Impossible", "Insane", "Legendary", "Veteran", "Beginner", "Intermediate", "Advanced", "Expert", "New", "Hot", "Simple"];
 const armorClassOptions = ["None", "Light", "Medium", "Heavy"];
 const craftingStationOptions = ["Inventory", "Furnace", "Press Machine", "Chemical Station", "Campfire", "Ammo Press", "Big CNC Machine"];
-const craftingModuleSortOrder = ["Leatherworking - Beginner", "Leatherworking - Advanced", "Ammo - .308 WIN FMJ M1", "Pharmacist - Beginner", "Coal filter", "Polymers - Beginner", "Leather reinforced armor - Jacket", "Fisherman recipes - Beginner", "Blacksmithing recipes - M1 armor plates", "Smoke Grenade", "Gas Grenade", "Blacksmithing recipes - Advanced", "Energy Modules - Beginner", "Weapon Modification", "Campfire recipes - Beginner", "Gasoline filter", "Anti-burn salve recipe", "Crafted Weapon - Beginner", "Campfire recipes - Perfect Broth", "Ammo - Beginner", "Blacksmithing recipes - Beginner", "Campfire - Advanced", "Fried big crab heart recipe", "Chitin reinforced armor - Trousers", "Chitin reinforced armor - Armor plates", "Chitin reinforced armor - Jacket"];
 const craftingLocationOptions = ["Minayev's Territory", "Zapandnaya Mine (Big Village)", "Tunnels", "Canyon", "Coast", "Testing Ground", "Foothills"];
-const craftingStationsByLocation: Record<string, string[]> = {
-  "Minayev's Territory": ["Inventory", "Furnace", "Press Machine", "Campfire", "Ammo Press"],
-  "Zapandnaya Mine (Big Village)": ["Inventory", "Furnace", "Press Machine", "Chemical Station", "Campfire", "Ammo Press"],
-  "Tunnels": ["Inventory", "Press Machine", "Chemical Station", "Ammo Press"],
-  "Canyon": ["Inventory", "Furnace", "Press Machine", "Chemical Station", "Campfire", "Ammo Press"],
-  "Coast": ["Inventory", "Furnace", "Press Machine", "Chemical Station", "Campfire", "Ammo Press"],
-  "Testing Ground": ["Inventory", "Furnace", "Press Machine", "Chemical Station", "Campfire", "Ammo Press", "Big CNC Machine"],
-  "Foothills": ["Inventory", "Furnace", "Press Machine", "Chemical Station", "Campfire", "Ammo Press", "Big CNC Machine"],
-};
 const characterPartOptions = ["Hair", "Head", "Torso", "Legs", "Foot", "DLC", "Faction"];
 
 const itemTypeOptions = ["Artefact", "Artefact Container L", "Artefact Container M", "Artefact Container S", "Base Resource", "Battery", "Clothes Modification Kit", "Clothes Repair Kit", "Clothes Spray Can", "Complex", "Controlled Drone", "Document", "Drone", "Electronics", "Energy Equipment", "Engraving Kit", "Equipment", "Extractor", "Fish", "Fishing Bait", "Fishing Item", "Food", "Fuel", "Healing Item", "Houseware", "Instruments", "Junk", "Miscellaneous", "Modification Parts", "Money", "None", "Optical Device", "PDA Module", "Placement Kit", "Production Module", "Quest", "Radio Device", "Repair Item", "Resource Miner", "Spare Parts", "Stimulator Container", "Teleportation Device", "Universal Scanner", "Unlocking Kit", "Vehicle", "Weapon Modification Kit", "Weapon Repair Kit", "Weapon Spray Can"];
@@ -1037,7 +1027,11 @@ export default function DatabasePage() {
   // Crafting filters (single‑select)
   const [craftingStationFilter, setCraftingStationFilter] = useState("");
   const [craftingModuleFilter, setCraftingModuleFilter] = useState("");
+  const [craftingTypeFilter, setCraftingTypeFilter] = useState("");
+  const [craftingPriceFilter, setCraftingPriceFilter] = useState<"Low" | "High" | "">("");
   const [craftingLocationFilter, setCraftingLocationFilter] = useState("");
+  const [craftingLevelFilter, setCraftingLevelFilter] = useState<number | "">("");
+  const [craftingVendorFilter, setCraftingVendorFilter] = useState("");
   
   // Premium filters
   const [premiumNameFilter, setPremiumNameFilter] = useState("");
@@ -1081,27 +1075,17 @@ export default function DatabasePage() {
     return Array.from(new Set(currentData.map((item) => item.type).filter(Boolean))).sort((a, b) => a.localeCompare(b));
   }, [currentData]);
 
-  const availableCraftingStationOptions = useMemo(
-    () => craftingLocationFilter ? (craftingStationsByLocation[craftingLocationFilter] || craftingStationOptions) : craftingStationOptions,
-    [craftingLocationFilter]
-  );
-
   const craftingModuleOptions = useMemo(() => {
-    const available = new Set(
-      (database.crafting || [])
-        .filter((item) => !craftingStationFilter || item.craftingStation === craftingStationFilter)
-        .filter((item) => !craftingLocationFilter || arrayMatchesTextFilter(item.locations, craftingLocationFilter))
-        .map((item) => item.craftingModule)
-        .filter((moduleName): moduleName is string => Boolean(moduleName))
-    );
-    return craftingModuleSortOrder.filter((moduleName) => available.has(moduleName));
-  }, [database.crafting, craftingStationFilter, craftingLocationFilter]);
-
-  useEffect(() => {
-    if (craftingStationFilter && !availableCraftingStationOptions.includes(craftingStationFilter)) {
-      setCraftingStationFilter("");
-    }
-  }, [craftingStationFilter, availableCraftingStationOptions]);
+    const recipes = database.crafting || [];
+    return Array.from(
+      new Set(
+        recipes
+          .filter((item) => !craftingStationFilter || item.craftingStation === craftingStationFilter)
+          .map((item) => item.craftingModule || "General")
+          .filter(Boolean)
+      )
+    ).sort((a, b) => a.localeCompare(b));
+  }, [database.crafting, craftingStationFilter]);
 
   useEffect(() => {
     if (craftingModuleFilter && !craftingModuleOptions.includes(craftingModuleFilter)) {
@@ -1312,17 +1296,8 @@ export default function DatabasePage() {
     const defaultCraftingSort = isCrafting && !sortField;
     if (sortField || defaultPriceSort || defaultAchievementSort || defaultBestiarySort || defaultCraftingSort) {
       filtered.sort((a, b) => {
-        const activeSortField = (defaultPriceSort ? "priceValue" : defaultAchievementSort ? "achievementOrder" : defaultBestiarySort ? "name" : defaultCraftingSort ? "craftingStation" : sortField) as string;
+        const activeSortField = (defaultPriceSort ? "priceValue" : defaultAchievementSort ? "achievementOrder" : defaultBestiarySort ? "name" : defaultCraftingSort ? "craftingRecipeOrder" : sortField) as string;
         const activeDirection = sortDirection;
-        if (isCrafting && (defaultCraftingSort || activeSortField === "craftingStation" || activeSortField === "craftingModule")) {
-          const stationDiff = craftingStationOptions.indexOf(a.craftingStation || "") - craftingStationOptions.indexOf(b.craftingStation || "");
-          const moduleDiff = craftingModuleSortOrder.indexOf(a.craftingModule || "") - craftingModuleSortOrder.indexOf(b.craftingModule || "");
-          const nameDiff = a.name.localeCompare(b.name);
-          const value = activeSortField === "craftingModule"
-            ? (moduleDiff || stationDiff || nameDiff)
-            : (stationDiff || moduleDiff || nameDiff);
-          return activeDirection === "asc" ? value : -value;
-        }
         let aVal = a[activeSortField as keyof BaseItem] ?? "";
         let bVal = b[activeSortField as keyof BaseItem] ?? "";
         if (activeSortField === "type" && isPremium) {
@@ -1360,7 +1335,7 @@ export default function DatabasePage() {
     itemsTypeFilter, itemsLevelFilter, itemsPriceFilter, itemsLocationFilter, itemsWeightFilter, itemsVendorFilter,
     armorTypeFilter, armorPriceFilter, armorLocationFilter, armorModificationFilter, armorClassFilter, armorLevelFilter, armorVendorFilter,
     medicineTypeFilter, medicinePriceFilter, medicineLocationFilter, medicineLevelFilter, medicineVendorFilter,
-    craftingStationFilter, craftingModuleFilter, craftingLocationFilter,
+    craftingStationFilter, craftingModuleFilter, craftingTypeFilter, craftingPriceFilter, craftingLocationFilter, craftingLevelFilter, craftingVendorFilter,
     achievementsRarityFilter,
     guideDifficultyFilter, bestiaryDifficultyFilter, characterPartFilter,
     sortField, sortDirection
@@ -1556,9 +1531,8 @@ export default function DatabasePage() {
     if (normalizedExistingFolder) return normalizedExistingFolder;
 
     const station = item.craftingStation || "Inventory";
-    const moduleName = item.craftingModule || "General";
     const recipeName = item.name || "Unnamed Recipe";
-    return `${getCategoryImageFolder("crafting")}/${station}/${moduleName}/${recipeName}/${slot}`;
+    return `${getCategoryImageFolder("crafting")}/${station} - ${recipeName}/${slot}`;
   };
 
   const uploadImageToProject = async (file: File, category: CategoryKey, customFolder?: string) => {
@@ -1633,7 +1607,11 @@ export default function DatabasePage() {
 
     setCraftingStationFilter("");
     setCraftingModuleFilter("");
+    setCraftingTypeFilter("");
+    setCraftingPriceFilter("");
     setCraftingLocationFilter("");
+    setCraftingLevelFilter("");
+    setCraftingVendorFilter("");
 
     setPremiumNameFilter("");
     setPremiumTypeFilter("");
@@ -1697,7 +1675,11 @@ export default function DatabasePage() {
     } else if (isCrafting) {
       if (id === "craftingStation") setCraftingStationFilter("");
       if (id === "craftingModule") setCraftingModuleFilter("");
+      if (id === "craftingType") setCraftingTypeFilter("");
+      if (id === "craftingPrice") setCraftingPriceFilter("");
       if (id === "craftingLocation") setCraftingLocationFilter("");
+      if (id === "craftingLevel") setCraftingLevelFilter("");
+      if (id === "craftingVendor") setCraftingVendorFilter("");
     } else if (isAchievements) {
       if (id === "achievementsRarity") setAchievementsRarityFilter("");
     } else if (!isGeneral) {
@@ -2923,7 +2905,7 @@ export default function DatabasePage() {
                 <label>Crafting Module</label>
                 <input
                   type="text"
-                  placeholder="Module folder name"
+                  placeholder="Module name"
                   value={editFormData.craftingModule || "General"}
                   onChange={e => {
                     const next = { ...editFormData, craftingModule: e.target.value || "General", requiredImageFolder: "", resultImageFolder: "" };
@@ -2948,7 +2930,7 @@ export default function DatabasePage() {
                 <label>Recipe Asset Folders</label>
                 <input type="text" readOnly value={`/db-assets/${buildCraftingAssetFolder(editFormData, "Required")}`} />
                 <input type="text" readOnly value={`/db-assets/${buildCraftingAssetFolder(editFormData, "Result")}`} style={{ marginTop: 8 }} />
-                <small>Images upload into the station/module/recipe Required or Result folder.</small>
+                <small>Images upload into the flattened Station - Recipe Required or Result folder.</small>
               </div>
             </div>
 
@@ -3549,15 +3531,6 @@ export default function DatabasePage() {
           border: 1px solid var(--accent);
         }
         .filter-chip .remove-chip { cursor: pointer; font-weight: 700; opacity: 0.7; }
-        .results-info {
-          padding: 6px 16px;
-          font-size: 0.7rem;
-          color: var(--text-tertiary);
-          display: flex;
-          justify-content: space-between;
-          background: var(--bg-surface);
-          border-bottom: 1px solid var(--border-color);
-        }
         .crafting-recipes-ui {
           flex: 1;
           min-height: 0;
@@ -4919,7 +4892,7 @@ export default function DatabasePage() {
                   </>
                 ) : isCrafting ? (
                   <>
-                    <div className="filter-group"><label>Station</label><select value={craftingStationFilter} onChange={e => setCraftingStationFilter(e.target.value)}><option value="">All</option>{availableCraftingStationOptions.map(opt => <option key={opt} value={opt}>{opt}</option>)}</select></div>
+                    <div className="filter-group"><label>Station</label><select value={craftingStationFilter} onChange={e => setCraftingStationFilter(e.target.value)}><option value="">All</option>{craftingStationOptions.map(opt => <option key={opt} value={opt}>{opt}</option>)}</select></div>
                     <div className="filter-group"><label>Module</label><select value={craftingModuleFilter} onChange={e => setCraftingModuleFilter(e.target.value)}><option value="">All</option>{craftingModuleOptions.map(moduleName => <option key={moduleName} value={moduleName}>{moduleName}</option>)}</select></div>
                     <div className="filter-group"><label>Map Location</label>
                       <select value={craftingLocationFilter} onChange={e => setCraftingLocationFilter(e.target.value)}>
@@ -4927,7 +4900,7 @@ export default function DatabasePage() {
                         {craftingLocationOptions.map(loc => <option key={loc} value={loc}>{loc}</option>)}
                       </select>
                     </div>
-                    <div className="filter-group"><label>Sort by</label><select value={sortField || ""} onChange={e => setSortField(e.target.value || null)}><option value="">Station → Module</option><option value="name">Name</option><option value="craftingStation">Station → Module</option><option value="craftingModule">Module → Station</option></select></div>
+                    <div className="filter-group"><label>Sort by</label><select value={sortField || ""} onChange={e => setSortField(e.target.value || null)}><option value="">Recipe order</option><option value="name">Name</option><option value="craftingStation">Station</option><option value="craftingModule">Module</option></select></div>
                     <div className="filter-group"><label>Direction</label><select value={sortDirection} onChange={e => setSortDirection(e.target.value as any)}><option value="asc">Ascending</option><option value="desc">Descending</option></select></div>
                   </>
                 ) : isAchievements ? (
@@ -4965,8 +4938,6 @@ export default function DatabasePage() {
               </div>
             )}
           </div>
-
-          <div className="results-info"><span>Results: <strong>{filteredAndSortedData.length}</strong></span><span>{sortField ? `Sorted by ${sortField} ${sortDirection === "asc" ? "↑" : "↓"}` : ((isWeapons || isAmmo || isArmor || isMedicine || isPremium) ? `Sorted by price ${sortDirection === "asc" ? "↑" : "↓"}` : (isBestiary ? `Sorted by name ${sortDirection === "asc" ? "↑" : "↓"}` : ""))}</span></div>
 
           {canQuickUploadImage && (
             <input

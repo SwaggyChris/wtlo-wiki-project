@@ -38183,19 +38183,21 @@ const WTLO_DATABASE_DATA = {
   ],
   "crafting": [
     {
-      "name": "Campfire Kit",
+      "name": "Hard Leather",
       "type": "Recipe",
       "level": 0,
-      "detail": "Campfire Kit crafting recipe. Crafting station: Inventory. Module: Campfire recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": "Hard Leather crafting recipe. Station: Inventory. Module: Leatherworking - Beginner. Required: [2] Good boar skin; [4] Bottle of distilled water; [2] Vinegar; [5] Salt. Result: Hard leather.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
         "Recipe order: 1",
         "Crafting station: Inventory",
-        "Crafting module: Campfire recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Campfire recipes - Beginner/Campfire Kit/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Campfire recipes - Beginner/Campfire Kit/Result",
-        "Source: Crafting Recipes list"
+        "Crafting module: Leatherworking - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Hard Leather/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Hard Leather/Result",
+        "Required: [2] Good boar skin; [4] Bottle of distilled water; [2] Vinegar; [5] Salt",
+        "Result: Hard leather",
+        "Source: Pasted text(8).txt"
       ],
       "locations": [
         "Minayev's Territory",
@@ -38207,56 +38209,69 @@ const WTLO_DATABASE_DATA = {
         "Foothills"
       ],
       "craftingStation": "Inventory",
-      "craftingModule": "Campfire recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Campfire recipes - Beginner/Campfire Kit/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Campfire recipes - Beginner/Campfire Kit/Result",
+      "craftingModule": "Leatherworking - Beginner",
+      "craftingRecipeOrder": 1,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Hard Leather/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Hard Leather/Result",
       "craftingRequiredImages": [
         {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Campfire recipes - Beginner/Campfire Kit/Required/required-1.png",
-          "imageDesc": "Campfire Kit required ingredient 1"
+          "name": "Good boar skin",
+          "quantity": "2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Hard Leather/Required/T_Inventory_GoodBoarSkin.png",
+          "imageDesc": "T_Inventory_GoodBoarSkin.png"
         },
         {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Campfire recipes - Beginner/Campfire Kit/Required/required-2.png",
-          "imageDesc": "Campfire Kit required ingredient 2"
+          "name": "Bottle of distilled water",
+          "quantity": "4",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Hard Leather/Required/T_Inventory_Icon_BottleOfDistilledWater.png",
+          "imageDesc": "T_Inventory_Icon_BottleOfDistilledWater.png"
         },
         {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Campfire recipes - Beginner/Campfire Kit/Required/required-3.png",
-          "imageDesc": "Campfire Kit required ingredient 3"
+          "name": "Salt",
+          "quantity": "5",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Hard Leather/Required/T_Inventory_Icon_Salt.png",
+          "imageDesc": "T_Inventory_Icon_Salt.png"
         },
         {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Campfire recipes - Beginner/Campfire Kit/Required/required-4.png",
-          "imageDesc": "Campfire Kit required ingredient 4"
+          "name": "Vinegar",
+          "quantity": "2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Hard Leather/Required/T_Inventory_Icon_Vinegar.png",
+          "imageDesc": "T_Inventory_Icon_Vinegar.png"
         }
       ],
       "craftingResultImages": [
         {
-          "name": "Campfire Kit",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Campfire recipes - Beginner/Campfire Kit/Result/Campfire Kit.png",
-          "imageDesc": "Campfire Kit result image"
+          "name": "Hard leather",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Hard Leather/Result/T_Inventory_HardLeather.png",
+          "imageDesc": "T_Inventory_HardLeather.png"
         }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Campfire recipes - Beginner/Campfire Kit/Result/Campfire Kit.png",
-      "imageDesc": "Campfire Kit result image",
-      "effectImageUrl": ""
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Leatherworking - Beginner/Hard leather/Result/T_Inventory_HardLeather.png",
+      "imageDesc": "T_Inventory_HardLeather.png"
     },
     {
-      "name": "Lockpick blanks",
+      "name": "Healing Stimulator",
       "type": "Recipe",
       "level": 0,
-      "detail": "Lockpick blanks crafting recipe. Crafting station: Inventory. Module: Leatherworking - Beginner. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": "Healing Stimulator crafting recipe. Station: Inventory. Module: Pharmacist - Beginner. Required: Pharmacist-K; [1] Stingray gland; [1] Stingray skin; [5] Chamomile; [1] Small Container. Result: [1] Healing stimulator.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
         "Recipe order: 2",
         "Crafting station: Inventory",
-        "Crafting module: Leatherworking - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Leatherworking - Beginner/Lockpick blanks/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Leatherworking - Beginner/Lockpick blanks/Result",
-        "Source: Crafting Recipes list"
+        "Crafting module: Pharmacist - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Healing Stimulator/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Healing Stimulator/Result",
+        "Required: Pharmacist-K; [1] Stingray gland; [1] Stingray skin; [5] Chamomile; [1] Small Container",
+        "Result: [1] Healing stimulator",
+        "Source: Pasted text(8).txt"
       ],
       "locations": [
         "Minayev's Territory",
@@ -38268,235 +38283,289 @@ const WTLO_DATABASE_DATA = {
         "Foothills"
       ],
       "craftingStation": "Inventory",
-      "craftingModule": "Leatherworking - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Leatherworking - Beginner/Lockpick blanks/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Leatherworking - Beginner/Lockpick blanks/Result",
+      "craftingModule": "Pharmacist - Beginner",
+      "craftingRecipeOrder": 2,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Healing Stimulator/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Healing Stimulator/Result",
       "craftingRequiredImages": [
         {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Leatherworking - Beginner/Lockpick blanks/Required/required-1.png",
-          "imageDesc": "Lockpick blanks required ingredient 1"
+          "name": "Chamomile",
+          "quantity": "5",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Healing Stimulator/Required/T_Inventory_Camomile.png",
+          "imageDesc": "T_Inventory_Camomile.png"
         },
         {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Leatherworking - Beginner/Lockpick blanks/Required/required-2.png",
-          "imageDesc": "Lockpick blanks required ingredient 2"
+          "name": "Stingray gland",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Healing Stimulator/Required/T_Inventory_StingrayGland.png",
+          "imageDesc": "T_Inventory_StingrayGland.png"
         },
         {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Leatherworking - Beginner/Lockpick blanks/Required/required-3.png",
-          "imageDesc": "Lockpick blanks required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Leatherworking - Beginner/Lockpick blanks/Required/required-4.png",
-          "imageDesc": "Lockpick blanks required ingredient 4"
+          "name": "Stingray skin",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Healing Stimulator/Required/T_Inventory_StingraySkin.png",
+          "imageDesc": "T_Inventory_StingraySkin.png"
         }
       ],
       "craftingResultImages": [
         {
-          "name": "Lockpick blanks",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Leatherworking - Beginner/Lockpick blanks/Result/Lockpick blanks.png",
-          "imageDesc": "Lockpick blanks result image"
+          "name": "Healing stimulator",
+          "quantity": "1",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Healing Stimulator/Result/T_Inventory_Healing_Stimulator.png",
+          "imageDesc": "T_Inventory_Healing_Stimulator.png"
         }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Leatherworking - Beginner/Lockpick blanks/Result/Lockpick blanks.png",
-      "imageDesc": "Lockpick blanks result image"
-    },
-    {
-      "name": "Lockpick",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Lockpick crafting recipe. Crafting station: Inventory. Module: Leatherworking - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 3",
-        "Crafting station: Inventory",
-        "Crafting module: Leatherworking - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Leatherworking - Beginner/Lockpick/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Leatherworking - Beginner/Lockpick/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Inventory",
-      "craftingModule": "Leatherworking - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Leatherworking - Beginner/Lockpick/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Leatherworking - Beginner/Lockpick/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Leatherworking - Beginner/Lockpick/Required/required-1.png",
-          "imageDesc": "Lockpick required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Leatherworking - Beginner/Lockpick/Required/required-2.png",
-          "imageDesc": "Lockpick required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Leatherworking - Beginner/Lockpick/Required/required-3.png",
-          "imageDesc": "Lockpick required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Leatherworking - Beginner/Lockpick/Required/required-4.png",
-          "imageDesc": "Lockpick required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Lockpick",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Leatherworking - Beginner/Lockpick/Result/Lockpick.png",
-          "imageDesc": "Lockpick result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Leatherworking - Beginner/Lockpick/Result/Lockpick.png",
-      "imageDesc": "Lockpick result image"
-    },
-    {
-      "name": "Lead from battery",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Lead from battery crafting recipe. Crafting station: Inventory. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 4",
-        "Crafting station: Inventory",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Blacksmithing recipes - Beginner/Lead from battery/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Blacksmithing recipes - Beginner/Lead from battery/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Inventory",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Blacksmithing recipes - Beginner/Lead from battery/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Blacksmithing recipes - Beginner/Lead from battery/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Blacksmithing recipes - Beginner/Lead from battery/Required/required-1.png",
-          "imageDesc": "Lead from battery required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Blacksmithing recipes - Beginner/Lead from battery/Required/required-2.png",
-          "imageDesc": "Lead from battery required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Blacksmithing recipes - Beginner/Lead from battery/Required/required-3.png",
-          "imageDesc": "Lead from battery required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Blacksmithing recipes - Beginner/Lead from battery/Required/required-4.png",
-          "imageDesc": "Lead from battery required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Lead from battery",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Blacksmithing recipes - Beginner/Lead from battery/Result/Lead from battery.png",
-          "imageDesc": "Lead from battery result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Blacksmithing recipes - Beginner/Lead from battery/Result/Lead from battery.png",
-      "imageDesc": "Lead from battery result image"
-    },
-    {
-      "name": "Full Strange Map",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Full Strange Map crafting recipe. Crafting station: Inventory. Module: Fisherman recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 5",
-        "Crafting station: Inventory",
-        "Crafting module: Fisherman recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Fisherman recipes - Beginner/Full Strange Map/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Fisherman recipes - Beginner/Full Strange Map/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Inventory",
-      "craftingModule": "Fisherman recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Fisherman recipes - Beginner/Full Strange Map/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Fisherman recipes - Beginner/Full Strange Map/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Fisherman recipes - Beginner/Full Strange Map/Required/required-1.png",
-          "imageDesc": "Full Strange Map required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Fisherman recipes - Beginner/Full Strange Map/Required/required-2.png",
-          "imageDesc": "Full Strange Map required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Fisherman recipes - Beginner/Full Strange Map/Required/required-3.png",
-          "imageDesc": "Full Strange Map required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Fisherman recipes - Beginner/Full Strange Map/Required/required-4.png",
-          "imageDesc": "Full Strange Map required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Full Strange Map",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Fisherman recipes - Beginner/Full Strange Map/Result/Full Strange Map.png",
-          "imageDesc": "Full Strange Map result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Fisherman recipes - Beginner/Full Strange Map/Result/Full Strange Map.png",
-      "imageDesc": "Full Strange Map result image"
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Healing Stimulator/Result/T_Inventory_Healing_Stimulator.png",
+      "imageDesc": "T_Inventory_Healing_Stimulator.png"
     },
     {
       "name": "Pharmacist-K",
       "type": "Recipe",
       "level": 0,
-      "detail": "Pharmacist-K crafting recipe. Crafting station: Inventory. Module: Pharmacist - Beginner. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": "Pharmacist-K crafting recipe. Station: Inventory. Module: Pharmacist - Beginner.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 3",
+        "Crafting station: Inventory",
+        "Crafting module: Pharmacist - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Pharmacist-K/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Pharmacist-K/Result"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Inventory",
+      "craftingModule": "Pharmacist - Beginner",
+      "craftingNotes": [
+        "Added from the updated flattened Crafting Recipes asset directory."
+      ],
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Pharmacist-K/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Pharmacist-K/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Battery A2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Pharmacist-K/Required/T_Inventory_Icon_Battery_A2.png",
+          "imageDesc": "T_Inventory_Icon_Battery_A2.png"
+        },
+        {
+          "name": "DrawingExtractor",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Pharmacist-K/Required/T_Inventory_Icon_DrawingExtractor.png",
+          "imageDesc": "T_Inventory_Icon_DrawingExtractor.png"
+        },
+        {
+          "name": "Extractor",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Pharmacist-K/Required/T_Inventory_Icon_Extractor.png",
+          "imageDesc": "T_Inventory_Icon_Extractor.png"
+        },
+        {
+          "name": "Flask",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Pharmacist-K/Required/T_Inventory_Icon_Flask.png",
+          "imageDesc": "T_Inventory_Icon_Flask.png"
+        },
+        {
+          "name": "Tube",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Pharmacist-K/Required/T_Inventory_Icon_Tube.png",
+          "imageDesc": "T_Inventory_Icon_Tube.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Extractor",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Pharmacist-K/Result/T_Inventory_Icon_Extractor.png",
+          "imageDesc": "T_Inventory_Icon_Extractor.png"
+        }
+      ],
+      "craftingRecipeOrder": 3
+    },
+    {
+      "name": "Stimulator Awl",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Stimulator Awl crafting recipe. Station: Inventory. Module: Pharmacist - Beginner. Required: Pharmacist-K; [1] Vodka; [3] Lizard Venom; [1] Dracocephalum; [1] Small Container. Result: [1] Stimulator \"Awl\".",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 4",
+        "Crafting station: Inventory",
+        "Crafting module: Pharmacist - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Stimulator Awl/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Stimulator Awl/Result",
+        "Required: Pharmacist-K; [1] Vodka; [3] Lizard Venom; [1] Dracocephalum; [1] Small Container",
+        "Result: [1] Stimulator \"Awl\"",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Inventory",
+      "craftingModule": "Pharmacist - Beginner",
+      "craftingRecipeOrder": 4,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Stimulator Awl/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Stimulator Awl/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Dracocephalum",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Awl/Required/T_Inventory_Dracocephalum.png",
+          "imageDesc": "T_Inventory_Dracocephalum.png"
+        },
+        {
+          "name": "Extractor",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Awl/Required/T_Inventory_Icon_Extractor.png",
+          "imageDesc": "T_Inventory_Icon_Extractor.png"
+        },
+        {
+          "name": "Small Container",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Awl/Required/T_Inventory_Icon_SmallStimulatorContainer.png",
+          "imageDesc": "T_Inventory_Icon_SmallStimulatorContainer.png"
+        },
+        {
+          "name": "Vodka",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Awl/Required/T_Inventory_Icon_Vodka.png",
+          "imageDesc": "T_Inventory_Icon_Vodka.png"
+        },
+        {
+          "name": "Lizard Venom",
+          "quantity": "3",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Awl/Required/T_Inventory_LizzardVenom.png",
+          "imageDesc": "T_Inventory_LizzardVenom.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Stimulator \"Awl\"",
+          "quantity": "1",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Awl/Result/T_Inventory_Stimulator_Awl.png",
+          "imageDesc": "T_Inventory_Stimulator_Awl.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Awl/Result/T_Inventory_Stimulator_Awl.png",
+      "imageDesc": "T_Inventory_Stimulator_Awl.png"
+    },
+    {
+      "name": "Stimulator Fortuna",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Stimulator Fortuna crafting recipe. Station: Inventory. Module: Pharmacist - Fortuna. Required: Pharmacist-K; [20] Jelly biomaterial; [5] Calendula; [6] Big Lizard horn; [1] Small Container. Result: [1] Stimulator \"Fortuna\".",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 5",
+        "Crafting station: Inventory",
+        "Crafting module: Pharmacist - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Stimulator Fortuna/Require",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Stimulator Fortuna/Result",
+        "Required: Pharmacist-K; [20] Jelly biomaterial; [5] Calendula; [6] Big Lizard horn; [1] Small Container",
+        "Result: [1] Stimulator \"Fortuna\"",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Inventory",
+      "craftingModule": "Pharmacist - Beginner",
+      "craftingRecipeOrder": 5,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Stimulator Fortuna/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Stimulator Fortuna/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "BigLizzardHorn",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Fortuna/Require/T_Inventory_BigLizzardHorn.png",
+          "imageDesc": "T_Inventory_BigLizzardHorn.png"
+        },
+        {
+          "name": "Calendula",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Fortuna/Require/T_Inventory_Calendula.png",
+          "imageDesc": "T_Inventory_Calendula.png"
+        },
+        {
+          "name": "Extractor",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Fortuna/Require/T_Inventory_Icon_Extractor.png",
+          "imageDesc": "T_Inventory_Icon_Extractor.png"
+        },
+        {
+          "name": "SmallStimulatorContainer",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Fortuna/Require/T_Inventory_Icon_SmallStimulatorContainer.png",
+          "imageDesc": "T_Inventory_Icon_SmallStimulatorContainer.png"
+        },
+        {
+          "name": "Jelly Biomaterial",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Fortuna/Require/T_Inventory_Jelly_Biomaterial.png",
+          "imageDesc": "T_Inventory_Jelly_Biomaterial.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Fortuna",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Fortuna/Result/T_Inventory_Fortuna.png",
+          "imageDesc": "T_Inventory_Fortuna.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "",
+      "imageDesc": ""
+    },
+    {
+      "name": "Stimulator Mustang",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Stimulator Mustang crafting recipe. Station: Inventory. Module: Pharmacist - Mustang. Required: Pharmacist-K; [10] Yarrow; [5] Calendula; [2] Horn of a deer; [6] Toadstool; [1] Small Container. Result: [1] Stimulator \"Mustang\".",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
         "Recipe order: 6",
         "Crafting station: Inventory",
         "Crafting module: Pharmacist - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Pharmacist-K/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Pharmacist-K/Result",
-        "Source: Crafting Recipes list"
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Stimulator Mustang/Require",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Stimulator Mustang/Result",
+        "Required: Pharmacist-K; [10] Yarrow; [5] Calendula; [2] Horn of a deer; [6] Toadstool; [1] Small Container",
+        "Result: [1] Stimulator \"Mustang\"",
+        "Source: Pasted text(8).txt"
       ],
       "locations": [
         "Minayev's Territory",
@@ -38509,832 +38578,69 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Inventory",
       "craftingModule": "Pharmacist - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Pharmacist-K/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Pharmacist-K/Result",
+      "craftingRecipeOrder": 6,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Stimulator Mustang/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Stimulator Mustang/Result",
       "craftingRequiredImages": [
         {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Pharmacist-K/Required/required-1.png",
-          "imageDesc": "Pharmacist-K required ingredient 1"
+          "name": "Calendula",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Mustang/Require/T_Inventory_Calendula.png",
+          "imageDesc": "T_Inventory_Calendula.png"
         },
         {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Pharmacist-K/Required/required-2.png",
-          "imageDesc": "Pharmacist-K required ingredient 2"
+          "name": "Horn of a deer",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Mustang/Require/T_Inventory_Horn_of_a_deer.png",
+          "imageDesc": "T_Inventory_Horn_of_a_deer.png"
         },
         {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Pharmacist-K/Required/required-3.png",
-          "imageDesc": "Pharmacist-K required ingredient 3"
+          "name": "SmallStimulatorContainer",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Mustang/Require/T_Inventory_Icon_SmallStimulatorContainer.png",
+          "imageDesc": "T_Inventory_Icon_SmallStimulatorContainer.png"
         },
         {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Pharmacist-K/Required/required-4.png",
-          "imageDesc": "Pharmacist-K required ingredient 4"
+          "name": "Toadstool",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Mustang/Require/T_Inventory_Toadstool.png",
+          "imageDesc": "T_Inventory_Toadstool.png"
+        },
+        {
+          "name": "Yarrow",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Mustang/Require/T_Inventory_Yarrow.png",
+          "imageDesc": "T_Inventory_Yarrow.png"
         }
       ],
       "craftingResultImages": [
         {
-          "name": "Pharmacist-K",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Pharmacist-K/Result/Pharmacist-K.png",
-          "imageDesc": "Pharmacist-K result image"
+          "name": "Mustang",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Mustang/Result/T_Inventory_Mustang.png",
+          "imageDesc": "T_Inventory_Mustang.png"
         }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Pharmacist-K/Result/Pharmacist-K.png",
-      "imageDesc": "Pharmacist-K result image"
-    },
-    {
-      "name": "Smoke Grenade",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Smoke Grenade crafting recipe. Crafting station: Inventory. Module: Smoke Grenade. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 7",
-        "Crafting station: Inventory",
-        "Crafting module: Smoke Grenade",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Smoke Grenade/Smoke Grenade/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Smoke Grenade/Smoke Grenade/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Inventory",
-      "craftingModule": "Smoke Grenade",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Smoke Grenade/Smoke Grenade/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Smoke Grenade/Smoke Grenade/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Smoke Grenade/Smoke Grenade/Required/required-1.png",
-          "imageDesc": "Smoke Grenade required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Smoke Grenade/Smoke Grenade/Required/required-2.png",
-          "imageDesc": "Smoke Grenade required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Smoke Grenade/Smoke Grenade/Required/required-3.png",
-          "imageDesc": "Smoke Grenade required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Smoke Grenade/Smoke Grenade/Required/required-4.png",
-          "imageDesc": "Smoke Grenade required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Smoke Grenade",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Smoke Grenade/Smoke Grenade/Result/Smoke Grenade.png",
-          "imageDesc": "Smoke Grenade result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Smoke Grenade/Smoke Grenade/Result/Smoke Grenade.png",
-      "imageDesc": "Smoke Grenade result image"
-    },
-    {
-      "name": "Gas Grenade",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Gas Grenade crafting recipe. Crafting station: Inventory. Module: Gas Grenade. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 8",
-        "Crafting station: Inventory",
-        "Crafting module: Gas Grenade",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Gas Grenade/Gas Grenade/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Gas Grenade/Gas Grenade/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Inventory",
-      "craftingModule": "Gas Grenade",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Gas Grenade/Gas Grenade/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Gas Grenade/Gas Grenade/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Gas Grenade/Gas Grenade/Required/required-1.png",
-          "imageDesc": "Gas Grenade required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Gas Grenade/Gas Grenade/Required/required-2.png",
-          "imageDesc": "Gas Grenade required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Gas Grenade/Gas Grenade/Required/required-3.png",
-          "imageDesc": "Gas Grenade required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Gas Grenade/Gas Grenade/Required/required-4.png",
-          "imageDesc": "Gas Grenade required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Gas Grenade",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Gas Grenade/Gas Grenade/Result/Gas Grenade.png",
-          "imageDesc": "Gas Grenade result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Gas Grenade/Gas Grenade/Result/Gas Grenade.png",
-      "imageDesc": "Gas Grenade result image"
-    },
-    {
-      "name": "Hard Leather",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Hard Leather crafting recipe. Crafting station: Inventory. Module: Leatherworking - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 9",
-        "Crafting station: Inventory",
-        "Crafting module: Leatherworking - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Leatherworking - Beginner/Hard Leather/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Leatherworking - Beginner/Hard Leather/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Inventory",
-      "craftingModule": "Leatherworking - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Leatherworking - Beginner/Hard Leather/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Leatherworking - Beginner/Hard Leather/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Leatherworking - Beginner/Hard Leather/Required/required-1.png",
-          "imageDesc": "Hard Leather required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Leatherworking - Beginner/Hard Leather/Required/required-2.png",
-          "imageDesc": "Hard Leather required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Leatherworking - Beginner/Hard Leather/Required/required-3.png",
-          "imageDesc": "Hard Leather required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Leatherworking - Beginner/Hard Leather/Required/required-4.png",
-          "imageDesc": "Hard Leather required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Hard Leather",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Leatherworking - Beginner/Hard Leather/Result/Hard Leather.png",
-          "imageDesc": "Hard Leather result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Leatherworking - Beginner/Hard Leather/Result/Hard Leather.png",
-      "imageDesc": "Hard Leather result image"
-    },
-    {
-      "name": "Polymer Cloth",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Polymer Cloth crafting recipe. Crafting station: Furnace. Module: Polymers - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 10",
-        "Crafting station: Furnace",
-        "Crafting module: Polymers - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Furnace/Polymers - Beginner/Polymer Cloth/Required",
-        "Result folder: /db-assets/Crafting Recipes/Furnace/Polymers - Beginner/Polymer Cloth/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Furnace",
-      "craftingModule": "Polymers - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace/Polymers - Beginner/Polymer Cloth/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Furnace/Polymers - Beginner/Polymer Cloth/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Polymers - Beginner/Polymer Cloth/Required/required-1.png",
-          "imageDesc": "Polymer Cloth required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Polymers - Beginner/Polymer Cloth/Required/required-2.png",
-          "imageDesc": "Polymer Cloth required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Polymers - Beginner/Polymer Cloth/Required/required-3.png",
-          "imageDesc": "Polymer Cloth required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Polymers - Beginner/Polymer Cloth/Required/required-4.png",
-          "imageDesc": "Polymer Cloth required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Polymer Cloth",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Polymers - Beginner/Polymer Cloth/Result/Polymer Cloth.png",
-          "imageDesc": "Polymer Cloth result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Furnace/Polymers - Beginner/Polymer Cloth/Result/Polymer Cloth.png",
-      "imageDesc": "Polymer Cloth result image"
-    },
-    {
-      "name": "Anti-burn Salve",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Anti-burn Salve crafting recipe. Crafting station: Inventory. Module: Anti-burn salve recipe. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 11",
-        "Crafting station: Inventory",
-        "Crafting module: Anti-burn salve recipe",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Anti-burn salve recipe/Anti-burn Salve/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Anti-burn salve recipe/Anti-burn Salve/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Inventory",
-      "craftingModule": "Anti-burn salve recipe",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Anti-burn salve recipe/Anti-burn Salve/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Anti-burn salve recipe/Anti-burn Salve/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Anti-burn salve recipe/Anti-burn Salve/Required/required-1.png",
-          "imageDesc": "Anti-burn Salve required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Anti-burn salve recipe/Anti-burn Salve/Required/required-2.png",
-          "imageDesc": "Anti-burn Salve required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Anti-burn salve recipe/Anti-burn Salve/Required/required-3.png",
-          "imageDesc": "Anti-burn Salve required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Anti-burn salve recipe/Anti-burn Salve/Required/required-4.png",
-          "imageDesc": "Anti-burn Salve required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Anti-burn Salve",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Anti-burn salve recipe/Anti-burn Salve/Result/Anti-burn Salve.png",
-          "imageDesc": "Anti-burn Salve result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Anti-burn salve recipe/Anti-burn Salve/Result/Anti-burn Salve.png",
-      "imageDesc": "Anti-burn Salve result image"
-    },
-    {
-      "name": "Treated Firespider Shell",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Treated Firespider Shell crafting recipe. Crafting station: Furnace. Module: Chitin reinforced armor - Armor plates. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 12",
-        "Crafting station: Furnace",
-        "Crafting module: Chitin reinforced armor - Armor plates",
-        "Required folder: /db-assets/Crafting Recipes/Furnace/Chitin reinforced armor - Armor plates/Treated Firespider Shell/Required",
-        "Result folder: /db-assets/Crafting Recipes/Furnace/Chitin reinforced armor - Armor plates/Treated Firespider Shell/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Furnace",
-      "craftingModule": "Chitin reinforced armor - Armor plates",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace/Chitin reinforced armor - Armor plates/Treated Firespider Shell/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Furnace/Chitin reinforced armor - Armor plates/Treated Firespider Shell/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Chitin reinforced armor - Armor plates/Treated Firespider Shell/Required/required-1.png",
-          "imageDesc": "Treated Firespider Shell required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Chitin reinforced armor - Armor plates/Treated Firespider Shell/Required/required-2.png",
-          "imageDesc": "Treated Firespider Shell required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Chitin reinforced armor - Armor plates/Treated Firespider Shell/Required/required-3.png",
-          "imageDesc": "Treated Firespider Shell required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Chitin reinforced armor - Armor plates/Treated Firespider Shell/Required/required-4.png",
-          "imageDesc": "Treated Firespider Shell required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Treated Firespider Shell",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Chitin reinforced armor - Armor plates/Treated Firespider Shell/Result/Treated Firespider Shell.png",
-          "imageDesc": "Treated Firespider Shell result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Furnace/Chitin reinforced armor - Armor plates/Treated Firespider Shell/Result/Treated Firespider Shell.png",
-      "imageDesc": "Treated Firespider Shell result image"
-    },
-    {
-      "name": "Chitin Cloth",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Chitin Cloth crafting recipe. Crafting station: Press Machine. Module: Chitin reinforced armor - Armor plates. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 13",
-        "Crafting station: Press Machine",
-        "Crafting module: Chitin reinforced armor - Armor plates",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor - Armor plates/Chitin Cloth/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor - Armor plates/Chitin Cloth/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Chitin reinforced armor - Armor plates",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor - Armor plates/Chitin Cloth/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor - Armor plates/Chitin Cloth/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor - Armor plates/Chitin Cloth/Required/required-1.png",
-          "imageDesc": "Chitin Cloth required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor - Armor plates/Chitin Cloth/Required/required-2.png",
-          "imageDesc": "Chitin Cloth required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor - Armor plates/Chitin Cloth/Required/required-3.png",
-          "imageDesc": "Chitin Cloth required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor - Armor plates/Chitin Cloth/Required/required-4.png",
-          "imageDesc": "Chitin Cloth required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Chitin Cloth",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor - Armor plates/Chitin Cloth/Result/Chitin Cloth.png",
-          "imageDesc": "Chitin Cloth result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor - Armor plates/Chitin Cloth/Result/Chitin Cloth.png",
-      "imageDesc": "Chitin Cloth result image"
-    },
-    {
-      "name": "Leather Reinforce Jacket",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Leather Reinforce Jacket crafting recipe. Crafting station: Press Machine. Module: Leather reinforced armor - Jacket. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 14",
-        "Crafting station: Press Machine",
-        "Crafting module: Leather reinforced armor - Jacket",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Leather reinforced armor - Jacket/Leather Reinforce Jacket/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Leather reinforced armor - Jacket/Leather Reinforce Jacket/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Leather reinforced armor - Jacket",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Leather reinforced armor - Jacket/Leather Reinforce Jacket/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Leather reinforced armor - Jacket/Leather Reinforce Jacket/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Leather reinforced armor - Jacket/Leather Reinforce Jacket/Required/required-1.png",
-          "imageDesc": "Leather Reinforce Jacket required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Leather reinforced armor - Jacket/Leather Reinforce Jacket/Required/required-2.png",
-          "imageDesc": "Leather Reinforce Jacket required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Leather reinforced armor - Jacket/Leather Reinforce Jacket/Required/required-3.png",
-          "imageDesc": "Leather Reinforce Jacket required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Leather reinforced armor - Jacket/Leather Reinforce Jacket/Required/required-4.png",
-          "imageDesc": "Leather Reinforce Jacket required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Leather Reinforce Jacket",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Leather reinforced armor - Jacket/Leather Reinforce Jacket/Result/Leather Reinforce Jacket.png",
-          "imageDesc": "Leather Reinforce Jacket result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Leather reinforced armor - Jacket/Leather Reinforce Jacket/Result/Leather Reinforce Jacket.png",
-      "imageDesc": "Leather Reinforce Jacket result image"
-    },
-    {
-      "name": "Chitin Reinforce Pants",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Chitin Reinforce Pants crafting recipe. Crafting station: Press Machine. Module: Chitin reinforced armor - Trousers. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 15",
-        "Crafting station: Press Machine",
-        "Crafting module: Chitin reinforced armor - Trousers",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor - Trousers/Chitin Reinforce Pants/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor - Trousers/Chitin Reinforce Pants/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Chitin reinforced armor - Trousers",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor - Trousers/Chitin Reinforce Pants/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor - Trousers/Chitin Reinforce Pants/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor - Trousers/Chitin Reinforce Pants/Required/required-1.png",
-          "imageDesc": "Chitin Reinforce Pants required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor - Trousers/Chitin Reinforce Pants/Required/required-2.png",
-          "imageDesc": "Chitin Reinforce Pants required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor - Trousers/Chitin Reinforce Pants/Required/required-3.png",
-          "imageDesc": "Chitin Reinforce Pants required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor - Trousers/Chitin Reinforce Pants/Required/required-4.png",
-          "imageDesc": "Chitin Reinforce Pants required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Chitin Reinforce Pants",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor - Trousers/Chitin Reinforce Pants/Result/Chitin Reinforce Pants.png",
-          "imageDesc": "Chitin Reinforce Pants result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor - Trousers/Chitin Reinforce Pants/Result/Chitin Reinforce Pants.png",
-      "imageDesc": "Chitin Reinforce Pants result image"
-    },
-    {
-      "name": "Chitin Reinforce Jacket",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Chitin Reinforce Jacket crafting recipe. Crafting station: Press Machine. Module: Chitin reinforced armor - Jacket. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 16",
-        "Crafting station: Press Machine",
-        "Crafting module: Chitin reinforced armor - Jacket",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor - Jacket/Chitin Reinforce Jacket/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor - Jacket/Chitin Reinforce Jacket/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Chitin reinforced armor - Jacket",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor - Jacket/Chitin Reinforce Jacket/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor - Jacket/Chitin Reinforce Jacket/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor - Jacket/Chitin Reinforce Jacket/Required/required-1.png",
-          "imageDesc": "Chitin Reinforce Jacket required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor - Jacket/Chitin Reinforce Jacket/Required/required-2.png",
-          "imageDesc": "Chitin Reinforce Jacket required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor - Jacket/Chitin Reinforce Jacket/Required/required-3.png",
-          "imageDesc": "Chitin Reinforce Jacket required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor - Jacket/Chitin Reinforce Jacket/Required/required-4.png",
-          "imageDesc": "Chitin Reinforce Jacket required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Chitin Reinforce Jacket",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor - Jacket/Chitin Reinforce Jacket/Result/Chitin Reinforce Jacket.png",
-          "imageDesc": "Chitin Reinforce Jacket result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor - Jacket/Chitin Reinforce Jacket/Result/Chitin Reinforce Jacket.png",
-      "imageDesc": "Chitin Reinforce Jacket result image"
-    },
-    {
-      "name": "Stimulator Awl",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Stimulator Awl crafting recipe. Crafting station: Inventory. Module: Pharmacist - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 17",
-        "Crafting station: Inventory",
-        "Crafting module: Pharmacist - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Awl/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Awl/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Inventory",
-      "craftingModule": "Pharmacist - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Awl/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Awl/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Awl/Required/required-1.png",
-          "imageDesc": "Stimulator Awl required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Awl/Required/required-2.png",
-          "imageDesc": "Stimulator Awl required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Awl/Required/required-3.png",
-          "imageDesc": "Stimulator Awl required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Awl/Required/required-4.png",
-          "imageDesc": "Stimulator Awl required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Stimulator Awl",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Awl/Result/Stimulator Awl.png",
-          "imageDesc": "Stimulator Awl result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Awl/Result/Stimulator Awl.png",
-      "imageDesc": "Stimulator Awl result image"
-    },
-    {
-      "name": "Stimulator Tough Guy",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Stimulator Tough Guy crafting recipe. Crafting station: Inventory. Module: Pharmacist - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 18",
-        "Crafting station: Inventory",
-        "Crafting module: Pharmacist - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Tough Guy/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Tough Guy/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Inventory",
-      "craftingModule": "Pharmacist - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Tough Guy/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Tough Guy/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Tough Guy/Required/required-1.png",
-          "imageDesc": "Stimulator Tough Guy required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Tough Guy/Required/required-2.png",
-          "imageDesc": "Stimulator Tough Guy required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Tough Guy/Required/required-3.png",
-          "imageDesc": "Stimulator Tough Guy required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Tough Guy/Required/required-4.png",
-          "imageDesc": "Stimulator Tough Guy required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Stimulator Tough Guy",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Tough Guy/Result/Stimulator Tough Guy.png",
-          "imageDesc": "Stimulator Tough Guy result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Tough Guy/Result/Stimulator Tough Guy.png",
-      "imageDesc": "Stimulator Tough Guy result image"
-    },
-    {
-      "name": "Healing Stimulator",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Healing Stimulator crafting recipe. Crafting station: Inventory. Module: Pharmacist - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 19",
-        "Crafting station: Inventory",
-        "Crafting module: Pharmacist - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Healing Stimulator/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Healing Stimulator/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Inventory",
-      "craftingModule": "Pharmacist - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Healing Stimulator/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Healing Stimulator/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Healing Stimulator/Required/required-1.png",
-          "imageDesc": "Healing Stimulator required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Healing Stimulator/Required/required-2.png",
-          "imageDesc": "Healing Stimulator required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Healing Stimulator/Required/required-3.png",
-          "imageDesc": "Healing Stimulator required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Healing Stimulator/Required/required-4.png",
-          "imageDesc": "Healing Stimulator required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Healing Stimulator",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Healing Stimulator/Result/Healing Stimulator.png",
-          "imageDesc": "Healing Stimulator result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Healing Stimulator/Result/Healing Stimulator.png",
-      "imageDesc": "Healing Stimulator result image"
+      "craftingNotes": [],
+      "imageUrl": "",
+      "imageDesc": ""
     },
     {
       "name": "Stimulator Smart-ass",
       "type": "Recipe",
       "level": 0,
-      "detail": "Stimulator Smart-ass crafting recipe. Crafting station: Inventory. Module: Pharmacist - Beginner. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": "Stimulator Smart-ass crafting recipe. Station: Inventory. Module: Pharmacist - Smart-ass. Required: Pharmacist-K; [5] Carp brains; [3] Fish Fat; [1] Radioactive metal; [1] Small Container. Result: [1] Stimulator \"Smart-ass\".",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 20",
+        "Recipe order: 7",
         "Crafting station: Inventory",
         "Crafting module: Pharmacist - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Smart-ass/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Smart-ass/Result",
-        "Source: Crafting Recipes list"
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Stimulator Smart-ass/Require",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Stimulator Smart-ass/Result",
+        "Required: Pharmacist-K; [5] Carp brains; [3] Fish Fat; [1] Radioactive metal; [1] Small Container",
+        "Result: [1] Stimulator \"Smart-ass\"",
+        "Source: Pasted text(8).txt"
       ],
       "locations": [
         "Minayev's Territory",
@@ -39347,54 +38653,69 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Inventory",
       "craftingModule": "Pharmacist - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Smart-ass/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Smart-ass/Result",
+      "craftingRecipeOrder": 7,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Stimulator Smart-ass/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Stimulator Smart-ass/Result",
       "craftingRequiredImages": [
         {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Smart-ass/Required/required-1.png",
-          "imageDesc": "Stimulator Smart-ass required ingredient 1"
+          "name": "CarpBrains",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Smart-ass/Require/T_Inventory_Icon_CarpBrains.png",
+          "imageDesc": "T_Inventory_Icon_CarpBrains.png"
         },
         {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Smart-ass/Required/required-2.png",
-          "imageDesc": "Stimulator Smart-ass required ingredient 2"
+          "name": "Extractor",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Smart-ass/Require/T_Inventory_Icon_Extractor.png",
+          "imageDesc": "T_Inventory_Icon_Extractor.png"
         },
         {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Smart-ass/Required/required-3.png",
-          "imageDesc": "Stimulator Smart-ass required ingredient 3"
+          "name": "Fish Fat",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Smart-ass/Require/T_Inventory_Icon_Fish_Fat.png",
+          "imageDesc": "T_Inventory_Icon_Fish_Fat.png"
         },
         {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Smart-ass/Required/required-4.png",
-          "imageDesc": "Stimulator Smart-ass required ingredient 4"
+          "name": "SmallStimulatorContainer",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Smart-ass/Require/T_Inventory_Icon_SmallStimulatorContainer.png",
+          "imageDesc": "T_Inventory_Icon_SmallStimulatorContainer.png"
+        },
+        {
+          "name": "RadioactiveMetal",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Smart-ass/Require/T_Inventory_RadioactiveMetal.png",
+          "imageDesc": "T_Inventory_RadioactiveMetal.png"
         }
       ],
       "craftingResultImages": [
         {
-          "name": "Stimulator Smart-ass",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Smart-ass/Result/Stimulator Smart-ass.png",
-          "imageDesc": "Stimulator Smart-ass result image"
+          "name": "Smart-Ass",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Smart-ass/Result/T_Inventory_Smart-Ass.png",
+          "imageDesc": "T_Inventory_Smart-Ass.png"
         }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Smart-ass/Result/Stimulator Smart-ass.png",
-      "imageDesc": "Stimulator Smart-ass result image"
+      "craftingNotes": [],
+      "imageUrl": "",
+      "imageDesc": ""
     },
     {
-      "name": "Stimulator Mustang",
+      "name": "Stimulator Tough Guy",
       "type": "Recipe",
       "level": 0,
-      "detail": "Stimulator Mustang crafting recipe. Crafting station: Inventory. Module: Pharmacist - Beginner. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": "Stimulator Tough Guy crafting recipe. Station: Inventory. Module: Pharmacist - Beginner. Required: Pharmacist-K; [1] Bear Heart; [10] Calendula; [5] Dracocephalum; [1] Small Container; [2] Belch Bog gland; [1] Bear biomaterial. Result: [1] Stimulator \"Tough guy\".",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 21",
+        "Recipe order: 8",
         "Crafting station: Inventory",
         "Crafting module: Pharmacist - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Mustang/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Mustang/Result",
-        "Source: Crafting Recipes list"
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Stimulator Tough Guy/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Stimulator Tough Guy/Result",
+        "Required: Pharmacist-K; [1] Bear Heart; [10] Calendula; [5] Dracocephalum; [1] Small Container; [2] Belch Bog gland; [1] Bear biomaterial",
+        "Result: [1] Stimulator \"Tough guy\"",
+        "Source: Pasted text(8).txt"
       ],
       "locations": [
         "Minayev's Territory",
@@ -39407,233 +38728,87 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Inventory",
       "craftingModule": "Pharmacist - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Mustang/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Mustang/Result",
+      "craftingRecipeOrder": 8,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Stimulator Tough Guy/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Stimulator Tough Guy/Result",
       "craftingRequiredImages": [
         {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Mustang/Required/required-1.png",
-          "imageDesc": "Stimulator Mustang required ingredient 1"
+          "name": "Bear biomaterial",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Tough Guy/Required/T_Inventory_BearBiomaterial.png",
+          "imageDesc": "T_Inventory_BearBiomaterial.png"
         },
         {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Mustang/Required/required-2.png",
-          "imageDesc": "Stimulator Mustang required ingredient 2"
+          "name": "Bear Heart",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Tough Guy/Required/T_Inventory_BearHeart.png",
+          "imageDesc": "T_Inventory_BearHeart.png"
         },
         {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Mustang/Required/required-3.png",
-          "imageDesc": "Stimulator Mustang required ingredient 3"
+          "name": "Calendula",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Tough Guy/Required/T_Inventory_Calendula.png",
+          "imageDesc": "T_Inventory_Calendula.png"
         },
         {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Mustang/Required/required-4.png",
-          "imageDesc": "Stimulator Mustang required ingredient 4"
+          "name": "Creepy Gland",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Tough Guy/Required/T_Inventory_Creepy_Gland.png",
+          "imageDesc": "T_Inventory_Creepy_Gland.png"
+        },
+        {
+          "name": "Dracocephalum",
+          "quantity": "5",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Tough Guy/Required/T_Inventory_Dracocephalum.png",
+          "imageDesc": "T_Inventory_Dracocephalum.png"
+        },
+        {
+          "name": "Extractor",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Tough Guy/Required/T_Inventory_Icon_Extractor.png",
+          "imageDesc": "T_Inventory_Icon_Extractor.png"
+        },
+        {
+          "name": "Small Container",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Tough Guy/Required/T_Inventory_Icon_SmallStimulatorContainer.png",
+          "imageDesc": "T_Inventory_Icon_SmallStimulatorContainer.png"
         }
       ],
       "craftingResultImages": [
         {
-          "name": "Stimulator Mustang",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Mustang/Result/Stimulator Mustang.png",
-          "imageDesc": "Stimulator Mustang result image"
+          "name": "Stimulator \"Tough guy\"",
+          "quantity": "1",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Stimulator Tough Guy/Result/T_Inventory_Stimulator_ToughGuy.png",
+          "imageDesc": "T_Inventory_Stimulator_ToughGuy.png"
         }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Mustang/Result/Stimulator Mustang.png",
-      "imageDesc": "Stimulator Mustang result image"
-    },
-    {
-      "name": "Stimulator Fortuna",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Stimulator Fortuna crafting recipe. Crafting station: Inventory. Module: Pharmacist - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 22",
-        "Crafting station: Inventory",
-        "Crafting module: Pharmacist - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Fortuna/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Fortuna/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Inventory",
-      "craftingModule": "Pharmacist - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Fortuna/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Fortuna/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Fortuna/Required/required-1.png",
-          "imageDesc": "Stimulator Fortuna required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Fortuna/Required/required-2.png",
-          "imageDesc": "Stimulator Fortuna required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Fortuna/Required/required-3.png",
-          "imageDesc": "Stimulator Fortuna required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Fortuna/Required/required-4.png",
-          "imageDesc": "Stimulator Fortuna required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Stimulator Fortuna",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Fortuna/Result/Stimulator Fortuna.png",
-          "imageDesc": "Stimulator Fortuna result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Fortuna/Result/Stimulator Fortuna.png",
-      "imageDesc": "Stimulator Fortuna result image"
-    },
-    {
-      "name": "Small Glass Tubes",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Small Glass Tubes crafting recipe. Crafting station: Furnace. Module: Pharmacist - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 23",
-        "Crafting station: Furnace",
-        "Crafting module: Pharmacist - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Furnace/Pharmacist - Beginner/Small Glass Tubes/Required",
-        "Result folder: /db-assets/Crafting Recipes/Furnace/Pharmacist - Beginner/Small Glass Tubes/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Furnace",
-      "craftingModule": "Pharmacist - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace/Pharmacist - Beginner/Small Glass Tubes/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Furnace/Pharmacist - Beginner/Small Glass Tubes/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Pharmacist - Beginner/Small Glass Tubes/Required/required-1.png",
-          "imageDesc": "Small Glass Tubes required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Pharmacist - Beginner/Small Glass Tubes/Required/required-2.png",
-          "imageDesc": "Small Glass Tubes required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Pharmacist - Beginner/Small Glass Tubes/Required/required-3.png",
-          "imageDesc": "Small Glass Tubes required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Pharmacist - Beginner/Small Glass Tubes/Required/required-4.png",
-          "imageDesc": "Small Glass Tubes required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Small Glass Tubes",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Pharmacist - Beginner/Small Glass Tubes/Result/Small Glass Tubes.png",
-          "imageDesc": "Small Glass Tubes result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Furnace/Pharmacist - Beginner/Small Glass Tubes/Result/Small Glass Tubes.png",
-      "imageDesc": "Small Glass Tubes result image"
-    },
-    {
-      "name": "Small Stimulator Container",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Small Stimulator Container crafting recipe. Crafting station: Press Machine. Module: Pharmacist - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 24",
-        "Crafting station: Press Machine",
-        "Crafting module: Pharmacist - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Pharmacist - Beginner/Small Stimulator Container/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Pharmacist - Beginner/Small Stimulator Container/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Pharmacist - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Pharmacist - Beginner/Small Stimulator Container/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Pharmacist - Beginner/Small Stimulator Container/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Pharmacist - Beginner/Small Stimulator Container/Required/required-1.png",
-          "imageDesc": "Small Stimulator Container required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Pharmacist - Beginner/Small Stimulator Container/Required/required-2.png",
-          "imageDesc": "Small Stimulator Container required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Pharmacist - Beginner/Small Stimulator Container/Required/required-3.png",
-          "imageDesc": "Small Stimulator Container required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Pharmacist - Beginner/Small Stimulator Container/Required/required-4.png",
-          "imageDesc": "Small Stimulator Container required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Small Stimulator Container",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Pharmacist - Beginner/Small Stimulator Container/Result/Small Stimulator Container.png",
-          "imageDesc": "Small Stimulator Container result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Pharmacist - Beginner/Small Stimulator Container/Result/Small Stimulator Container.png",
-      "imageDesc": "Small Stimulator Container result image"
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Pharmacist - Beginner/Stimulator Tough Guy/Result/T_Inventory_Stimulator_ToughGuy.png",
+      "imageDesc": "T_Inventory_Stimulator_ToughGuy.png"
     },
     {
       "name": "Coal Filter",
       "type": "Recipe",
       "level": 0,
-      "detail": "Coal Filter crafting recipe. Crafting station: Inventory. Module: Coal filter. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": "Coal Filter crafting recipe. Station: Inventory. Module: Coal filter. Required: [3] Charcoal; [1] Bandage; [1] Small Antidote; [1] Small Chemical Antidote; [1] Bottle of distilled water. Result: Coal Filter.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 25",
+        "Recipe order: 9",
         "Crafting station: Inventory",
         "Crafting module: Coal filter",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Coal filter/Coal Filter/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Coal filter/Coal Filter/Result",
-        "Source: Crafting Recipes list"
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Coal Filter/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Coal Filter/Result",
+        "Required: [3] Charcoal; [1] Bandage; [1] Small Antidote; [1] Small Chemical Antidote; [1] Bottle of distilled water",
+        "Result: Coal Filter",
+        "Source: Pasted text(8).txt"
       ],
       "locations": [
         "Minayev's Territory",
@@ -39646,54 +38821,1709 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Inventory",
       "craftingModule": "Coal filter",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Coal filter/Coal Filter/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Coal filter/Coal Filter/Result",
+      "craftingRecipeOrder": 9,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Coal Filter/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Coal Filter/Result",
       "craftingRequiredImages": [
         {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Coal filter/Coal Filter/Required/required-1.png",
-          "imageDesc": "Coal Filter required ingredient 1"
+          "name": "Antidot",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Coal Filter/Required/T_Inventory_Antidot.png",
+          "imageDesc": "T_Inventory_Antidot.png"
         },
         {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Coal filter/Coal Filter/Required/required-2.png",
-          "imageDesc": "Coal Filter required ingredient 2"
+          "name": "Bandage",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Coal Filter/Required/T_Inventory_Bandage.png",
+          "imageDesc": "T_Inventory_Bandage.png"
         },
         {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Coal filter/Coal Filter/Required/required-3.png",
-          "imageDesc": "Coal Filter required ingredient 3"
+          "name": "Charcoal",
+          "quantity": "3",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Coal Filter/Required/T_Inventory_Charcoal.png",
+          "imageDesc": "T_Inventory_Charcoal.png"
         },
         {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Coal filter/Coal Filter/Required/required-4.png",
-          "imageDesc": "Coal Filter required ingredient 4"
+          "name": "Bottle of distilled water",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Coal Filter/Required/T_Inventory_Icon_BottleOfDistilledWater.png",
+          "imageDesc": "T_Inventory_Icon_BottleOfDistilledWater.png"
+        },
+        {
+          "name": "Small Chemical Antidote",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Coal Filter/Required/T_Inventory_Small_Chemical_Antidot.png",
+          "imageDesc": "T_Inventory_Small_Chemical_Antidot.png"
         }
       ],
       "craftingResultImages": [
         {
           "name": "Coal Filter",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Coal filter/Coal Filter/Result/Coal Filter.png",
-          "imageDesc": "Coal Filter result image"
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Coal Filter/Result/T_Inventory_Icon_CoalFilter.png",
+          "imageDesc": "T_Inventory_Icon_CoalFilter.png"
         }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Coal filter/Coal Filter/Result/Coal Filter.png",
-      "imageDesc": "Coal Filter result image"
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Coal Filter/Result/T_Inventory_Icon_CoalFilter.png",
+      "imageDesc": "T_Inventory_Icon_CoalFilter.png"
     },
     {
-      "name": "Gasoline Filter",
+      "name": "Smoke Grenade",
       "type": "Recipe",
       "level": 0,
-      "detail": "Gasoline Filter crafting recipe. Crafting station: Inventory. Module: Gasoline filter. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": "Smoke Grenade crafting recipe. Station: Inventory. Module: Smoke grenade. Required: [1] Paper; [1] Newspaper; [1] Nitre; [1] Matches; [1] Bottle of distilled water. Result: Smoke Grenade.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 10",
+        "Crafting station: Inventory",
+        "Crafting module: Smoke Grenade",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Smoke Grenade/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Smoke Grenade/Result",
+        "Required: [1] Paper; [1] Newspaper; [1] Nitre; [1] Matches; [1] Bottle of distilled water",
+        "Result: Smoke Grenade",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Inventory",
+      "craftingModule": "Smoke Grenade",
+      "craftingRecipeOrder": 10,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Smoke Grenade/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Smoke Grenade/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Bottle of distilled water",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Smoke Grenade/Required/T_Inventory_Icon_BottleOfDistilledWater.png",
+          "imageDesc": "T_Inventory_Icon_BottleOfDistilledWater.png"
+        },
+        {
+          "name": "Matches",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Smoke Grenade/Required/T_Inventory_Icon_Matches.png",
+          "imageDesc": "T_Inventory_Icon_Matches.png"
+        },
+        {
+          "name": "Newspaper",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Smoke Grenade/Required/T_Inventory_Icon_Newspaper.png",
+          "imageDesc": "T_Inventory_Icon_Newspaper.png"
+        },
+        {
+          "name": "Nitre",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Smoke Grenade/Required/T_Inventory_Icon_Nitre.png",
+          "imageDesc": "T_Inventory_Icon_Nitre.png"
+        },
+        {
+          "name": "ThickPaper",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Smoke Grenade/Required/T_Inventory_Icon_ThickPaper.png",
+          "imageDesc": "T_Inventory_Icon_ThickPaper.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Smoke Grenade",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Smoke Grenade/Result/T_Inventory_Icon_RDG-2B.png",
+          "imageDesc": "T_Inventory_Icon_RDG-2B.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Smoke Grenade/Result/T_Inventory_Icon_RDG-2B.png",
+      "imageDesc": "T_Inventory_Icon_RDG-2B.png"
+    },
+    {
+      "name": "Gas Grenade",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Gas Grenade crafting recipe. Station: Inventory. Module: Gas grenade. Required: [1] Paper; [1] Newspaper; [1] Lizard Venom; [1] Matches; [1] Plastic Bottle. Result: Gas Grenade.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 11",
+        "Crafting station: Inventory",
+        "Crafting module: Gas Grenade",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Gas Grenade/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Gas Grenade/Result",
+        "Required: [1] Paper; [1] Newspaper; [1] Lizard Venom; [1] Matches; [1] Plastic Bottle",
+        "Result: Gas Grenade",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Inventory",
+      "craftingModule": "Gas Grenade",
+      "craftingRecipeOrder": 11,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Gas Grenade/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Gas Grenade/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Matches",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Gas Grenade/Required/T_Inventory_Icon_Matches.png",
+          "imageDesc": "T_Inventory_Icon_Matches.png"
+        },
+        {
+          "name": "Newspaper",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Gas Grenade/Required/T_Inventory_Icon_Newspaper.png",
+          "imageDesc": "T_Inventory_Icon_Newspaper.png"
+        },
+        {
+          "name": "Plastic Bottle",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Gas Grenade/Required/T_Inventory_Icon_PlasticBottle.png",
+          "imageDesc": "T_Inventory_Icon_PlasticBottle.png"
+        },
+        {
+          "name": "ThickPaper",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Gas Grenade/Required/T_Inventory_Icon_ThickPaper.png",
+          "imageDesc": "T_Inventory_Icon_ThickPaper.png"
+        },
+        {
+          "name": "Lizard Venom",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Gas Grenade/Required/T_Inventory_LizzardVenom.png",
+          "imageDesc": "T_Inventory_LizzardVenom.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Gas Grenade",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Gas Grenade/Result/T_Inventory_Icon_GasGrenade.png",
+          "imageDesc": "T_Inventory_Icon_GasGrenade.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Gas Grenade/Result/T_Inventory_Icon_GasGrenade.png",
+      "imageDesc": "T_Inventory_Icon_GasGrenade.png"
+    },
+    {
+      "name": "Full Strange Map",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Full Strange Map crafting recipe. Station: Inventory. Module: Energy Modules - Beginner.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 12",
+        "Crafting station: Inventory",
+        "Crafting module: Energy Modules - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Full Strange Map/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Full Strange Map/Result"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Inventory",
+      "craftingModule": "Energy Modules - Beginner",
+      "craftingNotes": [
+        "Added from the updated flattened Crafting Recipes asset directory."
+      ],
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Full Strange Map/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Full Strange Map/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Insulating Tape",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Full Strange Map/Required/T_Inventory_Icon_Insulating_Tape.png",
+          "imageDesc": "T_Inventory_Icon_Insulating_Tape.png"
+        },
+        {
+          "name": "Part map01",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Full Strange Map/Required/T_Inventory_Icon_Part_map01.png",
+          "imageDesc": "T_Inventory_Icon_Part_map01.png"
+        },
+        {
+          "name": "Part map02",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Full Strange Map/Required/T_Inventory_Icon_Part_map02.png",
+          "imageDesc": "T_Inventory_Icon_Part_map02.png"
+        },
+        {
+          "name": "Part map03",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Full Strange Map/Required/T_Inventory_Icon_Part_map03.png",
+          "imageDesc": "T_Inventory_Icon_Part_map03.png"
+        },
+        {
+          "name": "Part map04",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Full Strange Map/Required/T_Inventory_Icon_Part_map04.png",
+          "imageDesc": "T_Inventory_Icon_Part_map04.png"
+        },
+        {
+          "name": "Part map05",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Full Strange Map/Required/T_Inventory_Icon_Part_map05.png",
+          "imageDesc": "T_Inventory_Icon_Part_map05.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Full map",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Full Strange Map/Result/T_Inventory_Icon_Full_map.png",
+          "imageDesc": "T_Inventory_Icon_Full_map.png"
+        }
+      ],
+      "craftingRecipeOrder": 12
+    },
+    {
+      "name": "Armor Modification Kit",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Armor Modification Kit crafting recipe. Station: Inventory. Module: Armor Modification. Required: [1] Armor modification blueprint; [100] Armor modification parts; [10] NDP Polymer; [20] Rubber; [20] Hard Plastic; [100] Titanium Powder. Result: Armor modification kit.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 13",
+        "Crafting station: Inventory",
+        "Crafting module: Weapon Modification",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Armor Modification Kit/Require",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Armor Modification Kit/Result",
+        "Required: [1] Armor modification blueprint; [100] Armor modification parts; [10] NDP Polymer; [20] Rubber; [20] Hard Plastic; [100] Titanium Powder",
+        "Result: Armor modification kit",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Inventory",
+      "craftingModule": "Weapon Modification",
+      "craftingRecipeOrder": 13,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Armor Modification Kit/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Armor Modification Kit/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Armor ModificationParts",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Armor Modification Kit/Require/T_Armor_ModificationParts.png",
+          "imageDesc": "T_Armor_ModificationParts.png"
+        },
+        {
+          "name": "NDP Polymer",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Armor Modification Kit/Require/T_Inventory_NDP_Polymer.png",
+          "imageDesc": "T_Inventory_NDP_Polymer.png"
+        },
+        {
+          "name": "Rubber",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Armor Modification Kit/Require/T_Inventory_Rubber.png",
+          "imageDesc": "T_Inventory_Rubber.png"
+        },
+        {
+          "name": "StrongPlastic",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Armor Modification Kit/Require/T_Inventory_StrongPlastic.png",
+          "imageDesc": "T_Inventory_StrongPlastic.png"
+        },
+        {
+          "name": "Titanium Powder",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Armor Modification Kit/Require/T_Inventory_Titanium_Powder.png",
+          "imageDesc": "T_Inventory_Titanium_Powder.png"
+        },
+        {
+          "name": "InventoryIcon ArmorModificationBlueprint",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Armor Modification Kit/Require/T_InventoryIcon_ArmorModificationBlueprint.png",
+          "imageDesc": "T_InventoryIcon_ArmorModificationBlueprint.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "ClothesModificationKit",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Armor Modification Kit/Result/T_Inventory_Icon_ClothesModificationKit.png",
+          "imageDesc": "T_Inventory_Icon_ClothesModificationKit.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "",
+      "imageDesc": ""
+    },
+    {
+      "name": "Assault Rifle Modification Kit - Accuracy",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Assault Rifle Modification Kit - Accuracy crafting recipe. Station: Inventory. Module: Weapon modification. Required: [1] Assault Rifle modification blueprint - Accuracy; [20] Assault Rifle modification parts - Damage; [70] Assault Rifle modification parts - Accuracy; [10] Assault Rifle modification parts - Durability; [10] NDP Polymer; [20] Rubber; [5] Hard Plastic. Result: Assault Rifle Modification Kit - Accuracy.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 14",
+        "Crafting station: Inventory",
+        "Crafting module: Weapon Modification",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Assault Rifle Modification Kit - Accuracy/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Assault Rifle Modification Kit - Accuracy/Result",
+        "Required: [1] Assault Rifle modification blueprint - Accuracy; [20] Assault Rifle modification parts - Damage; [70] Assault Rifle modification parts - Accuracy; [10] Assault Rifle modification parts - Durability; [10] NDP Polymer; [20] Rubber; [5] Hard Plastic",
+        "Result: Assault Rifle Modification Kit - Accuracy",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Inventory",
+      "craftingModule": "Weapon Modification",
+      "craftingRecipeOrder": 14,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification Kit - Accuracy/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification Kit - Accuracy/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Assault Rifle modification parts - Accuracy",
+          "quantity": "70",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification Kit - Accuracy/Required/T_AssaultRifle_ModificationParts_Accuracy_1.png",
+          "imageDesc": "T_AssaultRifle_ModificationParts_Accuracy_1.png"
+        },
+        {
+          "name": "Assault Rifle modification parts - Damage",
+          "quantity": "20",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification Kit - Accuracy/Required/T_AssaultRifle_ModificationParts_Damage_1.png",
+          "imageDesc": "T_AssaultRifle_ModificationParts_Damage_1.png"
+        },
+        {
+          "name": "Assault Rifle modification parts - Durability",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification Kit - Accuracy/Required/T_AssaultRifle_ModificationParts_Durability_1.png",
+          "imageDesc": "T_AssaultRifle_ModificationParts_Durability_1.png"
+        },
+        {
+          "name": "NDP Polymer",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification Kit - Accuracy/Required/T_Inventory_NDP_Polymer.png",
+          "imageDesc": "T_Inventory_NDP_Polymer.png"
+        },
+        {
+          "name": "Rubber",
+          "quantity": "20",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification Kit - Accuracy/Required/T_Inventory_Rubber.png",
+          "imageDesc": "T_Inventory_Rubber.png"
+        },
+        {
+          "name": "Hard Plastic",
+          "quantity": "5",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification Kit - Accuracy/Required/T_Inventory_StrongPlastic.png",
+          "imageDesc": "T_Inventory_StrongPlastic.png"
+        },
+        {
+          "name": "Assault Rifle modification blueprint - Accuracy",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification Kit - Accuracy/Required/T_InventoryIcon_AssaultRifleModificationBlueprint_Accuracy - Copy.png",
+          "imageDesc": "T_InventoryIcon_AssaultRifleModificationBlueprint_Accuracy - Copy.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Assault Rifle Modification Kit - Accuracy",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification Kit - Accuracy/Result/T_AssaultRifle_ModificationKit_Accuracy_1.png",
+          "imageDesc": "T_AssaultRifle_ModificationKit_Accuracy_1.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification - Beginner/Assault Rifle Modification kit - Accuracy/Result/T_AssaultRifle_ModificationKit_Accuracy_1.png",
+      "imageDesc": "T_AssaultRifle_ModificationKit_Accuracy_1.png"
+    },
+    {
+      "name": "Assault Rifle Modification Kit - Damage",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Assault Rifle Modification Kit - Damage crafting recipe. Station: Inventory. Module: Weapon modification. Required: [1] Assault Rifle modification blueprint - Damage; [80] Assault Rifle modification parts - Damage; [10] Assault Rifle modification parts - Accuracy; [10] Assault Rifle modification parts - Durability; [10] NDP Polymer; [20] Rubber; [5] Hard Plastic. Result: Assault Rifle Modification Kit - Damage.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 15",
+        "Crafting station: Inventory",
+        "Crafting module: Weapon Modification",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit  - Damage/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit  - Damage/Result",
+        "Required: [1] Assault Rifle modification blueprint - Damage; [80] Assault Rifle modification parts - Damage; [10] Assault Rifle modification parts - Accuracy; [10] Assault Rifle modification parts - Durability; [10] NDP Polymer; [20] Rubber; [5] Hard Plastic",
+        "Result: Assault Rifle Modification Kit - Damage",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Inventory",
+      "craftingModule": "Weapon Modification",
+      "craftingRecipeOrder": 15,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit  - Damage/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit  - Damage/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Assault Rifle modification parts - Accuracy",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit  - Damage/Required/T_AssaultRifle_ModificationParts_Accuracy_1.png",
+          "imageDesc": "T_AssaultRifle_ModificationParts_Accuracy_1.png"
+        },
+        {
+          "name": "Assault Rifle modification parts - Damage",
+          "quantity": "80",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit  - Damage/Required/T_AssaultRifle_ModificationParts_Damage_1.png",
+          "imageDesc": "T_AssaultRifle_ModificationParts_Damage_1.png"
+        },
+        {
+          "name": "Assault Rifle modification parts - Durability",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit  - Damage/Required/T_AssaultRifle_ModificationParts_Durability_1.png",
+          "imageDesc": "T_AssaultRifle_ModificationParts_Durability_1.png"
+        },
+        {
+          "name": "NDP Polymer",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit  - Damage/Required/T_Inventory_NDP_Polymer.png",
+          "imageDesc": "T_Inventory_NDP_Polymer.png"
+        },
+        {
+          "name": "Rubber",
+          "quantity": "20",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit  - Damage/Required/T_Inventory_Rubber.png",
+          "imageDesc": "T_Inventory_Rubber.png"
+        },
+        {
+          "name": "Hard Plastic",
+          "quantity": "5",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit  - Damage/Required/T_Inventory_StrongPlastic.png",
+          "imageDesc": "T_Inventory_StrongPlastic.png"
+        },
+        {
+          "name": "Assault Rifle modification blueprint - Damage",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit  - Damage/Required/T_InventoryIcon_AssaultRifleModificationBlueprint_Damage.png",
+          "imageDesc": "T_InventoryIcon_AssaultRifleModificationBlueprint_Damage.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Assault Rifle Modification Kit - Damage",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit  - Damage/Result/T_AssaultRifle_ModificationKit_Damage_1.png",
+          "imageDesc": "T_AssaultRifle_ModificationKit_Damage_1.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification - Beginner/Assault Rifle Modification kit  - Damage/Result/T_AssaultRifle_ModificationKit_Damage_1.png",
+      "imageDesc": "T_AssaultRifle_ModificationKit_Damage_1.png"
+    },
+    {
+      "name": "Assault Rifle Modification kit - Durability",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Assault Rifle Modification Kit - Durability crafting recipe. Station: Inventory. Module: Weapon modification. Required: [1] Assault Rifle modification blueprint - Durability; [100] Assault Rifle modification parts - Durability; [10] NDP Polymer; [20] Rubber; [5] Hard Plastic. Result: Assault Rifle Modification Kit - Durability.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 16",
+        "Crafting station: Inventory",
+        "Crafting module: Weapon Modification",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit - Durability/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit - Durability/Result",
+        "Required: [1] Assault Rifle modification blueprint - Durability; [100] Assault Rifle modification parts - Durability; [10] NDP Polymer; [20] Rubber; [5] Hard Plastic",
+        "Result: Assault Rifle Modification Kit - Durability",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Inventory",
+      "craftingModule": "Weapon Modification",
+      "craftingRecipeOrder": 16,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit - Durability/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit - Durability/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "AssaultRifle ModificationParts Durability 1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit - Durability/Required/T_AssaultRifle_ModificationParts_Durability_1.png",
+          "imageDesc": "T_AssaultRifle_ModificationParts_Durability_1.png"
+        },
+        {
+          "name": "NDP Polymer",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit - Durability/Required/T_Inventory_NDP_Polymer.png",
+          "imageDesc": "T_Inventory_NDP_Polymer.png"
+        },
+        {
+          "name": "Rubber",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit - Durability/Required/T_Inventory_Rubber.png",
+          "imageDesc": "T_Inventory_Rubber.png"
+        },
+        {
+          "name": "StrongPlastic",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit - Durability/Required/T_Inventory_StrongPlastic.png",
+          "imageDesc": "T_Inventory_StrongPlastic.png"
+        },
+        {
+          "name": "InventoryIcon AssaultRifleModificationBlueprint Durability",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit - Durability/Required/T_InventoryIcon_AssaultRifleModificationBlueprint_Durability.png",
+          "imageDesc": "T_InventoryIcon_AssaultRifleModificationBlueprint_Durability.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "AssaultRifle ModificationKit Durability 1",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Assault Rifle Modification kit - Durability/Result/T_AssaultRifle_ModificationKit_Durability_1.png",
+          "imageDesc": "T_AssaultRifle_ModificationKit_Durability_1.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "",
+      "imageDesc": ""
+    },
+    {
+      "name": "Handgun Modification Kit - Accuracy",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Handgun Modification Kit - Accuracy crafting recipe. Station: Inventory. Module: Weapon modification. Required: [1] Handgun modification blueprint - Accuracy; [20] Handgun modification parts - Damage; [70] Handgun modification parts - Accuracy; [10] Handgun modification parts - Durability; [10] NDP Polymer; [20] Rubber; [5] Hard Plastic. Result: Handgun Modification Kit - Accuracy.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 17",
+        "Crafting station: Inventory",
+        "Crafting module: Weapon Modification",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Handgun Modification kit - Accuracy/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Handgun Modification kit - Accuracy/Result",
+        "Required: [1] Handgun modification blueprint - Accuracy; [20] Handgun modification parts - Damage; [70] Handgun modification parts - Accuracy; [10] Handgun modification parts - Durability; [10] NDP Polymer; [20] Rubber; [5] Hard Plastic",
+        "Result: Handgun Modification Kit - Accuracy",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Inventory",
+      "craftingModule": "Weapon Modification",
+      "craftingRecipeOrder": 17,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Handgun Modification kit - Accuracy/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Handgun Modification kit - Accuracy/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Handgun ModificationParts Accuracy 1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Handgun Modification kit - Accuracy/Required/T_Handgun_ModificationParts_Accuracy_1.png",
+          "imageDesc": "T_Handgun_ModificationParts_Accuracy_1.png"
+        },
+        {
+          "name": "Handgun modification parts - Damage",
+          "quantity": "20",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Handgun Modification kit - Accuracy/Required/T_Handgun_ModificationParts_Damage_1.png",
+          "imageDesc": "T_Handgun_ModificationParts_Damage_1.png"
+        },
+        {
+          "name": "Handgun modification parts - Durability",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Handgun Modification kit - Accuracy/Required/T_Handgun_ModificationParts_Durability_1.png",
+          "imageDesc": "T_Handgun_ModificationParts_Durability_1.png"
+        },
+        {
+          "name": "NDP Polymer",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Handgun Modification kit - Accuracy/Required/T_Inventory_NDP_Polymer.png",
+          "imageDesc": "T_Inventory_NDP_Polymer.png"
+        },
+        {
+          "name": "Rubber",
+          "quantity": "20",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Handgun Modification kit - Accuracy/Required/T_Inventory_Rubber.png",
+          "imageDesc": "T_Inventory_Rubber.png"
+        },
+        {
+          "name": "Hard Plastic",
+          "quantity": "5",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Handgun Modification kit - Accuracy/Required/T_Inventory_StrongPlastic.png",
+          "imageDesc": "T_Inventory_StrongPlastic.png"
+        },
+        {
+          "name": "Handgun modification parts - Accuracy",
+          "quantity": "70",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Handgun Modification kit - Accuracy/Required/T_InventoryIcon_HandgunModificationBlueprint_Accuracy.png",
+          "imageDesc": "T_InventoryIcon_HandgunModificationBlueprint_Accuracy.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Handgun Modification Kit - Accuracy",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Handgun Modification kit - Accuracy/Result/T_Handgun_ModificationKit_Accuracy_1.png",
+          "imageDesc": "T_Handgun_ModificationKit_Accuracy_1.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification - Beginner/Handgun Modification kit - Accuracy/Result/T_Handgun_ModificationKit_Accuracy_1.png",
+      "imageDesc": "T_Handgun_ModificationKit_Accuracy_1.png"
+    },
+    {
+      "name": "Handgun Modification Kit - Damage",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Handgun Modification Kit - Damage crafting recipe. Station: Inventory. Module: Weapon modification. Required: [1] Handgun modification blueprint - Damage; [80] Handgun modification parts - Damage; [10] Handgun modification parts - Accuracy; [10] Handgun modification parts - Durability; [10] NDP Polymer; [20] Rubber; [20] Strong Plastic. Result: Handgun Modification Kit - Damage.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 18",
+        "Crafting station: Inventory",
+        "Crafting module: Weapon Modification",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Hangun Modification kit - Damage/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Hangun Modification kit - Damage/Result",
+        "Required: [1] Handgun modification blueprint - Damage; [80] Handgun modification parts - Damage; [10] Handgun modification parts - Accuracy; [10] Handgun modification parts - Durability; [10] NDP Polymer; [20] Rubber; [20] Strong Plastic",
+        "Result: Handgun Modification Kit - Damage",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Inventory",
+      "craftingModule": "Weapon Modification",
+      "craftingRecipeOrder": 18,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Hangun Modification kit - Damage/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Hangun Modification kit - Damage/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Handgun modification parts - Accuracy",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Hangun Modification kit - Damage/Required/T_Handgun_ModificationParts_Accuracy_1.png",
+          "imageDesc": "T_Handgun_ModificationParts_Accuracy_1.png"
+        },
+        {
+          "name": "Handgun ModificationParts Damage 1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Hangun Modification kit - Damage/Required/T_Handgun_ModificationParts_Damage_1.png",
+          "imageDesc": "T_Handgun_ModificationParts_Damage_1.png"
+        },
+        {
+          "name": "Handgun modification parts - Durability",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Hangun Modification kit - Damage/Required/T_Handgun_ModificationParts_Durability_1.png",
+          "imageDesc": "T_Handgun_ModificationParts_Durability_1.png"
+        },
+        {
+          "name": "NDP Polymer",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Hangun Modification kit - Damage/Required/T_Inventory_NDP_Polymer.png",
+          "imageDesc": "T_Inventory_NDP_Polymer.png"
+        },
+        {
+          "name": "Rubber",
+          "quantity": "20",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Hangun Modification kit - Damage/Required/T_Inventory_Rubber.png",
+          "imageDesc": "T_Inventory_Rubber.png"
+        },
+        {
+          "name": "Strong Plastic",
+          "quantity": "20",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Hangun Modification kit - Damage/Required/T_Inventory_StrongPlastic.png",
+          "imageDesc": "T_Inventory_StrongPlastic.png"
+        },
+        {
+          "name": "Handgun modification parts - Damage",
+          "quantity": "80",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Hangun Modification kit - Damage/Required/T_InventoryIcon_HandgunModificationBlueprint_Damage.png",
+          "imageDesc": "T_InventoryIcon_HandgunModificationBlueprint_Damage.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Handgun Modification Kit - Damage",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Hangun Modification kit - Damage/Result/T_Handgun_ModificationKit_Damage_1.png",
+          "imageDesc": "T_Handgun_ModificationKit_Damage_1.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification - Beginner/Hangun Modification kit - Damage/Result/T_Handgun_ModificationKit_Damage_1.png",
+      "imageDesc": "T_Handgun_ModificationKit_Damage_1.png"
+    },
+    {
+      "name": "Hangun Modification - Durability",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Handgun Modification Kit - Durability crafting recipe. Station: Inventory. Module: Weapon modification. Required: [1] Handgun modification blueprint - Durability; [100] Handgun modification parts - Durability; [10] NDP Polymer; [20] Rubber; [5] Hard Plastic. Result: Handgun Modification Kit - Durability.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 19",
+        "Crafting station: Inventory",
+        "Crafting module: Weapon Modification",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Hangun Modification - Durability/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Hangun Modification - Durability/Result",
+        "Required: [1] Handgun modification blueprint - Durability; [100] Handgun modification parts - Durability; [10] NDP Polymer; [20] Rubber; [5] Hard Plastic",
+        "Result: Handgun Modification Kit - Durability",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Inventory",
+      "craftingModule": "Weapon Modification",
+      "craftingRecipeOrder": 19,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Hangun Modification - Durability/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Hangun Modification - Durability/Result",
+      "craftingRequiredImages": [],
+      "craftingResultImages": [],
+      "craftingNotes": [
+        "No result PNG was found in the current directory listing."
+      ],
+      "imageUrl": "",
+      "imageDesc": ""
+    },
+    {
+      "name": "Rifle Modification Kit - Accuracy",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Rifle Modification Kit - Accuracy crafting recipe. Station: Inventory. Module: Weapon modification. Required: [1] Rifle modification blueprint - Accuracy; [20] Rifle modification parts - Damage; [70] Rifle modification parts - Accuracy; [10] Rifle modification parts - Durability; [10] NDP Polymer; [20] Rubber; [5] Hard Plastic. Result: Rifle Modification Kit - Accuracy.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 20",
+        "Crafting station: Inventory",
+        "Crafting module: Weapon Modification",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Accuracy/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Accuracy/Result",
+        "Required: [1] Rifle modification blueprint - Accuracy; [20] Rifle modification parts - Damage; [70] Rifle modification parts - Accuracy; [10] Rifle modification parts - Durability; [10] NDP Polymer; [20] Rubber; [5] Hard Plastic",
+        "Result: Rifle Modification Kit - Accuracy",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Inventory",
+      "craftingModule": "Weapon Modification",
+      "craftingRecipeOrder": 20,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Accuracy/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Accuracy/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "NDP Polymer",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Accuracy/Required/T_Inventory_NDP_Polymer.png",
+          "imageDesc": "T_Inventory_NDP_Polymer.png"
+        },
+        {
+          "name": "Rubber",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Accuracy/Required/T_Inventory_Rubber.png",
+          "imageDesc": "T_Inventory_Rubber.png"
+        },
+        {
+          "name": "StrongPlastic",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Accuracy/Required/T_Inventory_StrongPlastic.png",
+          "imageDesc": "T_Inventory_StrongPlastic.png"
+        },
+        {
+          "name": "InventoryIcon RifleModificationBlueprint Accuracy",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Accuracy/Required/T_InventoryIcon_RifleModificationBlueprint_Accuracy.png",
+          "imageDesc": "T_InventoryIcon_RifleModificationBlueprint_Accuracy.png"
+        },
+        {
+          "name": "Rifle ModificationParts Accuracy 1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Accuracy/Required/T_Rifle_ModificationParts_Accuracy_1.png",
+          "imageDesc": "T_Rifle_ModificationParts_Accuracy_1.png"
+        },
+        {
+          "name": "Rifle ModificationParts Damage 1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Accuracy/Required/T_Rifle_ModificationParts_Damage_1.png",
+          "imageDesc": "T_Rifle_ModificationParts_Damage_1.png"
+        },
+        {
+          "name": "Rifle ModificationParts Durability 1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Accuracy/Required/T_Rifle_ModificationParts_Durability_1.png",
+          "imageDesc": "T_Rifle_ModificationParts_Durability_1.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Rifle ModificationKit Accuracy 1",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Accuracy/Result/T_Rifle_ModificationKit_Accuracy_1.png",
+          "imageDesc": "T_Rifle_ModificationKit_Accuracy_1.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "",
+      "imageDesc": ""
+    },
+    {
+      "name": "Rifle Modification Kit - Damage",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Rifle Modification Kit - Damage crafting recipe. Station: Inventory. Module: Weapon modification. Required: [1] Rifle modification blueprint - Damage; [80] Rifle modification parts - Damage; [10] Rifle modification parts - Accuracy; [10] Rifle modification parts - Durability; [10] NDP Polymer; [20] Rubber; [5] Hard Plastic. Result: Rifle Modification Kit - Damage.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 21",
+        "Crafting station: Inventory",
+        "Crafting module: Weapon Modification",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Damage/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Damage/Result",
+        "Required: [1] Rifle modification blueprint - Damage; [80] Rifle modification parts - Damage; [10] Rifle modification parts - Accuracy; [10] Rifle modification parts - Durability; [10] NDP Polymer; [20] Rubber; [5] Hard Plastic",
+        "Result: Rifle Modification Kit - Damage",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Inventory",
+      "craftingModule": "Weapon Modification",
+      "craftingRecipeOrder": 21,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Damage/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Damage/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "NDP Polymer",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Damage/Required/T_Inventory_NDP_Polymer.png",
+          "imageDesc": "T_Inventory_NDP_Polymer.png"
+        },
+        {
+          "name": "Rubber",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Damage/Required/T_Inventory_Rubber.png",
+          "imageDesc": "T_Inventory_Rubber.png"
+        },
+        {
+          "name": "StrongPlastic",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Damage/Required/T_Inventory_StrongPlastic.png",
+          "imageDesc": "T_Inventory_StrongPlastic.png"
+        },
+        {
+          "name": "InventoryIcon RifleModificationBlueprint Damage",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Damage/Required/T_InventoryIcon_RifleModificationBlueprint_Damage.png",
+          "imageDesc": "T_InventoryIcon_RifleModificationBlueprint_Damage.png"
+        },
+        {
+          "name": "Rifle ModificationParts Accuracy 1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Damage/Required/T_Rifle_ModificationParts_Accuracy_1.png",
+          "imageDesc": "T_Rifle_ModificationParts_Accuracy_1.png"
+        },
+        {
+          "name": "Rifle ModificationParts Damage 1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Damage/Required/T_Rifle_ModificationParts_Damage_1.png",
+          "imageDesc": "T_Rifle_ModificationParts_Damage_1.png"
+        },
+        {
+          "name": "Rifle ModificationParts Durability 1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Damage/Required/T_Rifle_ModificationParts_Durability_1.png",
+          "imageDesc": "T_Rifle_ModificationParts_Durability_1.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Rifle ModificationKit Damage 1",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modification kit  - Damage/Result/T_Rifle_ModificationKit_Damage_1.png",
+          "imageDesc": "T_Rifle_ModificationKit_Damage_1.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "",
+      "imageDesc": ""
+    },
+    {
+      "name": "Rifle Modification Kit - Durability",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Rifle Modification Kit - Durability crafting recipe. Station: Inventory. Module: Weapon modification. Required: [1] Rifle modification blueprint - Durability; [100] Rifle modification parts - Durability; [10] NDP Polymer; [20] Rubber; [5] Hard Plastic. Result: Rifle Modification Kit - Durability.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 22",
+        "Crafting station: Inventory",
+        "Crafting module: Weapon Modification",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Rifle Modifcation kit  - Durability/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Rifle Modifcation kit  - Durability/Result",
+        "Required: [1] Rifle modification blueprint - Durability; [100] Rifle modification parts - Durability; [10] NDP Polymer; [20] Rubber; [5] Hard Plastic",
+        "Result: Rifle Modification Kit - Durability",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Inventory",
+      "craftingModule": "Weapon Modification",
+      "craftingRecipeOrder": 22,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Rifle Modifcation kit  - Durability/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Rifle Modifcation kit  - Durability/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "InventoryIcon RifleModificationBlueprint Durability",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modifcation kit  - Durability/Required/T_InventoryIcon_RifleModificationBlueprint_Durability.png",
+          "imageDesc": "T_InventoryIcon_RifleModificationBlueprint_Durability.png"
+        },
+        {
+          "name": "Rifle ModificationParts Durability 1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modifcation kit  - Durability/Required/T_Rifle_ModificationParts_Durability_1.png",
+          "imageDesc": "T_Rifle_ModificationParts_Durability_1.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Rifle ModificationKit Durability 1",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Rifle Modifcation kit  - Durability/Result/T_Rifle_ModificationKit_Durability_1.png",
+          "imageDesc": "T_Rifle_ModificationKit_Durability_1.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification - Beginner/Assault Rifle Modification kit - Durability/Result/T_AssaultRifle_ModificationKit_Durability_1.png",
+      "imageDesc": "T_AssaultRifle_ModificationKit_Durability_1.png"
+    },
+    {
+      "name": "Shotgun Modification Kit - Accuracy",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Shotgun Modification Kit - Accuracy crafting recipe. Station: Inventory. Module: Weapon modification. Required: [1] Shotgun modification blueprint - Accuracy; [20] Shotgun modification parts - Damage; [70] Shotgun modification parts - Accuracy; [10] Shotgun modification parts - Durability; [10] NDP Polymer; [20] Rubber; [5] Hard Plastic. Result: Shotgun Modification Kit - Accuracy.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 23",
+        "Crafting station: Inventory",
+        "Crafting module: Weapon Modification",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Accurarcy/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Accurarcy/Result",
+        "Required: [1] Shotgun modification blueprint - Accuracy; [20] Shotgun modification parts - Damage; [70] Shotgun modification parts - Accuracy; [10] Shotgun modification parts - Durability; [10] NDP Polymer; [20] Rubber; [5] Hard Plastic",
+        "Result: Shotgun Modification Kit - Accuracy",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Inventory",
+      "craftingModule": "Weapon Modification",
+      "craftingRecipeOrder": 23,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Accurarcy/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Accurarcy/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "NDP Polymer",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Accurarcy/Required/T_Inventory_NDP_Polymer.png",
+          "imageDesc": "T_Inventory_NDP_Polymer.png"
+        },
+        {
+          "name": "Rubber",
+          "quantity": "20",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Accurarcy/Required/T_Inventory_Rubber.png",
+          "imageDesc": "T_Inventory_Rubber.png"
+        },
+        {
+          "name": "Hard Plastic",
+          "quantity": "5",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Accurarcy/Required/T_Inventory_StrongPlastic.png",
+          "imageDesc": "T_Inventory_StrongPlastic.png"
+        },
+        {
+          "name": "Shotgun modification parts - Accuracy",
+          "quantity": "70",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Accurarcy/Required/T_InventoryIcon_ShotgunModificationBlueprint_Accuracy.png",
+          "imageDesc": "T_InventoryIcon_ShotgunModificationBlueprint_Accuracy.png"
+        },
+        {
+          "name": "Shotgun ModificationParts Accuracy 1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Accurarcy/Required/T_Shotgun_ModificationParts_Accuracy_1.png",
+          "imageDesc": "T_Shotgun_ModificationParts_Accuracy_1.png"
+        },
+        {
+          "name": "Shotgun modification parts - Damage",
+          "quantity": "20",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Accurarcy/Required/T_Shotgun_ModificationParts_Damage_1.png",
+          "imageDesc": "T_Shotgun_ModificationParts_Damage_1.png"
+        },
+        {
+          "name": "Shotgun modification parts - Durability",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Accurarcy/Required/T_Shotgun_ModificationParts_Durability_1.png",
+          "imageDesc": "T_Shotgun_ModificationParts_Durability_1.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Shotgun Modification Kit - Accuracy",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Accurarcy/Result/T_Shotgun_ModificationKit_Accuracy_1.png",
+          "imageDesc": "T_Shotgun_ModificationKit_Accuracy_1.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification - Beginner/Shotgun Modification kit - Accurarcy/Result/T_Shotgun_ModificationKit_Accuracy_1.png",
+      "imageDesc": "T_Shotgun_ModificationKit_Accuracy_1.png"
+    },
+    {
+      "name": "Shotgun Modification Kit - Damage",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Shotgun Modification Kit - Damage crafting recipe. Station: Inventory. Module: Weapon modification. Required: [1] Shotgun modification blueprint - Damage; [80] Shotgun modification parts - Damage; [10] Shotgun modification parts - Accuracy; [10] Shotgun modification parts - Durability; [10] NDP Polymer; [20] Rubber; [5] Hard Plastic. Result: Shotgun Modification Kit - Damage.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 24",
+        "Crafting station: Inventory",
+        "Crafting module: Weapon Modification",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Damage/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Damage/Result",
+        "Required: [1] Shotgun modification blueprint - Damage; [80] Shotgun modification parts - Damage; [10] Shotgun modification parts - Accuracy; [10] Shotgun modification parts - Durability; [10] NDP Polymer; [20] Rubber; [5] Hard Plastic",
+        "Result: Shotgun Modification Kit - Damage",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Inventory",
+      "craftingModule": "Weapon Modification",
+      "craftingRecipeOrder": 24,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Damage/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Damage/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "NDP Polymer",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Damage/Required/T_Inventory_NDP_Polymer.png",
+          "imageDesc": "T_Inventory_NDP_Polymer.png"
+        },
+        {
+          "name": "Rubber",
+          "quantity": "20",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Damage/Required/T_Inventory_Rubber.png",
+          "imageDesc": "T_Inventory_Rubber.png"
+        },
+        {
+          "name": "Hard Plastic",
+          "quantity": "5",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Damage/Required/T_Inventory_StrongPlastic.png",
+          "imageDesc": "T_Inventory_StrongPlastic.png"
+        },
+        {
+          "name": "Shotgun modification parts - Damage",
+          "quantity": "80",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Damage/Required/T_InventoryIcon_ShotgunModificationBlueprint_Damage.png",
+          "imageDesc": "T_InventoryIcon_ShotgunModificationBlueprint_Damage.png"
+        },
+        {
+          "name": "Shotgun modification parts - Accuracy",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Damage/Required/T_Shotgun_ModificationParts_Accuracy_1.png",
+          "imageDesc": "T_Shotgun_ModificationParts_Accuracy_1.png"
+        },
+        {
+          "name": "Shotgun ModificationParts Damage 1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Damage/Required/T_Shotgun_ModificationParts_Damage_1.png",
+          "imageDesc": "T_Shotgun_ModificationParts_Damage_1.png"
+        },
+        {
+          "name": "Shotgun modification parts - Durability",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Damage/Required/T_Shotgun_ModificationParts_Durability_1.png",
+          "imageDesc": "T_Shotgun_ModificationParts_Durability_1.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Shotgun Modification Kit - Damage",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Damage/Result/T_Shotgun_ModificationKit_Damage_1.png",
+          "imageDesc": "T_Shotgun_ModificationKit_Damage_1.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification - Beginner/Shotgun Modification kit - Damage/Result/T_Shotgun_ModificationKit_Damage_1.png",
+      "imageDesc": "T_Shotgun_ModificationKit_Damage_1.png"
+    },
+    {
+      "name": "Shotgun Modification Kit - Durability",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Shotgun Modification Kit - Durability crafting recipe. Station: Inventory. Module: Weapon modification. Required: [1] Shotgun modification blueprint - Durability; [100] Shotgun modification parts - Durability; [10] NDP Polymer; [20] Rubber; [5] Hard Plastic. Result: Shotgun Modification Kit - Durability.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 25",
+        "Crafting station: Inventory",
+        "Crafting module: Weapon Modification",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Durability/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Durability/Result",
+        "Required: [1] Shotgun modification blueprint - Durability; [100] Shotgun modification parts - Durability; [10] NDP Polymer; [20] Rubber; [5] Hard Plastic",
+        "Result: Shotgun Modification Kit - Durability",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Inventory",
+      "craftingModule": "Weapon Modification",
+      "craftingRecipeOrder": 25,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Durability/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Durability/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "NDP Polymer",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Durability/Required/T_Inventory_NDP_Polymer.png",
+          "imageDesc": "T_Inventory_NDP_Polymer.png"
+        },
+        {
+          "name": "Rubber",
+          "quantity": "20",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Durability/Required/T_Inventory_Rubber.png",
+          "imageDesc": "T_Inventory_Rubber.png"
+        },
+        {
+          "name": "Hard Plastic",
+          "quantity": "5",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Durability/Required/T_Inventory_StrongPlastic.png",
+          "imageDesc": "T_Inventory_StrongPlastic.png"
+        },
+        {
+          "name": "Shotgun modification parts - Durability",
+          "quantity": "100",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Durability/Required/T_InventoryIcon_ShotgunModificationBlueprint_Durability.png",
+          "imageDesc": "T_InventoryIcon_ShotgunModificationBlueprint_Durability.png"
+        },
+        {
+          "name": "Shotgun ModificationParts Durability 1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Durability/Required/T_Shotgun_ModificationParts_Durability_1.png",
+          "imageDesc": "T_Shotgun_ModificationParts_Durability_1.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Shotgun Modification Kit - Durability",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Shotgun Modification kit - Durability/Result/T_Shotgun_ModificationKit_Durability_1.png",
+          "imageDesc": "T_Shotgun_ModificationKit_Durability_1.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification - Beginner/Shotgun Modification kit - Durability/Result/T_Shotgun_ModificationKit_Durability_1.png",
+      "imageDesc": "T_Shotgun_ModificationKit_Durability_1.png"
+    },
+    {
+      "name": "SMG Modification Kit - Accuracy",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "SMG Modification Kit - Accuracy crafting recipe. Station: Inventory. Module: Weapon modification. Required: [1] SMG modification blueprint - Accuracy; [80] SMG modification parts - Damage; [10] SMG modification parts - Accuracy; [10] SMG modification parts - Durability; [10] NDP Polymer; [20] Rubber; [5] Hard Plastic. Result: SMG Modification Kit - Accuracy.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
         "Recipe order: 26",
         "Crafting station: Inventory",
+        "Crafting module: Weapon Modification",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - SMG Modification kit  - Accuracy/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - SMG Modification kit  - Accuracy/Result",
+        "Required: [1] SMG modification blueprint - Accuracy; [80] SMG modification parts - Damage; [10] SMG modification parts - Accuracy; [10] SMG modification parts - Durability; [10] NDP Polymer; [20] Rubber; [5] Hard Plastic",
+        "Result: SMG Modification Kit - Accuracy",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Inventory",
+      "craftingModule": "Weapon Modification",
+      "craftingRecipeOrder": 26,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit  - Accuracy/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit  - Accuracy/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "NDP Polymer",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit  - Accuracy/Required/T_Inventory_NDP_Polymer.png",
+          "imageDesc": "T_Inventory_NDP_Polymer.png"
+        },
+        {
+          "name": "Rubber",
+          "quantity": "20",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit  - Accuracy/Required/T_Inventory_Rubber.png",
+          "imageDesc": "T_Inventory_Rubber.png"
+        },
+        {
+          "name": "Hard Plastic",
+          "quantity": "5",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit  - Accuracy/Required/T_Inventory_StrongPlastic.png",
+          "imageDesc": "T_Inventory_StrongPlastic.png"
+        },
+        {
+          "name": "SMG modification blueprint - Accuracy",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit  - Accuracy/Required/T_InventoryIcon_SMGModificationBlueprint_Accuracy.png",
+          "imageDesc": "T_InventoryIcon_SMGModificationBlueprint_Accuracy.png"
+        },
+        {
+          "name": "SMG modification parts - Accuracy",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit  - Accuracy/Required/T_SMG_ModificationParts_Accuracy_1.png",
+          "imageDesc": "T_SMG_ModificationParts_Accuracy_1.png"
+        },
+        {
+          "name": "SMG modification parts - Damage",
+          "quantity": "80",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit  - Accuracy/Required/T_SMG_ModificationParts_Damage_1.png",
+          "imageDesc": "T_SMG_ModificationParts_Damage_1.png"
+        },
+        {
+          "name": "SMG modification parts - Durability",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit  - Accuracy/Required/T_SMG_ModificationParts_Durability_1.png",
+          "imageDesc": "T_SMG_ModificationParts_Durability_1.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "SMG Modification Kit - Accuracy",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit  - Accuracy/Result/T_SMG_ModificationKit_Accuracy_1.png",
+          "imageDesc": "T_SMG_ModificationKit_Accuracy_1.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification - Beginner/SMG Modification kit  - Accuracy/Result/T_SMG_ModificationKit_Accuracy_1.png",
+      "imageDesc": "T_SMG_ModificationKit_Accuracy_1.png"
+    },
+    {
+      "name": "SMG Modification Kit - Damage",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "SMG Modification Kit - Damage crafting recipe. Station: Inventory. Module: Weapon modification. Required: [1] SMG modification blueprint - Damage; [80] SMG modification parts - Damage; [10] SMG modification parts - Accuracy; [10] SMG modification parts - Durability; [10] NDP Polymer; [20] Rubber; [5] Hard Plastic. Result: SMG Modification Kit - Damage.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 27",
+        "Crafting station: Inventory",
+        "Crafting module: Weapon Modification",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - SMG Modification kit - Damage/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - SMG Modification kit - Damage/Result",
+        "Required: [1] SMG modification blueprint - Damage; [80] SMG modification parts - Damage; [10] SMG modification parts - Accuracy; [10] SMG modification parts - Durability; [10] NDP Polymer; [20] Rubber; [5] Hard Plastic",
+        "Result: SMG Modification Kit - Damage",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Inventory",
+      "craftingModule": "Weapon Modification",
+      "craftingRecipeOrder": 27,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit - Damage/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit - Damage/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "NDP Polymer",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit - Damage/Required/T_Inventory_NDP_Polymer.png",
+          "imageDesc": "T_Inventory_NDP_Polymer.png"
+        },
+        {
+          "name": "Rubber",
+          "quantity": "20",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit - Damage/Required/T_Inventory_Rubber.png",
+          "imageDesc": "T_Inventory_Rubber.png"
+        },
+        {
+          "name": "Hard Plastic",
+          "quantity": "5",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit - Damage/Required/T_Inventory_StrongPlastic.png",
+          "imageDesc": "T_Inventory_StrongPlastic.png"
+        },
+        {
+          "name": "SMG modification blueprint - Damage",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit - Damage/Required/T_InventoryIcon_SMGModificationBlueprint_Damage.png",
+          "imageDesc": "T_InventoryIcon_SMGModificationBlueprint_Damage.png"
+        },
+        {
+          "name": "SMG modification parts - Accuracy",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit - Damage/Required/T_SMG_ModificationParts_Accuracy_1.png",
+          "imageDesc": "T_SMG_ModificationParts_Accuracy_1.png"
+        },
+        {
+          "name": "SMG modification parts - Damage",
+          "quantity": "80",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit - Damage/Required/T_SMG_ModificationParts_Damage_1.png",
+          "imageDesc": "T_SMG_ModificationParts_Damage_1.png"
+        },
+        {
+          "name": "SMG modification parts - Durability",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit - Damage/Required/T_SMG_ModificationParts_Durability_1.png",
+          "imageDesc": "T_SMG_ModificationParts_Durability_1.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "SMG Modification Kit - Damage",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit - Damage/Result/T_SMG_ModificationKit_Damage_1.png",
+          "imageDesc": "T_SMG_ModificationKit_Damage_1.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification - Beginner/SMG Modification kit - Damage/Result/T_SMG_ModificationKit_Damage_1.png",
+      "imageDesc": "T_SMG_ModificationKit_Damage_1.png"
+    },
+    {
+      "name": "SMG Modification Kit - Durability",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "SMG Modification Kit - Durability crafting recipe. Station: Inventory. Module: Weapon modification. Required: [1] SMG modification blueprint - Durability; [100] SMG modification parts - Durability; [10] NDP Polymer; [20] Rubber; [5] Hard Plastic. Result: SMG Modification Kit - Durability.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 28",
+        "Crafting station: Inventory",
+        "Crafting module: Weapon Modification",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - SMG Modification kit - Durability/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - SMG Modification kit - Durability/Result",
+        "Required: [1] SMG modification blueprint - Durability; [100] SMG modification parts - Durability; [10] NDP Polymer; [20] Rubber; [5] Hard Plastic",
+        "Result: SMG Modification Kit - Durability",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Inventory",
+      "craftingModule": "Weapon Modification",
+      "craftingRecipeOrder": 28,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit - Durability/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit - Durability/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "NDP Polymer",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit - Durability/Required/T_Inventory_NDP_Polymer.png",
+          "imageDesc": "T_Inventory_NDP_Polymer.png"
+        },
+        {
+          "name": "Rubber",
+          "quantity": "20",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit - Durability/Required/T_Inventory_Rubber.png",
+          "imageDesc": "T_Inventory_Rubber.png"
+        },
+        {
+          "name": "Hard Plastic",
+          "quantity": "5",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit - Durability/Required/T_Inventory_StrongPlastic.png",
+          "imageDesc": "T_Inventory_StrongPlastic.png"
+        },
+        {
+          "name": "SMG modification blueprint - Durability",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit - Durability/Required/T_InventoryIcon_SMGModificationBlueprint_Durability.png",
+          "imageDesc": "T_InventoryIcon_SMGModificationBlueprint_Durability.png"
+        },
+        {
+          "name": "SMG modification parts - Durability",
+          "quantity": "100",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit - Durability/Required/T_SMG_ModificationParts_Durability_1.png",
+          "imageDesc": "T_SMG_ModificationParts_Durability_1.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "SMG Modification Kit - Durability",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - SMG Modification kit - Durability/Result/T_SMG_ModificationKit_Durability_1.png",
+          "imageDesc": "T_SMG_ModificationKit_Durability_1.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification - Beginner/SMG Modification kit - Durability/Result/T_SMG_ModificationKit_Durability_1.png",
+      "imageDesc": "T_SMG_ModificationKit_Durability_1.png"
+    },
+    {
+      "name": "Campfire Kit",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Campfire Kit crafting recipe. Station: Inventory. Module: Campfire recipes - Beginner.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 29",
+        "Crafting station: Inventory",
+        "Crafting module: Campfire recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Campfire Kit/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Campfire Kit/Result"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Inventory",
+      "craftingModule": "Campfire recipes - Beginner",
+      "craftingNotes": [
+        "Added from the updated flattened Crafting Recipes asset directory."
+      ],
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Campfire Kit/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Campfire Kit/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Matches",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Campfire Kit/Required/T_Inventory_Icon_Matches.png",
+          "imageDesc": "T_Inventory_Icon_Matches.png"
+        },
+        {
+          "name": "Wood",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Campfire Kit/Required/T_Inventory_Wood.png",
+          "imageDesc": "T_Inventory_Wood.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "CampfireKit",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Campfire Kit/Result/T_Inventory_Icon_CampfireKit.png",
+          "imageDesc": "T_Inventory_Icon_CampfireKit.png"
+        }
+      ],
+      "craftingRecipeOrder": 29
+    },
+    {
+      "name": "Gasoline Filter",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Gasoline Filter crafting recipe. Station: Inventory. Module: Gasoline filter. Required: [10] Charcoal; [2] Bandages; [1] Plastic bottle. Result: Gasoline Filter.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 30",
+        "Crafting station: Inventory",
         "Crafting module: Gasoline filter",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Gasoline filter/Gasoline Filter/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Gasoline filter/Gasoline Filter/Result",
-        "Source: Crafting Recipes list"
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Gasoline Filter/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Gasoline Filter/Result",
+        "Required: [10] Charcoal; [2] Bandages; [1] Plastic bottle",
+        "Result: Gasoline Filter",
+        "Source: Pasted text(8).txt"
       ],
       "locations": [
         "Minayev's Territory",
@@ -39706,3497 +40536,61 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Inventory",
       "craftingModule": "Gasoline filter",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Gasoline filter/Gasoline Filter/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Gasoline filter/Gasoline Filter/Result",
+      "craftingRecipeOrder": 30,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Gasoline Filter/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Gasoline Filter/Result",
       "craftingRequiredImages": [
         {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Gasoline filter/Gasoline Filter/Required/required-1.png",
-          "imageDesc": "Gasoline Filter required ingredient 1"
+          "name": "Bandages",
+          "quantity": "2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Gasoline Filter/Required/T_Inventory_Bandage.png",
+          "imageDesc": "T_Inventory_Bandage.png"
         },
         {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Gasoline filter/Gasoline Filter/Required/required-2.png",
-          "imageDesc": "Gasoline Filter required ingredient 2"
+          "name": "Charcoal",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Gasoline Filter/Required/T_Inventory_Charcoal.png",
+          "imageDesc": "T_Inventory_Charcoal.png"
         },
         {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Gasoline filter/Gasoline Filter/Required/required-3.png",
-          "imageDesc": "Gasoline Filter required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Gasoline filter/Gasoline Filter/Required/required-4.png",
-          "imageDesc": "Gasoline Filter required ingredient 4"
+          "name": "Plastic bottle",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Gasoline Filter/Required/T_Inventory_Icon_PlasticBottle.png",
+          "imageDesc": "T_Inventory_Icon_PlasticBottle.png"
         }
       ],
       "craftingResultImages": [
         {
           "name": "Gasoline Filter",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Gasoline filter/Gasoline Filter/Result/Gasoline Filter.png",
-          "imageDesc": "Gasoline Filter result image"
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Gasoline Filter/Result/T_Inventory_Icon_Gasoline_Filter.png",
+          "imageDesc": "T_Inventory_Icon_Gasoline_Filter.png"
         }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Gasoline filter/Gasoline Filter/Result/Gasoline Filter.png",
-      "imageDesc": "Gasoline Filter result image"
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Gasoline Filter/Result/T_Inventory_Icon_Gasoline_Filter.png",
+      "imageDesc": "T_Inventory_Icon_Gasoline_Filter.png"
     },
     {
-      "name": "Purified Gasoline",
+      "name": "Anti-burn Salve",
       "type": "Recipe",
       "level": 0,
-      "detail": "Purified Gasoline crafting recipe. Crafting station: Chemical Station. Module: General. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 27",
-        "Crafting station: Chemical Station",
-        "Crafting module: General",
-        "Required folder: /db-assets/Crafting Recipes/Chemical Station/General/Purified Gasoline/Required",
-        "Result folder: /db-assets/Crafting Recipes/Chemical Station/General/Purified Gasoline/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Chemical Station",
-      "craftingModule": "General",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Chemical Station/General/Purified Gasoline/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Chemical Station/General/Purified Gasoline/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/General/Purified Gasoline/Required/required-1.png",
-          "imageDesc": "Purified Gasoline required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/General/Purified Gasoline/Required/required-2.png",
-          "imageDesc": "Purified Gasoline required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/General/Purified Gasoline/Required/required-3.png",
-          "imageDesc": "Purified Gasoline required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/General/Purified Gasoline/Required/required-4.png",
-          "imageDesc": "Purified Gasoline required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Purified Gasoline",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/General/Purified Gasoline/Result/Purified Gasoline.png",
-          "imageDesc": "Purified Gasoline result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/General/Purified Gasoline/Result/Purified Gasoline.png",
-      "imageDesc": "Purified Gasoline result image"
-    },
-    {
-      "name": "Low Grade Fuel",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Low Grade Fuel crafting recipe. Crafting station: Chemical Station. Module: General. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 28",
-        "Crafting station: Chemical Station",
-        "Crafting module: General",
-        "Required folder: /db-assets/Crafting Recipes/Chemical Station/General/Low Grade Fuel/Required",
-        "Result folder: /db-assets/Crafting Recipes/Chemical Station/General/Low Grade Fuel/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Chemical Station",
-      "craftingModule": "General",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Chemical Station/General/Low Grade Fuel/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Chemical Station/General/Low Grade Fuel/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/General/Low Grade Fuel/Required/required-1.png",
-          "imageDesc": "Low Grade Fuel required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/General/Low Grade Fuel/Required/required-2.png",
-          "imageDesc": "Low Grade Fuel required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/General/Low Grade Fuel/Required/required-3.png",
-          "imageDesc": "Low Grade Fuel required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/General/Low Grade Fuel/Required/required-4.png",
-          "imageDesc": "Low Grade Fuel required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Low Grade Fuel",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/General/Low Grade Fuel/Result/Low Grade Fuel.png",
-          "imageDesc": "Low Grade Fuel result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/General/Low Grade Fuel/Result/Low Grade Fuel.png",
-      "imageDesc": "Low Grade Fuel result image"
-    },
-    {
-      "name": "NDP Powder from stones",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "NDP Powder from stones crafting recipe. Crafting station: Press Machine. Module: Energy Modules - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 29",
-        "Crafting station: Press Machine",
-        "Crafting module: Energy Modules - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Energy Modules - Beginner/NDP Powder from stones/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Energy Modules - Beginner/NDP Powder from stones/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Energy Modules - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Energy Modules - Beginner/NDP Powder from stones/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Energy Modules - Beginner/NDP Powder from stones/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Energy Modules - Beginner/NDP Powder from stones/Required/required-1.png",
-          "imageDesc": "NDP Powder from stones required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Energy Modules - Beginner/NDP Powder from stones/Required/required-2.png",
-          "imageDesc": "NDP Powder from stones required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Energy Modules - Beginner/NDP Powder from stones/Required/required-3.png",
-          "imageDesc": "NDP Powder from stones required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Energy Modules - Beginner/NDP Powder from stones/Required/required-4.png",
-          "imageDesc": "NDP Powder from stones required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "NDP Powder from stones",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Energy Modules - Beginner/NDP Powder from stones/Result/NDP Powder from stones.png",
-          "imageDesc": "NDP Powder from stones result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Energy Modules - Beginner/NDP Powder from stones/Result/NDP Powder from stones.png",
-      "imageDesc": "NDP Powder from stones result image"
-    },
-    {
-      "name": "NDP Powder from Crystals",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "NDP Powder from Crystals crafting recipe. Crafting station: Press Machine. Module: Energy Modules - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 30",
-        "Crafting station: Press Machine",
-        "Crafting module: Energy Modules - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Energy Modules - Beginner/NDP Powder from Crystals/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Energy Modules - Beginner/NDP Powder from Crystals/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Energy Modules - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Energy Modules - Beginner/NDP Powder from Crystals/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Energy Modules - Beginner/NDP Powder from Crystals/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Energy Modules - Beginner/NDP Powder from Crystals/Required/required-1.png",
-          "imageDesc": "NDP Powder from Crystals required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Energy Modules - Beginner/NDP Powder from Crystals/Required/required-2.png",
-          "imageDesc": "NDP Powder from Crystals required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Energy Modules - Beginner/NDP Powder from Crystals/Required/required-3.png",
-          "imageDesc": "NDP Powder from Crystals required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Energy Modules - Beginner/NDP Powder from Crystals/Required/required-4.png",
-          "imageDesc": "NDP Powder from Crystals required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "NDP Powder from Crystals",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Energy Modules - Beginner/NDP Powder from Crystals/Result/NDP Powder from Crystals.png",
-          "imageDesc": "NDP Powder from Crystals result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Energy Modules - Beginner/NDP Powder from Crystals/Result/NDP Powder from Crystals.png",
-      "imageDesc": "NDP Powder from Crystals result image"
-    },
-    {
-      "name": "NDP Polymer",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "NDP Polymer crafting recipe. Crafting station: Chemical Station. Module: Polymers - Beginner. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": "Anti-burn Salve crafting recipe. Station: Inventory. Module: Anti-burn salve recipe. Required: [1] Vaseline; [1] Crucian bile; [1] Fish fat; [2] Chamomile. Result: Anti-burn salve.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
         "Recipe order: 31",
-        "Crafting station: Chemical Station",
-        "Crafting module: Polymers - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Chemical Station/Polymers - Beginner/NDP Polymer/Required",
-        "Result folder: /db-assets/Crafting Recipes/Chemical Station/Polymers - Beginner/NDP Polymer/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Chemical Station",
-      "craftingModule": "Polymers - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Chemical Station/Polymers - Beginner/NDP Polymer/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Chemical Station/Polymers - Beginner/NDP Polymer/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/Polymers - Beginner/NDP Polymer/Required/required-1.png",
-          "imageDesc": "NDP Polymer required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/Polymers - Beginner/NDP Polymer/Required/required-2.png",
-          "imageDesc": "NDP Polymer required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/Polymers - Beginner/NDP Polymer/Required/required-3.png",
-          "imageDesc": "NDP Polymer required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/Polymers - Beginner/NDP Polymer/Required/required-4.png",
-          "imageDesc": "NDP Polymer required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "NDP Polymer",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/Polymers - Beginner/NDP Polymer/Result/NDP Polymer.png",
-          "imageDesc": "NDP Polymer result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/Polymers - Beginner/NDP Polymer/Result/NDP Polymer.png",
-      "imageDesc": "NDP Polymer result image"
-    },
-    {
-      "name": "NDP Battery M1",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "NDP Battery M1 crafting recipe. Crafting station: Chemical Station. Module: Energy Modules - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 32",
-        "Crafting station: Chemical Station",
-        "Crafting module: Energy Modules - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Chemical Station/Energy Modules - Beginner/NDP Battery M1/Required",
-        "Result folder: /db-assets/Crafting Recipes/Chemical Station/Energy Modules - Beginner/NDP Battery M1/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Chemical Station",
-      "craftingModule": "Energy Modules - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Chemical Station/Energy Modules - Beginner/NDP Battery M1/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Chemical Station/Energy Modules - Beginner/NDP Battery M1/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/Energy Modules - Beginner/NDP Battery M1/Required/required-1.png",
-          "imageDesc": "NDP Battery M1 required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/Energy Modules - Beginner/NDP Battery M1/Required/required-2.png",
-          "imageDesc": "NDP Battery M1 required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/Energy Modules - Beginner/NDP Battery M1/Required/required-3.png",
-          "imageDesc": "NDP Battery M1 required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/Energy Modules - Beginner/NDP Battery M1/Required/required-4.png",
-          "imageDesc": "NDP Battery M1 required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "NDP Battery M1",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/Energy Modules - Beginner/NDP Battery M1/Result/NDP Battery M1.png",
-          "imageDesc": "NDP Battery M1 result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/Energy Modules - Beginner/NDP Battery M1/Result/NDP Battery M1.png",
-      "imageDesc": "NDP Battery M1 result image"
-    },
-    {
-      "name": "Titanium Powder",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Titanium Powder crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 33",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Titanium Powder/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Titanium Powder/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Titanium Powder/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Titanium Powder/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Titanium Powder/Required/required-1.png",
-          "imageDesc": "Titanium Powder required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Titanium Powder/Required/required-2.png",
-          "imageDesc": "Titanium Powder required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Titanium Powder/Required/required-3.png",
-          "imageDesc": "Titanium Powder required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Titanium Powder/Required/required-4.png",
-          "imageDesc": "Titanium Powder required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Titanium Powder",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Titanium Powder/Result/Titanium Powder.png",
-          "imageDesc": "Titanium Powder result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Titanium Powder/Result/Titanium Powder.png",
-      "imageDesc": "Titanium Powder result image"
-    },
-    {
-      "name": "Charcoal",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Charcoal crafting recipe. Crafting station: Furnace. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 34",
-        "Crafting station: Furnace",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Charcoal/Required",
-        "Result folder: /db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Charcoal/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Furnace",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Charcoal/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Charcoal/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Charcoal/Required/required-1.png",
-          "imageDesc": "Charcoal required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Charcoal/Required/required-2.png",
-          "imageDesc": "Charcoal required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Charcoal/Required/required-3.png",
-          "imageDesc": "Charcoal required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Charcoal/Required/required-4.png",
-          "imageDesc": "Charcoal required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Charcoal",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Charcoal/Result/Charcoal.png",
-          "imageDesc": "Charcoal result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Charcoal/Result/Charcoal.png",
-      "imageDesc": "Charcoal result image"
-    },
-    {
-      "name": "Gun Powder",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Gun Powder crafting recipe. Crafting station: Chemical Station. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 35",
-        "Crafting station: Chemical Station",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Chemical Station/Blacksmithing recipes - Beginner/Gun Powder/Required",
-        "Result folder: /db-assets/Crafting Recipes/Chemical Station/Blacksmithing recipes - Beginner/Gun Powder/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Chemical Station",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Chemical Station/Blacksmithing recipes - Beginner/Gun Powder/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Chemical Station/Blacksmithing recipes - Beginner/Gun Powder/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/Blacksmithing recipes - Beginner/Gun Powder/Required/required-1.png",
-          "imageDesc": "Gun Powder required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/Blacksmithing recipes - Beginner/Gun Powder/Required/required-2.png",
-          "imageDesc": "Gun Powder required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/Blacksmithing recipes - Beginner/Gun Powder/Required/required-3.png",
-          "imageDesc": "Gun Powder required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/Blacksmithing recipes - Beginner/Gun Powder/Required/required-4.png",
-          "imageDesc": "Gun Powder required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Gun Powder",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/Blacksmithing recipes - Beginner/Gun Powder/Result/Gun Powder.png",
-          "imageDesc": "Gun Powder result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/Blacksmithing recipes - Beginner/Gun Powder/Result/Gun Powder.png",
-      "imageDesc": "Gun Powder result image"
-    },
-    {
-      "name": "Fuel Tablets",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Fuel Tablets crafting recipe. Crafting station: Chemical Station. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 36",
-        "Crafting station: Chemical Station",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Chemical Station/Blacksmithing recipes - Beginner/Fuel Tablets/Required",
-        "Result folder: /db-assets/Crafting Recipes/Chemical Station/Blacksmithing recipes - Beginner/Fuel Tablets/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Chemical Station",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Chemical Station/Blacksmithing recipes - Beginner/Fuel Tablets/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Chemical Station/Blacksmithing recipes - Beginner/Fuel Tablets/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/Blacksmithing recipes - Beginner/Fuel Tablets/Required/required-1.png",
-          "imageDesc": "Fuel Tablets required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/Blacksmithing recipes - Beginner/Fuel Tablets/Required/required-2.png",
-          "imageDesc": "Fuel Tablets required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/Blacksmithing recipes - Beginner/Fuel Tablets/Required/required-3.png",
-          "imageDesc": "Fuel Tablets required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/Blacksmithing recipes - Beginner/Fuel Tablets/Required/required-4.png",
-          "imageDesc": "Fuel Tablets required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Fuel Tablets",
-          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/Blacksmithing recipes - Beginner/Fuel Tablets/Result/Fuel Tablets.png",
-          "imageDesc": "Fuel Tablets result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/Blacksmithing recipes - Beginner/Fuel Tablets/Result/Fuel Tablets.png",
-      "imageDesc": "Fuel Tablets result image"
-    },
-    {
-      "name": "Casted Lead from scratch",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Casted Lead from scratch crafting recipe. Crafting station: Furnace. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 37",
-        "Crafting station: Furnace",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Casted Lead from scratch/Required",
-        "Result folder: /db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Casted Lead from scratch/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Furnace",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Casted Lead from scratch/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Casted Lead from scratch/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Casted Lead from scratch/Required/required-1.png",
-          "imageDesc": "Casted Lead from scratch required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Casted Lead from scratch/Required/required-2.png",
-          "imageDesc": "Casted Lead from scratch required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Casted Lead from scratch/Required/required-3.png",
-          "imageDesc": "Casted Lead from scratch required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Casted Lead from scratch/Required/required-4.png",
-          "imageDesc": "Casted Lead from scratch required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Casted Lead from scratch",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Casted Lead from scratch/Result/Casted Lead from scratch.png",
-          "imageDesc": "Casted Lead from scratch result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Casted Lead from scratch/Result/Casted Lead from scratch.png",
-      "imageDesc": "Casted Lead from scratch result image"
-    },
-    {
-      "name": "Casted Lead from battery",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Casted Lead from battery crafting recipe. Crafting station: Furnace. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 38",
-        "Crafting station: Furnace",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Casted Lead from battery/Required",
-        "Result folder: /db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Casted Lead from battery/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Furnace",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Casted Lead from battery/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Casted Lead from battery/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Casted Lead from battery/Required/required-1.png",
-          "imageDesc": "Casted Lead from battery required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Casted Lead from battery/Required/required-2.png",
-          "imageDesc": "Casted Lead from battery required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Casted Lead from battery/Required/required-3.png",
-          "imageDesc": "Casted Lead from battery required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Casted Lead from battery/Required/required-4.png",
-          "imageDesc": "Casted Lead from battery required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Casted Lead from battery",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Casted Lead from battery/Result/Casted Lead from battery.png",
-          "imageDesc": "Casted Lead from battery result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Casted Lead from battery/Result/Casted Lead from battery.png",
-      "imageDesc": "Casted Lead from battery result image"
-    },
-    {
-      "name": "Iron from scratch",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Iron from scratch crafting recipe. Crafting station: Furnace. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 39",
-        "Crafting station: Furnace",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Iron from scratch/Required",
-        "Result folder: /db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Iron from scratch/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Furnace",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Iron from scratch/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Iron from scratch/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Iron from scratch/Required/required-1.png",
-          "imageDesc": "Iron from scratch required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Iron from scratch/Required/required-2.png",
-          "imageDesc": "Iron from scratch required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Iron from scratch/Required/required-3.png",
-          "imageDesc": "Iron from scratch required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Iron from scratch/Required/required-4.png",
-          "imageDesc": "Iron from scratch required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Iron from scratch",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Iron from scratch/Result/Iron from scratch.png",
-          "imageDesc": "Iron from scratch result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Iron from scratch/Result/Iron from scratch.png",
-      "imageDesc": "Iron from scratch result image"
-    },
-    {
-      "name": "Iron from broken Armor plate",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Iron from broken Armor plate crafting recipe. Crafting station: Furnace. Module: Blacksmithing recipes - Advanced. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 40",
-        "Crafting station: Furnace",
-        "Crafting module: Blacksmithing recipes - Advanced",
-        "Required folder: /db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Advanced/Iron from broken Armor plate/Required",
-        "Result folder: /db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Advanced/Iron from broken Armor plate/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Furnace",
-      "craftingModule": "Blacksmithing recipes - Advanced",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Advanced/Iron from broken Armor plate/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Advanced/Iron from broken Armor plate/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Advanced/Iron from broken Armor plate/Required/required-1.png",
-          "imageDesc": "Iron from broken Armor plate required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Advanced/Iron from broken Armor plate/Required/required-2.png",
-          "imageDesc": "Iron from broken Armor plate required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Advanced/Iron from broken Armor plate/Required/required-3.png",
-          "imageDesc": "Iron from broken Armor plate required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Advanced/Iron from broken Armor plate/Required/required-4.png",
-          "imageDesc": "Iron from broken Armor plate required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Iron from broken Armor plate",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Advanced/Iron from broken Armor plate/Result/Iron from broken Armor plate.png",
-          "imageDesc": "Iron from broken Armor plate result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Advanced/Iron from broken Armor plate/Result/Iron from broken Armor plate.png",
-      "imageDesc": "Iron from broken Armor plate result image"
-    },
-    {
-      "name": "Gun Steel",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Gun Steel crafting recipe. Crafting station: Furnace. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 41",
-        "Crafting station: Furnace",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Gun Steel/Required",
-        "Result folder: /db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Gun Steel/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Furnace",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Gun Steel/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Gun Steel/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Gun Steel/Required/required-1.png",
-          "imageDesc": "Gun Steel required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Gun Steel/Required/required-2.png",
-          "imageDesc": "Gun Steel required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Gun Steel/Required/required-3.png",
-          "imageDesc": "Gun Steel required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Gun Steel/Required/required-4.png",
-          "imageDesc": "Gun Steel required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Gun Steel",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Gun Steel/Result/Gun Steel.png",
-          "imageDesc": "Gun Steel result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Gun Steel/Result/Gun Steel.png",
-      "imageDesc": "Gun Steel result image"
-    },
-    {
-      "name": "Armor Steel",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Armor Steel crafting recipe. Crafting station: Furnace. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 42",
-        "Crafting station: Furnace",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Armor Steel/Required",
-        "Result folder: /db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Armor Steel/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Furnace",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Armor Steel/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Armor Steel/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Armor Steel/Required/required-1.png",
-          "imageDesc": "Armor Steel required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Armor Steel/Required/required-2.png",
-          "imageDesc": "Armor Steel required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Armor Steel/Required/required-3.png",
-          "imageDesc": "Armor Steel required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Armor Steel/Required/required-4.png",
-          "imageDesc": "Armor Steel required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Armor Steel",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Armor Steel/Result/Armor Steel.png",
-          "imageDesc": "Armor Steel result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Armor Steel/Result/Armor Steel.png",
-      "imageDesc": "Armor Steel result image"
-    },
-    {
-      "name": "Copper from Ore",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Copper from Ore crafting recipe. Crafting station: Furnace. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 43",
-        "Crafting station: Furnace",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Copper from Ore/Required",
-        "Result folder: /db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Copper from Ore/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Furnace",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Copper from Ore/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Copper from Ore/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Copper from Ore/Required/required-1.png",
-          "imageDesc": "Copper from Ore required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Copper from Ore/Required/required-2.png",
-          "imageDesc": "Copper from Ore required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Copper from Ore/Required/required-3.png",
-          "imageDesc": "Copper from Ore required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Copper from Ore/Required/required-4.png",
-          "imageDesc": "Copper from Ore required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Copper from Ore",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Copper from Ore/Result/Copper from Ore.png",
-          "imageDesc": "Copper from Ore result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Copper from Ore/Result/Copper from Ore.png",
-      "imageDesc": "Copper from Ore result image"
-    },
-    {
-      "name": "Gold from Ore",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Gold from Ore crafting recipe. Crafting station: Furnace. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 44",
-        "Crafting station: Furnace",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Gold from Ore/Required",
-        "Result folder: /db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Gold from Ore/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Furnace",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Gold from Ore/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Gold from Ore/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Gold from Ore/Required/required-1.png",
-          "imageDesc": "Gold from Ore required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Gold from Ore/Required/required-2.png",
-          "imageDesc": "Gold from Ore required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Gold from Ore/Required/required-3.png",
-          "imageDesc": "Gold from Ore required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Gold from Ore/Required/required-4.png",
-          "imageDesc": "Gold from Ore required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Gold from Ore",
-          "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Gold from Ore/Result/Gold from Ore.png",
-          "imageDesc": "Gold from Ore result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing recipes - Beginner/Gold from Ore/Result/Gold from Ore.png",
-      "imageDesc": "Gold from Ore result image"
-    },
-    {
-      "name": "Steel Armor Plate SL-1",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Steel Armor Plate SL-1 crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Advanced. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 45",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Advanced",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SL-1/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SL-1/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Advanced",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SL-1/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SL-1/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SL-1/Required/required-1.png",
-          "imageDesc": "Steel Armor Plate SL-1 required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SL-1/Required/required-2.png",
-          "imageDesc": "Steel Armor Plate SL-1 required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SL-1/Required/required-3.png",
-          "imageDesc": "Steel Armor Plate SL-1 required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SL-1/Required/required-4.png",
-          "imageDesc": "Steel Armor Plate SL-1 required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Steel Armor Plate SL-1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SL-1/Result/Steel Armor Plate SL-1.png",
-          "imageDesc": "Steel Armor Plate SL-1 result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SL-1/Result/Steel Armor Plate SL-1.png",
-      "imageDesc": "Steel Armor Plate SL-1 result image"
-    },
-    {
-      "name": "Steel Armor Plate SL-2",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Steel Armor Plate SL-2 crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Advanced. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 46",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Advanced",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SL-2/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SL-2/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Advanced",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SL-2/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SL-2/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SL-2/Required/required-1.png",
-          "imageDesc": "Steel Armor Plate SL-2 required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SL-2/Required/required-2.png",
-          "imageDesc": "Steel Armor Plate SL-2 required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SL-2/Required/required-3.png",
-          "imageDesc": "Steel Armor Plate SL-2 required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SL-2/Required/required-4.png",
-          "imageDesc": "Steel Armor Plate SL-2 required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Steel Armor Plate SL-2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SL-2/Result/Steel Armor Plate SL-2.png",
-          "imageDesc": "Steel Armor Plate SL-2 result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SL-2/Result/Steel Armor Plate SL-2.png",
-      "imageDesc": "Steel Armor Plate SL-2 result image"
-    },
-    {
-      "name": "Steel Armor Plate SL-3",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Steel Armor Plate SL-3 crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Advanced. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 47",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Advanced",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SL-3/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SL-3/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Advanced",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SL-3/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SL-3/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SL-3/Required/required-1.png",
-          "imageDesc": "Steel Armor Plate SL-3 required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SL-3/Required/required-2.png",
-          "imageDesc": "Steel Armor Plate SL-3 required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SL-3/Required/required-3.png",
-          "imageDesc": "Steel Armor Plate SL-3 required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SL-3/Required/required-4.png",
-          "imageDesc": "Steel Armor Plate SL-3 required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Steel Armor Plate SL-3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SL-3/Result/Steel Armor Plate SL-3.png",
-          "imageDesc": "Steel Armor Plate SL-3 result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SL-3/Result/Steel Armor Plate SL-3.png",
-      "imageDesc": "Steel Armor Plate SL-3 result image"
-    },
-    {
-      "name": "Steel Armor Plate SL-1 M1",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Steel Armor Plate SL-1 M1 crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - M1 armor plates. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 48",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - M1 armor plates",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SL-1 M1/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SL-1 M1/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - M1 armor plates",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SL-1 M1/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SL-1 M1/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SL-1 M1/Required/required-1.png",
-          "imageDesc": "Steel Armor Plate SL-1 M1 required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SL-1 M1/Required/required-2.png",
-          "imageDesc": "Steel Armor Plate SL-1 M1 required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SL-1 M1/Required/required-3.png",
-          "imageDesc": "Steel Armor Plate SL-1 M1 required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SL-1 M1/Required/required-4.png",
-          "imageDesc": "Steel Armor Plate SL-1 M1 required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Steel Armor Plate SL-1 M1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SL-1 M1/Result/Steel Armor Plate SL-1 M1.png",
-          "imageDesc": "Steel Armor Plate SL-1 M1 result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SL-1 M1/Result/Steel Armor Plate SL-1 M1.png",
-      "imageDesc": "Steel Armor Plate SL-1 M1 result image"
-    },
-    {
-      "name": "Steel Armor Plate SL-2 M1",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Steel Armor Plate SL-2 M1 crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - M1 armor plates. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 49",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - M1 armor plates",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SL-2 M1/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SL-2 M1/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - M1 armor plates",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SL-2 M1/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SL-2 M1/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SL-2 M1/Required/required-1.png",
-          "imageDesc": "Steel Armor Plate SL-2 M1 required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SL-2 M1/Required/required-2.png",
-          "imageDesc": "Steel Armor Plate SL-2 M1 required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SL-2 M1/Required/required-3.png",
-          "imageDesc": "Steel Armor Plate SL-2 M1 required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SL-2 M1/Required/required-4.png",
-          "imageDesc": "Steel Armor Plate SL-2 M1 required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Steel Armor Plate SL-2 M1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SL-2 M1/Result/Steel Armor Plate SL-2 M1.png",
-          "imageDesc": "Steel Armor Plate SL-2 M1 result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SL-2 M1/Result/Steel Armor Plate SL-2 M1.png",
-      "imageDesc": "Steel Armor Plate SL-2 M1 result image"
-    },
-    {
-      "name": "Steel Armor Plate SL-3 M1",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Steel Armor Plate SL-3 M1 crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - M1 armor plates. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 50",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - M1 armor plates",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SL-3 M1/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SL-3 M1/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - M1 armor plates",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SL-3 M1/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SL-3 M1/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SL-3 M1/Required/required-1.png",
-          "imageDesc": "Steel Armor Plate SL-3 M1 required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SL-3 M1/Required/required-2.png",
-          "imageDesc": "Steel Armor Plate SL-3 M1 required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SL-3 M1/Required/required-3.png",
-          "imageDesc": "Steel Armor Plate SL-3 M1 required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SL-3 M1/Required/required-4.png",
-          "imageDesc": "Steel Armor Plate SL-3 M1 required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Steel Armor Plate SL-3 M1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SL-3 M1/Result/Steel Armor Plate SL-3 M1.png",
-          "imageDesc": "Steel Armor Plate SL-3 M1 result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SL-3 M1/Result/Steel Armor Plate SL-3 M1.png",
-      "imageDesc": "Steel Armor Plate SL-3 M1 result image"
-    },
-    {
-      "name": "Steel Armor Plate SM-1",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Steel Armor Plate SM-1 crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Advanced. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 51",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Advanced",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SM-1/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SM-1/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Advanced",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SM-1/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SM-1/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SM-1/Required/required-1.png",
-          "imageDesc": "Steel Armor Plate SM-1 required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SM-1/Required/required-2.png",
-          "imageDesc": "Steel Armor Plate SM-1 required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SM-1/Required/required-3.png",
-          "imageDesc": "Steel Armor Plate SM-1 required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SM-1/Required/required-4.png",
-          "imageDesc": "Steel Armor Plate SM-1 required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Steel Armor Plate SM-1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SM-1/Result/Steel Armor Plate SM-1.png",
-          "imageDesc": "Steel Armor Plate SM-1 result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SM-1/Result/Steel Armor Plate SM-1.png",
-      "imageDesc": "Steel Armor Plate SM-1 result image"
-    },
-    {
-      "name": "Steel Armor Plate SM-2",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Steel Armor Plate SM-2 crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Advanced. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 52",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Advanced",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SM-2/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SM-2/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Advanced",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SM-2/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SM-2/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SM-2/Required/required-1.png",
-          "imageDesc": "Steel Armor Plate SM-2 required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SM-2/Required/required-2.png",
-          "imageDesc": "Steel Armor Plate SM-2 required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SM-2/Required/required-3.png",
-          "imageDesc": "Steel Armor Plate SM-2 required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SM-2/Required/required-4.png",
-          "imageDesc": "Steel Armor Plate SM-2 required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Steel Armor Plate SM-2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SM-2/Result/Steel Armor Plate SM-2.png",
-          "imageDesc": "Steel Armor Plate SM-2 result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SM-2/Result/Steel Armor Plate SM-2.png",
-      "imageDesc": "Steel Armor Plate SM-2 result image"
-    },
-    {
-      "name": "Steel Armor Plate SM-3",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Steel Armor Plate SM-3 crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Advanced. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 53",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Advanced",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SM-3/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SM-3/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Advanced",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SM-3/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SM-3/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SM-3/Required/required-1.png",
-          "imageDesc": "Steel Armor Plate SM-3 required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SM-3/Required/required-2.png",
-          "imageDesc": "Steel Armor Plate SM-3 required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SM-3/Required/required-3.png",
-          "imageDesc": "Steel Armor Plate SM-3 required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SM-3/Required/required-4.png",
-          "imageDesc": "Steel Armor Plate SM-3 required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Steel Armor Plate SM-3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SM-3/Result/Steel Armor Plate SM-3.png",
-          "imageDesc": "Steel Armor Plate SM-3 result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SM-3/Result/Steel Armor Plate SM-3.png",
-      "imageDesc": "Steel Armor Plate SM-3 result image"
-    },
-    {
-      "name": "Steel Armor Plate SM-1 M1",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Steel Armor Plate SM-1 M1 crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - M1 armor plates. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 54",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - M1 armor plates",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SM-1 M1/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SM-1 M1/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - M1 armor plates",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SM-1 M1/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SM-1 M1/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SM-1 M1/Required/required-1.png",
-          "imageDesc": "Steel Armor Plate SM-1 M1 required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SM-1 M1/Required/required-2.png",
-          "imageDesc": "Steel Armor Plate SM-1 M1 required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SM-1 M1/Required/required-3.png",
-          "imageDesc": "Steel Armor Plate SM-1 M1 required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SM-1 M1/Required/required-4.png",
-          "imageDesc": "Steel Armor Plate SM-1 M1 required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Steel Armor Plate SM-1 M1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SM-1 M1/Result/Steel Armor Plate SM-1 M1.png",
-          "imageDesc": "Steel Armor Plate SM-1 M1 result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SM-1 M1/Result/Steel Armor Plate SM-1 M1.png",
-      "imageDesc": "Steel Armor Plate SM-1 M1 result image"
-    },
-    {
-      "name": "Steel Armor Plate SM-2 M1",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Steel Armor Plate SM-2 M1 crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - M1 armor plates. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 55",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - M1 armor plates",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SM-2 M1/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SM-2 M1/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - M1 armor plates",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SM-2 M1/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SM-2 M1/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SM-2 M1/Required/required-1.png",
-          "imageDesc": "Steel Armor Plate SM-2 M1 required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SM-2 M1/Required/required-2.png",
-          "imageDesc": "Steel Armor Plate SM-2 M1 required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SM-2 M1/Required/required-3.png",
-          "imageDesc": "Steel Armor Plate SM-2 M1 required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SM-2 M1/Required/required-4.png",
-          "imageDesc": "Steel Armor Plate SM-2 M1 required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Steel Armor Plate SM-2 M1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SM-2 M1/Result/Steel Armor Plate SM-2 M1.png",
-          "imageDesc": "Steel Armor Plate SM-2 M1 result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SM-2 M1/Result/Steel Armor Plate SM-2 M1.png",
-      "imageDesc": "Steel Armor Plate SM-2 M1 result image"
-    },
-    {
-      "name": "Steel Armor Plate SM-3 M1",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Steel Armor Plate SM-3 M1 crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - M1 armor plates. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 56",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - M1 armor plates",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SM-3 M1/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SM-3 M1/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - M1 armor plates",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SM-3 M1/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SM-3 M1/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SM-3 M1/Required/required-1.png",
-          "imageDesc": "Steel Armor Plate SM-3 M1 required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SM-3 M1/Required/required-2.png",
-          "imageDesc": "Steel Armor Plate SM-3 M1 required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SM-3 M1/Required/required-3.png",
-          "imageDesc": "Steel Armor Plate SM-3 M1 required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SM-3 M1/Required/required-4.png",
-          "imageDesc": "Steel Armor Plate SM-3 M1 required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Steel Armor Plate SM-3 M1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SM-3 M1/Result/Steel Armor Plate SM-3 M1.png",
-          "imageDesc": "Steel Armor Plate SM-3 M1 result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SM-3 M1/Result/Steel Armor Plate SM-3 M1.png",
-      "imageDesc": "Steel Armor Plate SM-3 M1 result image"
-    },
-    {
-      "name": "Steel Armor Plate SH-1",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Steel Armor Plate SH-1 crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Advanced. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 57",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Advanced",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SH-1/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SH-1/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Advanced",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SH-1/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SH-1/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SH-1/Required/required-1.png",
-          "imageDesc": "Steel Armor Plate SH-1 required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SH-1/Required/required-2.png",
-          "imageDesc": "Steel Armor Plate SH-1 required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SH-1/Required/required-3.png",
-          "imageDesc": "Steel Armor Plate SH-1 required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SH-1/Required/required-4.png",
-          "imageDesc": "Steel Armor Plate SH-1 required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Steel Armor Plate SH-1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SH-1/Result/Steel Armor Plate SH-1.png",
-          "imageDesc": "Steel Armor Plate SH-1 result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SH-1/Result/Steel Armor Plate SH-1.png",
-      "imageDesc": "Steel Armor Plate SH-1 result image"
-    },
-    {
-      "name": "Steel Armor Plate SH-2",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Steel Armor Plate SH-2 crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Advanced. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 58",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Advanced",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SH-2/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SH-2/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Advanced",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SH-2/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SH-2/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SH-2/Required/required-1.png",
-          "imageDesc": "Steel Armor Plate SH-2 required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SH-2/Required/required-2.png",
-          "imageDesc": "Steel Armor Plate SH-2 required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SH-2/Required/required-3.png",
-          "imageDesc": "Steel Armor Plate SH-2 required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SH-2/Required/required-4.png",
-          "imageDesc": "Steel Armor Plate SH-2 required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Steel Armor Plate SH-2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SH-2/Result/Steel Armor Plate SH-2.png",
-          "imageDesc": "Steel Armor Plate SH-2 result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SH-2/Result/Steel Armor Plate SH-2.png",
-      "imageDesc": "Steel Armor Plate SH-2 result image"
-    },
-    {
-      "name": "Steel Armor Plate SH-3",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Steel Armor Plate SH-3 crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Advanced. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 59",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Advanced",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SH-3/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SH-3/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Advanced",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SH-3/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SH-3/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SH-3/Required/required-1.png",
-          "imageDesc": "Steel Armor Plate SH-3 required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SH-3/Required/required-2.png",
-          "imageDesc": "Steel Armor Plate SH-3 required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SH-3/Required/required-3.png",
-          "imageDesc": "Steel Armor Plate SH-3 required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SH-3/Required/required-4.png",
-          "imageDesc": "Steel Armor Plate SH-3 required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Steel Armor Plate SH-3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SH-3/Result/Steel Armor Plate SH-3.png",
-          "imageDesc": "Steel Armor Plate SH-3 result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Advanced/Steel Armor Plate SH-3/Result/Steel Armor Plate SH-3.png",
-      "imageDesc": "Steel Armor Plate SH-3 result image"
-    },
-    {
-      "name": "Steel Armor Plate SH-1 M1",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Steel Armor Plate SH-1 M1 crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - M1 armor plates. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 60",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - M1 armor plates",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SH-1 M1/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SH-1 M1/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - M1 armor plates",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SH-1 M1/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SH-1 M1/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SH-1 M1/Required/required-1.png",
-          "imageDesc": "Steel Armor Plate SH-1 M1 required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SH-1 M1/Required/required-2.png",
-          "imageDesc": "Steel Armor Plate SH-1 M1 required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SH-1 M1/Required/required-3.png",
-          "imageDesc": "Steel Armor Plate SH-1 M1 required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SH-1 M1/Required/required-4.png",
-          "imageDesc": "Steel Armor Plate SH-1 M1 required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Steel Armor Plate SH-1 M1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SH-1 M1/Result/Steel Armor Plate SH-1 M1.png",
-          "imageDesc": "Steel Armor Plate SH-1 M1 result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SH-1 M1/Result/Steel Armor Plate SH-1 M1.png",
-      "imageDesc": "Steel Armor Plate SH-1 M1 result image"
-    },
-    {
-      "name": "Steel Armor Plate SH-2 M1",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Steel Armor Plate SH-2 M1 crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - M1 armor plates. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 61",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - M1 armor plates",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SH-2 M1/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SH-2 M1/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - M1 armor plates",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SH-2 M1/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SH-2 M1/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SH-2 M1/Required/required-1.png",
-          "imageDesc": "Steel Armor Plate SH-2 M1 required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SH-2 M1/Required/required-2.png",
-          "imageDesc": "Steel Armor Plate SH-2 M1 required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SH-2 M1/Required/required-3.png",
-          "imageDesc": "Steel Armor Plate SH-2 M1 required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SH-2 M1/Required/required-4.png",
-          "imageDesc": "Steel Armor Plate SH-2 M1 required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Steel Armor Plate SH-2 M1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SH-2 M1/Result/Steel Armor Plate SH-2 M1.png",
-          "imageDesc": "Steel Armor Plate SH-2 M1 result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SH-2 M1/Result/Steel Armor Plate SH-2 M1.png",
-      "imageDesc": "Steel Armor Plate SH-2 M1 result image"
-    },
-    {
-      "name": "Steel Armor Plate SH-3 M1",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Steel Armor Plate SH-3 M1 crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - M1 armor plates. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 62",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - M1 armor plates",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SH-3 M1/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SH-3 M1/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - M1 armor plates",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SH-3 M1/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SH-3 M1/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SH-3 M1/Required/required-1.png",
-          "imageDesc": "Steel Armor Plate SH-3 M1 required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SH-3 M1/Required/required-2.png",
-          "imageDesc": "Steel Armor Plate SH-3 M1 required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SH-3 M1/Required/required-3.png",
-          "imageDesc": "Steel Armor Plate SH-3 M1 required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SH-3 M1/Required/required-4.png",
-          "imageDesc": "Steel Armor Plate SH-3 M1 required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Steel Armor Plate SH-3 M1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SH-3 M1/Result/Steel Armor Plate SH-3 M1.png",
-          "imageDesc": "Steel Armor Plate SH-3 M1 result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - M1 armor plates/Steel Armor Plate SH-3 M1/Result/Steel Armor Plate SH-3 M1.png",
-      "imageDesc": "Steel Armor Plate SH-3 M1 result image"
-    },
-    {
-      "name": "Fried Rat Meat",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Fried Rat Meat crafting recipe. Crafting station: Campfire. Module: Campfire recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 63",
-        "Crafting station: Campfire",
-        "Crafting module: Campfire recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Rat Meat/Required",
-        "Result folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Rat Meat/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Campfire",
-      "craftingModule": "Campfire recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Rat Meat/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Rat Meat/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Rat Meat/Required/required-1.png",
-          "imageDesc": "Fried Rat Meat required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Rat Meat/Required/required-2.png",
-          "imageDesc": "Fried Rat Meat required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Rat Meat/Required/required-3.png",
-          "imageDesc": "Fried Rat Meat required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Rat Meat/Required/required-4.png",
-          "imageDesc": "Fried Rat Meat required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Fried Rat Meat",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Rat Meat/Result/Fried Rat Meat.png",
-          "imageDesc": "Fried Rat Meat result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Rat Meat/Result/Fried Rat Meat.png",
-      "imageDesc": "Fried Rat Meat result image"
-    },
-    {
-      "name": "Fried Boar Meat",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Fried Boar Meat crafting recipe. Crafting station: Campfire. Module: Campfire recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 64",
-        "Crafting station: Campfire",
-        "Crafting module: Campfire recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Boar Meat/Required",
-        "Result folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Boar Meat/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Campfire",
-      "craftingModule": "Campfire recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Boar Meat/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Boar Meat/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Boar Meat/Required/required-1.png",
-          "imageDesc": "Fried Boar Meat required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Boar Meat/Required/required-2.png",
-          "imageDesc": "Fried Boar Meat required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Boar Meat/Required/required-3.png",
-          "imageDesc": "Fried Boar Meat required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Boar Meat/Required/required-4.png",
-          "imageDesc": "Fried Boar Meat required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Fried Boar Meat",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Boar Meat/Result/Fried Boar Meat.png",
-          "imageDesc": "Fried Boar Meat result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Boar Meat/Result/Fried Boar Meat.png",
-      "imageDesc": "Fried Boar Meat result image"
-    },
-    {
-      "name": "Fried Lizard Meat",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Fried Lizard Meat crafting recipe. Crafting station: Campfire. Module: Campfire recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 65",
-        "Crafting station: Campfire",
-        "Crafting module: Campfire recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Lizard Meat/Required",
-        "Result folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Lizard Meat/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Campfire",
-      "craftingModule": "Campfire recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Lizard Meat/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Lizard Meat/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Lizard Meat/Required/required-1.png",
-          "imageDesc": "Fried Lizard Meat required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Lizard Meat/Required/required-2.png",
-          "imageDesc": "Fried Lizard Meat required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Lizard Meat/Required/required-3.png",
-          "imageDesc": "Fried Lizard Meat required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Lizard Meat/Required/required-4.png",
-          "imageDesc": "Fried Lizard Meat required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Fried Lizard Meat",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Lizard Meat/Result/Fried Lizard Meat.png",
-          "imageDesc": "Fried Lizard Meat result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Lizard Meat/Result/Fried Lizard Meat.png",
-      "imageDesc": "Fried Lizard Meat result image"
-    },
-    {
-      "name": "Fried Watcher Meat",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Fried Watcher Meat crafting recipe. Crafting station: Campfire. Module: Campfire recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 66",
-        "Crafting station: Campfire",
-        "Crafting module: Campfire recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Watcher Meat/Required",
-        "Result folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Watcher Meat/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Campfire",
-      "craftingModule": "Campfire recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Watcher Meat/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Watcher Meat/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Watcher Meat/Required/required-1.png",
-          "imageDesc": "Fried Watcher Meat required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Watcher Meat/Required/required-2.png",
-          "imageDesc": "Fried Watcher Meat required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Watcher Meat/Required/required-3.png",
-          "imageDesc": "Fried Watcher Meat required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Watcher Meat/Required/required-4.png",
-          "imageDesc": "Fried Watcher Meat required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Fried Watcher Meat",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Watcher Meat/Result/Fried Watcher Meat.png",
-          "imageDesc": "Fried Watcher Meat result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Watcher Meat/Result/Fried Watcher Meat.png",
-      "imageDesc": "Fried Watcher Meat result image"
-    },
-    {
-      "name": "Fried Dog Meat",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Fried Dog Meat crafting recipe. Crafting station: Campfire. Module: Campfire recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 67",
-        "Crafting station: Campfire",
-        "Crafting module: Campfire recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Dog Meat/Required",
-        "Result folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Dog Meat/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Campfire",
-      "craftingModule": "Campfire recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Dog Meat/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Dog Meat/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Dog Meat/Required/required-1.png",
-          "imageDesc": "Fried Dog Meat required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Dog Meat/Required/required-2.png",
-          "imageDesc": "Fried Dog Meat required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Dog Meat/Required/required-3.png",
-          "imageDesc": "Fried Dog Meat required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Dog Meat/Required/required-4.png",
-          "imageDesc": "Fried Dog Meat required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Fried Dog Meat",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Dog Meat/Result/Fried Dog Meat.png",
-          "imageDesc": "Fried Dog Meat result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Dog Meat/Result/Fried Dog Meat.png",
-      "imageDesc": "Fried Dog Meat result image"
-    },
-    {
-      "name": "Fried Mushrooms",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Fried Mushrooms crafting recipe. Crafting station: Campfire. Module: Campfire recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 68",
-        "Crafting station: Campfire",
-        "Crafting module: Campfire recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Mushrooms/Required",
-        "Result folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Mushrooms/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Campfire",
-      "craftingModule": "Campfire recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Mushrooms/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Mushrooms/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Mushrooms/Required/required-1.png",
-          "imageDesc": "Fried Mushrooms required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Mushrooms/Required/required-2.png",
-          "imageDesc": "Fried Mushrooms required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Mushrooms/Required/required-3.png",
-          "imageDesc": "Fried Mushrooms required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Mushrooms/Required/required-4.png",
-          "imageDesc": "Fried Mushrooms required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Fried Mushrooms",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Mushrooms/Result/Fried Mushrooms.png",
-          "imageDesc": "Fried Mushrooms result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Mushrooms/Result/Fried Mushrooms.png",
-      "imageDesc": "Fried Mushrooms result image"
-    },
-    {
-      "name": "Fried Chicken Meat",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Fried Chicken Meat crafting recipe. Crafting station: Campfire. Module: Campfire recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 69",
-        "Crafting station: Campfire",
-        "Crafting module: Campfire recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Chicken Meat/Required",
-        "Result folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Chicken Meat/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Campfire",
-      "craftingModule": "Campfire recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Chicken Meat/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Chicken Meat/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Chicken Meat/Required/required-1.png",
-          "imageDesc": "Fried Chicken Meat required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Chicken Meat/Required/required-2.png",
-          "imageDesc": "Fried Chicken Meat required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Chicken Meat/Required/required-3.png",
-          "imageDesc": "Fried Chicken Meat required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Chicken Meat/Required/required-4.png",
-          "imageDesc": "Fried Chicken Meat required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Fried Chicken Meat",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Chicken Meat/Result/Fried Chicken Meat.png",
-          "imageDesc": "Fried Chicken Meat result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Chicken Meat/Result/Fried Chicken Meat.png",
-      "imageDesc": "Fried Chicken Meat result image"
-    },
-    {
-      "name": "Fried Rabbit carcass",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Fried Rabbit carcass crafting recipe. Crafting station: Campfire. Module: Campfire recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 70",
-        "Crafting station: Campfire",
-        "Crafting module: Campfire recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Rabbit carcass/Required",
-        "Result folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Rabbit carcass/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Campfire",
-      "craftingModule": "Campfire recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Rabbit carcass/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Rabbit carcass/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Rabbit carcass/Required/required-1.png",
-          "imageDesc": "Fried Rabbit carcass required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Rabbit carcass/Required/required-2.png",
-          "imageDesc": "Fried Rabbit carcass required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Rabbit carcass/Required/required-3.png",
-          "imageDesc": "Fried Rabbit carcass required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Rabbit carcass/Required/required-4.png",
-          "imageDesc": "Fried Rabbit carcass required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Fried Rabbit carcass",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Rabbit carcass/Result/Fried Rabbit carcass.png",
-          "imageDesc": "Fried Rabbit carcass result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Rabbit carcass/Result/Fried Rabbit carcass.png",
-      "imageDesc": "Fried Rabbit carcass result image"
-    },
-    {
-      "name": "Fried Deer Meat",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Fried Deer Meat crafting recipe. Crafting station: Campfire. Module: Campfire recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 71",
-        "Crafting station: Campfire",
-        "Crafting module: Campfire recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Deer Meat/Required",
-        "Result folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Deer Meat/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Campfire",
-      "craftingModule": "Campfire recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Deer Meat/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Deer Meat/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Deer Meat/Required/required-1.png",
-          "imageDesc": "Fried Deer Meat required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Deer Meat/Required/required-2.png",
-          "imageDesc": "Fried Deer Meat required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Deer Meat/Required/required-3.png",
-          "imageDesc": "Fried Deer Meat required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Deer Meat/Required/required-4.png",
-          "imageDesc": "Fried Deer Meat required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Fried Deer Meat",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Deer Meat/Result/Fried Deer Meat.png",
-          "imageDesc": "Fried Deer Meat result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Deer Meat/Result/Fried Deer Meat.png",
-      "imageDesc": "Fried Deer Meat result image"
-    },
-    {
-      "name": "Fried Bear Meat",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Fried Bear Meat crafting recipe. Crafting station: Campfire. Module: Campfire recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 72",
-        "Crafting station: Campfire",
-        "Crafting module: Campfire recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Bear Meat/Required",
-        "Result folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Bear Meat/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Campfire",
-      "craftingModule": "Campfire recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Bear Meat/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Bear Meat/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Bear Meat/Required/required-1.png",
-          "imageDesc": "Fried Bear Meat required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Bear Meat/Required/required-2.png",
-          "imageDesc": "Fried Bear Meat required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Bear Meat/Required/required-3.png",
-          "imageDesc": "Fried Bear Meat required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Bear Meat/Required/required-4.png",
-          "imageDesc": "Fried Bear Meat required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Fried Bear Meat",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Bear Meat/Result/Fried Bear Meat.png",
-          "imageDesc": "Fried Bear Meat result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Bear Meat/Result/Fried Bear Meat.png",
-      "imageDesc": "Fried Bear Meat result image"
-    },
-    {
-      "name": "Fried Bear Heart",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Fried Bear Heart crafting recipe. Crafting station: Campfire. Module: Campfire recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 73",
-        "Crafting station: Campfire",
-        "Crafting module: Campfire recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Bear Heart/Required",
-        "Result folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Bear Heart/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Campfire",
-      "craftingModule": "Campfire recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Bear Heart/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Bear Heart/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Bear Heart/Required/required-1.png",
-          "imageDesc": "Fried Bear Heart required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Bear Heart/Required/required-2.png",
-          "imageDesc": "Fried Bear Heart required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Bear Heart/Required/required-3.png",
-          "imageDesc": "Fried Bear Heart required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Bear Heart/Required/required-4.png",
-          "imageDesc": "Fried Bear Heart required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Fried Bear Heart",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Bear Heart/Result/Fried Bear Heart.png",
-          "imageDesc": "Fried Bear Heart result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Bear Heart/Result/Fried Bear Heart.png",
-      "imageDesc": "Fried Bear Heart result image"
-    },
-    {
-      "name": "Fried Bear Sternum",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Fried Bear Sternum crafting recipe. Crafting station: Campfire. Module: Campfire recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 74",
-        "Crafting station: Campfire",
-        "Crafting module: Campfire recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Bear Sternum/Required",
-        "Result folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Bear Sternum/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Campfire",
-      "craftingModule": "Campfire recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Bear Sternum/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Bear Sternum/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Bear Sternum/Required/required-1.png",
-          "imageDesc": "Fried Bear Sternum required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Bear Sternum/Required/required-2.png",
-          "imageDesc": "Fried Bear Sternum required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Bear Sternum/Required/required-3.png",
-          "imageDesc": "Fried Bear Sternum required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Bear Sternum/Required/required-4.png",
-          "imageDesc": "Fried Bear Sternum required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Fried Bear Sternum",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Bear Sternum/Result/Fried Bear Sternum.png",
-          "imageDesc": "Fried Bear Sternum result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Bear Sternum/Result/Fried Bear Sternum.png",
-      "imageDesc": "Fried Bear Sternum result image"
-    },
-    {
-      "name": "Fried Stingray Meat",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Fried Stingray Meat crafting recipe. Crafting station: Campfire. Module: Campfire recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 75",
-        "Crafting station: Campfire",
-        "Crafting module: Campfire recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Stingray Meat/Required",
-        "Result folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Stingray Meat/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Campfire",
-      "craftingModule": "Campfire recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Stingray Meat/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Stingray Meat/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Stingray Meat/Required/required-1.png",
-          "imageDesc": "Fried Stingray Meat required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Stingray Meat/Required/required-2.png",
-          "imageDesc": "Fried Stingray Meat required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Stingray Meat/Required/required-3.png",
-          "imageDesc": "Fried Stingray Meat required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Stingray Meat/Required/required-4.png",
-          "imageDesc": "Fried Stingray Meat required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Fried Stingray Meat",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Stingray Meat/Result/Fried Stingray Meat.png",
-          "imageDesc": "Fried Stingray Meat result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Stingray Meat/Result/Fried Stingray Meat.png",
-      "imageDesc": "Fried Stingray Meat result image"
-    },
-    {
-      "name": "Fried Spiked Crucian",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Fried Spiked Crucian crafting recipe. Crafting station: Campfire. Module: Campfire recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 76",
-        "Crafting station: Campfire",
-        "Crafting module: Campfire recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Spiked Crucian/Required",
-        "Result folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Spiked Crucian/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Campfire",
-      "craftingModule": "Campfire recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Spiked Crucian/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Spiked Crucian/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Spiked Crucian/Required/required-1.png",
-          "imageDesc": "Fried Spiked Crucian required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Spiked Crucian/Required/required-2.png",
-          "imageDesc": "Fried Spiked Crucian required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Spiked Crucian/Required/required-3.png",
-          "imageDesc": "Fried Spiked Crucian required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Spiked Crucian/Required/required-4.png",
-          "imageDesc": "Fried Spiked Crucian required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Fried Spiked Crucian",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Spiked Crucian/Result/Fried Spiked Crucian.png",
-          "imageDesc": "Fried Spiked Crucian result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Spiked Crucian/Result/Fried Spiked Crucian.png",
-      "imageDesc": "Fried Spiked Crucian result image"
-    },
-    {
-      "name": "Fried Big-eyed Catfish",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Fried Big-eyed Catfish crafting recipe. Crafting station: Campfire. Module: Campfire recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 77",
-        "Crafting station: Campfire",
-        "Crafting module: Campfire recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Big-eyed Catfish/Required",
-        "Result folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Big-eyed Catfish/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Campfire",
-      "craftingModule": "Campfire recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Big-eyed Catfish/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Big-eyed Catfish/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Big-eyed Catfish/Required/required-1.png",
-          "imageDesc": "Fried Big-eyed Catfish required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Big-eyed Catfish/Required/required-2.png",
-          "imageDesc": "Fried Big-eyed Catfish required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Big-eyed Catfish/Required/required-3.png",
-          "imageDesc": "Fried Big-eyed Catfish required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Big-eyed Catfish/Required/required-4.png",
-          "imageDesc": "Fried Big-eyed Catfish required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Fried Big-eyed Catfish",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Big-eyed Catfish/Result/Fried Big-eyed Catfish.png",
-          "imageDesc": "Fried Big-eyed Catfish result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Big-eyed Catfish/Result/Fried Big-eyed Catfish.png",
-      "imageDesc": "Fried Big-eyed Catfish result image"
-    },
-    {
-      "name": "Fried Blind Fish",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Fried Blind Fish crafting recipe. Crafting station: Campfire. Module: Campfire recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 78",
-        "Crafting station: Campfire",
-        "Crafting module: Campfire recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Blind Fish/Required",
-        "Result folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Blind Fish/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Campfire",
-      "craftingModule": "Campfire recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Blind Fish/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Blind Fish/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Blind Fish/Required/required-1.png",
-          "imageDesc": "Fried Blind Fish required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Blind Fish/Required/required-2.png",
-          "imageDesc": "Fried Blind Fish required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Blind Fish/Required/required-3.png",
-          "imageDesc": "Fried Blind Fish required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Blind Fish/Required/required-4.png",
-          "imageDesc": "Fried Blind Fish required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Fried Blind Fish",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Blind Fish/Result/Fried Blind Fish.png",
-          "imageDesc": "Fried Blind Fish result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Blind Fish/Result/Fried Blind Fish.png",
-      "imageDesc": "Fried Blind Fish result image"
-    },
-    {
-      "name": "Fried Giant Crab Heart",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Fried Giant Crab Heart crafting recipe. Crafting station: Campfire. Module: Fried big crab heart recipe. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 79",
-        "Crafting station: Campfire",
-        "Crafting module: Fried big crab heart recipe",
-        "Required folder: /db-assets/Crafting Recipes/Campfire/Fried big crab heart recipe/Fried Giant Crab Heart/Required",
-        "Result folder: /db-assets/Crafting Recipes/Campfire/Fried big crab heart recipe/Fried Giant Crab Heart/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Campfire",
-      "craftingModule": "Fried big crab heart recipe",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire/Fried big crab heart recipe/Fried Giant Crab Heart/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire/Fried big crab heart recipe/Fried Giant Crab Heart/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Fried big crab heart recipe/Fried Giant Crab Heart/Required/required-1.png",
-          "imageDesc": "Fried Giant Crab Heart required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Fried big crab heart recipe/Fried Giant Crab Heart/Required/required-2.png",
-          "imageDesc": "Fried Giant Crab Heart required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Fried big crab heart recipe/Fried Giant Crab Heart/Required/required-3.png",
-          "imageDesc": "Fried Giant Crab Heart required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Fried big crab heart recipe/Fried Giant Crab Heart/Required/required-4.png",
-          "imageDesc": "Fried Giant Crab Heart required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Fried Giant Crab Heart",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Fried big crab heart recipe/Fried Giant Crab Heart/Result/Fried Giant Crab Heart.png",
-          "imageDesc": "Fried Giant Crab Heart result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Fried big crab heart recipe/Fried Giant Crab Heart/Result/Fried Giant Crab Heart.png",
-      "imageDesc": "Fried Giant Crab Heart result image"
-    },
-    {
-      "name": "Fried Crab Meat",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Fried Crab Meat crafting recipe. Crafting station: Campfire. Module: Campfire recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 80",
-        "Crafting station: Campfire",
-        "Crafting module: Campfire recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Crab Meat/Required",
-        "Result folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Crab Meat/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Campfire",
-      "craftingModule": "Campfire recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Crab Meat/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Crab Meat/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Crab Meat/Required/required-1.png",
-          "imageDesc": "Fried Crab Meat required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Crab Meat/Required/required-2.png",
-          "imageDesc": "Fried Crab Meat required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Crab Meat/Required/required-3.png",
-          "imageDesc": "Fried Crab Meat required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Crab Meat/Required/required-4.png",
-          "imageDesc": "Fried Crab Meat required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Fried Crab Meat",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Crab Meat/Result/Fried Crab Meat.png",
-          "imageDesc": "Fried Crab Meat result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Crab Meat/Result/Fried Crab Meat.png",
-      "imageDesc": "Fried Crab Meat result image"
-    },
-    {
-      "name": "Fried Heart of the Hog of Coast",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Fried Heart of the Hog of Coast crafting recipe. Crafting station: Campfire. Module: Campfire recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 81",
-        "Crafting station: Campfire",
-        "Crafting module: Campfire recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Heart of the Hog of Coast/Required",
-        "Result folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Heart of the Hog of Coast/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Campfire",
-      "craftingModule": "Campfire recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Heart of the Hog of Coast/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Heart of the Hog of Coast/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Heart of the Hog of Coast/Required/required-1.png",
-          "imageDesc": "Fried Heart of the Hog of Coast required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Heart of the Hog of Coast/Required/required-2.png",
-          "imageDesc": "Fried Heart of the Hog of Coast required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Heart of the Hog of Coast/Required/required-3.png",
-          "imageDesc": "Fried Heart of the Hog of Coast required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Heart of the Hog of Coast/Required/required-4.png",
-          "imageDesc": "Fried Heart of the Hog of Coast required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Fried Heart of the Hog of Coast",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Heart of the Hog of Coast/Result/Fried Heart of the Hog of Coast.png",
-          "imageDesc": "Fried Heart of the Hog of Coast result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Heart of the Hog of Coast/Result/Fried Heart of the Hog of Coast.png",
-      "imageDesc": "Fried Heart of the Hog of Coast result image"
-    },
-    {
-      "name": "Fried salted rat-ass on a stick",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Fried salted rat-ass on a stick crafting recipe. Crafting station: Campfire. Module: Campfire recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 82",
-        "Crafting station: Campfire",
-        "Crafting module: Campfire recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried salted rat-ass on a stick/Required",
-        "Result folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried salted rat-ass on a stick/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Campfire",
-      "craftingModule": "Campfire recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried salted rat-ass on a stick/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried salted rat-ass on a stick/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried salted rat-ass on a stick/Required/required-1.png",
-          "imageDesc": "Fried salted rat-ass on a stick required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried salted rat-ass on a stick/Required/required-2.png",
-          "imageDesc": "Fried salted rat-ass on a stick required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried salted rat-ass on a stick/Required/required-3.png",
-          "imageDesc": "Fried salted rat-ass on a stick required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried salted rat-ass on a stick/Required/required-4.png",
-          "imageDesc": "Fried salted rat-ass on a stick required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Fried salted rat-ass on a stick",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried salted rat-ass on a stick/Result/Fried salted rat-ass on a stick.png",
-          "imageDesc": "Fried salted rat-ass on a stick result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried salted rat-ass on a stick/Result/Fried salted rat-ass on a stick.png",
-      "imageDesc": "Fried salted rat-ass on a stick result image"
-    },
-    {
-      "name": "Fried Carp",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Fried Carp crafting recipe. Crafting station: Campfire. Module: Campfire recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 83",
-        "Crafting station: Campfire",
-        "Crafting module: Campfire recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Carp/Required",
-        "Result folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Carp/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Campfire",
-      "craftingModule": "Campfire recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Carp/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Carp/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Carp/Required/required-1.png",
-          "imageDesc": "Fried Carp required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Carp/Required/required-2.png",
-          "imageDesc": "Fried Carp required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Carp/Required/required-3.png",
-          "imageDesc": "Fried Carp required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Carp/Required/required-4.png",
-          "imageDesc": "Fried Carp required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Fried Carp",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Carp/Result/Fried Carp.png",
-          "imageDesc": "Fried Carp result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Fried Carp/Result/Fried Carp.png",
-      "imageDesc": "Fried Carp result image"
-    },
-    {
-      "name": "Melted Bear Fat",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Melted Bear Fat crafting recipe. Crafting station: Campfire. Module: Campfire recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 84",
-        "Crafting station: Campfire",
-        "Crafting module: Campfire recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Melted Bear Fat/Required",
-        "Result folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Melted Bear Fat/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Campfire",
-      "craftingModule": "Campfire recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Melted Bear Fat/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Melted Bear Fat/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Melted Bear Fat/Required/required-1.png",
-          "imageDesc": "Melted Bear Fat required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Melted Bear Fat/Required/required-2.png",
-          "imageDesc": "Melted Bear Fat required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Melted Bear Fat/Required/required-3.png",
-          "imageDesc": "Melted Bear Fat required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Melted Bear Fat/Required/required-4.png",
-          "imageDesc": "Melted Bear Fat required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Melted Bear Fat",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Melted Bear Fat/Result/Melted Bear Fat.png",
-          "imageDesc": "Melted Bear Fat result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Melted Bear Fat/Result/Melted Bear Fat.png",
-      "imageDesc": "Melted Bear Fat result image"
-    },
-    {
-      "name": "Ratburger",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Ratburger crafting recipe. Crafting station: Inventory. Module: Campfire recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 85",
         "Crafting station: Inventory",
-        "Crafting module: Campfire recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Campfire recipes - Beginner/Ratburger/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Campfire recipes - Beginner/Ratburger/Result",
-        "Source: Crafting Recipes list"
+        "Crafting module: Anti-burn salve recipe",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Anti-burn Salve/Require",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Anti-burn Salve/Result",
+        "Required: [1] Vaseline; [1] Crucian bile; [1] Fish fat; [2] Chamomile",
+        "Result: Anti-burn salve",
+        "Source: Pasted text(8).txt"
       ],
       "locations": [
         "Minayev's Territory",
@@ -43208,55 +40602,5318 @@ const WTLO_DATABASE_DATA = {
         "Foothills"
       ],
       "craftingStation": "Inventory",
-      "craftingModule": "Campfire recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Campfire recipes - Beginner/Ratburger/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Campfire recipes - Beginner/Ratburger/Result",
+      "craftingModule": "Anti-burn salve recipe",
+      "craftingRecipeOrder": 31,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Anti-burn Salve/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Anti-burn Salve/Result",
       "craftingRequiredImages": [
         {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Campfire recipes - Beginner/Ratburger/Required/required-1.png",
-          "imageDesc": "Ratburger required ingredient 1"
+          "name": "Chamomile",
+          "quantity": "2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Anti-burn Salve/Require/T_Inventory_Camomile.png",
+          "imageDesc": "T_Inventory_Camomile.png"
         },
         {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Campfire recipes - Beginner/Ratburger/Required/required-2.png",
-          "imageDesc": "Ratburger required ingredient 2"
+          "name": "Crucian bile",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Anti-burn Salve/Require/T_Inventory_Icon_Crucian_Bile.png",
+          "imageDesc": "T_Inventory_Icon_Crucian_Bile.png"
         },
         {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Campfire recipes - Beginner/Ratburger/Required/required-3.png",
-          "imageDesc": "Ratburger required ingredient 3"
+          "name": "Fish fat",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Anti-burn Salve/Require/T_Inventory_Icon_Fish_Fat.png",
+          "imageDesc": "T_Inventory_Icon_Fish_Fat.png"
         },
         {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Campfire recipes - Beginner/Ratburger/Required/required-4.png",
-          "imageDesc": "Ratburger required ingredient 4"
+          "name": "Vaseline",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Anti-burn Salve/Require/T_Inventory_Icon_Vaseline.png",
+          "imageDesc": "T_Inventory_Icon_Vaseline.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Anti-burn salve",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Anti-burn Salve/Result/T_Inventory_Anti-Burn_Salve.png",
+          "imageDesc": "T_Inventory_Anti-Burn_Salve.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Anti-burn salve/Result/T_Inventory_Anti-Burn_Salve.png",
+      "imageDesc": "T_Inventory_Anti-Burn_Salve.png"
+    },
+    {
+      "name": "Lead from battery",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Lead from battery crafting recipe. Station: Inventory. Module: Blacksmithing recipes - Beginner.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 32",
+        "Crafting station: Inventory",
+        "Crafting module: Blacksmithing recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Lead from battery/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Lead from battery/Result"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Inventory",
+      "craftingModule": "Blacksmithing recipes - Beginner",
+      "craftingNotes": [
+        "Added from the updated flattened Crafting Recipes asset directory."
+      ],
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Lead from battery/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Lead from battery/Result",
+      "craftingRequiredImages": [],
+      "craftingResultImages": [
+        {
+          "name": "Lead",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Lead from battery/Result/T_Inventory_Lead.png",
+          "imageDesc": "T_Inventory_Lead.png"
+        }
+      ],
+      "craftingRecipeOrder": 32
+    },
+    {
+      "name": "Lockpick",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Lockpick crafting recipe. Station: Inventory. Module: Blacksmithing recipes - Beginner.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 33",
+        "Crafting station: Inventory",
+        "Crafting module: Blacksmithing recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Lockpick/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Lockpick/Result"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Inventory",
+      "craftingModule": "Blacksmithing recipes - Beginner",
+      "craftingNotes": [
+        "Added from the updated flattened Crafting Recipes asset directory."
+      ],
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Lockpick/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Lockpick/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "LongNosePliers",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Lockpick/Required/T_Inventory_Icon_LongNosePliers.png",
+          "imageDesc": "T_Inventory_Icon_LongNosePliers.png"
+        },
+        {
+          "name": "Piece of wire",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Lockpick/Required/T_Inventory_Icon_Piece_of_wire.png",
+          "imageDesc": "T_Inventory_Icon_Piece_of_wire.png"
+        },
+        {
+          "name": "Pliers",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Lockpick/Required/T_Inventory_Icon_Pliers.png",
+          "imageDesc": "T_Inventory_Icon_Pliers.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Picklock",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Lockpick/Result/T_Inventory_Icon_Picklock.png",
+          "imageDesc": "T_Inventory_Icon_Picklock.png"
+        }
+      ],
+      "craftingRecipeOrder": 33
+    },
+    {
+      "name": "Lockpick blanks",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Lockpick blanks crafting recipe. Station: Inventory. Module: Blacksmithing recipes - Beginner.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 34",
+        "Crafting station: Inventory",
+        "Crafting module: Blacksmithing recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Lockpick blanks/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Lockpick blanks/Result"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Inventory",
+      "craftingModule": "Blacksmithing recipes - Beginner",
+      "craftingNotes": [
+        "Added from the updated flattened Crafting Recipes asset directory."
+      ],
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Lockpick blanks/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Lockpick blanks/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Pliers",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Lockpick blanks/Required/T_Inventory_Icon_Pliers.png",
+          "imageDesc": "T_Inventory_Icon_Pliers.png"
+        },
+        {
+          "name": "Steel Wire",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Lockpick blanks/Required/T_Inventory_Icon_Steel_Wire.png",
+          "imageDesc": "T_Inventory_Icon_Steel_Wire.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Piece of wire",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Lockpick blanks/Result/T_Inventory_Icon_Piece_of_wire.png",
+          "imageDesc": "T_Inventory_Icon_Piece_of_wire.png"
+        }
+      ],
+      "craftingRecipeOrder": 34
+    },
+    {
+      "name": "Ratburger",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Ratburger crafting recipe. Station: Inventory. Module: Ratburger recipe. Required: [1] Bread Loaf; [1] Salt; [1] Vinegar; [1] Fried rat meat; [1] Lizard venom. Result: Ratburger.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 35",
+        "Crafting station: Inventory",
+        "Crafting module: Campfire - Advanced",
+        "Required folder: /db-assets/Crafting Recipes/Inventory - Ratburger/Required",
+        "Result folder: /db-assets/Crafting Recipes/Inventory - Ratburger/Result",
+        "Required: [1] Bread Loaf; [1] Salt; [1] Vinegar; [1] Fried rat meat; [1] Lizard venom",
+        "Result: Ratburger",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Inventory",
+      "craftingModule": "Campfire - Advanced",
+      "craftingRecipeOrder": 35,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory - Ratburger/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory - Ratburger/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Bread",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Ratburger/Required/T_Inventory_Icon_Bread.png",
+          "imageDesc": "T_Inventory_Icon_Bread.png"
+        },
+        {
+          "name": "Fried Rat Meat",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Ratburger/Required/T_Inventory_Icon_Fried_Rat_Meat.png",
+          "imageDesc": "T_Inventory_Icon_Fried_Rat_Meat.png"
+        },
+        {
+          "name": "Salt",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Ratburger/Required/T_Inventory_Icon_Salt.png",
+          "imageDesc": "T_Inventory_Icon_Salt.png"
+        },
+        {
+          "name": "Vinegar",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Ratburger/Required/T_Inventory_Icon_Vinegar.png",
+          "imageDesc": "T_Inventory_Icon_Vinegar.png"
+        },
+        {
+          "name": "LizzardVenom",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Ratburger/Required/T_Inventory_LizzardVenom.png",
+          "imageDesc": "T_Inventory_LizzardVenom.png"
+        },
+        {
+          "name": "RatAss",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Ratburger/Required/T_Inventory_RatAss.png",
+          "imageDesc": "T_Inventory_RatAss.png"
+        },
+        {
+          "name": "RatMeat",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Ratburger/Required/T_Inventory_RatMeat.png",
+          "imageDesc": "T_Inventory_RatMeat.png"
         }
       ],
       "craftingResultImages": [
         {
           "name": "Ratburger",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Campfire recipes - Beginner/Ratburger/Result/Ratburger.png",
-          "imageDesc": "Ratburger result image"
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Inventory - Ratburger/Result/T_Inventory_Icon_Ratburger.png",
+          "imageDesc": "T_Inventory_Icon_Ratburger.png"
         }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Campfire recipes - Beginner/Ratburger/Result/Ratburger.png",
-      "imageDesc": "Ratburger result image"
+      "craftingNotes": [],
+      "imageUrl": "",
+      "imageDesc": ""
     },
     {
-      "name": "Omelette",
+      "name": "Treated Firespider Shell",
       "type": "Recipe",
       "level": 0,
-      "detail": "Omelette crafting recipe. Crafting station: Campfire. Module: Campfire recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": "Treated Firespider Shell crafting recipe. Station: Furnace. Module: Leatherworking - Advanced. Required: [2] Fire spider shell; [20] Fire spider biomaterial; [1] Alkali; [20] Coal. Result: Treated Firespider Shell.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 36",
+        "Crafting station: Furnace",
+        "Crafting module: Leatherworking - Advanced",
+        "Required folder: /db-assets/Crafting Recipes/Furnace - Treated Firespider Shell/Require",
+        "Result folder: /db-assets/Crafting Recipes/Furnace - Treated Firespider Shell/Result",
+        "Required: [2] Fire spider shell; [20] Fire spider biomaterial; [1] Alkali; [20] Coal",
+        "Result: Treated Firespider Shell",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Furnace",
+      "craftingModule": "Leatherworking - Advanced",
+      "craftingRecipeOrder": 36,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace - Treated Firespider Shell/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Furnace - Treated Firespider Shell/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Alkali",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Treated Firespider Shell/Require/T_Inventory_Alkali.png",
+          "imageDesc": "T_Inventory_Alkali.png"
+        },
+        {
+          "name": "Coal",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Treated Firespider Shell/Require/T_Inventory_Coal.png",
+          "imageDesc": "T_Inventory_Coal.png"
+        },
+        {
+          "name": "FireSpiderBiomaterial",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Treated Firespider Shell/Require/T_Inventory_FireSpiderBiomaterial.png",
+          "imageDesc": "T_Inventory_FireSpiderBiomaterial.png"
+        },
+        {
+          "name": "FireSpiderShell",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Treated Firespider Shell/Require/T_Inventory_FireSpiderShell.png",
+          "imageDesc": "T_Inventory_FireSpiderShell.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "TreatedFireSpiderShell",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Treated Firespider Shell/Result/T_Inventory_TreatedFireSpiderShell.png",
+          "imageDesc": "T_Inventory_TreatedFireSpiderShell.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "",
+      "imageDesc": ""
+    },
+    {
+      "name": "Polymer Cloth",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Polymer Cloth crafting recipe. Station: Furnace. Module: Polymers - Beginner. Required: [140] Polymer; [200] Cave spider web; [10] Coal. Result: [1] Polymer cloth.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 38",
+        "Crafting station: Furnace",
+        "Crafting module: Polymers - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Furnace - Polymer Cloth/Required",
+        "Result folder: /db-assets/Crafting Recipes/Furnace - Polymer Cloth/Result",
+        "Required: [140] Polymer; [200] Cave spider web; [10] Coal",
+        "Result: [1] Polymer cloth",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Furnace",
+      "craftingModule": "Polymers - Beginner",
+      "craftingRecipeOrder": 38,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace - Polymer Cloth/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Furnace - Polymer Cloth/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Coal",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Polymer Cloth/Required/T_Inventory_Coal.png",
+          "imageDesc": "T_Inventory_Coal.png"
+        },
+        {
+          "name": "Polymer",
+          "quantity": "140",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Polymer Cloth/Required/T_Inventory_Polymer.png",
+          "imageDesc": "T_Inventory_Polymer.png"
+        },
+        {
+          "name": "Cave spider web",
+          "quantity": "200",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Polymer Cloth/Required/T_Inventory_Spider_Web.png",
+          "imageDesc": "T_Inventory_Spider_Web.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Polymer cloth",
+          "quantity": "1",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Polymer Cloth/Result/T_Inventory_PolymerCloth.png",
+          "imageDesc": "T_Inventory_PolymerCloth.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Furnace/Polymares - Beginner/Polymer cloth/Result/T_Inventory_PolymerCloth.png",
+      "imageDesc": "T_Inventory_PolymerCloth.png"
+    },
+    {
+      "name": "Armor Steel",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Armor Steel crafting recipe. Station: Furnace. Module: Blacksmithing recipes - Beginner. Required: [5] Iron; [2] Silicone; [1] Nickel; [15] Coal. Result: [1] Armor Steel.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 39",
+        "Crafting station: Furnace",
+        "Crafting module: Blacksmithing recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Furnace - Armor Steel/Required",
+        "Result folder: /db-assets/Crafting Recipes/Furnace - Armor Steel/Result",
+        "Required: [5] Iron; [2] Silicone; [1] Nickel; [15] Coal",
+        "Result: [1] Armor Steel",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Furnace",
+      "craftingModule": "Blacksmithing recipes - Beginner",
+      "craftingRecipeOrder": 39,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace - Armor Steel/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Furnace - Armor Steel/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Chrome",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Armor Steel/Required/T_Inventory_Chrome.png",
+          "imageDesc": "T_Inventory_Chrome.png"
+        },
+        {
+          "name": "Coal",
+          "quantity": "15",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Armor Steel/Required/T_Inventory_Coal.png",
+          "imageDesc": "T_Inventory_Coal.png"
+        },
+        {
+          "name": "Iron",
+          "quantity": "5",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Armor Steel/Required/T_Inventory_Iron.png",
+          "imageDesc": "T_Inventory_Iron.png"
+        },
+        {
+          "name": "Nickel",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Armor Steel/Required/T_Inventory_Nickel.png",
+          "imageDesc": "T_Inventory_Nickel.png"
+        },
+        {
+          "name": "Silicone",
+          "quantity": "2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Armor Steel/Required/T_Inventory_Silicon.png",
+          "imageDesc": "T_Inventory_Silicon.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Armor Steel",
+          "quantity": "1",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Armor Steel/Result/T_Inventory_ArmorSteel.png",
+          "imageDesc": "T_Inventory_ArmorSteel.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing - Beginner/Armor Steel/Result/T_Inventory_ArmorSteel.png",
+      "imageDesc": "T_Inventory_ArmorSteel.png"
+    },
+    {
+      "name": "Casted Lead from battery",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Lead extracted from a battery crafting recipe. Station: Furnace. Module: Blacksmithing recipes - Beginner. Required: Small Battery (Small Battery method); [2] Coal (Small Battery method); UPS Battery (UPS Battery method); [2] Coal (UPS Battery method); Medium Battery (Medium Battery method); [2] Coal (Medium Battery method); Large Battery (Large Battery method); [2] Coal (Large Battery method). Result: [1] Casted lead (Small Battery method); [1] Casted lead (UPS Battery method); [5] Casted lead (Medium Battery method); [8] Casted lead (Large Battery method).",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 40",
+        "Crafting station: Furnace",
+        "Crafting module: Blacksmithing recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Furnace - Casted Lead from battery/Required",
+        "Result folder: /db-assets/Crafting Recipes/Furnace - Casted Lead from battery/Result",
+        "Required: Small Battery (Small Battery method); [2] Coal (Small Battery method); UPS Battery (UPS Battery method); [2] Coal (UPS Battery method); Medium Battery (Medium Battery method); [2] Coal (Medium Battery method); Large Battery (Large Battery method); [2] Coal (Large Battery method)",
+        "Result: [1] Casted lead (Small Battery method); [1] Casted lead (UPS Battery method); [5] Casted lead (Medium Battery method); [8] Casted lead (Large Battery method)",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Furnace",
+      "craftingModule": "Blacksmithing recipes - Beginner",
+      "craftingRecipeOrder": 40,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace - Casted Lead from battery/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Furnace - Casted Lead from battery/Result",
+      "craftingRequiredImages": [],
+      "craftingResultImages": [
+        {
+          "name": "Casted lead",
+          "quantity": "8",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Casted Lead from battery/Result/T_Inventory_CastedLead.png",
+          "imageDesc": "T_Inventory_CastedLead.png",
+          "method": "Large Battery method"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing - Beginner/Lead extracted from battery/Result/T_Inventory_CastedLead.png",
+      "imageDesc": "T_Inventory_CastedLead.png"
+    },
+    {
+      "name": "Casted Lead from scratch",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Casted Lead from scratch crafting recipe. Station: Furnace. Module: Blacksmithing recipes - Beginner. Required: [42] Lead; [2] Coal. Result: [1] Casted lead.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 41",
+        "Crafting station: Furnace",
+        "Crafting module: Blacksmithing recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Furnace - Casted Lead from scratch/Required",
+        "Result folder: /db-assets/Crafting Recipes/Furnace - Casted Lead from scratch/Result",
+        "Required: [42] Lead; [2] Coal",
+        "Result: [1] Casted lead",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Furnace",
+      "craftingModule": "Blacksmithing recipes - Beginner",
+      "craftingRecipeOrder": 41,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace - Casted Lead from scratch/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Furnace - Casted Lead from scratch/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Coal",
+          "quantity": "2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Casted Lead from scratch/Required/T_Inventory_Coal.png",
+          "imageDesc": "T_Inventory_Coal.png"
+        },
+        {
+          "name": "Lead",
+          "quantity": "42",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Casted Lead from scratch/Required/T_Inventory_Lead.png",
+          "imageDesc": "T_Inventory_Lead.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Casted lead",
+          "quantity": "1",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Casted Lead from scratch/Result/T_Inventory_CastedLead.png",
+          "imageDesc": "T_Inventory_CastedLead.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing - Beginner/Casted Lead from scratch/Result/T_Inventory_CastedLead.png",
+      "imageDesc": "T_Inventory_CastedLead.png"
+    },
+    {
+      "name": "Charcoal",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Charcoal crafting recipe. Station: Furnace. Module: Blacksmithing recipes - Beginner.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 42",
+        "Crafting station: Furnace",
+        "Crafting module: Blacksmithing recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Furnace - Charcoal/Required",
+        "Result folder: /db-assets/Crafting Recipes/Furnace - Charcoal/Result"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Furnace",
+      "craftingModule": "Blacksmithing recipes - Beginner",
+      "craftingNotes": [
+        "Added from the updated flattened Crafting Recipes asset directory."
+      ],
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace - Charcoal/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Furnace - Charcoal/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Wood",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Charcoal/Required/T_Inventory_Wood.png",
+          "imageDesc": "T_Inventory_Wood.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Charcoal",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Charcoal/Result/T_Inventory_Charcoal.png",
+          "imageDesc": "T_Inventory_Charcoal.png"
+        }
+      ],
+      "craftingRecipeOrder": 42
+    },
+    {
+      "name": "Copper from Ore",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Copper from Ore crafting recipe. Station: Furnace. Module: Blacksmithing recipes - Beginner. Required: [7] Non-ferrous metal; [2] Coal. Result: [1] Copper.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 43",
+        "Crafting station: Furnace",
+        "Crafting module: Blacksmithing recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Furnace - Copper from Ore/Required",
+        "Result folder: /db-assets/Crafting Recipes/Furnace - Copper from Ore/Result",
+        "Required: [7] Non-ferrous metal; [2] Coal",
+        "Result: [1] Copper",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Furnace",
+      "craftingModule": "Blacksmithing recipes - Beginner",
+      "craftingRecipeOrder": 43,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace - Copper from Ore/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Furnace - Copper from Ore/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Coal",
+          "quantity": "2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Copper from Ore/Required/T_Inventory_Coal.png",
+          "imageDesc": "T_Inventory_Coal.png"
+        },
+        {
+          "name": "Non-ferrous metal",
+          "quantity": "7",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Copper from Ore/Required/T_Inventory_NonferrousMetal.png",
+          "imageDesc": "T_Inventory_NonferrousMetal.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Copper",
+          "quantity": "1",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Copper from Ore/Result/T_Inventory_Copper.png",
+          "imageDesc": "T_Inventory_Copper.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing - Beginner/Copper from Ore/Result/T_Inventory_Copper.png",
+      "imageDesc": "T_Inventory_Copper.png"
+    },
+    {
+      "name": "Gold from Ore",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Gold from Ore crafting recipe. Station: Furnace. Module: Blacksmithing recipes - Beginner. Required: [40] Precious Metal; [10] Coal. Result: [1] Gold.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 44",
+        "Crafting station: Furnace",
+        "Crafting module: Blacksmithing recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Furnace - Gold from Ore/Required",
+        "Result folder: /db-assets/Crafting Recipes/Furnace - Gold from Ore/Result",
+        "Required: [40] Precious Metal; [10] Coal",
+        "Result: [1] Gold",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Furnace",
+      "craftingModule": "Blacksmithing recipes - Beginner",
+      "craftingRecipeOrder": 44,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace - Gold from Ore/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Furnace - Gold from Ore/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Coal",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Gold from Ore/Required/T_Inventory_Coal.png",
+          "imageDesc": "T_Inventory_Coal.png"
+        },
+        {
+          "name": "Precious Metal",
+          "quantity": "40",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Gold from Ore/Required/T_Inventory_PreciousMetal.png",
+          "imageDesc": "T_Inventory_PreciousMetal.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Gold",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Gold from Ore/Result/T_Inventory_Gold.png",
+          "imageDesc": "T_Inventory_Gold.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing - Beginner/Gold from Ore/Result/T_Inventory_Gold.png",
+      "imageDesc": "T_Inventory_Gold.png"
+    },
+    {
+      "name": "Gun Steel",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Gun Steel crafting recipe. Station: Furnace. Module: Blacksmithing recipes - Beginner. Required: [2] Iron; [2] Silicone; [1] Chrome; [7] Coal. Result: [1] Gun Steel.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 45",
+        "Crafting station: Furnace",
+        "Crafting module: Blacksmithing recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Furnace - Gun Steel/Required",
+        "Result folder: /db-assets/Crafting Recipes/Furnace - Gun Steel/Result",
+        "Required: [2] Iron; [2] Silicone; [1] Chrome; [7] Coal",
+        "Result: [1] Gun Steel",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Furnace",
+      "craftingModule": "Blacksmithing recipes - Beginner",
+      "craftingRecipeOrder": 45,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace - Gun Steel/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Furnace - Gun Steel/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Chrome",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Gun Steel/Required/T_Inventory_Chrome.png",
+          "imageDesc": "T_Inventory_Chrome.png"
+        },
+        {
+          "name": "Coal",
+          "quantity": "7",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Gun Steel/Required/T_Inventory_Coal.png",
+          "imageDesc": "T_Inventory_Coal.png"
+        },
+        {
+          "name": "Iron",
+          "quantity": "2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Gun Steel/Required/T_Inventory_Iron.png",
+          "imageDesc": "T_Inventory_Iron.png"
+        },
+        {
+          "name": "Silicone",
+          "quantity": "2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Gun Steel/Required/T_Inventory_Silicon.png",
+          "imageDesc": "T_Inventory_Silicon.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Gun Steel",
+          "quantity": "1",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Gun Steel/Result/T_Inventory_GunSteel.png",
+          "imageDesc": "T_Inventory_GunSteel.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing - Beginner/Gun Steel/Result/T_Inventory_GunSteel.png",
+      "imageDesc": "T_Inventory_GunSteel.png"
+    },
+    {
+      "name": "Iron from broken Armor plate",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Iron from broken Armor plate crafting recipe. Station: Furnace. Module: Blacksmithing recipes - Beginner.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 46",
+        "Crafting station: Furnace",
+        "Crafting module: Blacksmithing recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required",
+        "Result folder: /db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Result"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Furnace",
+      "craftingModule": "Blacksmithing recipes - Beginner",
+      "craftingNotes": [
+        "Added from the updated flattened Crafting Recipes asset directory."
+      ],
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Coal",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_Coal.png",
+          "imageDesc": "T_Inventory_Coal.png"
+        },
+        {
+          "name": "SteelArmorPlate SH-1 M1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SH-1_M1.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SH-1_M1.png"
+        },
+        {
+          "name": "SteelArmorPlate SH-1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SH-1.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SH-1.png"
+        },
+        {
+          "name": "SteelArmorPlate SH-2 M1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SH-2_M1.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SH-2_M1.png"
+        },
+        {
+          "name": "SteelArmorPlate SH-2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SH-2.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SH-2.png"
+        },
+        {
+          "name": "SteelArmorPlate SH-3 M1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SH-3_M1.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SH-3_M1.png"
+        },
+        {
+          "name": "SteelArmorPlate SH-3",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SH-3.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SH-3.png"
+        },
+        {
+          "name": "SteelArmorPlate SL-1 M1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SL-1_M1.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SL-1_M1.png"
+        },
+        {
+          "name": "SteelArmorPlate SL-1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SL-1.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SL-1.png"
+        },
+        {
+          "name": "SteelArmorPlate SL-2 M1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SL-2_M1.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SL-2_M1.png"
+        },
+        {
+          "name": "SteelArmorPlate SL-2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SL-2.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SL-2.png"
+        },
+        {
+          "name": "SteelArmorPlate SL-3 M1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SL-3_M1.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SL-3_M1.png"
+        },
+        {
+          "name": "SteelArmorPlate SL-3",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SL-3.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SL-3.png"
+        },
+        {
+          "name": "SteelArmorPlate SM-1 M1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SM-1_M1.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SM-1_M1.png"
+        },
+        {
+          "name": "SteelArmorPlate SM-1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SM-1.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SM-1.png"
+        },
+        {
+          "name": "SteelArmorPlate SM-2 M1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SM-2_M1.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SM-2_M1.png"
+        },
+        {
+          "name": "SteelArmorPlate SM-2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SM-2.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SM-2.png"
+        },
+        {
+          "name": "SteelArmorPlate SM-3 M1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SM-3_M1.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SM-3_M1.png"
+        },
+        {
+          "name": "SteelArmorPlate SM-3",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Required/T_Inventory_SteelArmorPlate_SM-3.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SM-3.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Iron",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from broken Armor plate/Result/T_Inventory_Iron.png",
+          "imageDesc": "T_Inventory_Iron.png"
+        }
+      ],
+      "craftingRecipeOrder": 46
+    },
+    {
+      "name": "Iron from ore",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Iron from Ore crafting recipe. Station: Furnace. Module: Blacksmithing recipes - Beginner. Required: [1] Ferrous metal; [2] Coal. Result: [1] Iron.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 47",
+        "Crafting station: Furnace",
+        "Crafting module: Blacksmithing recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Furnace - Iron from ore/Require",
+        "Result folder: /db-assets/Crafting Recipes/Furnace - Iron from ore/Result",
+        "Required: [1] Ferrous metal; [2] Coal",
+        "Result: [1] Iron",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Furnace",
+      "craftingModule": "Blacksmithing recipes - Beginner",
+      "craftingRecipeOrder": 47,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace - Iron from ore/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Furnace - Iron from ore/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Coal",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from ore/Require/T_Inventory_Coal.png",
+          "imageDesc": "T_Inventory_Coal.png"
+        },
+        {
+          "name": "FerrousMetal",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from ore/Require/T_Inventory_FerrousMetal.png",
+          "imageDesc": "T_Inventory_FerrousMetal.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Iron",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from ore/Result/T_Inventory_Iron.png",
+          "imageDesc": "T_Inventory_Iron.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "",
+      "imageDesc": ""
+    },
+    {
+      "name": "Iron from scratch",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Iron from scratch crafting recipe. Station: Furnace. Module: Blacksmithing recipes - Beginner. Required: [30] Bolt (Method 1); [2] Coal (Method 1); [3] Spanner (Method 2); [2] Coal (Method 2); [1] Horseshoe (Method 3); [2] Coal (Method 3). Result: [1] Iron (Method 1); [1] Iron (Method 2); [1] Iron (Method 3).",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 48",
+        "Crafting station: Furnace",
+        "Crafting module: Blacksmithing recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Furnace - Iron from scratch/Required",
+        "Result folder: /db-assets/Crafting Recipes/Furnace - Iron from scratch/Result",
+        "Required: [30] Bolt (Method 1); [2] Coal (Method 1); [3] Spanner (Method 2); [2] Coal (Method 2); [1] Horseshoe (Method 3); [2] Coal (Method 3)",
+        "Result: [1] Iron (Method 1); [1] Iron (Method 2); [1] Iron (Method 3)",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Furnace",
+      "craftingModule": "Blacksmithing recipes - Beginner",
+      "craftingRecipeOrder": 48,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Furnace - Iron from scratch/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Furnace - Iron from scratch/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Coal",
+          "quantity": "2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from scratch/Required/T_Inventory_Coal.png",
+          "imageDesc": "T_Inventory_Coal.png",
+          "method": "Method 3"
+        },
+        {
+          "name": "Bolt",
+          "quantity": "30",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from scratch/Required/T_Inventory_Icon_Bolt.png",
+          "imageDesc": "T_Inventory_Icon_Bolt.png",
+          "method": "Method 1"
+        },
+        {
+          "name": "Horseshoe",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from scratch/Required/T_Inventory_Icon_Horseshoe.png",
+          "imageDesc": "T_Inventory_Icon_Horseshoe.png",
+          "method": "Method 3"
+        },
+        {
+          "name": "Spanner",
+          "quantity": "3",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Furnace - Iron from scratch/Required/T_Inventory_Icon_Spanner.png",
+          "imageDesc": "T_Inventory_Icon_Spanner.png",
+          "method": "Method 2"
+        }
+      ],
+      "craftingResultImages": [],
+      "craftingNotes": [
+        "No result PNG was found in the current directory listing."
+      ],
+      "imageUrl": "/db-assets/Crafting Recipes/Furnace/Blacksmithing - Beginner/Iron from scratch/Result/T_Inventory_Iron.png",
+      "imageDesc": "T_Inventory_Iron.png"
+    },
+    {
+      "name": ".308 WIN Bullet",
+      "type": "Recipe",
+      "level": 0,
+      "detail": ".308 WIN Bullet crafting recipe. Station: Press Machine. Module: Ammo - .308 WIN FMJ M1. Required: [1] Copper; [9] Casted Lead. Result: [1K] .308 WIN Bullet.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 49",
+        "Crafting station: Press Machine",
+        "Crafting module: Ammo - .308 WIN FMJ M1",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - .308 WIN Bullet/Required",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - .308 WIN Bullet/Result",
+        "Required: [1] Copper; [9] Casted Lead",
+        "Result: [1K] .308 WIN Bullet",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Ammo - .308 WIN FMJ M1",
+      "craftingRecipeOrder": 49,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - .308 WIN Bullet/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - .308 WIN Bullet/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Casted Lead",
+          "quantity": "9",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .308 WIN Bullet/Required/T_Inventory_CastedLead.png",
+          "imageDesc": "T_Inventory_CastedLead.png"
+        },
+        {
+          "name": "Copper",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .308 WIN Bullet/Required/T_Inventory_Copper.png",
+          "imageDesc": "T_Inventory_Copper.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": ".308 WIN Bullet",
+          "quantity": "1K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .308 WIN Bullet/Result/T_Inventory_Icon_308WIN_Bullet.png",
+          "imageDesc": "T_Inventory_Icon_308WIN_Bullet.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo - .308  WIN FMJ M1/Result/T_Inventory_Icon_308WIN_Bullet.png",
+      "imageDesc": "T_Inventory_Icon_308WIN_Bullet.png"
+    },
+    {
+      "name": ".308 WIN Case",
+      "type": "Recipe",
+      "level": 0,
+      "detail": ".308 WIN Case crafting recipe. Station: Press Machine. Module: Ammo - .308 WIN FMJ M1. Required: [8] Copper. Result: [1K] .308 WIN Case.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 50",
+        "Crafting station: Press Machine",
+        "Crafting module: Ammo - .308 WIN FMJ M1",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - .308 WIN Case/Required",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - .308 WIN Case/Result",
+        "Required: [8] Copper",
+        "Result: [1K] .308 WIN Case",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Ammo - .308 WIN FMJ M1",
+      "craftingRecipeOrder": 50,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - .308 WIN Case/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - .308 WIN Case/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "CastedLead",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .308 WIN Case/Required/T_Inventory_CastedLead.png",
+          "imageDesc": "T_Inventory_CastedLead.png"
+        },
+        {
+          "name": "Copper",
+          "quantity": "8",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .308 WIN Case/Required/T_Inventory_Copper.png",
+          "imageDesc": "T_Inventory_Copper.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": ".308 WIN Case",
+          "quantity": "1K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .308 WIN Case/Result/T_Inventory_Icon_308WIN_Case.png",
+          "imageDesc": "T_Inventory_Icon_308WIN_Case.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo - .308  WIN FMJ M1/Result/T_Inventory_Icon_308WIN_Case.png",
+      "imageDesc": "T_Inventory_Icon_308WIN_Case.png"
+    },
+    {
+      "name": "Chitin Cloth",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Chitin Cloth crafting recipe. Station: Press Machine. Module: Polymers - Beginner. Required: [1] Treated firespider shell; [10] Polymer. Result: [1] Chitin cloth.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 52",
+        "Crafting station: Press Machine",
+        "Crafting module: Polymers - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - Chitin Cloth/Required",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - Chitin Cloth/Result",
+        "Required: [1] Treated firespider shell; [10] Polymer",
+        "Result: [1] Chitin cloth",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Polymers - Beginner",
+      "craftingRecipeOrder": 52,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - Chitin Cloth/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - Chitin Cloth/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Polymer",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Chitin Cloth/Required/T_Inventory_Polymer.png",
+          "imageDesc": "T_Inventory_Polymer.png"
+        },
+        {
+          "name": "Treated firespider shell",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Chitin Cloth/Required/T_Inventory_TreatedFireSpiderShell.png",
+          "imageDesc": "T_Inventory_TreatedFireSpiderShell.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Chitin cloth",
+          "quantity": "1",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Chitin Cloth/Result/T_Inventory_ChitinCloth.png",
+          "imageDesc": "T_Inventory_ChitinCloth.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Polymers - Beginner/Chitin cloth/Result/T_Inventory_ChitinCloth.png",
+      "imageDesc": "T_Inventory_ChitinCloth.png"
+    },
+    {
+      "name": "Leather Reinforce Jacket",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Leather Reinforce Jacket crafting recipe. Station: Press Machine. Module: Leather reinforced armor - Jacket. Required: [2] Hard leather; [4] Cloth; [6] Sewing threads. Result: Leather Reinforce Jacket.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 53",
+        "Crafting station: Press Machine",
+        "Crafting module: Leather reinforced armor - Jacket",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - Leather Reinforce Jacket/Required",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - Leather Reinforce Jacket/Result",
+        "Required: [2] Hard leather; [4] Cloth; [6] Sewing threads",
+        "Result: Leather Reinforce Jacket",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Leather reinforced armor - Jacket",
+      "craftingRecipeOrder": 53,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - Leather Reinforce Jacket/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - Leather Reinforce Jacket/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Hard leather",
+          "quantity": "2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Leather Reinforce Jacket/Required/T_Inventory_HardLeather.png",
+          "imageDesc": "T_Inventory_HardLeather.png"
+        },
+        {
+          "name": "Cloth",
+          "quantity": "4",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Leather Reinforce Jacket/Required/T_Inventory_Icon_Cloth.png",
+          "imageDesc": "T_Inventory_Icon_Cloth.png"
+        },
+        {
+          "name": "Cotton",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Leather Reinforce Jacket/Required/T_Inventory_Icon_Cotton.png",
+          "imageDesc": "T_Inventory_Icon_Cotton.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Leather Reinforce Jacket",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Leather Reinforce Jacket/Result/T_Inventory_Leather_Reinforced_Jacket.png",
+          "imageDesc": "T_Inventory_Leather_Reinforced_Jacket.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Leather reinforced armor - Jacket/Result/T_Inventory_Leather_Reinforced_Jacket.png",
+      "imageDesc": "T_Inventory_Leather_Reinforced_Jacket.png"
+    },
+    {
+      "name": "Steel Armor Plate SH-1 M1",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Steel Armor Plate SH-1 M1 crafting recipe. Station: Press Machine. Module: Blacksmithing recipes - M1 armor plates. Required: [7] Iron; [2] Armor Steel; [1] Gun Steel; [100] Titanium Powder; [50] NDP Powder. Result: Steel Armor Plate SH-1 M1.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 54",
+        "Crafting station: Press Machine",
+        "Crafting module: Blacksmithing recipes - M1 armor plates",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-1 M1/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-1 M1/Result",
+        "Required: [7] Iron; [2] Armor Steel; [1] Gun Steel; [100] Titanium Powder; [50] NDP Powder",
+        "Result: Steel Armor Plate SH-1 M1",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Blacksmithing recipes - M1 armor plates",
+      "craftingRecipeOrder": 54,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-1 M1/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-1 M1/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Armor Steel",
+          "quantity": "2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-1 M1/Require/T_Inventory_ArmorSteel.png",
+          "imageDesc": "T_Inventory_ArmorSteel.png"
+        },
+        {
+          "name": "Gun Steel",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-1 M1/Require/T_Inventory_GunSteel.png",
+          "imageDesc": "T_Inventory_GunSteel.png"
+        },
+        {
+          "name": "Iron",
+          "quantity": "7",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-1 M1/Require/T_Inventory_Iron.png",
+          "imageDesc": "T_Inventory_Iron.png"
+        },
+        {
+          "name": "NDP Powder",
+          "quantity": "50",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-1 M1/Require/T_Inventory_NDP_Polymer.png",
+          "imageDesc": "T_Inventory_NDP_Polymer.png"
+        },
+        {
+          "name": "Titanium Powder",
+          "quantity": "100",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-1 M1/Require/T_Inventory_Titanium_Powder.png",
+          "imageDesc": "T_Inventory_Titanium_Powder.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Steel Armor Plate SH-1 M1",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-1 M1/Result/T_Inventory_SteelArmorPlate_SH-1_M1.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SH-1_M1.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipe - M1 armor plates/Result/T_Inventory_SteelArmorPlate_SH-1_M1.png",
+      "imageDesc": "T_Inventory_SteelArmorPlate_SH-1_M1.png"
+    },
+    {
+      "name": "Steel Armor Plate SH-2 M1",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Steel Armor Plate SH-2 M1 crafting recipe. Station: Press Machine. Module: Blacksmithing recipes - M1 armor plates. Required: [9] Iron; [3] Armor Steel; [2] Gun Steel; [100] Titanium Powder; [50] NDP Powder. Result: Steel Armor Plate SH-2 M1.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 55",
+        "Crafting station: Press Machine",
+        "Crafting module: Blacksmithing recipes - M1 armor plates",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-2 M1/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-2 M1/Result",
+        "Required: [9] Iron; [3] Armor Steel; [2] Gun Steel; [100] Titanium Powder; [50] NDP Powder",
+        "Result: Steel Armor Plate SH-2 M1",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Blacksmithing recipes - M1 armor plates",
+      "craftingRecipeOrder": 55,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-2 M1/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-2 M1/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Armor Steel",
+          "quantity": "3",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-2 M1/Require/T_Inventory_ArmorSteel.png",
+          "imageDesc": "T_Inventory_ArmorSteel.png"
+        },
+        {
+          "name": "Gun Steel",
+          "quantity": "2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-2 M1/Require/T_Inventory_GunSteel.png",
+          "imageDesc": "T_Inventory_GunSteel.png"
+        },
+        {
+          "name": "Iron",
+          "quantity": "9",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-2 M1/Require/T_Inventory_Iron.png",
+          "imageDesc": "T_Inventory_Iron.png"
+        },
+        {
+          "name": "NDP Powder",
+          "quantity": "50",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-2 M1/Require/T_Inventory_NDP_Polymer.png",
+          "imageDesc": "T_Inventory_NDP_Polymer.png"
+        },
+        {
+          "name": "Titanium Powder",
+          "quantity": "100",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-2 M1/Require/T_Inventory_Titanium_Powder.png",
+          "imageDesc": "T_Inventory_Titanium_Powder.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Steel Armor Plate SH-2 M1",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-2 M1/Result/T_Inventory_SteelArmorPlate_SH-2_M1.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SH-2_M1.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipe - M1 armor plates/Result/T_Inventory_SteelArmorPlate_SH-2_M1.png",
+      "imageDesc": "T_Inventory_SteelArmorPlate_SH-2_M1.png"
+    },
+    {
+      "name": "Steel Armor Plate SH-3 M1",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Steel Armor Plate SH-3 M1 crafting recipe. Station: Press Machine. Module: Blacksmithing recipes - M1 armor plates. Required: [13] Iron; [5] Armor Steel; [4] Gun Steel; [100] Titanium Powder; [50] NDP Powder. Result: Steel Armor Plate SH-3 M1.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 56",
+        "Crafting station: Press Machine",
+        "Crafting module: Blacksmithing recipes - M1 armor plates",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-3 M1/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-3 M1/Result",
+        "Required: [13] Iron; [5] Armor Steel; [4] Gun Steel; [100] Titanium Powder; [50] NDP Powder",
+        "Result: Steel Armor Plate SH-3 M1",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Blacksmithing recipes - M1 armor plates",
+      "craftingRecipeOrder": 56,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-3 M1/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-3 M1/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Armor Steel",
+          "quantity": "5",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-3 M1/Require/T_Inventory_ArmorSteel.png",
+          "imageDesc": "T_Inventory_ArmorSteel.png"
+        },
+        {
+          "name": "Gun Steel",
+          "quantity": "4",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-3 M1/Require/T_Inventory_GunSteel.png",
+          "imageDesc": "T_Inventory_GunSteel.png"
+        },
+        {
+          "name": "Iron",
+          "quantity": "13",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-3 M1/Require/T_Inventory_Iron.png",
+          "imageDesc": "T_Inventory_Iron.png"
+        },
+        {
+          "name": "NDP Powder",
+          "quantity": "50",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-3 M1/Require/T_Inventory_NDP_Polymer.png",
+          "imageDesc": "T_Inventory_NDP_Polymer.png"
+        },
+        {
+          "name": "Titanium Powder",
+          "quantity": "100",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-3 M1/Require/T_Inventory_Titanium_Powder.png",
+          "imageDesc": "T_Inventory_Titanium_Powder.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Steel Armor Plate SH-3 M1",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-3 M1/Result/T_Inventory_SteelArmorPlate_SH-3_M1.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SH-3_M1.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipe - M1 armor plates/Result/T_Inventory_SteelArmorPlate_SH-3_M1.png",
+      "imageDesc": "T_Inventory_SteelArmorPlate_SH-3_M1.png"
+    },
+    {
+      "name": "Steel Armor Plate SL-1 M1",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Steel Armor Plate SL-1 M1 crafting recipe. Station: Press Machine. Module: Blacksmithing recipes - M1 armor plates. Required: [4] Iron; [1] Armor Steel; [50] Titanium Powder; [25] NDP Powder. Result: Steel Armor Plate SL-1 M1.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 57",
+        "Crafting station: Press Machine",
+        "Crafting module: Blacksmithing recipes - M1 armor plates",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-1 M1/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-1 M1/Result",
+        "Required: [4] Iron; [1] Armor Steel; [50] Titanium Powder; [25] NDP Powder",
+        "Result: Steel Armor Plate SL-1 M1",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Blacksmithing recipes - M1 armor plates",
+      "craftingRecipeOrder": 57,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-1 M1/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-1 M1/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Armor Steel",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-1 M1/Require/T_Inventory_ArmorSteel.png",
+          "imageDesc": "T_Inventory_ArmorSteel.png"
+        },
+        {
+          "name": "GunSteel",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-1 M1/Require/T_Inventory_GunSteel.png",
+          "imageDesc": "T_Inventory_GunSteel.png"
+        },
+        {
+          "name": "Iron",
+          "quantity": "4",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-1 M1/Require/T_Inventory_Iron.png",
+          "imageDesc": "T_Inventory_Iron.png"
+        },
+        {
+          "name": "NDP Powder",
+          "quantity": "25",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-1 M1/Require/T_Inventory_NDP_Polymer.png",
+          "imageDesc": "T_Inventory_NDP_Polymer.png"
+        },
+        {
+          "name": "Titanium Powder",
+          "quantity": "50",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-1 M1/Require/T_Inventory_Titanium_Powder.png",
+          "imageDesc": "T_Inventory_Titanium_Powder.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Steel Armor Plate SL-1 M1",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-1 M1/Result/T_Inventory_SteelArmorPlate_SL-1_M1.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SL-1_M1.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipe - M1 armor plates/Result/T_Inventory_SteelArmorPlate_SL-1_M1.png",
+      "imageDesc": "T_Inventory_SteelArmorPlate_SL-1_M1.png"
+    },
+    {
+      "name": "Steel Armor Plate SL-2 M1",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Steel Armor Plate SL-2 M1 crafting recipe. Station: Press Machine. Module: Blacksmithing recipes - M1 armor plates. Required: [4] Iron; [1] Armor Steel; [2] Gun Steel; [50] Titanium Powder; [25] NDP Powder. Result: Steel Armor Plate SL-2 M1.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 58",
+        "Crafting station: Press Machine",
+        "Crafting module: Blacksmithing recipes - M1 armor plates",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-2 M1/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-2 M1/Result",
+        "Required: [4] Iron; [1] Armor Steel; [2] Gun Steel; [50] Titanium Powder; [25] NDP Powder",
+        "Result: Steel Armor Plate SL-2 M1",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Blacksmithing recipes - M1 armor plates",
+      "craftingRecipeOrder": 58,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-2 M1/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-2 M1/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Armor Steel",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-2 M1/Require/T_Inventory_ArmorSteel.png",
+          "imageDesc": "T_Inventory_ArmorSteel.png"
+        },
+        {
+          "name": "Gun Steel",
+          "quantity": "2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-2 M1/Require/T_Inventory_GunSteel.png",
+          "imageDesc": "T_Inventory_GunSteel.png"
+        },
+        {
+          "name": "Iron",
+          "quantity": "4",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-2 M1/Require/T_Inventory_Iron.png",
+          "imageDesc": "T_Inventory_Iron.png"
+        },
+        {
+          "name": "NDP Powder",
+          "quantity": "25",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-2 M1/Require/T_Inventory_NDP_Polymer.png",
+          "imageDesc": "T_Inventory_NDP_Polymer.png"
+        },
+        {
+          "name": "Titanium Powder",
+          "quantity": "50",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-2 M1/Require/T_Inventory_Titanium_Powder.png",
+          "imageDesc": "T_Inventory_Titanium_Powder.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Steel Armor Plate SL-2 M1",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-2 M1/Result/T_Inventory_SteelArmorPlate_SL-2_M1.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SL-2_M1.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipe - M1 armor plates/Result/T_Inventory_SteelArmorPlate_SL-2_M1.png",
+      "imageDesc": "T_Inventory_SteelArmorPlate_SL-2_M1.png"
+    },
+    {
+      "name": "Steel Armor Plate SL-3 M1",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Steel Armor Plate SL-3 M1 crafting recipe. Station: Press Machine. Module: Blacksmithing recipes - M1 armor plates. Required: [4] Iron; [2] Armor Steel; [1] Gun Steel; [50] Titanium Powder; [25] NDP Powder. Result: Steel Armor Plate SL-3 M1.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 59",
+        "Crafting station: Press Machine",
+        "Crafting module: Blacksmithing recipes - M1 armor plates",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-3 M1/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-3 M1/Result",
+        "Required: [4] Iron; [2] Armor Steel; [1] Gun Steel; [50] Titanium Powder; [25] NDP Powder",
+        "Result: Steel Armor Plate SL-3 M1",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Blacksmithing recipes - M1 armor plates",
+      "craftingRecipeOrder": 59,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-3 M1/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-3 M1/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Armor Steel",
+          "quantity": "2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-3 M1/Require/T_Inventory_ArmorSteel.png",
+          "imageDesc": "T_Inventory_ArmorSteel.png"
+        },
+        {
+          "name": "Gun Steel",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-3 M1/Require/T_Inventory_GunSteel.png",
+          "imageDesc": "T_Inventory_GunSteel.png"
+        },
+        {
+          "name": "Iron",
+          "quantity": "4",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-3 M1/Require/T_Inventory_Iron.png",
+          "imageDesc": "T_Inventory_Iron.png"
+        },
+        {
+          "name": "NDP Powder",
+          "quantity": "25",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-3 M1/Require/T_Inventory_NDP_Polymer.png",
+          "imageDesc": "T_Inventory_NDP_Polymer.png"
+        },
+        {
+          "name": "Titanium Powder",
+          "quantity": "50",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-3 M1/Require/T_Inventory_Titanium_Powder.png",
+          "imageDesc": "T_Inventory_Titanium_Powder.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Steel Armor Plate SL-3 M1",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-3 M1/Result/T_Inventory_SteelArmorPlate_SL-3_M1.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SL-3_M1.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipe - M1 armor plates/Result/T_Inventory_SteelArmorPlate_SL-3_M1.png",
+      "imageDesc": "T_Inventory_SteelArmorPlate_SL-3_M1.png"
+    },
+    {
+      "name": "Steel Armor Plate SM-1 M1",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Steel Armor Plate SM-1 M1 crafting recipe. Station: Press Machine. Module: Blacksmithing recipes - M1 armor plates. Required: [6] Iron; [1] Armor Steel; [1] Gun Steel; [80] Titanium Powder; [40] NDP Powder. Result: Steel Armor Plate SM-1 M1.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 60",
+        "Crafting station: Press Machine",
+        "Crafting module: Blacksmithing recipes - M1 armor plates",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-1 M1/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-1 M1/Result",
+        "Required: [6] Iron; [1] Armor Steel; [1] Gun Steel; [80] Titanium Powder; [40] NDP Powder",
+        "Result: Steel Armor Plate SM-1 M1",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Blacksmithing recipes - M1 armor plates",
+      "craftingRecipeOrder": 60,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-1 M1/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-1 M1/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Armor Steel",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-1 M1/Require/T_Inventory_ArmorSteel.png",
+          "imageDesc": "T_Inventory_ArmorSteel.png"
+        },
+        {
+          "name": "Gun Steel",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-1 M1/Require/T_Inventory_GunSteel.png",
+          "imageDesc": "T_Inventory_GunSteel.png"
+        },
+        {
+          "name": "Iron",
+          "quantity": "6",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-1 M1/Require/T_Inventory_Iron.png",
+          "imageDesc": "T_Inventory_Iron.png"
+        },
+        {
+          "name": "NDP Powder",
+          "quantity": "40",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-1 M1/Require/T_Inventory_NDP_Polymer.png",
+          "imageDesc": "T_Inventory_NDP_Polymer.png"
+        },
+        {
+          "name": "Titanium Powder",
+          "quantity": "80",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-1 M1/Require/T_Inventory_Titanium_Powder.png",
+          "imageDesc": "T_Inventory_Titanium_Powder.png"
+        }
+      ],
+      "craftingResultImages": [],
+      "craftingNotes": [
+        "No result PNG was found in the current directory listing."
+      ],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipe - M1 armor plates/Result/T_Inventory_SteelArmorPlate_SM-1_M1.png",
+      "imageDesc": "T_Inventory_SteelArmorPlate_SM-1_M1.png"
+    },
+    {
+      "name": "Steel Armor Plate SM-2 M1",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Steel Armor Plate SM-2 M1 crafting recipe. Station: Press Machine. Module: Blacksmithing recipes - M1 armor plates. Required: [8] Iron; [2] Armor Steel; [2] Gun Steel; [80] Titanium Powder; [40] NDP Powder. Result: Steel Armor Plate SM-2 M1.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 61",
+        "Crafting station: Press Machine",
+        "Crafting module: Blacksmithing recipes - M1 armor plates",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-2 M1/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-2 M1/Result",
+        "Required: [8] Iron; [2] Armor Steel; [2] Gun Steel; [80] Titanium Powder; [40] NDP Powder",
+        "Result: Steel Armor Plate SM-2 M1",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Blacksmithing recipes - M1 armor plates",
+      "craftingRecipeOrder": 61,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-2 M1/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-2 M1/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Armor Steel",
+          "quantity": "2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-2 M1/Require/T_Inventory_ArmorSteel.png",
+          "imageDesc": "T_Inventory_ArmorSteel.png"
+        },
+        {
+          "name": "Gun Steel",
+          "quantity": "2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-2 M1/Require/T_Inventory_GunSteel.png",
+          "imageDesc": "T_Inventory_GunSteel.png"
+        },
+        {
+          "name": "Iron",
+          "quantity": "8",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-2 M1/Require/T_Inventory_Iron.png",
+          "imageDesc": "T_Inventory_Iron.png"
+        },
+        {
+          "name": "NDP Powder",
+          "quantity": "40",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-2 M1/Require/T_Inventory_NDP_Polymer.png",
+          "imageDesc": "T_Inventory_NDP_Polymer.png"
+        },
+        {
+          "name": "Titanium Powder",
+          "quantity": "80",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-2 M1/Require/T_Inventory_Titanium_Powder.png",
+          "imageDesc": "T_Inventory_Titanium_Powder.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Steel Armor Plate SM-2 M1",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-2 M1/Result/T_Inventory_SteelArmorPlate_SM-2_M1.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SM-2_M1.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipe - M1 armor plates/Result/T_Inventory_SteelArmorPlate_SM-2_M1.png",
+      "imageDesc": "T_Inventory_SteelArmorPlate_SM-2_M1.png"
+    },
+    {
+      "name": "Steel Armor Plate SM-3 M1",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Steel Armor Plate SM-3 M1 crafting recipe. Station: Press Machine. Module: Blacksmithing recipes - M1 armor plates. Required: [10] Iron; [3] Armor Steel; [3] Gun Steel; [80] Titanium Powder; [40] NDP Powder. Result: Steel Armor Plate SM-3 M1.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 62",
+        "Crafting station: Press Machine",
+        "Crafting module: Blacksmithing recipes - M1 armor plates",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-3 M1/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-3 M1/Result",
+        "Required: [10] Iron; [3] Armor Steel; [3] Gun Steel; [80] Titanium Powder; [40] NDP Powder",
+        "Result: Steel Armor Plate SM-3 M1",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Blacksmithing recipes - M1 armor plates",
+      "craftingRecipeOrder": 62,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-3 M1/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-3 M1/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Armor Steel",
+          "quantity": "3",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-3 M1/Require/T_Inventory_ArmorSteel.png",
+          "imageDesc": "T_Inventory_ArmorSteel.png"
+        },
+        {
+          "name": "Gun Steel",
+          "quantity": "3",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-3 M1/Require/T_Inventory_GunSteel.png",
+          "imageDesc": "T_Inventory_GunSteel.png"
+        },
+        {
+          "name": "Iron",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-3 M1/Require/T_Inventory_Iron.png",
+          "imageDesc": "T_Inventory_Iron.png"
+        },
+        {
+          "name": "NDP Powder",
+          "quantity": "40",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-3 M1/Require/T_Inventory_NDP_Polymer.png",
+          "imageDesc": "T_Inventory_NDP_Polymer.png"
+        },
+        {
+          "name": "Titanium Powder",
+          "quantity": "80",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-3 M1/Require/T_Inventory_Titanium_Powder.png",
+          "imageDesc": "T_Inventory_Titanium_Powder.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Steel Armor Plate SM-3 M1",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-3 M1/Result/T_Inventory_SteelArmorPlate_SM-3_M1.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SM-3_M1.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipe - M1 armor plates/Result/T_Inventory_SteelArmorPlate_SM-3_M1.png",
+      "imageDesc": "T_Inventory_SteelArmorPlate_SM-3_M1.png"
+    },
+    {
+      "name": "Steel Armor Plate SH-1",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Steel Armor Plate SH-1 crafting recipe. Station: Press Machine. Module: Blacksmithing recipes - Advanced. Required: [7] Iron; [2] Armor Steel; [1] Gun Steel. Result: Steel Armor Plate SH-1.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 63",
+        "Crafting station: Press Machine",
+        "Crafting module: Blacksmithing recipes - Advanced",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-1/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-1/Result",
+        "Required: [7] Iron; [2] Armor Steel; [1] Gun Steel",
+        "Result: Steel Armor Plate SH-1",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Blacksmithing recipes - Advanced",
+      "craftingRecipeOrder": 63,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-1/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-1/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Armor Steel",
+          "quantity": "2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-1/Require/T_Inventory_ArmorSteel.png",
+          "imageDesc": "T_Inventory_ArmorSteel.png"
+        },
+        {
+          "name": "Gun Steel",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-1/Require/T_Inventory_GunSteel.png",
+          "imageDesc": "T_Inventory_GunSteel.png"
+        },
+        {
+          "name": "Iron",
+          "quantity": "7",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-1/Require/T_Inventory_Iron.png",
+          "imageDesc": "T_Inventory_Iron.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Steel Armor Plate SH-1",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-1/Result/T_Inventory_SteelArmorPlate_SH-1.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SH-1.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing - Advanced/Result/T_Inventory_SteelArmorPlate_SH-1.png",
+      "imageDesc": "T_Inventory_SteelArmorPlate_SH-1.png"
+    },
+    {
+      "name": "Steel Armor Plate SH-2",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Steel Armor Plate SH-2 crafting recipe. Station: Press Machine. Module: Blacksmithing recipes - Advanced. Required: [9] Iron; [3] Armor Steel; [2] Gun Steel. Result: Steel Armor Plate SH-2.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 64",
+        "Crafting station: Press Machine",
+        "Crafting module: Blacksmithing recipes - Advanced",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-2/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-2/Result",
+        "Required: [9] Iron; [3] Armor Steel; [2] Gun Steel",
+        "Result: Steel Armor Plate SH-2",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Blacksmithing recipes - Advanced",
+      "craftingRecipeOrder": 64,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-2/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-2/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Armor Steel",
+          "quantity": "3",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-2/Require/T_Inventory_ArmorSteel.png",
+          "imageDesc": "T_Inventory_ArmorSteel.png"
+        },
+        {
+          "name": "Gun Steel",
+          "quantity": "2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-2/Require/T_Inventory_GunSteel.png",
+          "imageDesc": "T_Inventory_GunSteel.png"
+        },
+        {
+          "name": "Iron",
+          "quantity": "9",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-2/Require/T_Inventory_Iron.png",
+          "imageDesc": "T_Inventory_Iron.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Steel Armor Plate SH-2",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-2/Result/T_Inventory_SteelArmorPlate_SH-2.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SH-2.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing - Advanced/Result/T_Inventory_SteelArmorPlate_SH-2.png",
+      "imageDesc": "T_Inventory_SteelArmorPlate_SH-2.png"
+    },
+    {
+      "name": "Steel Armor Plate SH-3",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Steel Armor Plate SH-3 crafting recipe. Station: Press Machine. Module: Blacksmithing recipes - Advanced. Required: [13] Iron; [5] Armor Steel; [4] Gun Steel. Result: Steel Armor Plate SH-3.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 65",
+        "Crafting station: Press Machine",
+        "Crafting module: Blacksmithing recipes - Advanced",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-3/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-3/Result",
+        "Required: [13] Iron; [5] Armor Steel; [4] Gun Steel",
+        "Result: Steel Armor Plate SH-3",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Blacksmithing recipes - Advanced",
+      "craftingRecipeOrder": 65,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-3/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-3/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Armor Steel",
+          "quantity": "5",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-3/Require/T_Inventory_ArmorSteel.png",
+          "imageDesc": "T_Inventory_ArmorSteel.png"
+        },
+        {
+          "name": "Gun Steel",
+          "quantity": "4",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-3/Require/T_Inventory_GunSteel.png",
+          "imageDesc": "T_Inventory_GunSteel.png"
+        },
+        {
+          "name": "Iron",
+          "quantity": "13",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-3/Require/T_Inventory_Iron.png",
+          "imageDesc": "T_Inventory_Iron.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Steel Armor Plate SH-3",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SH-3/Result/T_Inventory_SteelArmorPlate_SH-3.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SH-3.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing - Advanced/Result/T_Inventory_SteelArmorPlate_SH-3.png",
+      "imageDesc": "T_Inventory_SteelArmorPlate_SH-3.png"
+    },
+    {
+      "name": "Steel Armor Plate SL-1",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Steel Armor Plate SL-1 crafting recipe. Station: Press Machine. Module: Blacksmithing recipes - Advanced. Required: [4] Iron; [1] Armor Steel. Result: Steel Armor Plate SL-1.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 66",
+        "Crafting station: Press Machine",
+        "Crafting module: Blacksmithing recipes - Advanced",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-1/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-1/Result",
+        "Required: [4] Iron; [1] Armor Steel",
+        "Result: Steel Armor Plate SL-1",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Blacksmithing recipes - Advanced",
+      "craftingRecipeOrder": 66,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-1/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-1/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Armor Steel",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-1/Require/T_Inventory_ArmorSteel.png",
+          "imageDesc": "T_Inventory_ArmorSteel.png"
+        },
+        {
+          "name": "GunSteel",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-1/Require/T_Inventory_GunSteel.png",
+          "imageDesc": "T_Inventory_GunSteel.png"
+        },
+        {
+          "name": "Iron",
+          "quantity": "4",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-1/Require/T_Inventory_Iron.png",
+          "imageDesc": "T_Inventory_Iron.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Steel Armor Plate SL-1",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-1/Result/T_Inventory_SteelArmorPlate_SL-1.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SL-1.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing - Advanced/Result/T_Inventory_SteelArmorPlate_SL-1.png",
+      "imageDesc": "T_Inventory_SteelArmorPlate_SL-1.png"
+    },
+    {
+      "name": "Steel Armor Plate SL-2",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Steel Armor Plate SL-2 crafting recipe. Station: Press Machine. Module: Blacksmithing recipes - Advanced. Required: [4] Iron; [1] Armor Steel; [2] Gun Steel. Result: Steel Armor Plate SL-2.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 67",
+        "Crafting station: Press Machine",
+        "Crafting module: Blacksmithing recipes - Advanced",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-2/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-2/Result",
+        "Required: [4] Iron; [1] Armor Steel; [2] Gun Steel",
+        "Result: Steel Armor Plate SL-2",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Blacksmithing recipes - Advanced",
+      "craftingRecipeOrder": 67,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-2/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-2/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Armor Steel",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-2/Require/T_Inventory_ArmorSteel.png",
+          "imageDesc": "T_Inventory_ArmorSteel.png"
+        },
+        {
+          "name": "Gun Steel",
+          "quantity": "2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-2/Require/T_Inventory_GunSteel.png",
+          "imageDesc": "T_Inventory_GunSteel.png"
+        },
+        {
+          "name": "Iron",
+          "quantity": "4",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-2/Require/T_Inventory_Iron.png",
+          "imageDesc": "T_Inventory_Iron.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Steel Armor Plate SL-2",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-2/Result/T_Inventory_SteelArmorPlate_SL-2.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SL-2.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing - Advanced/Result/T_Inventory_SteelArmorPlate_SL-2.png",
+      "imageDesc": "T_Inventory_SteelArmorPlate_SL-2.png"
+    },
+    {
+      "name": "Steel Armor Plate SL-3",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Steel Armor Plate SL-3 crafting recipe. Station: Press Machine. Module: Blacksmithing recipes - Advanced. Required: [6] Iron; [2] Armor Steel; [1] Gun Steel. Result: Steel Armor Plate SL-3.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 68",
+        "Crafting station: Press Machine",
+        "Crafting module: Blacksmithing recipes - Advanced",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-3/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-3/Result",
+        "Required: [6] Iron; [2] Armor Steel; [1] Gun Steel",
+        "Result: Steel Armor Plate SL-3",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Blacksmithing recipes - Advanced",
+      "craftingRecipeOrder": 68,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-3/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-3/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Armor Steel",
+          "quantity": "2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-3/Require/T_Inventory_ArmorSteel.png",
+          "imageDesc": "T_Inventory_ArmorSteel.png"
+        },
+        {
+          "name": "Gun Steel",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-3/Require/T_Inventory_GunSteel.png",
+          "imageDesc": "T_Inventory_GunSteel.png"
+        },
+        {
+          "name": "Iron",
+          "quantity": "6",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-3/Require/T_Inventory_Iron.png",
+          "imageDesc": "T_Inventory_Iron.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Steel Armor Plate SL-3",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SL-3/Result/T_Inventory_SteelArmorPlate_SL-3.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SL-3.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing - Advanced/Result/T_Inventory_SteelArmorPlate_SL-3.png",
+      "imageDesc": "T_Inventory_SteelArmorPlate_SL-3.png"
+    },
+    {
+      "name": "Steel Armor Plate SM-1",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Steel Armor Plate SM-1 crafting recipe. Station: Press Machine. Module: Blacksmithing recipes - Advanced. Required: [6] Iron; [1] Armor Steel; [1] Gun Steel. Result: Steel Armor Plate SM-1.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 69",
+        "Crafting station: Press Machine",
+        "Crafting module: Blacksmithing recipes - Advanced",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-1/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-1/Result",
+        "Required: [6] Iron; [1] Armor Steel; [1] Gun Steel",
+        "Result: Steel Armor Plate SM-1",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Blacksmithing recipes - Advanced",
+      "craftingRecipeOrder": 69,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-1/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-1/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Armor Steel",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-1/Require/T_Inventory_ArmorSteel.png",
+          "imageDesc": "T_Inventory_ArmorSteel.png"
+        },
+        {
+          "name": "Gun Steel",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-1/Require/T_Inventory_GunSteel.png",
+          "imageDesc": "T_Inventory_GunSteel.png"
+        },
+        {
+          "name": "Iron",
+          "quantity": "6",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-1/Require/T_Inventory_Iron.png",
+          "imageDesc": "T_Inventory_Iron.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Steel Armor Plate SM-1",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-1/Result/T_Inventory_SteelArmorPlate_SM-1.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SM-1.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing - Advanced/Result/T_Inventory_SteelArmorPlate_SM-1.png",
+      "imageDesc": "T_Inventory_SteelArmorPlate_SM-1.png"
+    },
+    {
+      "name": "Steel Armor Plate SM-2",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Steel Armor Plate SM-2 crafting recipe. Station: Press Machine. Module: Blacksmithing recipes - Advanced. Required: [8] Iron; [2] Armor Steel; [2] Gun Steel. Result: Steel Armor Plate SM-2.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 70",
+        "Crafting station: Press Machine",
+        "Crafting module: Blacksmithing recipes - Advanced",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-2/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-2/Result",
+        "Required: [8] Iron; [2] Armor Steel; [2] Gun Steel",
+        "Result: Steel Armor Plate SM-2",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Blacksmithing recipes - Advanced",
+      "craftingRecipeOrder": 70,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-2/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-2/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Armor Steel",
+          "quantity": "2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-2/Require/T_Inventory_ArmorSteel.png",
+          "imageDesc": "T_Inventory_ArmorSteel.png"
+        },
+        {
+          "name": "Gun Steel",
+          "quantity": "2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-2/Require/T_Inventory_GunSteel.png",
+          "imageDesc": "T_Inventory_GunSteel.png"
+        },
+        {
+          "name": "Iron",
+          "quantity": "8",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-2/Require/T_Inventory_Iron.png",
+          "imageDesc": "T_Inventory_Iron.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Steel Armor Plate SM-2",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-2/Result/T_Inventory_SteelArmorPlate_SM-2.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SM-2.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing - Advanced/Result/T_Inventory_SteelArmorPlate_SM-2.png",
+      "imageDesc": "T_Inventory_SteelArmorPlate_SM-2.png"
+    },
+    {
+      "name": "Steel Armor Plate SM-3",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Steel Armor Plate SM-3 crafting recipe. Station: Press Machine. Module: Blacksmithing recipes - Advanced. Required: [10] Iron; [3] Armor Steel; [3] Gun Steel. Result: Steel Armor Plate SM-3.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 71",
+        "Crafting station: Press Machine",
+        "Crafting module: Blacksmithing recipes - Advanced",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-3/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-3/Result",
+        "Required: [10] Iron; [3] Armor Steel; [3] Gun Steel",
+        "Result: Steel Armor Plate SM-3",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Blacksmithing recipes - Advanced",
+      "craftingRecipeOrder": 71,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-3/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-3/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Armor Steel",
+          "quantity": "3",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-3/Require/T_Inventory_ArmorSteel.png",
+          "imageDesc": "T_Inventory_ArmorSteel.png"
+        },
+        {
+          "name": "Gun Steel",
+          "quantity": "3",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-3/Require/T_Inventory_GunSteel.png",
+          "imageDesc": "T_Inventory_GunSteel.png"
+        },
+        {
+          "name": "Iron",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-3/Require/T_Inventory_Iron.png",
+          "imageDesc": "T_Inventory_Iron.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Steel Armor Plate SM-3",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Steel Armor Plate SM-3/Result/T_Inventory_SteelArmorPlate_SM-3.png",
+          "imageDesc": "T_Inventory_SteelArmorPlate_SM-3.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing - Advanced/Result/T_Inventory_SteelArmorPlate_SM-3.png",
+      "imageDesc": "T_Inventory_SteelArmorPlate_SM-3.png"
+    },
+    {
+      "name": "Titanium Powder",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Titanium Powder crafting recipe. Station: Press Machine. Module: Blacksmithing recipes - Advanced.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 72",
+        "Crafting station: Press Machine",
+        "Crafting module: Blacksmithing recipes - Advanced",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - Titanium Powder/Required",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - Titanium Powder/Result"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Blacksmithing recipes - Advanced",
+      "craftingNotes": [
+        "Added from the updated flattened Crafting Recipes asset directory."
+      ],
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - Titanium Powder/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - Titanium Powder/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Titanium Ore",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Titanium Powder/Required/T_Inventory_Titanium_Ore.png",
+          "imageDesc": "T_Inventory_Titanium_Ore.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Titanium Powder",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Titanium Powder/Result/T_Inventory_Titanium_Powder.png",
+          "imageDesc": "T_Inventory_Titanium_Powder.png"
+        }
+      ],
+      "craftingRecipeOrder": 72
+    },
+    {
+      "name": "NDP Powder from Crystals",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "NDP Powder from Crystals crafting recipe. Station: Press Machine. Module: Energy Modules - Beginner. Required: [2] Small NDP Crystal (Small crystal method); [1] Medium NDP Crystal (Medium crystal method); [1] Large NDP Crystal (Large crystal method). Result: [60] NDP Powder (Small crystal method); [50] NDP Powder (Medium crystal method); [100] NDP Powder (Large crystal method).",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 73",
+        "Crafting station: Press Machine",
+        "Crafting module: Energy Modules - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - NDP Powder from Crystals/Required",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - NDP Powder from Crystals/Result",
+        "Required: [2] Small NDP Crystal (Small crystal method); [1] Medium NDP Crystal (Medium crystal method); [1] Large NDP Crystal (Large crystal method)",
+        "Result: [60] NDP Powder (Small crystal method); [50] NDP Powder (Medium crystal method); [100] NDP Powder (Large crystal method)",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Energy Modules - Beginner",
+      "craftingRecipeOrder": 73,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - NDP Powder from Crystals/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - NDP Powder from Crystals/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Large NDP Crystal",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - NDP Powder from Crystals/Required/T_Inventory_Large_NDP_Crystal.png",
+          "imageDesc": "T_Inventory_Large_NDP_Crystal.png",
+          "method": "Large crystal method"
+        },
+        {
+          "name": "Medium NDP Crystal",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - NDP Powder from Crystals/Required/T_Inventory_Medium_NDP_Crystal.png",
+          "imageDesc": "T_Inventory_Medium_NDP_Crystal.png",
+          "method": "Medium crystal method"
+        },
+        {
+          "name": "Small NDP Crystal",
+          "quantity": "2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - NDP Powder from Crystals/Required/T_Inventory_Small_NDP_Crystal.png",
+          "imageDesc": "T_Inventory_Small_NDP_Crystal.png",
+          "method": "Small crystal method"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "NDP Powder",
+          "quantity": "100",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - NDP Powder from Crystals/Result/T_Inventory_NDP_Powder.png",
+          "imageDesc": "T_Inventory_NDP_Powder.png",
+          "method": "Large crystal method"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Energy Module - Beginner/NPD Powder from crystals/Result/T_Inventory_NDP_Powder.png",
+      "imageDesc": "T_Inventory_NDP_Powder.png"
+    },
+    {
+      "name": "NDP Powder from stones",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "NDP Powder from stones crafting recipe. Station: Press Machine. Module: Energy Modules - Beginner. Required: [100] Small NDP stone (Small stone method); [50] Medium NDP stone (Medium stone method); [20] Large NDP stone (Large stone method). Result: [50] NDP Powder (Small stone method); [50] NDP Powder (Medium stone method); [50] NDP Powder (Large stone method).",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 74",
+        "Crafting station: Press Machine",
+        "Crafting module: Energy Modules - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - NDP Powder from stones/Required",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - NDP Powder from stones/Result",
+        "Required: [100] Small NDP stone (Small stone method); [50] Medium NDP stone (Medium stone method); [20] Large NDP stone (Large stone method)",
+        "Result: [50] NDP Powder (Small stone method); [50] NDP Powder (Medium stone method); [50] NDP Powder (Large stone method)",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Energy Modules - Beginner",
+      "craftingRecipeOrder": 74,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - NDP Powder from stones/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - NDP Powder from stones/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Large NDP stone",
+          "quantity": "20",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - NDP Powder from stones/Required/T_Inventory_Large_NDP_Stone.png",
+          "imageDesc": "T_Inventory_Large_NDP_Stone.png",
+          "method": "Large stone method"
+        },
+        {
+          "name": "Medium NDP stone",
+          "quantity": "50",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - NDP Powder from stones/Required/T_Inventory_Medium_NDP_Stone.png",
+          "imageDesc": "T_Inventory_Medium_NDP_Stone.png",
+          "method": "Medium stone method"
+        },
+        {
+          "name": "Small NDP stone",
+          "quantity": "100",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - NDP Powder from stones/Required/T_Inventory_Small_NDP_Stone.png",
+          "imageDesc": "T_Inventory_Small_NDP_Stone.png",
+          "method": "Small stone method"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "NDP Powder",
+          "quantity": "50",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - NDP Powder from stones/Result/T_Inventory_NDP_Powder.png",
+          "imageDesc": "T_Inventory_NDP_Powder.png",
+          "method": "Large stone method"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Energy Module - Beginner/NDP Powder from stones/Result/T_Inventory_NDP_Powder.png",
+      "imageDesc": "T_Inventory_NDP_Powder.png"
+    },
+    {
+      "name": ".30-06 Bullet",
+      "type": "Recipe",
+      "level": 0,
+      "detail": ".30-06 Bullet crafting recipe. Station: Press Machine. Module: Ammo - Beginner. Required: [1] Copper; [8] Casted lead. Result: [1K] .30-06 Bullet.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 75",
+        "Crafting station: Press Machine",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - .30-06 Bullet/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - .30-06 Bullet/Result",
+        "Required: [1] Copper; [8] Casted lead",
+        "Result: [1K] .30-06 Bullet",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 75,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - .30-06 Bullet/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - .30-06 Bullet/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Casted lead",
+          "quantity": "8",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .30-06 Bullet/Require/T_Inventory_CastedLead.png",
+          "imageDesc": "T_Inventory_CastedLead.png"
+        },
+        {
+          "name": "Copper",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .30-06 Bullet/Require/T_Inventory_Copper.png",
+          "imageDesc": "T_Inventory_Copper.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": ".30-06 Bullet",
+          "quantity": "1K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .30-06 Bullet/Result/T_Inventory_Icon_30-06_Bullet.png",
+          "imageDesc": "T_Inventory_Icon_30-06_Bullet.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_30-06_Bullet.png",
+      "imageDesc": "T_Inventory_Icon_30-06_Bullet.png"
+    },
+    {
+      "name": ".30-06 Case",
+      "type": "Recipe",
+      "level": 0,
+      "detail": ".30-06 Case crafting recipe. Station: Press Machine. Module: Ammo - Beginner. Required: [7] Copper. Result: [2K] .30-06 Case.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 76",
+        "Crafting station: Press Machine",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - .30-06 Case/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - .30-06 Case/Result",
+        "Required: [7] Copper",
+        "Result: [2K] .30-06 Case",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 76,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - .30-06 Case/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - .30-06 Case/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Copper",
+          "quantity": "7",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .30-06 Case/Require/T_Inventory_Copper.png",
+          "imageDesc": "T_Inventory_Copper.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": ".30-06 Case",
+          "quantity": "2K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .30-06 Case/Result/T_Inventory_Icon_30-06_Case.png",
+          "imageDesc": "T_Inventory_Icon_30-06_Case.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_30-06_Case.png",
+      "imageDesc": "T_Inventory_Icon_30-06_Case.png"
+    },
+    {
+      "name": ".44 Magnum Bullet",
+      "type": "Recipe",
+      "level": 0,
+      "detail": ".44 Magnum Bullet crafting recipe. Station: Press Machine. Module: Ammo - Beginner. Required: [1] Copper; [8] Casted lead. Result: [1K] .44 Magnum Bullet.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 77",
+        "Crafting station: Press Machine",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - .44 Magnum Bullet/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - .44 Magnum Bullet/Result",
+        "Required: [1] Copper; [8] Casted lead",
+        "Result: [1K] .44 Magnum Bullet",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 77,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - .44 Magnum Bullet/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - .44 Magnum Bullet/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Casted lead",
+          "quantity": "8",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .44 Magnum Bullet/Require/T_Inventory_CastedLead.png",
+          "imageDesc": "T_Inventory_CastedLead.png"
+        },
+        {
+          "name": "Copper",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .44 Magnum Bullet/Require/T_Inventory_Copper.png",
+          "imageDesc": "T_Inventory_Copper.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": ".44 Magnum Bullet",
+          "quantity": "1K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .44 Magnum Bullet/Result/T_Inventory_Icon_44_Magnum_Bullet.png",
+          "imageDesc": "T_Inventory_Icon_44_Magnum_Bullet.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_44_Magnum_Bullet.png",
+      "imageDesc": "T_Inventory_Icon_44_Magnum_Bullet.png"
+    },
+    {
+      "name": ".44 Magnum Case",
+      "type": "Recipe",
+      "level": 0,
+      "detail": ".44 Magnum Case crafting recipe. Station: Press Machine. Module: Ammo - Beginner. Required: [6] Copper. Result: [3K] .44 Magnum Case.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 78",
+        "Crafting station: Press Machine",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - .44 Magnum Case/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - .44 Magnum Case/Result",
+        "Required: [6] Copper",
+        "Result: [3K] .44 Magnum Case",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 78,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - .44 Magnum Case/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - .44 Magnum Case/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Copper",
+          "quantity": "6",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .44 Magnum Case/Require/T_Inventory_Copper.png",
+          "imageDesc": "T_Inventory_Copper.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": ".44 Magnum Case",
+          "quantity": "3K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .44 Magnum Case/Result/T_Inventory_Icon_44_Magnum_Case.png",
+          "imageDesc": "T_Inventory_Icon_44_Magnum_Case.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_44_Magnum_Case.png",
+      "imageDesc": "T_Inventory_Icon_44_Magnum_Case.png"
+    },
+    {
+      "name": ".45 ACP Bullet",
+      "type": "Recipe",
+      "level": 0,
+      "detail": ".45 ACP Bullet crafting recipe. Station: Press Machine. Module: Ammo - Beginner. Required: [1] Copper; [7] Casted lead. Result: [3K] .45 ACP Bullet.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 79",
+        "Crafting station: Press Machine",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - .45 ACP Bullet/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - .45 ACP Bullet/Result",
+        "Required: [1] Copper; [7] Casted lead",
+        "Result: [3K] .45 ACP Bullet",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 79,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - .45 ACP Bullet/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - .45 ACP Bullet/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Casted lead",
+          "quantity": "7",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .45 ACP Bullet/Require/T_Inventory_CastedLead.png",
+          "imageDesc": "T_Inventory_CastedLead.png"
+        },
+        {
+          "name": "Copper",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .45 ACP Bullet/Require/T_Inventory_Copper.png",
+          "imageDesc": "T_Inventory_Copper.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": ".45 ACP Bullet",
+          "quantity": "3K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .45 ACP Bullet/Result/T_Inventory_Icon_45ACP_Bullet.png",
+          "imageDesc": "T_Inventory_Icon_45ACP_Bullet.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_45ACP_Bullet.png",
+      "imageDesc": "T_Inventory_Icon_45ACP_Bullet.png"
+    },
+    {
+      "name": ".45 ACP Case",
+      "type": "Recipe",
+      "level": 0,
+      "detail": ".45 ACP Case crafting recipe. Station: Press Machine. Module: Ammo - Beginner. Required: [8] Copper. Result: [3K] .45 ACP Case.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 80",
+        "Crafting station: Press Machine",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - .45 ACP Case/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - .45 ACP Case/Result",
+        "Required: [8] Copper",
+        "Result: [3K] .45 ACP Case",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 80,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - .45 ACP Case/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - .45 ACP Case/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Copper",
+          "quantity": "8",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .45 ACP Case/Require/T_Inventory_Copper.png",
+          "imageDesc": "T_Inventory_Copper.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": ".45 ACP Case",
+          "quantity": "3K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .45 ACP Case/Result/T_Inventory_Icon_45ACP_Case.png",
+          "imageDesc": "T_Inventory_Icon_45ACP_Case.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_45ACP_Case.png",
+      "imageDesc": "T_Inventory_Icon_45ACP_Case.png"
+    },
+    {
+      "name": ".500 Magnum Bullet",
+      "type": "Recipe",
+      "level": 0,
+      "detail": ".500 Magnum Bullet crafting recipe. Station: Press Machine. Module: Ammo - Beginner. Required: [1] Copper; [9] Casted lead. Result: [1K] .500 Magnum Bullet.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 81",
+        "Crafting station: Press Machine",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - .500 Magnum Bullet/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - .500 Magnum Bullet/Result",
+        "Required: [1] Copper; [9] Casted lead",
+        "Result: [1K] .500 Magnum Bullet",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 81,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - .500 Magnum Bullet/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - .500 Magnum Bullet/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Casted lead",
+          "quantity": "9",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .500 Magnum Bullet/Require/T_Inventory_CastedLead.png",
+          "imageDesc": "T_Inventory_CastedLead.png"
+        },
+        {
+          "name": "Copper",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .500 Magnum Bullet/Require/T_Inventory_Copper.png",
+          "imageDesc": "T_Inventory_Copper.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": ".500 Magnum Bullet",
+          "quantity": "1K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .500 Magnum Bullet/Result/T_Inventory_Icon_500_Magnum_Bullet.png",
+          "imageDesc": "T_Inventory_Icon_500_Magnum_Bullet.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_500_Magnum_Bullet.png",
+      "imageDesc": "T_Inventory_Icon_500_Magnum_Bullet.png"
+    },
+    {
+      "name": ".500 Magnum Case",
+      "type": "Recipe",
+      "level": 0,
+      "detail": ".500 Magnum Case crafting recipe. Station: Press Machine. Module: Ammo - Beginner. Required: [7] Copper. Result: [1K] .500 Magnum Case.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 82",
+        "Crafting station: Press Machine",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - .500 Magnum Case/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - .500 Magnum Case/Result",
+        "Required: [7] Copper",
+        "Result: [1K] .500 Magnum Case",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 82,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - .500 Magnum Case/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - .500 Magnum Case/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Copper",
+          "quantity": "7",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .500 Magnum Case/Require/T_Inventory_Copper.png",
+          "imageDesc": "T_Inventory_Copper.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": ".500 Magnum Case",
+          "quantity": "1K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - .500 Magnum Case/Result/T_Inventory_Icon_500_Magnum_Case.png",
+          "imageDesc": "T_Inventory_Icon_500_Magnum_Case.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_500_Magnum_Case.png",
+      "imageDesc": "T_Inventory_Icon_500_Magnum_Case.png"
+    },
+    {
+      "name": "12 Ga. Case",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "12 Ga. Case crafting recipe. Station: Press Machine. Module: Ammo - Beginner. Required: [1] Copper (Plastic method); [15] Plastic (Plastic method); [1] Copper (Plastic bottle method); [38] Plastic bottle (Plastic bottle method). Result: [1K] 12 Ga. Case (Plastic method); [1K] 12 Ga. Case (Plastic bottle method).",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 83",
+        "Crafting station: Press Machine",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - 12 Ga. Case/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - 12 Ga. Case/Result",
+        "Required: [1] Copper (Plastic method); [15] Plastic (Plastic method); [1] Copper (Plastic bottle method); [38] Plastic bottle (Plastic bottle method)",
+        "Result: [1K] 12 Ga. Case (Plastic method); [1K] 12 Ga. Case (Plastic bottle method)",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 83,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 12 Ga. Case/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 12 Ga. Case/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Copper",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 12 Ga. Case/Require/T_Inventory_Copper.png",
+          "imageDesc": "T_Inventory_Copper.png",
+          "method": "Plastic bottle method"
+        },
+        {
+          "name": "PlasticBottle",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 12 Ga. Case/Require/T_Inventory_Icon_PlasticBottle.png",
+          "imageDesc": "T_Inventory_Icon_PlasticBottle.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "12 Ga. Case",
+          "quantity": "1K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 12 Ga. Case/Result/T_Inventory_Icon_12Ga_Case.png",
+          "imageDesc": "T_Inventory_Icon_12Ga_Case.png",
+          "method": "Plastic bottle method"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_12Ga_Case.png",
+      "imageDesc": "T_Inventory_Icon_12Ga_Case.png"
+    },
+    {
+      "name": "5.45x39 Bullet",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "5.45x39 Bullet crafting recipe. Station: Press Machine. Module: Ammo - Beginner. Required: [1] Copper; [7] Casted lead. Result: [2K] 5.45x39 Bullet.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 84",
+        "Crafting station: Press Machine",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - 5.45x39 Bullet/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - 5.45x39 Bullet/Result",
+        "Required: [1] Copper; [7] Casted lead",
+        "Result: [2K] 5.45x39 Bullet",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 84,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 5.45x39 Bullet/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 5.45x39 Bullet/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Casted lead",
+          "quantity": "7",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 5.45x39 Bullet/Require/T_Inventory_CastedLead.png",
+          "imageDesc": "T_Inventory_CastedLead.png"
+        },
+        {
+          "name": "Copper",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 5.45x39 Bullet/Require/T_Inventory_Copper.png",
+          "imageDesc": "T_Inventory_Copper.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "5.45x39 Bullet",
+          "quantity": "2K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 5.45x39 Bullet/Result/T_Inventory_Icon_5_45x39_Bullet.png",
+          "imageDesc": "T_Inventory_Icon_5_45x39_Bullet.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_5_45x39_Bullet.png",
+      "imageDesc": "T_Inventory_Icon_5_45x39_Bullet.png"
+    },
+    {
+      "name": "5.45x39 Case",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "5.45x39 Case crafting recipe. Station: Press Machine. Module: Ammo - Beginner. Required: [7] Copper. Result: [2K] 5.45x39 Case.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 85",
+        "Crafting station: Press Machine",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - 5.45x39 Case/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - 5.45x39 Case/Result",
+        "Required: [7] Copper",
+        "Result: [2K] 5.45x39 Case",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 85,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 5.45x39 Case/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 5.45x39 Case/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Copper",
+          "quantity": "7",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 5.45x39 Case/Require/T_Inventory_Copper.png",
+          "imageDesc": "T_Inventory_Copper.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "5.45x39 Case",
+          "quantity": "2K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 5.45x39 Case/Result/T_Inventory_Icon_5_45x39_Case.png",
+          "imageDesc": "T_Inventory_Icon_5_45x39_Case.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_5_45x39_Case.png",
+      "imageDesc": "T_Inventory_Icon_5_45x39_Case.png"
+    },
+    {
+      "name": "5.56x45 Bullet",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "5.56x45 Bullet crafting recipe. Station: Press Machine. Module: Ammo - Beginner. Required: [1] Copper; [7] Casted lead. Result: [2K] 5.56x45 Bullet.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
         "Recipe order: 86",
+        "Crafting station: Press Machine",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - 5.56x45 Bullet/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - 5.56x45 Bullet/Result",
+        "Required: [1] Copper; [7] Casted lead",
+        "Result: [2K] 5.56x45 Bullet",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 86,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 5.56x45 Bullet/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 5.56x45 Bullet/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Casted lead",
+          "quantity": "7",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 5.56x45 Bullet/Require/T_Inventory_CastedLead.png",
+          "imageDesc": "T_Inventory_CastedLead.png"
+        },
+        {
+          "name": "Copper",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 5.56x45 Bullet/Require/T_Inventory_Copper.png",
+          "imageDesc": "T_Inventory_Copper.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "5.56x45 Bullet",
+          "quantity": "2K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 5.56x45 Bullet/Result/T_Inventory_Icon_5_56x45_Bullet.png",
+          "imageDesc": "T_Inventory_Icon_5_56x45_Bullet.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_5_56x45_Bullet.png",
+      "imageDesc": "T_Inventory_Icon_5_56x45_Bullet.png"
+    },
+    {
+      "name": "5.56x45 Case",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "5.56x45 Case crafting recipe. Station: Press Machine. Module: Ammo - Beginner. Required: [7] Copper. Result: [2K] 5.56x45 Case.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 87",
+        "Crafting station: Press Machine",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - 5.56x45 Case/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - 5.56x45 Case/Result",
+        "Required: [7] Copper",
+        "Result: [2K] 5.56x45 Case",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 87,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 5.56x45 Case/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 5.56x45 Case/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Copper",
+          "quantity": "7",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 5.56x45 Case/Require/T_Inventory_Copper.png",
+          "imageDesc": "T_Inventory_Copper.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "5.56x45 Case",
+          "quantity": "2K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 5.56x45 Case/Result/T_Inventory_Icon_5_56x45_Case.png",
+          "imageDesc": "T_Inventory_Icon_5_56x45_Case.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_5_56x45_Case.png",
+      "imageDesc": "T_Inventory_Icon_5_56x45_Case.png"
+    },
+    {
+      "name": "5.7x28 Bullet",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "5.7x28 Bullet crafting recipe. Station: Press Machine. Module: Ammo - Beginner. Required: [2] Copper; [6] Casted lead. Result: [3K] 5.7x28 Bullet.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 88",
+        "Crafting station: Press Machine",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - 5.7x28 Bullet/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - 5.7x28 Bullet/Result",
+        "Required: [2] Copper; [6] Casted lead",
+        "Result: [3K] 5.7x28 Bullet",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 88,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 5.7x28 Bullet/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 5.7x28 Bullet/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Casted lead",
+          "quantity": "6",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 5.7x28 Bullet/Require/T_Inventory_CastedLead.png",
+          "imageDesc": "T_Inventory_CastedLead.png"
+        },
+        {
+          "name": "Copper",
+          "quantity": "2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 5.7x28 Bullet/Require/T_Inventory_Copper.png",
+          "imageDesc": "T_Inventory_Copper.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "5.7x28 Bullet",
+          "quantity": "3K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 5.7x28 Bullet/Result/T_Inventory_Icon_5_7x28_Bullet.png",
+          "imageDesc": "T_Inventory_Icon_5_7x28_Bullet.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_5_7x28_Bullet.png",
+      "imageDesc": "T_Inventory_Icon_5_7x28_Bullet.png"
+    },
+    {
+      "name": "5.7x28 Case",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "5.7x28 Case crafting recipe. Station: Press Machine. Module: Ammo - Beginner. Required: [9] Copper. Result: [3K] 5.7x28 Case.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 89",
+        "Crafting station: Press Machine",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - 5.7x28 Case/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - 5.7x28 Case/Result",
+        "Required: [9] Copper",
+        "Result: [3K] 5.7x28 Case",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 89,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 5.7x28 Case/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 5.7x28 Case/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Copper",
+          "quantity": "9",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 5.7x28 Case/Require/T_Inventory_Copper.png",
+          "imageDesc": "T_Inventory_Copper.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "5.7x28 Case",
+          "quantity": "3K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 5.7x28 Case/Result/T_Inventory_Icon_5_7x28_Case.png",
+          "imageDesc": "T_Inventory_Icon_5_7x28_Case.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_5_7x28_Case.png",
+      "imageDesc": "T_Inventory_Icon_5_7x28_Case.png"
+    },
+    {
+      "name": "7.62x39 Bullet",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "7.62x39 Bullet crafting recipe. Station: Press Machine. Module: Ammo - Beginner. Required: [1] Copper; [7] Casted lead. Result: [2K] 7.62x39 Bullet.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 90",
+        "Crafting station: Press Machine",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - 7.62x39 Bullet/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - 7.62x39 Bullet/Result",
+        "Required: [1] Copper; [7] Casted lead",
+        "Result: [2K] 7.62x39 Bullet",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 90,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 7.62x39 Bullet/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 7.62x39 Bullet/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Casted lead",
+          "quantity": "7",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 7.62x39 Bullet/Require/T_Inventory_CastedLead.png",
+          "imageDesc": "T_Inventory_CastedLead.png"
+        },
+        {
+          "name": "Copper",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 7.62x39 Bullet/Require/T_Inventory_Copper.png",
+          "imageDesc": "T_Inventory_Copper.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "7.62x39 Bullet",
+          "quantity": "2K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 7.62x39 Bullet/Result/T_Inventory_Icon_7_62x39_Bullet.png",
+          "imageDesc": "T_Inventory_Icon_7_62x39_Bullet.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_7_62x39_Bullet.png",
+      "imageDesc": "T_Inventory_Icon_7_62x39_Bullet.png"
+    },
+    {
+      "name": "7.62x39 Case",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "7.62x39 Case crafting recipe. Station: Press Machine. Module: Ammo - Beginner. Required: [7] Copper. Result: [2K] 7.62x39 Case.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 91",
+        "Crafting station: Press Machine",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - 7.62x39 Case/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - 7.62x39 Case/Result",
+        "Required: [7] Copper",
+        "Result: [2K] 7.62x39 Case",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 91,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 7.62x39 Case/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 7.62x39 Case/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Copper",
+          "quantity": "7",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 7.62x39 Case/Require/T_Inventory_Copper.png",
+          "imageDesc": "T_Inventory_Copper.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "7.62x39 Case",
+          "quantity": "2K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 7.62x39 Case/Result/T_Inventory_Icon_7_62x39_Case.png",
+          "imageDesc": "T_Inventory_Icon_7_62x39_Case.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_7_62x39_Case.png",
+      "imageDesc": "T_Inventory_Icon_7_62x39_Case.png"
+    },
+    {
+      "name": "7.62x54 Bullet",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "7.62x54 Bullet crafting recipe. Station: Press Machine. Module: Ammo - Beginner. Required: [1] Copper; [8] Casted lead. Result: [1K] 7.62x54 Bullet.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 92",
+        "Crafting station: Press Machine",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - 7.62x54 Bullet/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - 7.62x54 Bullet/Result",
+        "Required: [1] Copper; [8] Casted lead",
+        "Result: [1K] 7.62x54 Bullet",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 92,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 7.62x54 Bullet/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 7.62x54 Bullet/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Casted lead",
+          "quantity": "8",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 7.62x54 Bullet/Require/T_Inventory_CastedLead.png",
+          "imageDesc": "T_Inventory_CastedLead.png"
+        },
+        {
+          "name": "Copper",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 7.62x54 Bullet/Require/T_Inventory_Copper.png",
+          "imageDesc": "T_Inventory_Copper.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "7.62x54 Bullet",
+          "quantity": "1K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 7.62x54 Bullet/Result/T_Inventory_Icon_7_62x54_Bullet.png",
+          "imageDesc": "T_Inventory_Icon_7_62x54_Bullet.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_7_62x54_Bullet.png",
+      "imageDesc": "T_Inventory_Icon_7_62x54_Bullet.png"
+    },
+    {
+      "name": "7.62x54 Case",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "7.62x54 Case crafting recipe. Station: Press Machine. Module: Ammo - Beginner. Required: [7] Copper. Result: [1K] 7.62x54 Case.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 93",
+        "Crafting station: Press Machine",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - 7.62x54 Case/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - 7.62x54 Case/Result",
+        "Required: [7] Copper",
+        "Result: [1K] 7.62x54 Case",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 93,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 7.62x54 Case/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 7.62x54 Case/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Copper",
+          "quantity": "7",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 7.62x54 Case/Require/T_Inventory_Copper.png",
+          "imageDesc": "T_Inventory_Copper.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "7.62x54 Case",
+          "quantity": "1K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 7.62x54 Case/Result/T_Inventory_Icon_7_62x54_Case.png",
+          "imageDesc": "T_Inventory_Icon_7_62x54_Case.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_7_62x54_Case.png",
+      "imageDesc": "T_Inventory_Icon_7_62x54_Case.png"
+    },
+    {
+      "name": "9x19 Bullet",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "9x19 Bullet crafting recipe. Station: Press Machine. Module: Ammo - Beginner. Required: [1] Copper; [6] Casted lead. Result: [3K] 9x19 Bullet.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 94",
+        "Crafting station: Press Machine",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - 9x19 Bullet/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - 9x19 Bullet/Result",
+        "Required: [1] Copper; [6] Casted lead",
+        "Result: [3K] 9x19 Bullet",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 94,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 9x19 Bullet/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 9x19 Bullet/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Casted lead",
+          "quantity": "6",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 9x19 Bullet/Require/T_Inventory_CastedLead.png",
+          "imageDesc": "T_Inventory_CastedLead.png"
+        },
+        {
+          "name": "Copper",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 9x19 Bullet/Require/T_Inventory_Copper.png",
+          "imageDesc": "T_Inventory_Copper.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "9x19 Bullet",
+          "quantity": "3K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 9x19 Bullet/Result/T_Inventory_Icon_9x19_Bullet.png",
+          "imageDesc": "T_Inventory_Icon_9x19_Bullet.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_9x19_Bullet.png",
+      "imageDesc": "T_Inventory_Icon_9x19_Bullet.png"
+    },
+    {
+      "name": "9x19 Case",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "9x19 Case crafting recipe. Station: Press Machine. Module: Ammo - Beginner. Required: [1] Copper. Result: [3K] 9x19 Case.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 95",
+        "Crafting station: Press Machine",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - 9x19 Case/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - 9x19 Case/Result",
+        "Required: [1] Copper",
+        "Result: [3K] 9x19 Case",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 95,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 9x19 Case/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 9x19 Case/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Copper",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 9x19 Case/Require/T_Inventory_Copper.png",
+          "imageDesc": "T_Inventory_Copper.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "9x19 Case",
+          "quantity": "3K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 9x19 Case/Result/T_Inventory_Icon_9x19_Case.png",
+          "imageDesc": "T_Inventory_Icon_9x19_Case.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_9x19_Case.png",
+      "imageDesc": "T_Inventory_Icon_9x19_Case.png"
+    },
+    {
+      "name": "9x21 Bullet",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "9x21 Bullet crafting recipe. Station: Press Machine. Module: Ammo - Beginner. Required: [2] Copper; [6] Casted lead. Result: [3K] 9x21 Bullet.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 96",
+        "Crafting station: Press Machine",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - 9x21 Bullet/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - 9x21 Bullet/Result",
+        "Required: [2] Copper; [6] Casted lead",
+        "Result: [3K] 9x21 Bullet",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 96,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 9x21 Bullet/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 9x21 Bullet/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Casted lead",
+          "quantity": "6",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 9x21 Bullet/Require/T_Inventory_CastedLead.png",
+          "imageDesc": "T_Inventory_CastedLead.png"
+        },
+        {
+          "name": "Copper",
+          "quantity": "2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 9x21 Bullet/Require/T_Inventory_Copper.png",
+          "imageDesc": "T_Inventory_Copper.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "9x21 Bullet",
+          "quantity": "3K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 9x21 Bullet/Result/T_Inventory_Icon_9x21_Bullet.png",
+          "imageDesc": "T_Inventory_Icon_9x21_Bullet.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_9x21_Bullet.png",
+      "imageDesc": "T_Inventory_Icon_9x21_Bullet.png"
+    },
+    {
+      "name": "9x21 Case",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "9x21 Case crafting recipe. Station: Press Machine. Module: Ammo - Beginner. Required: [8] Copper. Result: [3K] 9x21 Case.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 97",
+        "Crafting station: Press Machine",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - 9x21 Case/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - 9x21 Case/Result",
+        "Required: [8] Copper",
+        "Result: [3K] 9x21 Case",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 97,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 9x21 Case/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 9x21 Case/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Copper",
+          "quantity": "8",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 9x21 Case/Require/T_Inventory_Copper.png",
+          "imageDesc": "T_Inventory_Copper.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "9x21 Case",
+          "quantity": "3K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 9x21 Case/Result/T_Inventory_Icon_9x21_Case.png",
+          "imageDesc": "T_Inventory_Icon_9x21_Case.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_9x21_Case.png",
+      "imageDesc": "T_Inventory_Icon_9x21_Case.png"
+    },
+    {
+      "name": "9x39 Bullet",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "9x39 Bullet crafting recipe. Station: Press Machine. Module: Ammo - Beginner. Required: [1] Copper; [5] Casted lead; [1] Armor Steel. Result: [1K] 9x39 Bullet.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 98",
+        "Crafting station: Press Machine",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - 9x39 Bullet/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - 9x39 Bullet/Result",
+        "Required: [1] Copper; [5] Casted lead; [1] Armor Steel",
+        "Result: [1K] 9x39 Bullet",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 98,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 9x39 Bullet/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 9x39 Bullet/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "ArmorSteel",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 9x39 Bullet/Require/T_Inventory_ArmorSteel.png",
+          "imageDesc": "T_Inventory_ArmorSteel.png"
+        },
+        {
+          "name": "Casted lead",
+          "quantity": "5",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 9x39 Bullet/Require/T_Inventory_CastedLead.png",
+          "imageDesc": "T_Inventory_CastedLead.png"
+        },
+        {
+          "name": "Copper",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 9x39 Bullet/Require/T_Inventory_Copper.png",
+          "imageDesc": "T_Inventory_Copper.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "9x39 Bullet",
+          "quantity": "1K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 9x39 Bullet/Result/T_Inventory_Icon_9x39_Bullet.png",
+          "imageDesc": "T_Inventory_Icon_9x39_Bullet.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_9x39_Bullet.png",
+      "imageDesc": "T_Inventory_Icon_9x39_Bullet.png"
+    },
+    {
+      "name": "9x39 Case",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "9x39 Case crafting recipe. Station: Press Machine. Module: Ammo - Beginner. Required: [7] Copper. Result: [1K] 9x39 Case.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 99",
+        "Crafting station: Press Machine",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - 9x39 Case/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - 9x39 Case/Result",
+        "Required: [7] Copper",
+        "Result: [1K] 9x39 Case",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 99,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - 9x39 Case/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - 9x39 Case/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Copper",
+          "quantity": "7",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 9x39 Case/Require/T_Inventory_Copper.png",
+          "imageDesc": "T_Inventory_Copper.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "9x39 Case",
+          "quantity": "1K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - 9x39 Case/Result/T_Inventory_Icon_9x39_Case.png",
+          "imageDesc": "T_Inventory_Icon_9x39_Case.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_9x39_Case.png",
+      "imageDesc": "T_Inventory_Icon_9x39_Case.png"
+    },
+    {
+      "name": "Large Primer",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Large Primer crafting recipe. Station: Press Machine. Module: Ammo - Beginner. Required: [1] Copper; [1] Fulminate of mercury. Result: [2K] Large primer.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 100",
+        "Crafting station: Press Machine",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - Large Primer/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - Large Primer/Result",
+        "Required: [1] Copper; [1] Fulminate of mercury",
+        "Result: [2K] Large primer",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 100,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - Large Primer/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - Large Primer/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Copper",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Large Primer/Require/T_Inventory_Copper.png",
+          "imageDesc": "T_Inventory_Copper.png"
+        },
+        {
+          "name": "Fulminate of mercury",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Large Primer/Require/T_Inventory_Icon_Fulminate_of_mercury.png",
+          "imageDesc": "T_Inventory_Icon_Fulminate_of_mercury.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Large primer",
+          "quantity": "2K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Large Primer/Result/T_Inventory_Icon_Large_Primer.png",
+          "imageDesc": "T_Inventory_Icon_Large_Primer.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_Large_Primer.png",
+      "imageDesc": "T_Inventory_Icon_Large_Primer.png"
+    },
+    {
+      "name": "Medium Primer",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Medium Primer crafting recipe. Station: Press Machine. Module: Ammo - Beginner. Required: [1] Copper; [1] Fulminate of mercury. Result: [4K] Medium primer.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 101",
+        "Crafting station: Press Machine",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - Medium Primer/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - Medium Primer/Result",
+        "Required: [1] Copper; [1] Fulminate of mercury",
+        "Result: [4K] Medium primer",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 101,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - Medium Primer/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - Medium Primer/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Copper",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Medium Primer/Require/T_Inventory_Copper.png",
+          "imageDesc": "T_Inventory_Copper.png"
+        },
+        {
+          "name": "Fulminate of mercury",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Medium Primer/Require/T_Inventory_Icon_Fulminate_of_mercury.png",
+          "imageDesc": "T_Inventory_Icon_Fulminate_of_mercury.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Medium primer",
+          "quantity": "4K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Medium Primer/Result/T_Inventory_Icon_Medium_Primer.png",
+          "imageDesc": "T_Inventory_Icon_Medium_Primer.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_Medium_Primer.png",
+      "imageDesc": "T_Inventory_Icon_Medium_Primer.png"
+    },
+    {
+      "name": "Small Primer",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Small Primer crafting recipe. Station: Press Machine. Module: Ammo - Beginner. Required: [1] Copper; [1] Fulminate of mercury. Result: [6K] Small primer.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 102",
+        "Crafting station: Press Machine",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - Small Primer/Require",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - Small Primer/Result",
+        "Required: [1] Copper; [1] Fulminate of mercury",
+        "Result: [6K] Small primer",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 102,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - Small Primer/Require",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - Small Primer/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Copper",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Small Primer/Require/T_Inventory_Copper.png",
+          "imageDesc": "T_Inventory_Copper.png"
+        },
+        {
+          "name": "Fulminate of mercury",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Small Primer/Require/T_Inventory_Icon_Fulminate_of_mercury.png",
+          "imageDesc": "T_Inventory_Icon_Fulminate_of_mercury.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Small primer",
+          "quantity": "6K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Small Primer/Result/T_Inventory_Icon_Small_Primer.png",
+          "imageDesc": "T_Inventory_Icon_Small_Primer.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Ammo-Beginner/Result/T_Inventory_Icon_Small_Primer.png",
+      "imageDesc": "T_Inventory_Icon_Small_Primer.png"
+    },
+    {
+      "name": "Chitin Reinforce Pants",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Chitin Reinforce Pants crafting recipe. Station: Press Machine. Module: Chitin reinforced armor - Trousers. Required: [1] Chitin Cloth; [1] Polymer Cloth; [15] Sewing Threads; Pliers; Long nose pliers. Result: Chitin reinforced armor Pants.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 103",
+        "Crafting station: Press Machine",
+        "Crafting module: Chitin reinforced armor - Trousers",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - Chitin Reinforce Pants/Required",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - Chitin Reinforce Pants/Result",
+        "Required: [1] Chitin Cloth; [1] Polymer Cloth; [15] Sewing Threads; Pliers; Long nose pliers",
+        "Result: Chitin reinforced armor Pants",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Chitin reinforced armor - Trousers",
+      "craftingRecipeOrder": 103,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - Chitin Reinforce Pants/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - Chitin Reinforce Pants/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Chitin Cloth",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Chitin Reinforce Pants/Required/T_Inventory_ChitinCloth.png",
+          "imageDesc": "T_Inventory_ChitinCloth.png"
+        },
+        {
+          "name": "Cotton",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Chitin Reinforce Pants/Required/T_Inventory_Icon_Cotton.png",
+          "imageDesc": "T_Inventory_Icon_Cotton.png"
+        },
+        {
+          "name": "Long nose pliers",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Chitin Reinforce Pants/Required/T_Inventory_Icon_LongNosePliers.png",
+          "imageDesc": "T_Inventory_Icon_LongNosePliers.png"
+        },
+        {
+          "name": "Pliers",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Chitin Reinforce Pants/Required/T_Inventory_Icon_Pliers.png",
+          "imageDesc": "T_Inventory_Icon_Pliers.png"
+        },
+        {
+          "name": "Polymer Cloth",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Chitin Reinforce Pants/Required/T_Inventory_PolymerCloth.png",
+          "imageDesc": "T_Inventory_PolymerCloth.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Chitin reinforced armor Pants",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Chitin Reinforce Pants/Result/T_Inventory_Chitin_Reinforced_Pants.png",
+          "imageDesc": "T_Inventory_Chitin_Reinforced_Pants.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor/Chitin reinforced trousers/Result/T_Inventory_Chitin_Reinforced_Pants.png",
+      "imageDesc": "T_Inventory_Chitin_Reinforced_Pants.png"
+    },
+    {
+      "name": "Chitin Reinforce Jacket",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Chitin Reinforce Jacket crafting recipe. Station: Press Machine. Module: Chitin reinforced armor - Jacket. Required: [2] Chitin Cloth; [2] Polymer Cloth; [15] Sewing Threads; Pliers; Long nose pliers. Result: Chitin reinforced armor Jacket.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 104",
+        "Crafting station: Press Machine",
+        "Crafting module: Chitin reinforced armor - Jacket",
+        "Required folder: /db-assets/Crafting Recipes/Press Machine - Chitin Reinforce Jacket/Required",
+        "Result folder: /db-assets/Crafting Recipes/Press Machine - Chitin Reinforce Jacket/Result",
+        "Required: [2] Chitin Cloth; [2] Polymer Cloth; [15] Sewing Threads; Pliers; Long nose pliers",
+        "Result: Chitin reinforced armor Jacket",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Press Machine",
+      "craftingModule": "Chitin reinforced armor - Jacket",
+      "craftingRecipeOrder": 104,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine - Chitin Reinforce Jacket/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine - Chitin Reinforce Jacket/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Chitin Cloth",
+          "quantity": "2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Chitin Reinforce Jacket/Required/T_Inventory_ChitinCloth.png",
+          "imageDesc": "T_Inventory_ChitinCloth.png"
+        },
+        {
+          "name": "Cotton",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Chitin Reinforce Jacket/Required/T_Inventory_Icon_Cotton.png",
+          "imageDesc": "T_Inventory_Icon_Cotton.png"
+        },
+        {
+          "name": "Long nose pliers",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Chitin Reinforce Jacket/Required/T_Inventory_Icon_LongNosePliers.png",
+          "imageDesc": "T_Inventory_Icon_LongNosePliers.png"
+        },
+        {
+          "name": "Pliers",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Chitin Reinforce Jacket/Required/T_Inventory_Icon_Pliers.png",
+          "imageDesc": "T_Inventory_Icon_Pliers.png"
+        },
+        {
+          "name": "Polymer Cloth",
+          "quantity": "2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Chitin Reinforce Jacket/Required/T_Inventory_PolymerCloth.png",
+          "imageDesc": "T_Inventory_PolymerCloth.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Chitin reinforced armor Jacket",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Press Machine - Chitin Reinforce Jacket/Result/T_Inventory_Chitin_Reinforced_Jacket.png",
+          "imageDesc": "T_Inventory_Chitin_Reinforced_Jacket.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Chitin reinforced armor/Chitin reinforced jacket/Result/T_Inventory_Chitin_Reinforced_Jacket.png",
+      "imageDesc": "T_Inventory_Chitin_Reinforced_Jacket.png"
+    },
+    {
+      "name": "Fuel Tablets",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Fuel Tablets crafting recipe. Station: Chemical Station. Module: Fuel tablets - Quest. Required: [1] Calcium acetate; [3] Alcohol; [1] Bottle of distilled water. Result: Fuel Tablet.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 105",
+        "Crafting station: Chemical Station",
+        "Crafting module: Energy Modules - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Chemical Station - Fuel Tablets/Required",
+        "Result folder: /db-assets/Crafting Recipes/Chemical Station - Fuel Tablets/Result",
+        "Required: [1] Calcium acetate; [3] Alcohol; [1] Bottle of distilled water",
+        "Result: Fuel Tablet",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Chemical Station",
+      "craftingModule": "Energy Modules - Beginner",
+      "craftingRecipeOrder": 105,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Chemical Station - Fuel Tablets/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Chemical Station - Fuel Tablets/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Alcohol",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Fuel Tablets/Required/T_Inventory_Icon_Alcohol.png",
+          "imageDesc": "T_Inventory_Icon_Alcohol.png"
+        },
+        {
+          "name": "BottleOfDistilledWater",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Fuel Tablets/Required/T_Inventory_Icon_BottleOfDistilledWater.png",
+          "imageDesc": "T_Inventory_Icon_BottleOfDistilledWater.png"
+        },
+        {
+          "name": "CalciumAcetate",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Fuel Tablets/Required/T_Inventory_Icon_CalciumAcetate.png",
+          "imageDesc": "T_Inventory_Icon_CalciumAcetate.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "FuelTablets",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Fuel Tablets/Result/T_Inventory_Icon_FuelTablets.png",
+          "imageDesc": "T_Inventory_Icon_FuelTablets.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "",
+      "imageDesc": ""
+    },
+    {
+      "name": "NDP Battery M1",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "NDP Battery M1 crafting recipe. Station: Chemical Station. Module: Energy Modules - Beginner. Required: [1] NDP battery body M1. Result: NDP Battery M1.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 106",
+        "Crafting station: Chemical Station",
+        "Crafting module: Energy Modules - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Chemical Station - NDP Battery M1/Required",
+        "Result folder: /db-assets/Crafting Recipes/Chemical Station - NDP Battery M1/Result",
+        "Required: [1] NDP battery body M1",
+        "Result: NDP Battery M1",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Chemical Station",
+      "craftingModule": "Energy Modules - Beginner",
+      "craftingRecipeOrder": 106,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Chemical Station - NDP Battery M1/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Chemical Station - NDP Battery M1/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "NDP Polymer",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - NDP Battery M1/Required/T_Inventory_NDP_Polymer.png",
+          "imageDesc": "T_Inventory_NDP_Polymer.png"
+        },
+        {
+          "name": "NDP Battery M1 Blank",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - NDP Battery M1/Required/T_NDP_Battery_M1_Blank.png",
+          "imageDesc": "T_NDP_Battery_M1_Blank.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "NDP Battery M1",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - NDP Battery M1/Result/T_NDP_Battery_M1.png",
+          "imageDesc": "T_NDP_Battery_M1.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/Energy Module - Beginner/Result/T_NDP_Battery_M1.png",
+      "imageDesc": "T_NDP_Battery_M1.png"
+    },
+    {
+      "name": "NDP Polymer",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "NDP Polymer crafting recipe. Station: Chemical Station. Module: Energy Modules - Beginner. Required: [50] NDP Powder; [5] Polymer. Result: [50] NDP Polymer.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 107",
+        "Crafting station: Chemical Station",
+        "Crafting module: Energy Modules - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Chemical Station - NDP Polymer/Required",
+        "Result folder: /db-assets/Crafting Recipes/Chemical Station - NDP Polymer/Result",
+        "Required: [50] NDP Powder; [5] Polymer",
+        "Result: [50] NDP Polymer",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Chemical Station",
+      "craftingModule": "Energy Modules - Beginner",
+      "craftingRecipeOrder": 107,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Chemical Station - NDP Polymer/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Chemical Station - NDP Polymer/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "NDP Powder",
+          "quantity": "50",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - NDP Polymer/Required/T_Inventory_NDP_Powder.png",
+          "imageDesc": "T_Inventory_NDP_Powder.png"
+        },
+        {
+          "name": "Polymer",
+          "quantity": "5",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - NDP Polymer/Required/T_Inventory_Polymer.png",
+          "imageDesc": "T_Inventory_Polymer.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "NDP Polymer",
+          "quantity": "50",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - NDP Polymer/Result/T_Inventory_NDP_Polymer.png",
+          "imageDesc": "T_Inventory_NDP_Polymer.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/Energy Module - Beginner/Result/T_Inventory_NDP_Polymer.png",
+      "imageDesc": "T_Inventory_NDP_Polymer.png"
+    },
+    {
+      "name": "Low Grade Fuel",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Low Grade Fuel crafting recipe. Station: Chemical Station. Module: Low grade fuel. Required: [1] Canister with gasoline; [1] Gasoline filter; [20] Coal. Result: [1] Canister with purified gasoline; [1] Fuel can.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 108",
+        "Crafting station: Chemical Station",
+        "Crafting module: Gasoline filter",
+        "Required folder: /db-assets/Crafting Recipes/Chemical Station - Low Grade Fuel/Required",
+        "Result folder: /db-assets/Crafting Recipes/Chemical Station - Low Grade Fuel/Result",
+        "Required: [1] Canister with gasoline; [1] Gasoline filter; [20] Coal",
+        "Result: [1] Canister with purified gasoline; [1] Fuel can",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Chemical Station",
+      "craftingModule": "Gasoline filter",
+      "craftingRecipeOrder": 108,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Chemical Station - Low Grade Fuel/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Chemical Station - Low Grade Fuel/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "BlackJelly Oil",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Low Grade Fuel/Required/T_Inventory_BlackJelly_Oil.png",
+          "imageDesc": "T_Inventory_BlackJelly_Oil.png"
+        },
+        {
+          "name": "Coal",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Low Grade Fuel/Required/T_Inventory_Coal.png",
+          "imageDesc": "T_Inventory_Coal.png"
+        },
+        {
+          "name": "Canister",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Low Grade Fuel/Required/T_Inventory_Icon_Canister.png",
+          "imageDesc": "T_Inventory_Icon_Canister.png"
+        },
+        {
+          "name": "Vodka",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Low Grade Fuel/Required/T_Inventory_Icon_Vodka.png",
+          "imageDesc": "T_Inventory_Icon_Vodka.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Canister with old fuel",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Low Grade Fuel/Result/T_Inventory_Icon_Canister_with_old_fuel.png",
+          "imageDesc": "T_Inventory_Icon_Canister_with_old_fuel.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "",
+      "imageDesc": ""
+    },
+    {
+      "name": "Purified Gasoline",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Purified Gasoline crafting recipe. Station: Chemical Station. Module: Gasoline filter. Required: [2] Canister with gasoline; [1] Gasoline filter; [20] Coal. Result: Purified Gasoline.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 109",
+        "Crafting station: Chemical Station",
+        "Crafting module: Gasoline filter",
+        "Required folder: /db-assets/Crafting Recipes/Chemical Station - Purified Gasoline/Required",
+        "Result folder: /db-assets/Crafting Recipes/Chemical Station - Purified Gasoline/Result",
+        "Required: [2] Canister with gasoline; [1] Gasoline filter; [20] Coal",
+        "Result: Purified Gasoline",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Chemical Station",
+      "craftingModule": "Gasoline filter",
+      "craftingRecipeOrder": 109,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Chemical Station - Purified Gasoline/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Chemical Station - Purified Gasoline/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Coal",
+          "quantity": "20",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Purified Gasoline/Required/T_Inventory_Coal.png",
+          "imageDesc": "T_Inventory_Coal.png"
+        },
+        {
+          "name": "Canister with gasoline",
+          "quantity": "2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Purified Gasoline/Required/T_Inventory_Icon_Canister_with_old_fuel.png",
+          "imageDesc": "T_Inventory_Icon_Canister_with_old_fuel.png"
+        },
+        {
+          "name": "Gasoline filter",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Purified Gasoline/Required/T_Inventory_Icon_Gasoline_Filter.png",
+          "imageDesc": "T_Inventory_Icon_Gasoline_Filter.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Canister With Fuel",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Purified Gasoline/Result/T_Inventory_Icon_Canister_With_Fuel.png",
+          "imageDesc": "T_Inventory_Icon_Canister_With_Fuel.png"
+        },
+        {
+          "name": "Purified Gasoline",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Purified Gasoline/Result/T_Inventory_Icon_Canister.png",
+          "imageDesc": "T_Inventory_Icon_Canister.png"
+        }
+      ],
+      "craftingNotes": [
+        "The supplied text lists the requirements; the output is identified by the recipe name."
+      ],
+      "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/Purified Gasoline/Result/T_Inventory_Icon_Canister.png",
+      "imageDesc": "T_Inventory_Icon_Canister.png"
+    },
+    {
+      "name": "Gun Powder",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Gun Powder crafting recipe. Station: Chemical Station. Module: Ammo - Beginner. Required: [10] Charcoal; [3] Sulfur; [1] Nitroglycerine. Result: [4] Gun powder.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 110",
+        "Crafting station: Chemical Station",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Chemical Station - Gun Powder/Required",
+        "Result folder: /db-assets/Crafting Recipes/Chemical Station - Gun Powder/Result",
+        "Required: [10] Charcoal; [3] Sulfur; [1] Nitroglycerine",
+        "Result: [4] Gun powder",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Chemical Station",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 110,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Chemical Station - Gun Powder/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Chemical Station - Gun Powder/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Charcoal",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Gun Powder/Required/T_Inventory_Charcoal.png",
+          "imageDesc": "T_Inventory_Charcoal.png"
+        },
+        {
+          "name": "Nitroglycerine",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Gun Powder/Required/T_Inventory_Nitroglycerine.png",
+          "imageDesc": "T_Inventory_Nitroglycerine.png"
+        },
+        {
+          "name": "Sulfur",
+          "quantity": "3",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Gun Powder/Required/T_Inventory_Sulfur.png",
+          "imageDesc": "T_Inventory_Sulfur.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Gun powder",
+          "quantity": "4",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Chemical Station - Gun Powder/Result/T_Inventory_Gun_Powder.png",
+          "imageDesc": "T_Inventory_Gun_Powder.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Chemical Station/Ammo - Beginner/Result/T_Inventory_Gun_Powder.png",
+      "imageDesc": "T_Inventory_Gun_Powder.png"
+    },
+    {
+      "name": "Fried Big-eyed Catfish",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Fried Big-eyed Catfish crafting recipe. Station: Campfire. Module: Fisherman recipes - Beginner. Required: [1] Big-eyed Catfish; [1] Chamomile; [1] Calendula; Field Kit. Result: Fried Big-eyed Catfish.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 111",
+        "Crafting station: Campfire",
+        "Crafting module: Fisherman recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Campfire - Fried Big-eyed Catfish/Required",
+        "Result folder: /db-assets/Crafting Recipes/Campfire - Fried Big-eyed Catfish/Result",
+        "Required: [1] Big-eyed Catfish; [1] Chamomile; [1] Calendula; Field Kit",
+        "Result: Fried Big-eyed Catfish",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Campfire",
+      "craftingModule": "Fisherman recipes - Beginner",
+      "craftingRecipeOrder": 111,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Big-eyed Catfish/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Big-eyed Catfish/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Calendula",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Big-eyed Catfish/Required/T_Inventory_Calendula.png",
+          "imageDesc": "T_Inventory_Calendula.png"
+        },
+        {
+          "name": "Camomile",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Big-eyed Catfish/Required/T_Inventory_Camomile.png",
+          "imageDesc": "T_Inventory_Camomile.png"
+        },
+        {
+          "name": "Fish2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Big-eyed Catfish/Required/T_Inventory_Fish2.png",
+          "imageDesc": "T_Inventory_Fish2.png"
+        },
+        {
+          "name": "Field Kit",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Big-eyed Catfish/Required/T_Inventory_Icon_Field_Kit.png",
+          "imageDesc": "T_Inventory_Icon_Field_Kit.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "FriedFish2",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Big-eyed Catfish/Result/T_Inventory_Icon_FriedFish2.png",
+          "imageDesc": "T_Inventory_Icon_FriedFish2.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "",
+      "imageDesc": ""
+    },
+    {
+      "name": "Fried Blind Fish",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Fried Blind Fish crafting recipe. Station: Campfire. Module: Fisherman recipes - Beginner. Required: [1] Blind Fish; [1] Chamomile; [1] Dracocephalum; Field Kit. Result: Fried Blind Fish.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 112",
+        "Crafting station: Campfire",
+        "Crafting module: Fisherman recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Campfire - Fried Blind Fish/Required",
+        "Result folder: /db-assets/Crafting Recipes/Campfire - Fried Blind Fish/Result",
+        "Required: [1] Blind Fish; [1] Chamomile; [1] Dracocephalum; Field Kit",
+        "Result: Fried Blind Fish",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Campfire",
+      "craftingModule": "Fisherman recipes - Beginner",
+      "craftingRecipeOrder": 112,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Blind Fish/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Blind Fish/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Camomile",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Blind Fish/Required/T_Inventory_Camomile.png",
+          "imageDesc": "T_Inventory_Camomile.png"
+        },
+        {
+          "name": "Dracocephalum",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Blind Fish/Required/T_Inventory_Dracocephalum.png",
+          "imageDesc": "T_Inventory_Dracocephalum.png"
+        },
+        {
+          "name": "Fish3",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Blind Fish/Required/T_Inventory_Fish3.png",
+          "imageDesc": "T_Inventory_Fish3.png"
+        },
+        {
+          "name": "Field Kit",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Blind Fish/Required/T_Inventory_Icon_Field_Kit.png",
+          "imageDesc": "T_Inventory_Icon_Field_Kit.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "FriedFish3",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Blind Fish/Result/T_Inventory_Icon_FriedFish3.png",
+          "imageDesc": "T_Inventory_Icon_FriedFish3.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "",
+      "imageDesc": ""
+    },
+    {
+      "name": "Fried Carp",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Fried Carp crafting recipe. Station: Campfire. Module: Fisherman recipes - Beginner. Required: [1] Bighead carp; [1] Nettle; Field Kit. Result: Fried Carp.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 113",
+        "Crafting station: Campfire",
+        "Crafting module: Fisherman recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Campfire - Fried Carp/Required",
+        "Result folder: /db-assets/Crafting Recipes/Campfire - Fried Carp/Result",
+        "Required: [1] Bighead carp; [1] Nettle; Field Kit",
+        "Result: Fried Carp",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Campfire",
+      "craftingModule": "Fisherman recipes - Beginner",
+      "craftingRecipeOrder": 113,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Carp/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Carp/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "BigheadCarp",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Carp/Required/T_Inventory_Icon_BigheadCarp.png",
+          "imageDesc": "T_Inventory_Icon_BigheadCarp.png"
+        },
+        {
+          "name": "Field Kit",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Carp/Required/T_Inventory_Icon_Field_Kit.png",
+          "imageDesc": "T_Inventory_Icon_Field_Kit.png"
+        },
+        {
+          "name": "Nettle",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Carp/Required/T_Inventory_Nettle.png",
+          "imageDesc": "T_Inventory_Nettle.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Fried Carp",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Carp/Result/T_Inventory_Icon_FriedCarp.png",
+          "imageDesc": "T_Inventory_Icon_FriedCarp.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Fisherman Recipes - Beginner/Result/T_Inventory_Icon_FriedCarp.png",
+      "imageDesc": "T_Inventory_Icon_FriedCarp.png"
+    },
+    {
+      "name": "Fried Spiked Crucian",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Fried Spiked Crucian crafting recipe. Station: Campfire. Module: Fisherman recipes - Beginner. Required: [1] Spiked Crucian; [2] Chamomile; Field Kit. Result: Fried Spiked Crucian.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 114",
+        "Crafting station: Campfire",
+        "Crafting module: Fisherman recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Campfire - Fried Spiked Crucian/Required",
+        "Result folder: /db-assets/Crafting Recipes/Campfire - Fried Spiked Crucian/Result",
+        "Required: [1] Spiked Crucian; [2] Chamomile; Field Kit",
+        "Result: Fried Spiked Crucian",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Campfire",
+      "craftingModule": "Fisherman recipes - Beginner",
+      "craftingRecipeOrder": 114,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Spiked Crucian/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Spiked Crucian/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Camomile",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Spiked Crucian/Required/T_Inventory_Camomile.png",
+          "imageDesc": "T_Inventory_Camomile.png"
+        },
+        {
+          "name": "Fish1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Spiked Crucian/Required/T_Inventory_Fish1.png",
+          "imageDesc": "T_Inventory_Fish1.png"
+        },
+        {
+          "name": "Field Kit",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Spiked Crucian/Required/T_Inventory_Icon_Field_Kit.png",
+          "imageDesc": "T_Inventory_Icon_Field_Kit.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "FriedFish1",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Spiked Crucian/Result/T_Inventory_Icon_FriedFish1.png",
+          "imageDesc": "T_Inventory_Icon_FriedFish1.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "",
+      "imageDesc": ""
+    },
+    {
+      "name": "Chamomile Tea",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Chamomile Tea crafting recipe. Station: Campfire. Module: Campfire recipes - Beginner. Required: [1] Chamomile; [1] Bottle of distilled water. Result: Chamomile Tea.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 115",
         "Crafting station: Campfire",
         "Crafting module: Campfire recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Omelette/Required",
-        "Result folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Omelette/Result",
-        "Source: Crafting Recipes list"
+        "Required folder: /db-assets/Crafting Recipes/Campfire - Chamomile Tea/Required",
+        "Result folder: /db-assets/Crafting Recipes/Campfire - Chamomile Tea/Result",
+        "Required: [1] Chamomile; [1] Bottle of distilled water",
+        "Result: Chamomile Tea",
+        "Source: Pasted text(8).txt"
       ],
       "locations": [
         "Minayev's Territory",
@@ -43268,54 +45925,837 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Campfire",
       "craftingModule": "Campfire recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Omelette/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Omelette/Result",
+      "craftingRecipeOrder": 115,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire - Chamomile Tea/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire - Chamomile Tea/Result",
       "craftingRequiredImages": [
         {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Omelette/Required/required-1.png",
-          "imageDesc": "Omelette required ingredient 1"
+          "name": "BottleOfDistilledWater",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Chamomile Tea/Required/T_Inventory_Icon_BottleOfDistilledWater.png",
+          "imageDesc": "T_Inventory_Icon_BottleOfDistilledWater.png"
+        }
+      ],
+      "craftingResultImages": [],
+      "craftingNotes": [
+        "No result PNG was found in the current directory listing."
+      ],
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipe - Beginner/Result/T_Inventory_Icon_Chamomile_Tea.png",
+      "imageDesc": "T_Inventory_Icon_Chamomile_Tea.png"
+    },
+    {
+      "name": "Distilled Water",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Distilled Water crafting recipe. Station: Campfire. Module: Campfire recipes - Beginner. Required: [1] Bottle of dirty water. Result: Fried Rat Meat.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 116",
+        "Crafting station: Campfire",
+        "Crafting module: Campfire recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Campfire - Distilled Water/Required",
+        "Result folder: /db-assets/Crafting Recipes/Campfire - Distilled Water/Result",
+        "Required: [1] Bottle of dirty water",
+        "Result: Fried Rat Meat",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Campfire",
+      "craftingModule": "Campfire recipes - Beginner",
+      "craftingRecipeOrder": 116,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire - Distilled Water/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire - Distilled Water/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "BottleOfDirtyWater",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Distilled Water/Required/T_Inventory_Icon_BottleOfDirtyWater.png",
+          "imageDesc": "T_Inventory_Icon_BottleOfDirtyWater.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "BottleOfDistilledWater",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Distilled Water/Result/T_Inventory_Icon_BottleOfDistilledWater.png",
+          "imageDesc": "T_Inventory_Icon_BottleOfDistilledWater.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "",
+      "imageDesc": ""
+    },
+    {
+      "name": "Fried Boar Meat",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Fried Boar Meat crafting recipe. Station: Campfire. Module: Campfire recipes - Beginner. Required: [1] Boar Meat. Result: Fried Boar Meat.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 117",
+        "Crafting station: Campfire",
+        "Crafting module: Campfire recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Campfire - Fried Boar Meat/Required",
+        "Result folder: /db-assets/Crafting Recipes/Campfire - Fried Boar Meat/Result",
+        "Required: [1] Boar Meat",
+        "Result: Fried Boar Meat",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Campfire",
+      "craftingModule": "Campfire recipes - Beginner",
+      "craftingRecipeOrder": 117,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Boar Meat/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Boar Meat/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "BoarMeat",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Boar Meat/Required/T_Inventory_BoarMeat.png",
+          "imageDesc": "T_Inventory_BoarMeat.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Fried Boar Heart",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Boar Meat/Result/T_Inventory_Icon_Fried_Boar_Heart.png",
+          "imageDesc": "T_Inventory_Icon_Fried_Boar_Heart.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "",
+      "imageDesc": ""
+    },
+    {
+      "name": "Fried Chicken Meat",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Fried Chicken Meat crafting recipe. Station: Campfire. Module: Campfire recipes - Beginner. Required: [1] Chicken Meat. Result: Fried Chicken Meat.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 118",
+        "Crafting station: Campfire",
+        "Crafting module: Campfire recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Campfire - Fried Chicken Meat/Required",
+        "Result folder: /db-assets/Crafting Recipes/Campfire - Fried Chicken Meat/Result",
+        "Required: [1] Chicken Meat",
+        "Result: Fried Chicken Meat",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Campfire",
+      "craftingModule": "Campfire recipes - Beginner",
+      "craftingRecipeOrder": 118,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Chicken Meat/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Chicken Meat/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Chicken Meat",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Chicken Meat/Required/T_Inventory_ChickenTuna.png",
+          "imageDesc": "T_Inventory_ChickenTuna.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Fried Chicken Meat",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Chicken Meat/Result/T_Inventory_FriedChickenMeat.png",
+          "imageDesc": "T_Inventory_FriedChickenMeat.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipe - Beginner/Result/T_Inventory_FriedChickenMeat.png",
+      "imageDesc": "T_Inventory_FriedChickenMeat.png"
+    },
+    {
+      "name": "Fried Crab Meat",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Fried Crab Meat crafting recipe. Station: Campfire. Module: Campfire recipes - Beginner. Required: [1] Crab Meat. Result: Fried Crab Meat.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 119",
+        "Crafting station: Campfire",
+        "Crafting module: Campfire recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Campfire - Fried Crab Meat/Required",
+        "Result folder: /db-assets/Crafting Recipes/Campfire - Fried Crab Meat/Result",
+        "Required: [1] Crab Meat",
+        "Result: Fried Crab Meat",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Campfire",
+      "craftingModule": "Campfire recipes - Beginner",
+      "craftingRecipeOrder": 119,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Crab Meat/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Crab Meat/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Crab Meat",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Crab Meat/Required/T_Inventory_Crab_Meat.png",
+          "imageDesc": "T_Inventory_Crab_Meat.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Fried Crab Meat",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Crab Meat/Result/T_Inventory_Icon_Fried_Crab_Meat.png",
+          "imageDesc": "T_Inventory_Icon_Fried_Crab_Meat.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "",
+      "imageDesc": ""
+    },
+    {
+      "name": "Fried Deer Meat",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Fried Deer Meat crafting recipe. Station: Campfire. Module: Campfire recipes - Beginner. Required: [1] Deer Meat. Result: Fried Deer Meat.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 120",
+        "Crafting station: Campfire",
+        "Crafting module: Campfire recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Campfire - Fried Deer Meat/Required",
+        "Result folder: /db-assets/Crafting Recipes/Campfire - Fried Deer Meat/Result",
+        "Required: [1] Deer Meat",
+        "Result: Fried Deer Meat",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Campfire",
+      "craftingModule": "Campfire recipes - Beginner",
+      "craftingRecipeOrder": 120,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Deer Meat/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Deer Meat/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Deer Meat",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Deer Meat/Required/T_Inventory_DeerMeat.png",
+          "imageDesc": "T_Inventory_DeerMeat.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Fried Deer Meat",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Deer Meat/Result/T_Inventory_FriedDeerMeat.png",
+          "imageDesc": "T_Inventory_FriedDeerMeat.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipe - Beginner/Result/T_Inventory_FriedDeerMeat.png",
+      "imageDesc": "T_Inventory_FriedDeerMeat.png"
+    },
+    {
+      "name": "Fried Dog Meat",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Fried Dog Meat crafting recipe. Station: Campfire. Module: Campfire recipes - Beginner. Required: [1] Dog Meat. Result: Fried Dog Meat.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 121",
+        "Crafting station: Campfire",
+        "Crafting module: Campfire recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Campfire - Fried Dog Meat/Required",
+        "Result folder: /db-assets/Crafting Recipes/Campfire - Fried Dog Meat/Result",
+        "Required: [1] Dog Meat",
+        "Result: Fried Dog Meat",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Campfire",
+      "craftingModule": "Campfire recipes - Beginner",
+      "craftingRecipeOrder": 121,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Dog Meat/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Dog Meat/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "StrayDogMeat",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Dog Meat/Required/T_Inventory_StrayDogMeat.png",
+          "imageDesc": "T_Inventory_StrayDogMeat.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Fried StrayDog Meat",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Dog Meat/Result/T_Inventory_Icon_Fried_StrayDog_Meat.png",
+          "imageDesc": "T_Inventory_Icon_Fried_StrayDog_Meat.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "",
+      "imageDesc": ""
+    },
+    {
+      "name": "Fried Lizard Meat",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Fried Lizard Meat crafting recipe. Station: Campfire. Module: Campfire recipes - Beginner. Required: [1] Lizard Meat. Result: Fried Lizard Meat.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 122",
+        "Crafting station: Campfire",
+        "Crafting module: Campfire recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Campfire - Fried Lizard Meat/Required",
+        "Result folder: /db-assets/Crafting Recipes/Campfire - Fried Lizard Meat/Result",
+        "Required: [1] Lizard Meat",
+        "Result: Fried Lizard Meat",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Campfire",
+      "craftingModule": "Campfire recipes - Beginner",
+      "craftingRecipeOrder": 122,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Lizard Meat/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Lizard Meat/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "LizzardMeat",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Lizard Meat/Required/T_Inventory_LizzardMeat.png",
+          "imageDesc": "T_Inventory_LizzardMeat.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Fried Lizard Meat",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Lizard Meat/Result/T_Inventory_Icon_Fried_Lizard_Meat.png",
+          "imageDesc": "T_Inventory_Icon_Fried_Lizard_Meat.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipe - Beginner/Result/T_Inventory_Icon_Fried_Lizard_Meat.png",
+      "imageDesc": "T_Inventory_Icon_Fried_Lizard_Meat.png"
+    },
+    {
+      "name": "Fried Mushrooms",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Fried Mushrooms crafting recipe. Station: Campfire. Module: Campfire recipes - Beginner. Required: [1] Milk Mushroom. Result: Fried Milk Mushroom.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 123",
+        "Crafting station: Campfire",
+        "Crafting module: Campfire recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Campfire - Fried Mushrooms/Required",
+        "Result folder: /db-assets/Crafting Recipes/Campfire - Fried Mushrooms/Result",
+        "Required: [1] Milk Mushroom",
+        "Result: Fried Milk Mushroom",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Campfire",
+      "craftingModule": "Campfire recipes - Beginner",
+      "craftingRecipeOrder": 123,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Mushrooms/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Mushrooms/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "MilkMushroom",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Mushrooms/Required/T_Inventory_MilkMushroom.png",
+          "imageDesc": "T_Inventory_MilkMushroom.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Fried Mushrooms",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Mushrooms/Result/T_Inventory_Icon_Fried_Mushrooms.png",
+          "imageDesc": "T_Inventory_Icon_Fried_Mushrooms.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "",
+      "imageDesc": ""
+    },
+    {
+      "name": "Fried Rabbit carcass",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Fried Rabbit carcass crafting recipe. Station: Campfire. Module: Campfire recipes - Beginner. Required: [1] Rabbit carcass. Result: Fried Rabbit carcass.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 124",
+        "Crafting station: Campfire",
+        "Crafting module: Campfire recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Campfire - Fried Rabbit carcass/Required",
+        "Result folder: /db-assets/Crafting Recipes/Campfire - Fried Rabbit carcass/Result",
+        "Required: [1] Rabbit carcass",
+        "Result: Fried Rabbit carcass",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Campfire",
+      "craftingModule": "Campfire recipes - Beginner",
+      "craftingRecipeOrder": 124,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Rabbit carcass/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Rabbit carcass/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Rabbit carcass",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Rabbit carcass/Required/T_Inventory_RabbitCarcass.png",
+          "imageDesc": "T_Inventory_RabbitCarcass.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Fried Rabbit carcass",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Rabbit carcass/Result/T_Inventory_Fried_rabbit_carcass.png",
+          "imageDesc": "T_Inventory_Fried_rabbit_carcass.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipe - Beginner/Result/T_Inventory_Fried_rabbit_carcass.png",
+      "imageDesc": "T_Inventory_Fried_rabbit_carcass.png"
+    },
+    {
+      "name": "Fried Rat Meat",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Fried Rat Meat crafting recipe. Station: Campfire. Module: Campfire recipes - Beginner. Required: [1] Rat Meat. Result: Fried Rat Meat.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 125",
+        "Crafting station: Campfire",
+        "Crafting module: Campfire recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Campfire - Fried Rat Meat/Required",
+        "Result folder: /db-assets/Crafting Recipes/Campfire - Fried Rat Meat/Result",
+        "Required: [1] Rat Meat",
+        "Result: Fried Rat Meat",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Campfire",
+      "craftingModule": "Campfire recipes - Beginner",
+      "craftingRecipeOrder": 125,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Rat Meat/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Rat Meat/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Rat Meat",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Rat Meat/Required/T_Inventory_RatMeat.png",
+          "imageDesc": "T_Inventory_RatMeat.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Fried Rat Meat",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Rat Meat/Result/T_Inventory_Icon_Fried_Rat_Meat.png",
+          "imageDesc": "T_Inventory_Icon_Fried_Rat_Meat.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipe - Beginner/Result/T_Inventory_Icon_Fried_Rat_Meat.png",
+      "imageDesc": "T_Inventory_Icon_Fried_Rat_Meat.png"
+    },
+    {
+      "name": "Fried salted rat-ass on a stick",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Fried salted rat-ass on a stick crafting recipe. Station: Campfire. Module: Campfire recipes - Beginner. Required: [1] Rat-ass; [1] Firewood; [1] Salt. Result: Fried Salted rat ass on a stick.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 126",
+        "Crafting station: Campfire",
+        "Crafting module: Campfire recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Campfire - Fried salted rat-ass on a stick/Required",
+        "Result folder: /db-assets/Crafting Recipes/Campfire - Fried salted rat-ass on a stick/Result",
+        "Required: [1] Rat-ass; [1] Firewood; [1] Salt",
+        "Result: Fried Salted rat ass on a stick",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Campfire",
+      "craftingModule": "Campfire recipes - Beginner",
+      "craftingRecipeOrder": 126,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried salted rat-ass on a stick/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried salted rat-ass on a stick/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Salt",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried salted rat-ass on a stick/Required/T_Inventory_Icon_Salt.png",
+          "imageDesc": "T_Inventory_Icon_Salt.png"
         },
         {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Omelette/Required/required-2.png",
-          "imageDesc": "Omelette required ingredient 2"
+          "name": "RatAss",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried salted rat-ass on a stick/Required/T_Inventory_RatAss.png",
+          "imageDesc": "T_Inventory_RatAss.png"
         },
         {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Omelette/Required/required-3.png",
-          "imageDesc": "Omelette required ingredient 3"
+          "name": "Wood",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried salted rat-ass on a stick/Required/T_Inventory_Wood.png",
+          "imageDesc": "T_Inventory_Wood.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Fried Salted Rat Ass On Stick",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried salted rat-ass on a stick/Result/T_Inventory_Icon_Fried_Salted_Rat_Ass_On_Stick.png",
+          "imageDesc": "T_Inventory_Icon_Fried_Salted_Rat_Ass_On_Stick.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "",
+      "imageDesc": ""
+    },
+    {
+      "name": "Fried Watcher Meat",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Fried Watcher Meat crafting recipe. Station: Campfire. Module: Campfire recipes - Beginner. Required: [1] Watcher Meat. Result: Fried Watcher Meat.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 127",
+        "Crafting station: Campfire",
+        "Crafting module: Campfire recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Campfire - Fried Watcher Meat/Required",
+        "Result folder: /db-assets/Crafting Recipes/Campfire - Fried Watcher Meat/Result",
+        "Required: [1] Watcher Meat",
+        "Result: Fried Watcher Meat",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Campfire",
+      "craftingModule": "Campfire recipes - Beginner",
+      "craftingRecipeOrder": 127,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Watcher Meat/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Watcher Meat/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "WatcherMeat",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Watcher Meat/Required/T_Inventory_WatcherMeat.png",
+          "imageDesc": "T_Inventory_WatcherMeat.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Fried Watcher Meat",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Watcher Meat/Result/T_Inventory_Icon_Fried_Watcher_Meat.png",
+          "imageDesc": "T_Inventory_Icon_Fried_Watcher_Meat.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipe - Beginner/Result/T_Inventory_Icon_Fried_Watcher_Meat.png",
+      "imageDesc": "T_Inventory_Icon_Fried_Watcher_Meat.png"
+    },
+    {
+      "name": "Nettle Tea",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Nettle Tea crafting recipe. Station: Campfire. Module: Campfire recipes - Beginner. Required: [10] Nettle; [1] Bottle of distilled water. Result: Nettle Tea.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 128",
+        "Crafting station: Campfire",
+        "Crafting module: Campfire recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Campfire - Nettle Tea/Required",
+        "Result folder: /db-assets/Crafting Recipes/Campfire - Nettle Tea/Result",
+        "Required: [10] Nettle; [1] Bottle of distilled water",
+        "Result: Nettle Tea",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Campfire",
+      "craftingModule": "Campfire recipes - Beginner",
+      "craftingRecipeOrder": 128,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire - Nettle Tea/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire - Nettle Tea/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "BottleOfDistilledWater",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Nettle Tea/Required/T_Inventory_Icon_BottleOfDistilledWater.png",
+          "imageDesc": "T_Inventory_Icon_BottleOfDistilledWater.png"
         },
         {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Omelette/Required/required-4.png",
-          "imageDesc": "Omelette required ingredient 4"
+          "name": "Nettle",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Nettle Tea/Required/T_Inventory_Nettle.png",
+          "imageDesc": "T_Inventory_Nettle.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Nettle Tea",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Nettle Tea/Result/T_Inventory_Icon_Nettle_Tea.png",
+          "imageDesc": "T_Inventory_Icon_Nettle_Tea.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipe - Beginner/Result/T_Inventory_Icon_Nettle_Tea.png",
+      "imageDesc": "T_Inventory_Icon_Nettle_Tea.png"
+    },
+    {
+      "name": "Omelette",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Omelette crafting recipe. Station: Campfire. Module: Campfire recipes - Beginner. Required: [3] Egg; [1] Plate. Result: Omelette.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 129",
+        "Crafting station: Campfire",
+        "Crafting module: Campfire recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Campfire - Omelette/Required",
+        "Result folder: /db-assets/Crafting Recipes/Campfire - Omelette/Result",
+        "Required: [3] Egg; [1] Plate",
+        "Result: Omelette",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Campfire",
+      "craftingModule": "Campfire recipes - Beginner",
+      "craftingRecipeOrder": 129,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire - Omelette/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire - Omelette/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Egg",
+          "quantity": "3",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Omelette/Required/T_Inventory_Egg.png",
+          "imageDesc": "T_Inventory_Egg.png"
+        },
+        {
+          "name": "Plate",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Omelette/Required/T_Inventory_Icon_Plate.png",
+          "imageDesc": "T_Inventory_Icon_Plate.png"
         }
       ],
       "craftingResultImages": [
         {
           "name": "Omelette",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Omelette/Result/Omelette.png",
-          "imageDesc": "Omelette result image"
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Omelette/Result/T_Inventory_Omelette.png",
+          "imageDesc": "T_Inventory_Omelette.png"
         }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Omelette/Result/Omelette.png",
-      "imageDesc": "Omelette result image"
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipe - Beginner/Result/T_Inventory_Omelette.png",
+      "imageDesc": "T_Inventory_Omelette.png"
+    },
+    {
+      "name": "Rose-bay Tea",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Rose-bay Tea crafting recipe. Station: Campfire. Module: Campfire recipes - Beginner. Required: [20] Rose-bay; [1] Bottle of distilled water. Result: Rose-bay Tea.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 130",
+        "Crafting station: Campfire",
+        "Crafting module: Campfire recipes - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Campfire - Rose-bay Tea/Required",
+        "Result folder: /db-assets/Crafting Recipes/Campfire - Rose-bay Tea/Result",
+        "Required: [20] Rose-bay; [1] Bottle of distilled water",
+        "Result: Rose-bay Tea",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Campfire",
+      "craftingModule": "Campfire recipes - Beginner",
+      "craftingRecipeOrder": 130,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire - Rose-bay Tea/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire - Rose-bay Tea/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "BottleOfDistilledWater",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Rose-bay Tea/Required/T_Inventory_Icon_BottleOfDistilledWater.png",
+          "imageDesc": "T_Inventory_Icon_BottleOfDistilledWater.png"
+        },
+        {
+          "name": "Rose-bay",
+          "quantity": "20",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Rose-bay Tea/Required/T_Inventory_Rose-Bay.png",
+          "imageDesc": "T_Inventory_Rose-Bay.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Rose-bay Tea",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Rose-bay Tea/Result/T_Inventory_Icon_Rose-bay_Tea.png",
+          "imageDesc": "T_Inventory_Icon_Rose-bay_Tea.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipe - Beginner/Result/T_Inventory_Icon_Rose-bay_Tea.png",
+      "imageDesc": "T_Inventory_Icon_Rose-bay_Tea.png"
     },
     {
       "name": "Perfect Broth",
       "type": "Recipe",
       "level": 0,
-      "detail": "Perfect Broth crafting recipe. Crafting station: Campfire. Module: Campfire recipes - Perfect Broth. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": "Perfect Broth crafting recipe. Station: Campfire. Module: Campfire recipes - Perfect Broth. Required: [1] Field Kit; [5] Fried Boar heart; [8] Fried Mushroom; [4] Nettle; [1] Bottle of distilled water. Result: Perfect Broth.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 87",
+        "Recipe order: 131",
         "Crafting station: Campfire",
         "Crafting module: Campfire recipes - Perfect Broth",
-        "Required folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Perfect Broth/Perfect Broth/Required",
-        "Result folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Perfect Broth/Perfect Broth/Result",
-        "Source: Crafting Recipes list"
+        "Required folder: /db-assets/Crafting Recipes/Campfire - Perfect Broth/Required",
+        "Result folder: /db-assets/Crafting Recipes/Campfire - Perfect Broth/Result",
+        "Required: [1] Field Kit; [5] Fried Boar heart; [8] Fried Mushroom; [4] Nettle; [1] Bottle of distilled water",
+        "Result: Perfect Broth",
+        "Source: Pasted text(8).txt"
       ],
       "locations": [
         "Minayev's Territory",
@@ -43327,54 +46767,75 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Campfire",
       "craftingModule": "Campfire recipes - Perfect Broth",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Perfect Broth/Perfect Broth/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Perfect Broth/Perfect Broth/Result",
+      "craftingRecipeOrder": 131,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire - Perfect Broth/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire - Perfect Broth/Result",
       "craftingRequiredImages": [
         {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Perfect Broth/Perfect Broth/Required/required-1.png",
-          "imageDesc": "Perfect Broth required ingredient 1"
+          "name": "Bottle of distilled water",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Perfect Broth/Required/T_Inventory_Icon_BottleOfDistilledWater.png",
+          "imageDesc": "T_Inventory_Icon_BottleOfDistilledWater.png"
         },
         {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Perfect Broth/Perfect Broth/Required/required-2.png",
-          "imageDesc": "Perfect Broth required ingredient 2"
+          "name": "Field Kit",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Perfect Broth/Required/T_Inventory_Icon_Field_Kit.png",
+          "imageDesc": "T_Inventory_Icon_Field_Kit.png"
         },
         {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Perfect Broth/Perfect Broth/Required/required-3.png",
-          "imageDesc": "Perfect Broth required ingredient 3"
+          "name": "Fried Boar heart",
+          "quantity": "5",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Perfect Broth/Required/T_Inventory_Icon_Fried_Boar_Heart.png",
+          "imageDesc": "T_Inventory_Icon_Fried_Boar_Heart.png"
         },
         {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Perfect Broth/Perfect Broth/Required/required-4.png",
-          "imageDesc": "Perfect Broth required ingredient 4"
+          "name": "Fried Mushroom",
+          "quantity": "8",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Perfect Broth/Required/T_Inventory_Icon_Fried_Mushrooms.png",
+          "imageDesc": "T_Inventory_Icon_Fried_Mushrooms.png"
+        },
+        {
+          "name": "Nettle",
+          "quantity": "4",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Perfect Broth/Required/T_Inventory_Nettle.png",
+          "imageDesc": "T_Inventory_Nettle.png"
         }
       ],
       "craftingResultImages": [
         {
           "name": "Perfect Broth",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Perfect Broth/Perfect Broth/Result/Perfect Broth.png",
-          "imageDesc": "Perfect Broth result image"
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Perfect Broth/Result/T_Inventory_Grannys_broth.png",
+          "imageDesc": "T_Inventory_Grannys_broth.png"
         }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Perfect Broth/Perfect Broth/Result/Perfect Broth.png",
-      "imageDesc": "Perfect Broth result image"
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Perfect  Broth/Result/T_Inventory_Grannys_broth.png",
+      "imageDesc": "T_Inventory_Grannys_broth.png"
     },
     {
-      "name": "Chamomile Tea",
+      "name": "Fried Bear Heart",
       "type": "Recipe",
       "level": 0,
-      "detail": "Chamomile Tea crafting recipe. Crafting station: Campfire. Module: Campfire recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": "Fried Bear Heart crafting recipe. Station: Campfire. Module: Campfire recipes - Advanced. Required: [1] Bear Heart. Result: Fried Bear heart.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 88",
+        "Recipe order: 132",
         "Crafting station: Campfire",
-        "Crafting module: Campfire recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Chamomile Tea/Required",
-        "Result folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Chamomile Tea/Result",
-        "Source: Crafting Recipes list"
+        "Crafting module: Campfire - Advanced",
+        "Required folder: /db-assets/Crafting Recipes/Campfire - Fried Bear Heart/Required",
+        "Result folder: /db-assets/Crafting Recipes/Campfire - Fried Bear Heart/Result",
+        "Required: [1] Bear Heart",
+        "Result: Fried Bear heart",
+        "Source: Pasted text(8).txt"
       ],
       "locations": [
         "Minayev's Territory",
@@ -43385,55 +46846,48 @@ const WTLO_DATABASE_DATA = {
         "Foothills"
       ],
       "craftingStation": "Campfire",
-      "craftingModule": "Campfire recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Chamomile Tea/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Chamomile Tea/Result",
+      "craftingModule": "Campfire - Advanced",
+      "craftingRecipeOrder": 132,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Bear Heart/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Bear Heart/Result",
       "craftingRequiredImages": [
         {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Chamomile Tea/Required/required-1.png",
-          "imageDesc": "Chamomile Tea required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Chamomile Tea/Required/required-2.png",
-          "imageDesc": "Chamomile Tea required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Chamomile Tea/Required/required-3.png",
-          "imageDesc": "Chamomile Tea required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Chamomile Tea/Required/required-4.png",
-          "imageDesc": "Chamomile Tea required ingredient 4"
+          "name": "Bear Heart",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Bear Heart/Required/T_Inventory_BoarHeart.png",
+          "imageDesc": "T_Inventory_BoarHeart.png"
         }
       ],
       "craftingResultImages": [
         {
-          "name": "Chamomile Tea",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Chamomile Tea/Result/Chamomile Tea.png",
-          "imageDesc": "Chamomile Tea result image"
+          "name": "Fried Bear heart",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Bear Heart/Result/T_Inventory_Icon_Fried_Bear_Heart.png",
+          "imageDesc": "T_Inventory_Icon_Fried_Bear_Heart.png"
         }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Chamomile Tea/Result/Chamomile Tea.png",
-      "imageDesc": "Chamomile Tea result image"
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipe - Beginner/Result/T_Inventory_Icon_Fried_Bear_Heart.png",
+      "imageDesc": "T_Inventory_Icon_Fried_Bear_Heart.png"
     },
     {
-      "name": "Nettle Tea",
+      "name": "Fried Bear Meat",
       "type": "Recipe",
       "level": 0,
-      "detail": "Nettle Tea crafting recipe. Crafting station: Campfire. Module: Campfire recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": "Fried Bear Meat crafting recipe. Station: Campfire. Module: Campfire recipes - Advanced. Required: [1] Bear Meat. Result: Fried Bear meat.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 89",
+        "Recipe order: 133",
         "Crafting station: Campfire",
-        "Crafting module: Campfire recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Nettle Tea/Required",
-        "Result folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Nettle Tea/Result",
-        "Source: Crafting Recipes list"
+        "Crafting module: Campfire - Advanced",
+        "Required folder: /db-assets/Crafting Recipes/Campfire - Fried Bear Meat/Required",
+        "Result folder: /db-assets/Crafting Recipes/Campfire - Fried Bear Meat/Result",
+        "Required: [1] Bear Meat",
+        "Result: Fried Bear meat",
+        "Source: Pasted text(8).txt"
       ],
       "locations": [
         "Minayev's Territory",
@@ -43444,55 +46898,34 @@ const WTLO_DATABASE_DATA = {
         "Foothills"
       ],
       "craftingStation": "Campfire",
-      "craftingModule": "Campfire recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Nettle Tea/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Nettle Tea/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Nettle Tea/Required/required-1.png",
-          "imageDesc": "Nettle Tea required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Nettle Tea/Required/required-2.png",
-          "imageDesc": "Nettle Tea required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Nettle Tea/Required/required-3.png",
-          "imageDesc": "Nettle Tea required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Nettle Tea/Required/required-4.png",
-          "imageDesc": "Nettle Tea required ingredient 4"
-        }
+      "craftingModule": "Campfire - Advanced",
+      "craftingRecipeOrder": 133,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Bear Meat/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Bear Meat/Result",
+      "craftingRequiredImages": [],
+      "craftingResultImages": [],
+      "craftingNotes": [
+        "No result PNG was found in the current directory listing."
       ],
-      "craftingResultImages": [
-        {
-          "name": "Nettle Tea",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Nettle Tea/Result/Nettle Tea.png",
-          "imageDesc": "Nettle Tea result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Nettle Tea/Result/Nettle Tea.png",
-      "imageDesc": "Nettle Tea result image"
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire Recipe - Advanced/Result/T_Inventory_Icon_Fried_Bear_Meat.png",
+      "imageDesc": "T_Inventory_Icon_Fried_Bear_Meat.png"
     },
     {
-      "name": "Rose-bay Tea",
+      "name": "Fried Bear Sternum",
       "type": "Recipe",
       "level": 0,
-      "detail": "Rose-bay Tea crafting recipe. Crafting station: Campfire. Module: Campfire recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": "Fried Bear Sternum crafting recipe. Station: Campfire. Module: Campfire recipes - Advanced. Required: [1] Bear Sternum. Result: Fried Bear Sternum.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 90",
+        "Recipe order: 134",
         "Crafting station: Campfire",
-        "Crafting module: Campfire recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Rose-bay Tea/Required",
-        "Result folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Rose-bay Tea/Result",
-        "Source: Crafting Recipes list"
+        "Crafting module: Campfire - Advanced",
+        "Required folder: /db-assets/Crafting Recipes/Campfire - Fried Bear Sternum/Required",
+        "Result folder: /db-assets/Crafting Recipes/Campfire - Fried Bear Sternum/Result",
+        "Required: [1] Bear Sternum",
+        "Result: Fried Bear Sternum",
+        "Source: Pasted text(8).txt"
       ],
       "locations": [
         "Minayev's Territory",
@@ -43503,55 +46936,160 @@ const WTLO_DATABASE_DATA = {
         "Foothills"
       ],
       "craftingStation": "Campfire",
-      "craftingModule": "Campfire recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Rose-bay Tea/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Rose-bay Tea/Result",
+      "craftingModule": "Campfire - Advanced",
+      "craftingRecipeOrder": 134,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Bear Sternum/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Bear Sternum/Result",
       "craftingRequiredImages": [
         {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Rose-bay Tea/Required/required-1.png",
-          "imageDesc": "Rose-bay Tea required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Rose-bay Tea/Required/required-2.png",
-          "imageDesc": "Rose-bay Tea required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Rose-bay Tea/Required/required-3.png",
-          "imageDesc": "Rose-bay Tea required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Rose-bay Tea/Required/required-4.png",
-          "imageDesc": "Rose-bay Tea required ingredient 4"
+          "name": "Bear Sternum",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Bear Sternum/Required/T_Inventory_Bear_Sternum.png",
+          "imageDesc": "T_Inventory_Bear_Sternum.png"
         }
       ],
       "craftingResultImages": [
         {
-          "name": "Rose-bay Tea",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Rose-bay Tea/Result/Rose-bay Tea.png",
-          "imageDesc": "Rose-bay Tea result image"
+          "name": "Fried Bear Sternum",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Bear Sternum/Result/T_Inventory_Icon_Fried_Bear_Sternum.png",
+          "imageDesc": "T_Inventory_Icon_Fried_Bear_Sternum.png"
         }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Rose-bay Tea/Result/Rose-bay Tea.png",
-      "imageDesc": "Rose-bay Tea result image"
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire Recipe - Advanced/Result/T_Inventory_Icon_Fried_Bear_Sternum.png",
+      "imageDesc": "T_Inventory_Icon_Fried_Bear_Sternum.png"
+    },
+    {
+      "name": "Fried Heart of the Hog of Coast",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Fried Heart of the Hog of Coast crafting recipe. Station: Campfire. Module: Campfire recipes - Advanced. Required: [1] The heart of the Hog of Coast; [1] Vinegar; [1] Salt. Result: Fried heart of the Hog of Coast.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 135",
+        "Crafting station: Campfire",
+        "Crafting module: Campfire - Advanced",
+        "Required folder: /db-assets/Crafting Recipes/Campfire - Fried Heart of the Hog of Coast/Required",
+        "Result folder: /db-assets/Crafting Recipes/Campfire - Fried Heart of the Hog of Coast/Result",
+        "Required: [1] The heart of the Hog of Coast; [1] Vinegar; [1] Salt",
+        "Result: Fried heart of the Hog of Coast",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Campfire",
+      "craftingModule": "Campfire - Advanced",
+      "craftingRecipeOrder": 135,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Heart of the Hog of Coast/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Heart of the Hog of Coast/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Hog of Coast Heart",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Heart of the Hog of Coast/Required/T_Inventory_Hog_of_Coast_Heart.png",
+          "imageDesc": "T_Inventory_Hog_of_Coast_Heart.png"
+        },
+        {
+          "name": "Salt",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Heart of the Hog of Coast/Required/T_Inventory_Icon_Salt.png",
+          "imageDesc": "T_Inventory_Icon_Salt.png"
+        },
+        {
+          "name": "Vinegar",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Heart of the Hog of Coast/Required/T_Inventory_Icon_Vinegar.png",
+          "imageDesc": "T_Inventory_Icon_Vinegar.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Fried Heart of the Hog of Coast",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Heart of the Hog of Coast/Result/T_Inventory_Icon_Fried_Heart_of_the_Hog_of_Coast.png",
+          "imageDesc": "T_Inventory_Icon_Fried_Heart_of_the_Hog_of_Coast.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "",
+      "imageDesc": ""
+    },
+    {
+      "name": "Fried Stingray Meat",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "Fried Stingray Meat crafting recipe. Station: Campfire. Module: Campfire recipes - Advanced. Required: [1] Stingray Meat. Result: Fried Stingray Meat.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 136",
+        "Crafting station: Campfire",
+        "Crafting module: Campfire - Advanced",
+        "Required folder: /db-assets/Crafting Recipes/Campfire - Fried Stingray Meat/Required",
+        "Result folder: /db-assets/Crafting Recipes/Campfire - Fried Stingray Meat/Result",
+        "Required: [1] Stingray Meat",
+        "Result: Fried Stingray Meat",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Campfire",
+      "craftingModule": "Campfire - Advanced",
+      "craftingRecipeOrder": 136,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Stingray Meat/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Stingray Meat/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "StingrayMeat",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Stingray Meat/Required/T_Inventory_StingrayMeat.png",
+          "imageDesc": "T_Inventory_StingrayMeat.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "Fried Stingray Meat",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Stingray Meat/Result/T_Inventory_Icon_Fried_Stingray_Meat.png",
+          "imageDesc": "T_Inventory_Icon_Fried_Stingray_Meat.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "",
+      "imageDesc": ""
     },
     {
       "name": "Hemostatic Tea",
       "type": "Recipe",
       "level": 0,
-      "detail": "Hemostatic Tea crafting recipe. Crafting station: Campfire. Module: Campfire recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": "Hemostatic Tea crafting recipe. Station: Campfire. Module: Campfire recipes - Advanced. Required: [5] Calendula; [10] Dandelion; [1] Bottle of distilled water. Result: Hemostatic Tea.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 91",
+        "Recipe order: 137",
         "Crafting station: Campfire",
-        "Crafting module: Campfire recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Hemostatic Tea/Required",
-        "Result folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Hemostatic Tea/Result",
-        "Source: Crafting Recipes list"
+        "Crafting module: Campfire - Advanced",
+        "Required folder: /db-assets/Crafting Recipes/Campfire - Hemostatic Tea/Required",
+        "Result folder: /db-assets/Crafting Recipes/Campfire - Hemostatic Tea/Result",
+        "Required: [5] Calendula; [10] Dandelion; [1] Bottle of distilled water",
+        "Result: Hemostatic Tea",
+        "Source: Pasted text(8).txt"
       ],
       "locations": [
         "Minayev's Territory",
@@ -43562,55 +47100,62 @@ const WTLO_DATABASE_DATA = {
         "Foothills"
       ],
       "craftingStation": "Campfire",
-      "craftingModule": "Campfire recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Hemostatic Tea/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Hemostatic Tea/Result",
+      "craftingModule": "Campfire - Advanced",
+      "craftingRecipeOrder": 137,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire - Hemostatic Tea/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire - Hemostatic Tea/Result",
       "craftingRequiredImages": [
         {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Hemostatic Tea/Required/required-1.png",
-          "imageDesc": "Hemostatic Tea required ingredient 1"
+          "name": "Calendula",
+          "quantity": "5",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Hemostatic Tea/Required/T_Inventory_Calendula.png",
+          "imageDesc": "T_Inventory_Calendula.png"
         },
         {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Hemostatic Tea/Required/required-2.png",
-          "imageDesc": "Hemostatic Tea required ingredient 2"
+          "name": "Dandelion",
+          "quantity": "10",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Hemostatic Tea/Required/T_Inventory_Dandelion.png",
+          "imageDesc": "T_Inventory_Dandelion.png"
         },
         {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Hemostatic Tea/Required/required-3.png",
-          "imageDesc": "Hemostatic Tea required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Hemostatic Tea/Required/required-4.png",
-          "imageDesc": "Hemostatic Tea required ingredient 4"
+          "name": "Bottle of distilled water",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Hemostatic Tea/Required/T_Inventory_Icon_BottleOfDistilledWater.png",
+          "imageDesc": "T_Inventory_Icon_BottleOfDistilledWater.png"
         }
       ],
       "craftingResultImages": [
         {
           "name": "Hemostatic Tea",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Hemostatic Tea/Result/Hemostatic Tea.png",
-          "imageDesc": "Hemostatic Tea result image"
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Hemostatic Tea/Result/T_Inventory_Icon_HemostaticTea.png",
+          "imageDesc": "T_Inventory_Icon_HemostaticTea.png"
         }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Hemostatic Tea/Result/Hemostatic Tea.png",
-      "imageDesc": "Hemostatic Tea result image"
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire Recipe - Advanced/Result/T_Inventory_Icon_HemostaticTea.png",
+      "imageDesc": "T_Inventory_Icon_HemostaticTea.png"
     },
     {
-      "name": "Distilled Water",
+      "name": "Melted Bear Fat",
       "type": "Recipe",
       "level": 0,
-      "detail": "Distilled Water crafting recipe. Crafting station: Campfire. Module: Campfire recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": "Melted Bear Fat crafting recipe. Station: Campfire. Module: Campfire recipes - Advanced. Required: Field Kit; [2] Bear Fat. Result: Melted Bear Fat.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 92",
+        "Recipe order: 138",
         "Crafting station: Campfire",
-        "Crafting module: Campfire recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Distilled Water/Required",
-        "Result folder: /db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Distilled Water/Result",
-        "Source: Crafting Recipes list"
+        "Crafting module: Campfire - Advanced",
+        "Required folder: /db-assets/Crafting Recipes/Campfire - Melted Bear Fat/Required",
+        "Result folder: /db-assets/Crafting Recipes/Campfire - Melted Bear Fat/Result",
+        "Required: Field Kit; [2] Bear Fat",
+        "Result: Melted Bear Fat",
+        "Source: Pasted text(8).txt"
       ],
       "locations": [
         "Minayev's Territory",
@@ -43621,2635 +47166,125 @@ const WTLO_DATABASE_DATA = {
         "Foothills"
       ],
       "craftingStation": "Campfire",
-      "craftingModule": "Campfire recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Distilled Water/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Distilled Water/Result",
+      "craftingModule": "Campfire - Advanced",
+      "craftingRecipeOrder": 138,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire - Melted Bear Fat/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire - Melted Bear Fat/Result",
       "craftingRequiredImages": [
         {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Distilled Water/Required/required-1.png",
-          "imageDesc": "Distilled Water required ingredient 1"
+          "name": "Bear Fat",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Melted Bear Fat/Required/T_Inventory_Bear_Fat.png",
+          "imageDesc": "T_Inventory_Bear_Fat.png"
         },
         {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Distilled Water/Required/required-2.png",
-          "imageDesc": "Distilled Water required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Distilled Water/Required/required-3.png",
-          "imageDesc": "Distilled Water required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Distilled Water/Required/required-4.png",
-          "imageDesc": "Distilled Water required ingredient 4"
+          "name": "Field Kit",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Melted Bear Fat/Required/T_Inventory_Icon_Field_Kit.png",
+          "imageDesc": "T_Inventory_Icon_Field_Kit.png"
         }
       ],
       "craftingResultImages": [
         {
-          "name": "Distilled Water",
-          "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Distilled Water/Result/Distilled Water.png",
-          "imageDesc": "Distilled Water result image"
+          "name": "Melted Bear Fat",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Melted Bear Fat/Result/T_Inventory_Icon_Melted_Bear_Fat.png",
+          "imageDesc": "T_Inventory_Icon_Melted_Bear_Fat.png"
         }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Campfire recipes - Beginner/Distilled Water/Result/Distilled Water.png",
-      "imageDesc": "Distilled Water result image"
+      "craftingNotes": [],
+      "imageUrl": "",
+      "imageDesc": ""
     },
     {
-      "name": "Small Primer",
+      "name": "Fried Giant Crab Heart",
       "type": "Recipe",
       "level": 0,
-      "detail": "Small Primer crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": "Fried Giant Crab Heart crafting recipe. Station: Campfire. Module: Fried big crab heart recipe. Required: [1] Giant Crab heart; [3] Nettle; [5] Dracocephalum; [1] Vodka. Result: Fried Giant Crab heart.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 93",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Small Primer/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Small Primer/Result",
-        "Source: Crafting Recipes list"
+        "Recipe order: 139",
+        "Crafting station: Campfire",
+        "Crafting module: Fried big crab heart recipe",
+        "Required folder: /db-assets/Crafting Recipes/Campfire - Fried Giant Crab Heart/Required",
+        "Result folder: /db-assets/Crafting Recipes/Campfire - Fried Giant Crab Heart/Result",
+        "Required: [1] Giant Crab heart; [3] Nettle; [5] Dracocephalum; [1] Vodka",
+        "Result: Fried Giant Crab heart",
+        "Source: Pasted text(8).txt"
       ],
       "locations": [
         "Minayev's Territory",
         "Zapandnaya Mine (Big Village)",
-        "Tunnels",
         "Canyon",
         "Coast",
         "Testing Ground",
         "Foothills"
       ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Small Primer/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Small Primer/Result",
+      "craftingStation": "Campfire",
+      "craftingModule": "Fried big crab heart recipe",
+      "craftingRecipeOrder": 139,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Giant Crab Heart/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Campfire - Fried Giant Crab Heart/Result",
       "craftingRequiredImages": [
         {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Small Primer/Required/required-1.png",
-          "imageDesc": "Small Primer required ingredient 1"
+          "name": "Dracocephalum",
+          "quantity": "5",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Giant Crab Heart/Required/T_Inventory_Dracocephalum.png",
+          "imageDesc": "T_Inventory_Dracocephalum.png"
         },
         {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Small Primer/Required/required-2.png",
-          "imageDesc": "Small Primer required ingredient 2"
+          "name": "Giant Crab heart",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Giant Crab Heart/Required/T_Inventory_Giant_Crab_Heart.png",
+          "imageDesc": "T_Inventory_Giant_Crab_Heart.png"
         },
         {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Small Primer/Required/required-3.png",
-          "imageDesc": "Small Primer required ingredient 3"
+          "name": "Vodka",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Giant Crab Heart/Required/T_Inventory_Icon_Vodka.png",
+          "imageDesc": "T_Inventory_Icon_Vodka.png"
         },
         {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Small Primer/Required/required-4.png",
-          "imageDesc": "Small Primer required ingredient 4"
+          "name": "Nettle",
+          "quantity": "3",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Giant Crab Heart/Required/T_Inventory_Nettle.png",
+          "imageDesc": "T_Inventory_Nettle.png"
         }
       ],
       "craftingResultImages": [
         {
-          "name": "Small Primer",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Small Primer/Result/Small Primer.png",
-          "imageDesc": "Small Primer result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Small Primer/Result/Small Primer.png",
-      "imageDesc": "Small Primer result image"
-    },
-    {
-      "name": "Medium Primer",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Medium Primer crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 94",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Medium Primer/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Medium Primer/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Medium Primer/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Medium Primer/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Medium Primer/Required/required-1.png",
-          "imageDesc": "Medium Primer required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Medium Primer/Required/required-2.png",
-          "imageDesc": "Medium Primer required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Medium Primer/Required/required-3.png",
-          "imageDesc": "Medium Primer required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Medium Primer/Required/required-4.png",
-          "imageDesc": "Medium Primer required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Medium Primer",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Medium Primer/Result/Medium Primer.png",
-          "imageDesc": "Medium Primer result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Medium Primer/Result/Medium Primer.png",
-      "imageDesc": "Medium Primer result image"
-    },
-    {
-      "name": "Large Primer",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Large Primer crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 95",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Large Primer/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Large Primer/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Large Primer/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Large Primer/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Large Primer/Required/required-1.png",
-          "imageDesc": "Large Primer required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Large Primer/Required/required-2.png",
-          "imageDesc": "Large Primer required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Large Primer/Required/required-3.png",
-          "imageDesc": "Large Primer required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Large Primer/Required/required-4.png",
-          "imageDesc": "Large Primer required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Large Primer",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Large Primer/Result/Large Primer.png",
-          "imageDesc": "Large Primer result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/Large Primer/Result/Large Primer.png",
-      "imageDesc": "Large Primer result image"
-    },
-    {
-      "name": "9x19 Case",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "9x19 Case crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 96",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x19 Case/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x19 Case/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x19 Case/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x19 Case/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x19 Case/Required/required-1.png",
-          "imageDesc": "9x19 Case required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x19 Case/Required/required-2.png",
-          "imageDesc": "9x19 Case required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x19 Case/Required/required-3.png",
-          "imageDesc": "9x19 Case required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x19 Case/Required/required-4.png",
-          "imageDesc": "9x19 Case required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "9x19 Case",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x19 Case/Result/9x19 Case.png",
-          "imageDesc": "9x19 Case result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x19 Case/Result/9x19 Case.png",
-      "imageDesc": "9x19 Case result image"
-    },
-    {
-      "name": ".45 ACP Case",
-      "type": "Recipe",
-      "level": 0,
-      "detail": ".45 ACP Case crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 97",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.45 ACP Case/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.45 ACP Case/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.45 ACP Case/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.45 ACP Case/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.45 ACP Case/Required/required-1.png",
-          "imageDesc": ".45 ACP Case required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.45 ACP Case/Required/required-2.png",
-          "imageDesc": ".45 ACP Case required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.45 ACP Case/Required/required-3.png",
-          "imageDesc": ".45 ACP Case required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.45 ACP Case/Required/required-4.png",
-          "imageDesc": ".45 ACP Case required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": ".45 ACP Case",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.45 ACP Case/Result/.45 ACP Case.png",
-          "imageDesc": ".45 ACP Case result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.45 ACP Case/Result/.45 ACP Case.png",
-      "imageDesc": ".45 ACP Case result image"
-    },
-    {
-      "name": "5.7x28 Case",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "5.7x28 Case crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 98",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.7x28 Case/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.7x28 Case/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.7x28 Case/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.7x28 Case/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.7x28 Case/Required/required-1.png",
-          "imageDesc": "5.7x28 Case required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.7x28 Case/Required/required-2.png",
-          "imageDesc": "5.7x28 Case required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.7x28 Case/Required/required-3.png",
-          "imageDesc": "5.7x28 Case required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.7x28 Case/Required/required-4.png",
-          "imageDesc": "5.7x28 Case required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "5.7x28 Case",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.7x28 Case/Result/5.7x28 Case.png",
-          "imageDesc": "5.7x28 Case result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.7x28 Case/Result/5.7x28 Case.png",
-      "imageDesc": "5.7x28 Case result image"
-    },
-    {
-      "name": ".44 Magnum Case",
-      "type": "Recipe",
-      "level": 0,
-      "detail": ".44 Magnum Case crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 99",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.44 Magnum Case/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.44 Magnum Case/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.44 Magnum Case/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.44 Magnum Case/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.44 Magnum Case/Required/required-1.png",
-          "imageDesc": ".44 Magnum Case required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.44 Magnum Case/Required/required-2.png",
-          "imageDesc": ".44 Magnum Case required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.44 Magnum Case/Required/required-3.png",
-          "imageDesc": ".44 Magnum Case required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.44 Magnum Case/Required/required-4.png",
-          "imageDesc": ".44 Magnum Case required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": ".44 Magnum Case",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.44 Magnum Case/Result/.44 Magnum Case.png",
-          "imageDesc": ".44 Magnum Case result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.44 Magnum Case/Result/.44 Magnum Case.png",
-      "imageDesc": ".44 Magnum Case result image"
-    },
-    {
-      "name": ".500 Magnum Case",
-      "type": "Recipe",
-      "level": 0,
-      "detail": ".500 Magnum Case crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 100",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.500 Magnum Case/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.500 Magnum Case/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.500 Magnum Case/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.500 Magnum Case/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.500 Magnum Case/Required/required-1.png",
-          "imageDesc": ".500 Magnum Case required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.500 Magnum Case/Required/required-2.png",
-          "imageDesc": ".500 Magnum Case required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.500 Magnum Case/Required/required-3.png",
-          "imageDesc": ".500 Magnum Case required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.500 Magnum Case/Required/required-4.png",
-          "imageDesc": ".500 Magnum Case required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": ".500 Magnum Case",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.500 Magnum Case/Result/.500 Magnum Case.png",
-          "imageDesc": ".500 Magnum Case result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.500 Magnum Case/Result/.500 Magnum Case.png",
-      "imageDesc": ".500 Magnum Case result image"
-    },
-    {
-      "name": "9x21 Case",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "9x21 Case crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 101",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x21 Case/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x21 Case/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x21 Case/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x21 Case/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x21 Case/Required/required-1.png",
-          "imageDesc": "9x21 Case required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x21 Case/Required/required-2.png",
-          "imageDesc": "9x21 Case required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x21 Case/Required/required-3.png",
-          "imageDesc": "9x21 Case required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x21 Case/Required/required-4.png",
-          "imageDesc": "9x21 Case required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "9x21 Case",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x21 Case/Result/9x21 Case.png",
-          "imageDesc": "9x21 Case result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x21 Case/Result/9x21 Case.png",
-      "imageDesc": "9x21 Case result image"
-    },
-    {
-      "name": "7.62x39 Case",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "7.62x39 Case crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 102",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x39 Case/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x39 Case/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x39 Case/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x39 Case/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x39 Case/Required/required-1.png",
-          "imageDesc": "7.62x39 Case required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x39 Case/Required/required-2.png",
-          "imageDesc": "7.62x39 Case required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x39 Case/Required/required-3.png",
-          "imageDesc": "7.62x39 Case required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x39 Case/Required/required-4.png",
-          "imageDesc": "7.62x39 Case required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "7.62x39 Case",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x39 Case/Result/7.62x39 Case.png",
-          "imageDesc": "7.62x39 Case result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x39 Case/Result/7.62x39 Case.png",
-      "imageDesc": "7.62x39 Case result image"
-    },
-    {
-      "name": "5.45x39 Case",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "5.45x39 Case crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 103",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.45x39 Case/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.45x39 Case/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.45x39 Case/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.45x39 Case/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.45x39 Case/Required/required-1.png",
-          "imageDesc": "5.45x39 Case required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.45x39 Case/Required/required-2.png",
-          "imageDesc": "5.45x39 Case required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.45x39 Case/Required/required-3.png",
-          "imageDesc": "5.45x39 Case required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.45x39 Case/Required/required-4.png",
-          "imageDesc": "5.45x39 Case required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "5.45x39 Case",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.45x39 Case/Result/5.45x39 Case.png",
-          "imageDesc": "5.45x39 Case result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.45x39 Case/Result/5.45x39 Case.png",
-      "imageDesc": "5.45x39 Case result image"
-    },
-    {
-      "name": "9x39 Case",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "9x39 Case crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 104",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x39 Case/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x39 Case/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x39 Case/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x39 Case/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x39 Case/Required/required-1.png",
-          "imageDesc": "9x39 Case required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x39 Case/Required/required-2.png",
-          "imageDesc": "9x39 Case required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x39 Case/Required/required-3.png",
-          "imageDesc": "9x39 Case required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x39 Case/Required/required-4.png",
-          "imageDesc": "9x39 Case required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "9x39 Case",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x39 Case/Result/9x39 Case.png",
-          "imageDesc": "9x39 Case result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x39 Case/Result/9x39 Case.png",
-      "imageDesc": "9x39 Case result image"
-    },
-    {
-      "name": "5.56x45 Case",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "5.56x45 Case crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 105",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.56x45 Case/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.56x45 Case/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.56x45 Case/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.56x45 Case/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.56x45 Case/Required/required-1.png",
-          "imageDesc": "5.56x45 Case required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.56x45 Case/Required/required-2.png",
-          "imageDesc": "5.56x45 Case required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.56x45 Case/Required/required-3.png",
-          "imageDesc": "5.56x45 Case required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.56x45 Case/Required/required-4.png",
-          "imageDesc": "5.56x45 Case required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "5.56x45 Case",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.56x45 Case/Result/5.56x45 Case.png",
-          "imageDesc": "5.56x45 Case result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.56x45 Case/Result/5.56x45 Case.png",
-      "imageDesc": "5.56x45 Case result image"
-    },
-    {
-      "name": "7.62x54 Case",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "7.62x54 Case crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 106",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x54 Case/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x54 Case/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x54 Case/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x54 Case/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x54 Case/Required/required-1.png",
-          "imageDesc": "7.62x54 Case required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x54 Case/Required/required-2.png",
-          "imageDesc": "7.62x54 Case required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x54 Case/Required/required-3.png",
-          "imageDesc": "7.62x54 Case required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x54 Case/Required/required-4.png",
-          "imageDesc": "7.62x54 Case required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "7.62x54 Case",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x54 Case/Result/7.62x54 Case.png",
-          "imageDesc": "7.62x54 Case result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x54 Case/Result/7.62x54 Case.png",
-      "imageDesc": "7.62x54 Case result image"
-    },
-    {
-      "name": ".30-06 Case",
-      "type": "Recipe",
-      "level": 0,
-      "detail": ".30-06 Case crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 107",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.30-06 Case/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.30-06 Case/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.30-06 Case/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.30-06 Case/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.30-06 Case/Required/required-1.png",
-          "imageDesc": ".30-06 Case required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.30-06 Case/Required/required-2.png",
-          "imageDesc": ".30-06 Case required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.30-06 Case/Required/required-3.png",
-          "imageDesc": ".30-06 Case required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.30-06 Case/Required/required-4.png",
-          "imageDesc": ".30-06 Case required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": ".30-06 Case",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.30-06 Case/Result/.30-06 Case.png",
-          "imageDesc": ".30-06 Case result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.30-06 Case/Result/.30-06 Case.png",
-      "imageDesc": ".30-06 Case result image"
-    },
-    {
-      "name": ".308 WIN Case",
-      "type": "Recipe",
-      "level": 0,
-      "detail": ".308 WIN Case crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 108",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.308 WIN Case/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.308 WIN Case/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.308 WIN Case/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.308 WIN Case/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.308 WIN Case/Required/required-1.png",
-          "imageDesc": ".308 WIN Case required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.308 WIN Case/Required/required-2.png",
-          "imageDesc": ".308 WIN Case required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.308 WIN Case/Required/required-3.png",
-          "imageDesc": ".308 WIN Case required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.308 WIN Case/Required/required-4.png",
-          "imageDesc": ".308 WIN Case required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": ".308 WIN Case",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.308 WIN Case/Result/.308 WIN Case.png",
-          "imageDesc": ".308 WIN Case result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.308 WIN Case/Result/.308 WIN Case.png",
-      "imageDesc": ".308 WIN Case result image"
-    },
-    {
-      "name": "12 Ga. Case",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "12 Ga. Case crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 109",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/12 Ga. Case/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/12 Ga. Case/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/12 Ga. Case/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/12 Ga. Case/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/12 Ga. Case/Required/required-1.png",
-          "imageDesc": "12 Ga. Case required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/12 Ga. Case/Required/required-2.png",
-          "imageDesc": "12 Ga. Case required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/12 Ga. Case/Required/required-3.png",
-          "imageDesc": "12 Ga. Case required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/12 Ga. Case/Required/required-4.png",
-          "imageDesc": "12 Ga. Case required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "12 Ga. Case",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/12 Ga. Case/Result/12 Ga. Case.png",
-          "imageDesc": "12 Ga. Case result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/12 Ga. Case/Result/12 Ga. Case.png",
-      "imageDesc": "12 Ga. Case result image"
-    },
-    {
-      "name": "9x19 Bullet",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "9x19 Bullet crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 110",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x19 Bullet/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x19 Bullet/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x19 Bullet/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x19 Bullet/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x19 Bullet/Required/required-1.png",
-          "imageDesc": "9x19 Bullet required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x19 Bullet/Required/required-2.png",
-          "imageDesc": "9x19 Bullet required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x19 Bullet/Required/required-3.png",
-          "imageDesc": "9x19 Bullet required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x19 Bullet/Required/required-4.png",
-          "imageDesc": "9x19 Bullet required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "9x19 Bullet",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x19 Bullet/Result/9x19 Bullet.png",
-          "imageDesc": "9x19 Bullet result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x19 Bullet/Result/9x19 Bullet.png",
-      "imageDesc": "9x19 Bullet result image"
-    },
-    {
-      "name": ".45 ACP Bullet",
-      "type": "Recipe",
-      "level": 0,
-      "detail": ".45 ACP Bullet crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 111",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.45 ACP Bullet/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.45 ACP Bullet/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.45 ACP Bullet/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.45 ACP Bullet/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.45 ACP Bullet/Required/required-1.png",
-          "imageDesc": ".45 ACP Bullet required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.45 ACP Bullet/Required/required-2.png",
-          "imageDesc": ".45 ACP Bullet required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.45 ACP Bullet/Required/required-3.png",
-          "imageDesc": ".45 ACP Bullet required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.45 ACP Bullet/Required/required-4.png",
-          "imageDesc": ".45 ACP Bullet required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": ".45 ACP Bullet",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.45 ACP Bullet/Result/.45 ACP Bullet.png",
-          "imageDesc": ".45 ACP Bullet result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.45 ACP Bullet/Result/.45 ACP Bullet.png",
-      "imageDesc": ".45 ACP Bullet result image"
-    },
-    {
-      "name": "5.7x28 Bullet",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "5.7x28 Bullet crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 112",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.7x28 Bullet/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.7x28 Bullet/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.7x28 Bullet/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.7x28 Bullet/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.7x28 Bullet/Required/required-1.png",
-          "imageDesc": "5.7x28 Bullet required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.7x28 Bullet/Required/required-2.png",
-          "imageDesc": "5.7x28 Bullet required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.7x28 Bullet/Required/required-3.png",
-          "imageDesc": "5.7x28 Bullet required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.7x28 Bullet/Required/required-4.png",
-          "imageDesc": "5.7x28 Bullet required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "5.7x28 Bullet",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.7x28 Bullet/Result/5.7x28 Bullet.png",
-          "imageDesc": "5.7x28 Bullet result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.7x28 Bullet/Result/5.7x28 Bullet.png",
-      "imageDesc": "5.7x28 Bullet result image"
-    },
-    {
-      "name": ".44 Magnum Bullet",
-      "type": "Recipe",
-      "level": 0,
-      "detail": ".44 Magnum Bullet crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 113",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.44 Magnum Bullet/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.44 Magnum Bullet/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.44 Magnum Bullet/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.44 Magnum Bullet/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.44 Magnum Bullet/Required/required-1.png",
-          "imageDesc": ".44 Magnum Bullet required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.44 Magnum Bullet/Required/required-2.png",
-          "imageDesc": ".44 Magnum Bullet required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.44 Magnum Bullet/Required/required-3.png",
-          "imageDesc": ".44 Magnum Bullet required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.44 Magnum Bullet/Required/required-4.png",
-          "imageDesc": ".44 Magnum Bullet required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": ".44 Magnum Bullet",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.44 Magnum Bullet/Result/.44 Magnum Bullet.png",
-          "imageDesc": ".44 Magnum Bullet result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.44 Magnum Bullet/Result/.44 Magnum Bullet.png",
-      "imageDesc": ".44 Magnum Bullet result image"
-    },
-    {
-      "name": ".500 Magnum Bullet",
-      "type": "Recipe",
-      "level": 0,
-      "detail": ".500 Magnum Bullet crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 114",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.500 Magnum Bullet/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.500 Magnum Bullet/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.500 Magnum Bullet/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.500 Magnum Bullet/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.500 Magnum Bullet/Required/required-1.png",
-          "imageDesc": ".500 Magnum Bullet required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.500 Magnum Bullet/Required/required-2.png",
-          "imageDesc": ".500 Magnum Bullet required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.500 Magnum Bullet/Required/required-3.png",
-          "imageDesc": ".500 Magnum Bullet required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.500 Magnum Bullet/Required/required-4.png",
-          "imageDesc": ".500 Magnum Bullet required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": ".500 Magnum Bullet",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.500 Magnum Bullet/Result/.500 Magnum Bullet.png",
-          "imageDesc": ".500 Magnum Bullet result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.500 Magnum Bullet/Result/.500 Magnum Bullet.png",
-      "imageDesc": ".500 Magnum Bullet result image"
-    },
-    {
-      "name": "9x21 Bullet",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "9x21 Bullet crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 115",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x21 Bullet/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x21 Bullet/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x21 Bullet/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x21 Bullet/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x21 Bullet/Required/required-1.png",
-          "imageDesc": "9x21 Bullet required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x21 Bullet/Required/required-2.png",
-          "imageDesc": "9x21 Bullet required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x21 Bullet/Required/required-3.png",
-          "imageDesc": "9x21 Bullet required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x21 Bullet/Required/required-4.png",
-          "imageDesc": "9x21 Bullet required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "9x21 Bullet",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x21 Bullet/Result/9x21 Bullet.png",
-          "imageDesc": "9x21 Bullet result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x21 Bullet/Result/9x21 Bullet.png",
-      "imageDesc": "9x21 Bullet result image"
-    },
-    {
-      "name": "7.62x39 Bullet",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "7.62x39 Bullet crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 116",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x39 Bullet/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x39 Bullet/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x39 Bullet/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x39 Bullet/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x39 Bullet/Required/required-1.png",
-          "imageDesc": "7.62x39 Bullet required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x39 Bullet/Required/required-2.png",
-          "imageDesc": "7.62x39 Bullet required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x39 Bullet/Required/required-3.png",
-          "imageDesc": "7.62x39 Bullet required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x39 Bullet/Required/required-4.png",
-          "imageDesc": "7.62x39 Bullet required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "7.62x39 Bullet",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x39 Bullet/Result/7.62x39 Bullet.png",
-          "imageDesc": "7.62x39 Bullet result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x39 Bullet/Result/7.62x39 Bullet.png",
-      "imageDesc": "7.62x39 Bullet result image"
-    },
-    {
-      "name": "5.45x39 Bullet",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "5.45x39 Bullet crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 117",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.45x39 Bullet/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.45x39 Bullet/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.45x39 Bullet/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.45x39 Bullet/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.45x39 Bullet/Required/required-1.png",
-          "imageDesc": "5.45x39 Bullet required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.45x39 Bullet/Required/required-2.png",
-          "imageDesc": "5.45x39 Bullet required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.45x39 Bullet/Required/required-3.png",
-          "imageDesc": "5.45x39 Bullet required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.45x39 Bullet/Required/required-4.png",
-          "imageDesc": "5.45x39 Bullet required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "5.45x39 Bullet",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.45x39 Bullet/Result/5.45x39 Bullet.png",
-          "imageDesc": "5.45x39 Bullet result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.45x39 Bullet/Result/5.45x39 Bullet.png",
-      "imageDesc": "5.45x39 Bullet result image"
-    },
-    {
-      "name": "9x39 Bullet",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "9x39 Bullet crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 118",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x39 Bullet/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x39 Bullet/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x39 Bullet/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x39 Bullet/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x39 Bullet/Required/required-1.png",
-          "imageDesc": "9x39 Bullet required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x39 Bullet/Required/required-2.png",
-          "imageDesc": "9x39 Bullet required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x39 Bullet/Required/required-3.png",
-          "imageDesc": "9x39 Bullet required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x39 Bullet/Required/required-4.png",
-          "imageDesc": "9x39 Bullet required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "9x39 Bullet",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x39 Bullet/Result/9x39 Bullet.png",
-          "imageDesc": "9x39 Bullet result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/9x39 Bullet/Result/9x39 Bullet.png",
-      "imageDesc": "9x39 Bullet result image"
-    },
-    {
-      "name": "5.56x45 Bullet",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "5.56x45 Bullet crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 119",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.56x45 Bullet/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.56x45 Bullet/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.56x45 Bullet/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.56x45 Bullet/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.56x45 Bullet/Required/required-1.png",
-          "imageDesc": "5.56x45 Bullet required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.56x45 Bullet/Required/required-2.png",
-          "imageDesc": "5.56x45 Bullet required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.56x45 Bullet/Required/required-3.png",
-          "imageDesc": "5.56x45 Bullet required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.56x45 Bullet/Required/required-4.png",
-          "imageDesc": "5.56x45 Bullet required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "5.56x45 Bullet",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.56x45 Bullet/Result/5.56x45 Bullet.png",
-          "imageDesc": "5.56x45 Bullet result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/5.56x45 Bullet/Result/5.56x45 Bullet.png",
-      "imageDesc": "5.56x45 Bullet result image"
-    },
-    {
-      "name": "7.62x54 Bullet",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "7.62x54 Bullet crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 120",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x54 Bullet/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x54 Bullet/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x54 Bullet/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x54 Bullet/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x54 Bullet/Required/required-1.png",
-          "imageDesc": "7.62x54 Bullet required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x54 Bullet/Required/required-2.png",
-          "imageDesc": "7.62x54 Bullet required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x54 Bullet/Required/required-3.png",
-          "imageDesc": "7.62x54 Bullet required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x54 Bullet/Required/required-4.png",
-          "imageDesc": "7.62x54 Bullet required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "7.62x54 Bullet",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x54 Bullet/Result/7.62x54 Bullet.png",
-          "imageDesc": "7.62x54 Bullet result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/7.62x54 Bullet/Result/7.62x54 Bullet.png",
-      "imageDesc": "7.62x54 Bullet result image"
-    },
-    {
-      "name": ".30-06 Bullet",
-      "type": "Recipe",
-      "level": 0,
-      "detail": ".30-06 Bullet crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 121",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.30-06 Bullet/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.30-06 Bullet/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.30-06 Bullet/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.30-06 Bullet/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.30-06 Bullet/Required/required-1.png",
-          "imageDesc": ".30-06 Bullet required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.30-06 Bullet/Required/required-2.png",
-          "imageDesc": ".30-06 Bullet required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.30-06 Bullet/Required/required-3.png",
-          "imageDesc": ".30-06 Bullet required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.30-06 Bullet/Required/required-4.png",
-          "imageDesc": ".30-06 Bullet required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": ".30-06 Bullet",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.30-06 Bullet/Result/.30-06 Bullet.png",
-          "imageDesc": ".30-06 Bullet result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.30-06 Bullet/Result/.30-06 Bullet.png",
-      "imageDesc": ".30-06 Bullet result image"
-    },
-    {
-      "name": ".308 WIN Bullet",
-      "type": "Recipe",
-      "level": 0,
-      "detail": ".308 WIN Bullet crafting recipe. Crafting station: Press Machine. Module: Blacksmithing recipes - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 122",
-        "Crafting station: Press Machine",
-        "Crafting module: Blacksmithing recipes - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.308 WIN Bullet/Required",
-        "Result folder: /db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.308 WIN Bullet/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Press Machine",
-      "craftingModule": "Blacksmithing recipes - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.308 WIN Bullet/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.308 WIN Bullet/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.308 WIN Bullet/Required/required-1.png",
-          "imageDesc": ".308 WIN Bullet required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.308 WIN Bullet/Required/required-2.png",
-          "imageDesc": ".308 WIN Bullet required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.308 WIN Bullet/Required/required-3.png",
-          "imageDesc": ".308 WIN Bullet required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.308 WIN Bullet/Required/required-4.png",
-          "imageDesc": ".308 WIN Bullet required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": ".308 WIN Bullet",
-          "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.308 WIN Bullet/Result/.308 WIN Bullet.png",
-          "imageDesc": ".308 WIN Bullet result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Press Machine/Blacksmithing recipes - Beginner/.308 WIN Bullet/Result/.308 WIN Bullet.png",
-      "imageDesc": ".308 WIN Bullet result image"
-    },
-    {
-      "name": "12 Ga. Shot",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "12 Ga. Shot crafting recipe. Crafting station: Ammo Press. Module: Ammo - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 123",
-        "Crafting station: Ammo Press",
-        "Crafting module: Ammo - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Shot/Required",
-        "Result folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Shot/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Ammo Press",
-      "craftingModule": "Ammo - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Shot/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Shot/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Shot/Required/required-1.png",
-          "imageDesc": "12 Ga. Shot required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Shot/Required/required-2.png",
-          "imageDesc": "12 Ga. Shot required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Shot/Required/required-3.png",
-          "imageDesc": "12 Ga. Shot required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Shot/Required/required-4.png",
-          "imageDesc": "12 Ga. Shot required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "12 Ga. Shot",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Shot/Result/12 Ga. Shot.png",
-          "imageDesc": "12 Ga. Shot result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Shot/Result/12 Ga. Shot.png",
-      "imageDesc": "12 Ga. Shot result image"
-    },
-    {
-      "name": "12 Ga. Slug",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "12 Ga. Slug crafting recipe. Crafting station: Ammo Press. Module: Ammo - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 124",
-        "Crafting station: Ammo Press",
-        "Crafting module: Ammo - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Slug/Required",
-        "Result folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Slug/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Ammo Press",
-      "craftingModule": "Ammo - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Slug/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Slug/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Slug/Required/required-1.png",
-          "imageDesc": "12 Ga. Slug required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Slug/Required/required-2.png",
-          "imageDesc": "12 Ga. Slug required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Slug/Required/required-3.png",
-          "imageDesc": "12 Ga. Slug required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Slug/Required/required-4.png",
-          "imageDesc": "12 Ga. Slug required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "12 Ga. Slug",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Slug/Result/12 Ga. Slug.png",
-          "imageDesc": "12 Ga. Slug result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Slug/Result/12 Ga. Slug.png",
-      "imageDesc": "12 Ga. Slug result image"
-    },
-    {
-      "name": "9x19 FMJ M1",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "9x19 FMJ M1 crafting recipe. Crafting station: Ammo Press. Module: Ammo - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 125",
-        "Crafting station: Ammo Press",
-        "Crafting module: Ammo - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x19 FMJ M1/Required",
-        "Result folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x19 FMJ M1/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Ammo Press",
-      "craftingModule": "Ammo - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x19 FMJ M1/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x19 FMJ M1/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x19 FMJ M1/Required/required-1.png",
-          "imageDesc": "9x19 FMJ M1 required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x19 FMJ M1/Required/required-2.png",
-          "imageDesc": "9x19 FMJ M1 required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x19 FMJ M1/Required/required-3.png",
-          "imageDesc": "9x19 FMJ M1 required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x19 FMJ M1/Required/required-4.png",
-          "imageDesc": "9x19 FMJ M1 required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "9x19 FMJ M1",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x19 FMJ M1/Result/9x19 FMJ M1.png",
-          "imageDesc": "9x19 FMJ M1 result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x19 FMJ M1/Result/9x19 FMJ M1.png",
-      "imageDesc": "9x19 FMJ M1 result image"
-    },
-    {
-      "name": ".45 ACP FMJ M1",
-      "type": "Recipe",
-      "level": 0,
-      "detail": ".45 ACP FMJ M1 crafting recipe. Crafting station: Ammo Press. Module: Ammo - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 126",
-        "Crafting station: Ammo Press",
-        "Crafting module: Ammo - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.45 ACP FMJ M1/Required",
-        "Result folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.45 ACP FMJ M1/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Ammo Press",
-      "craftingModule": "Ammo - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.45 ACP FMJ M1/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.45 ACP FMJ M1/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.45 ACP FMJ M1/Required/required-1.png",
-          "imageDesc": ".45 ACP FMJ M1 required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.45 ACP FMJ M1/Required/required-2.png",
-          "imageDesc": ".45 ACP FMJ M1 required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.45 ACP FMJ M1/Required/required-3.png",
-          "imageDesc": ".45 ACP FMJ M1 required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.45 ACP FMJ M1/Required/required-4.png",
-          "imageDesc": ".45 ACP FMJ M1 required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": ".45 ACP FMJ M1",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.45 ACP FMJ M1/Result/.45 ACP FMJ M1.png",
-          "imageDesc": ".45 ACP FMJ M1 result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.45 ACP FMJ M1/Result/.45 ACP FMJ M1.png",
-      "imageDesc": ".45 ACP FMJ M1 result image"
-    },
-    {
-      "name": "5.7x28 FMJ M1",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "5.7x28 FMJ M1 crafting recipe. Crafting station: Ammo Press. Module: Ammo - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 127",
-        "Crafting station: Ammo Press",
-        "Crafting module: Ammo - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.7x28 FMJ M1/Required",
-        "Result folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.7x28 FMJ M1/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Ammo Press",
-      "craftingModule": "Ammo - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.7x28 FMJ M1/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.7x28 FMJ M1/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.7x28 FMJ M1/Required/required-1.png",
-          "imageDesc": "5.7x28 FMJ M1 required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.7x28 FMJ M1/Required/required-2.png",
-          "imageDesc": "5.7x28 FMJ M1 required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.7x28 FMJ M1/Required/required-3.png",
-          "imageDesc": "5.7x28 FMJ M1 required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.7x28 FMJ M1/Required/required-4.png",
-          "imageDesc": "5.7x28 FMJ M1 required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "5.7x28 FMJ M1",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.7x28 FMJ M1/Result/5.7x28 FMJ M1.png",
-          "imageDesc": "5.7x28 FMJ M1 result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.7x28 FMJ M1/Result/5.7x28 FMJ M1.png",
-      "imageDesc": "5.7x28 FMJ M1 result image"
-    },
-    {
-      "name": ".44 Magnum",
-      "type": "Recipe",
-      "level": 0,
-      "detail": ".44 Magnum crafting recipe. Crafting station: Ammo Press. Module: Ammo - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 128",
-        "Crafting station: Ammo Press",
-        "Crafting module: Ammo - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.44 Magnum/Required",
-        "Result folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.44 Magnum/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Ammo Press",
-      "craftingModule": "Ammo - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.44 Magnum/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.44 Magnum/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.44 Magnum/Required/required-1.png",
-          "imageDesc": ".44 Magnum required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.44 Magnum/Required/required-2.png",
-          "imageDesc": ".44 Magnum required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.44 Magnum/Required/required-3.png",
-          "imageDesc": ".44 Magnum required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.44 Magnum/Required/required-4.png",
-          "imageDesc": ".44 Magnum required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": ".44 Magnum",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.44 Magnum/Result/.44 Magnum.png",
-          "imageDesc": ".44 Magnum result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.44 Magnum/Result/.44 Magnum.png",
-      "imageDesc": ".44 Magnum result image"
-    },
-    {
-      "name": ".500 Magnum",
-      "type": "Recipe",
-      "level": 0,
-      "detail": ".500 Magnum crafting recipe. Crafting station: Ammo Press. Module: Ammo - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 129",
-        "Crafting station: Ammo Press",
-        "Crafting module: Ammo - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.500 Magnum/Required",
-        "Result folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.500 Magnum/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Ammo Press",
-      "craftingModule": "Ammo - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.500 Magnum/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.500 Magnum/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.500 Magnum/Required/required-1.png",
-          "imageDesc": ".500 Magnum required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.500 Magnum/Required/required-2.png",
-          "imageDesc": ".500 Magnum required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.500 Magnum/Required/required-3.png",
-          "imageDesc": ".500 Magnum required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.500 Magnum/Required/required-4.png",
-          "imageDesc": ".500 Magnum required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": ".500 Magnum",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.500 Magnum/Result/.500 Magnum.png",
-          "imageDesc": ".500 Magnum result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.500 Magnum/Result/.500 Magnum.png",
-      "imageDesc": ".500 Magnum result image"
-    },
-    {
-      "name": "9x21 FMJ M1",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "9x21 FMJ M1 crafting recipe. Crafting station: Ammo Press. Module: Ammo - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 130",
-        "Crafting station: Ammo Press",
-        "Crafting module: Ammo - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x21 FMJ M1/Required",
-        "Result folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x21 FMJ M1/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Ammo Press",
-      "craftingModule": "Ammo - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x21 FMJ M1/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x21 FMJ M1/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x21 FMJ M1/Required/required-1.png",
-          "imageDesc": "9x21 FMJ M1 required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x21 FMJ M1/Required/required-2.png",
-          "imageDesc": "9x21 FMJ M1 required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x21 FMJ M1/Required/required-3.png",
-          "imageDesc": "9x21 FMJ M1 required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x21 FMJ M1/Required/required-4.png",
-          "imageDesc": "9x21 FMJ M1 required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "9x21 FMJ M1",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x21 FMJ M1/Result/9x21 FMJ M1.png",
-          "imageDesc": "9x21 FMJ M1 result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x21 FMJ M1/Result/9x21 FMJ M1.png",
-      "imageDesc": "9x21 FMJ M1 result image"
-    },
-    {
-      "name": "7.62x39 FMJ M1",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "7.62x39 FMJ M1 crafting recipe. Crafting station: Ammo Press. Module: Ammo - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 131",
-        "Crafting station: Ammo Press",
-        "Crafting module: Ammo - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/7.62x39 FMJ M1/Required",
-        "Result folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/7.62x39 FMJ M1/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Ammo Press",
-      "craftingModule": "Ammo - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/7.62x39 FMJ M1/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/7.62x39 FMJ M1/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/7.62x39 FMJ M1/Required/required-1.png",
-          "imageDesc": "7.62x39 FMJ M1 required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/7.62x39 FMJ M1/Required/required-2.png",
-          "imageDesc": "7.62x39 FMJ M1 required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/7.62x39 FMJ M1/Required/required-3.png",
-          "imageDesc": "7.62x39 FMJ M1 required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/7.62x39 FMJ M1/Required/required-4.png",
-          "imageDesc": "7.62x39 FMJ M1 required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "7.62x39 FMJ M1",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/7.62x39 FMJ M1/Result/7.62x39 FMJ M1.png",
-          "imageDesc": "7.62x39 FMJ M1 result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/7.62x39 FMJ M1/Result/7.62x39 FMJ M1.png",
-      "imageDesc": "7.62x39 FMJ M1 result image"
-    },
-    {
-      "name": "5.45x39 FMJ M1",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "5.45x39 FMJ M1 crafting recipe. Crafting station: Ammo Press. Module: Ammo - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 132",
-        "Crafting station: Ammo Press",
-        "Crafting module: Ammo - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.45x39 FMJ M1/Required",
-        "Result folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.45x39 FMJ M1/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Ammo Press",
-      "craftingModule": "Ammo - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.45x39 FMJ M1/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.45x39 FMJ M1/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.45x39 FMJ M1/Required/required-1.png",
-          "imageDesc": "5.45x39 FMJ M1 required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.45x39 FMJ M1/Required/required-2.png",
-          "imageDesc": "5.45x39 FMJ M1 required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.45x39 FMJ M1/Required/required-3.png",
-          "imageDesc": "5.45x39 FMJ M1 required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.45x39 FMJ M1/Required/required-4.png",
-          "imageDesc": "5.45x39 FMJ M1 required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "5.45x39 FMJ M1",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.45x39 FMJ M1/Result/5.45x39 FMJ M1.png",
-          "imageDesc": "5.45x39 FMJ M1 result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.45x39 FMJ M1/Result/5.45x39 FMJ M1.png",
-      "imageDesc": "5.45x39 FMJ M1 result image"
-    },
-    {
-      "name": "9x39 M1",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "9x39 M1 crafting recipe. Crafting station: Ammo Press. Module: Ammo - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 133",
-        "Crafting station: Ammo Press",
-        "Crafting module: Ammo - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x39 M1/Required",
-        "Result folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x39 M1/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Ammo Press",
-      "craftingModule": "Ammo - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x39 M1/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x39 M1/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x39 M1/Required/required-1.png",
-          "imageDesc": "9x39 M1 required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x39 M1/Required/required-2.png",
-          "imageDesc": "9x39 M1 required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x39 M1/Required/required-3.png",
-          "imageDesc": "9x39 M1 required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x39 M1/Required/required-4.png",
-          "imageDesc": "9x39 M1 required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "9x39 M1",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x39 M1/Result/9x39 M1.png",
-          "imageDesc": "9x39 M1 result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x39 M1/Result/9x39 M1.png",
-      "imageDesc": "9x39 M1 result image"
-    },
-    {
-      "name": "5.56x45 FMJ M1",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "5.56x45 FMJ M1 crafting recipe. Crafting station: Ammo Press. Module: Ammo - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 134",
-        "Crafting station: Ammo Press",
-        "Crafting module: Ammo - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.56x45 FMJ M1/Required",
-        "Result folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.56x45 FMJ M1/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Ammo Press",
-      "craftingModule": "Ammo - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.56x45 FMJ M1/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.56x45 FMJ M1/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.56x45 FMJ M1/Required/required-1.png",
-          "imageDesc": "5.56x45 FMJ M1 required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.56x45 FMJ M1/Required/required-2.png",
-          "imageDesc": "5.56x45 FMJ M1 required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.56x45 FMJ M1/Required/required-3.png",
-          "imageDesc": "5.56x45 FMJ M1 required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.56x45 FMJ M1/Required/required-4.png",
-          "imageDesc": "5.56x45 FMJ M1 required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "5.56x45 FMJ M1",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.56x45 FMJ M1/Result/5.56x45 FMJ M1.png",
-          "imageDesc": "5.56x45 FMJ M1 result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.56x45 FMJ M1/Result/5.56x45 FMJ M1.png",
-      "imageDesc": "5.56x45 FMJ M1 result image"
-    },
-    {
-      "name": "7.62x54 FMJ M1",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "7.62x54 FMJ M1 crafting recipe. Crafting station: Ammo Press. Module: Ammo - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 135",
-        "Crafting station: Ammo Press",
-        "Crafting module: Ammo - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/7.62x54 FMJ M1/Required",
-        "Result folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/7.62x54 FMJ M1/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Ammo Press",
-      "craftingModule": "Ammo - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/7.62x54 FMJ M1/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/7.62x54 FMJ M1/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/7.62x54 FMJ M1/Required/required-1.png",
-          "imageDesc": "7.62x54 FMJ M1 required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/7.62x54 FMJ M1/Required/required-2.png",
-          "imageDesc": "7.62x54 FMJ M1 required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/7.62x54 FMJ M1/Required/required-3.png",
-          "imageDesc": "7.62x54 FMJ M1 required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/7.62x54 FMJ M1/Required/required-4.png",
-          "imageDesc": "7.62x54 FMJ M1 required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "7.62x54 FMJ M1",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/7.62x54 FMJ M1/Result/7.62x54 FMJ M1.png",
-          "imageDesc": "7.62x54 FMJ M1 result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/7.62x54 FMJ M1/Result/7.62x54 FMJ M1.png",
-      "imageDesc": "7.62x54 FMJ M1 result image"
+          "name": "Fried Giant Crab heart",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Campfire - Fried Giant Crab Heart/Result/T_Inventory_Icon_Fried_Giant_Crab_Heart.png",
+          "imageDesc": "T_Inventory_Icon_Fried_Giant_Crab_Heart.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Campfire/Fried Giant Crab Heart - Recipe/Result/T_Inventory_Icon_Fried_Giant_Crab_Heart.png",
+      "imageDesc": "T_Inventory_Icon_Fried_Giant_Crab_Heart.png"
     },
     {
       "name": ".30-06 FMJ M1",
       "type": "Recipe",
       "level": 0,
-      "detail": ".30-06 FMJ M1 crafting recipe. Crafting station: Ammo Press. Module: Ammo - Beginner. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": ".30-06 FMJ M1 crafting recipe. Station: Ammo Press. Module: Ammo - Beginner. Required: [1K] .30-06 Case; [1K] Large primer; [1K] .30-06 Bullet; [8] Gun Powder. Result: [1K] .30-06 FMJ M1.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 136",
+        "Recipe order: 140",
         "Crafting station: Ammo Press",
         "Crafting module: Ammo - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.30-06 FMJ M1/Required",
-        "Result folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.30-06 FMJ M1/Result",
-        "Source: Crafting Recipes list"
+        "Required folder: /db-assets/Crafting Recipes/Ammo Press - .30-06 FMJ M1/Required",
+        "Result folder: /db-assets/Crafting Recipes/Ammo Press - .30-06 FMJ M1/Result",
+        "Required: [1K] .30-06 Case; [1K] Large primer; [1K] .30-06 Bullet; [8] Gun Powder",
+        "Result: [1K] .30-06 FMJ M1",
+        "Source: Pasted text(8).txt"
       ],
       "locations": [
         "Minayev's Territory",
@@ -46262,54 +47297,68 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Ammo Press",
       "craftingModule": "Ammo - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.30-06 FMJ M1/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.30-06 FMJ M1/Result",
+      "craftingRecipeOrder": 140,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Ammo Press - .30-06 FMJ M1/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Ammo Press - .30-06 FMJ M1/Result",
       "craftingRequiredImages": [
         {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.30-06 FMJ M1/Required/required-1.png",
-          "imageDesc": ".30-06 FMJ M1 required ingredient 1"
+          "name": "Gun Powder",
+          "quantity": "8",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .30-06 FMJ M1/Required/T_Inventory_Gun_Powder.png",
+          "imageDesc": "T_Inventory_Gun_Powder.png"
         },
         {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.30-06 FMJ M1/Required/required-2.png",
-          "imageDesc": ".30-06 FMJ M1 required ingredient 2"
+          "name": ".30-06 Bullet",
+          "quantity": "1K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .30-06 FMJ M1/Required/T_Inventory_Icon_30-06_Bullet.png",
+          "imageDesc": "T_Inventory_Icon_30-06_Bullet.png"
         },
         {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.30-06 FMJ M1/Required/required-3.png",
-          "imageDesc": ".30-06 FMJ M1 required ingredient 3"
+          "name": ".30-06 Case",
+          "quantity": "1K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .30-06 FMJ M1/Required/T_Inventory_Icon_30-06_Case.png",
+          "imageDesc": "T_Inventory_Icon_30-06_Case.png"
         },
         {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.30-06 FMJ M1/Required/required-4.png",
-          "imageDesc": ".30-06 FMJ M1 required ingredient 4"
+          "name": "Large primer",
+          "quantity": "1K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .30-06 FMJ M1/Required/T_Inventory_Icon_Large_Primer.png",
+          "imageDesc": "T_Inventory_Icon_Large_Primer.png"
         }
       ],
       "craftingResultImages": [
         {
           "name": ".30-06 FMJ M1",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.30-06 FMJ M1/Result/.30-06 FMJ M1.png",
-          "imageDesc": ".30-06 FMJ M1 result image"
+          "quantity": "1K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .30-06 FMJ M1/Result/T_Inventory_Icon_30-06_FMJ_M1.png",
+          "imageDesc": "T_Inventory_Icon_30-06_FMJ_M1.png"
         }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.30-06 FMJ M1/Result/.30-06 FMJ M1.png",
-      "imageDesc": ".30-06 FMJ M1 result image"
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.30-06 FMJ M1/Result/T_Inventory_Icon_30-06_FMJ_M1.png",
+      "imageDesc": "T_Inventory_Icon_30-06_FMJ_M1.png"
     },
     {
       "name": ".308 WIN FMJ M1",
       "type": "Recipe",
       "level": 0,
-      "detail": ".308 WIN FMJ M1 crafting recipe. Crafting station: Ammo Press. Module: Ammo - .308 WIN FMJ M1. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": ".308 WIN FMJ M1 crafting recipe. Station: Ammo Press. Module: Ammo - Beginner. Required: Not provided in source text. Result: Not provided in source text.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 137",
+        "Recipe order: 141",
         "Crafting station: Ammo Press",
-        "Crafting module: Ammo - .308 WIN FMJ M1",
-        "Required folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - .308 WIN FMJ M1/.308 WIN FMJ M1/Required",
-        "Result folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - .308 WIN FMJ M1/.308 WIN FMJ M1/Result",
-        "Source: Crafting Recipes list"
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Ammo Press - .308 WIN FMJ M1/Required",
+        "Result folder: /db-assets/Crafting Recipes/Ammo Press - .308 WIN FMJ M1/Result",
+        "Required: Not provided in source text",
+        "Result: Not provided in source text",
+        "Source: Pasted text(8).txt"
       ],
       "locations": [
         "Minayev's Territory",
@@ -46321,55 +47370,288 @@ const WTLO_DATABASE_DATA = {
         "Foothills"
       ],
       "craftingStation": "Ammo Press",
-      "craftingModule": "Ammo - .308 WIN FMJ M1",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - .308 WIN FMJ M1/.308 WIN FMJ M1/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - .308 WIN FMJ M1/.308 WIN FMJ M1/Result",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 141,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Ammo Press - .308 WIN FMJ M1/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Ammo Press - .308 WIN FMJ M1/Result",
       "craftingRequiredImages": [
         {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - .308 WIN FMJ M1/.308 WIN FMJ M1/Required/required-1.png",
-          "imageDesc": ".308 WIN FMJ M1 required ingredient 1"
+          "name": "Gun Powder",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .308 WIN FMJ M1/Required/T_Inventory_Gun_Powder.png",
+          "imageDesc": "T_Inventory_Gun_Powder.png"
         },
         {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - .308 WIN FMJ M1/.308 WIN FMJ M1/Required/required-2.png",
-          "imageDesc": ".308 WIN FMJ M1 required ingredient 2"
+          "name": "308WIN Bullet",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .308 WIN FMJ M1/Required/T_Inventory_Icon_308WIN_Bullet.png",
+          "imageDesc": "T_Inventory_Icon_308WIN_Bullet.png"
         },
         {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - .308 WIN FMJ M1/.308 WIN FMJ M1/Required/required-3.png",
-          "imageDesc": ".308 WIN FMJ M1 required ingredient 3"
+          "name": "308WIN Case",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .308 WIN FMJ M1/Required/T_Inventory_Icon_308WIN_Case.png",
+          "imageDesc": "T_Inventory_Icon_308WIN_Case.png"
         },
         {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - .308 WIN FMJ M1/.308 WIN FMJ M1/Required/required-4.png",
-          "imageDesc": ".308 WIN FMJ M1 required ingredient 4"
+          "name": "Large Primer",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .308 WIN FMJ M1/Required/T_Inventory_Icon_Large_Primer.png",
+          "imageDesc": "T_Inventory_Icon_Large_Primer.png"
         }
       ],
       "craftingResultImages": [
         {
-          "name": ".308 WIN FMJ M1",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - .308 WIN FMJ M1/.308 WIN FMJ M1/Result/.308 WIN FMJ M1.png",
-          "imageDesc": ".308 WIN FMJ M1 result image"
+          "name": "308WIN FMJ M1",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .308 WIN FMJ M1/Result/T_Inventory_Icon_308WIN_FMJ_M1.png",
+          "imageDesc": "T_Inventory_Icon_308WIN_FMJ_M1.png"
         }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - .308 WIN FMJ M1/.308 WIN FMJ M1/Result/.308 WIN FMJ M1.png",
-      "imageDesc": ".308 WIN FMJ M1 result image"
+      "craftingNotes": [
+        "Requirements/results were not supplied in the text."
+      ],
+      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.308 WIN FMJ M1/Result/T_Inventory_Icon_308WIN_FMJ_M1.png",
+      "imageDesc": "T_Inventory_Icon_308WIN_FMJ_M1.png"
+    },
+    {
+      "name": ".44 Magnum",
+      "type": "Recipe",
+      "level": 0,
+      "detail": ".44 Magnum crafting recipe. Station: Ammo Press. Module: Ammo - Beginner. Required: [1K] .44 Magnum Case; [1K] Medium primer; [1K] .44 Magnum Bullet; [8] Gun Powder. Result: [1K] .44 Magnum.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 142",
+        "Crafting station: Ammo Press",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Ammo Press - .44 Magnum/Required",
+        "Result folder: /db-assets/Crafting Recipes/Ammo Press - .44 Magnum/Result",
+        "Required: [1K] .44 Magnum Case; [1K] Medium primer; [1K] .44 Magnum Bullet; [8] Gun Powder",
+        "Result: [1K] .44 Magnum",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Ammo Press",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 142,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Ammo Press - .44 Magnum/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Ammo Press - .44 Magnum/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Gun Powder",
+          "quantity": "8",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .44 Magnum/Required/T_Inventory_Gun_Powder.png",
+          "imageDesc": "T_Inventory_Gun_Powder.png"
+        },
+        {
+          "name": ".44 Magnum Bullet",
+          "quantity": "1K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .44 Magnum/Required/T_Inventory_Icon_44_Magnum_Bullet.png",
+          "imageDesc": "T_Inventory_Icon_44_Magnum_Bullet.png"
+        },
+        {
+          "name": ".44 Magnum Case",
+          "quantity": "1K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .44 Magnum/Required/T_Inventory_Icon_44_Magnum_Case.png",
+          "imageDesc": "T_Inventory_Icon_44_Magnum_Case.png"
+        },
+        {
+          "name": "Medium primer",
+          "quantity": "1K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .44 Magnum/Required/T_Inventory_Icon_Small_Primer.png",
+          "imageDesc": "T_Inventory_Icon_Small_Primer.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": ".44 Magnum",
+          "quantity": "1K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .44 Magnum/Result/T_Inventory_Icon_44Magnum_FMJ.png",
+          "imageDesc": "T_Inventory_Icon_44Magnum_FMJ.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.44 Magnum/Result/T_Inventory_Icon_44Magnum_FMJ.png",
+      "imageDesc": "T_Inventory_Icon_44Magnum_FMJ.png"
+    },
+    {
+      "name": ".45 ACP FMJ M1",
+      "type": "Recipe",
+      "level": 0,
+      "detail": ".45 ACP FMJ M1 crafting recipe. Station: Ammo Press. Module: Ammo - Beginner. Required: [3K] .45 ACP Case; [3K] Small primer; [3K] .45 ACP Bullet; [4] Gun Powder. Result: [3K] .45 ACP FMJ M1.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 143",
+        "Crafting station: Ammo Press",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Ammo Press - .45 ACP FMJ M1/Required",
+        "Result folder: /db-assets/Crafting Recipes/Ammo Press - .45 ACP FMJ M1/Result",
+        "Required: [3K] .45 ACP Case; [3K] Small primer; [3K] .45 ACP Bullet; [4] Gun Powder",
+        "Result: [3K] .45 ACP FMJ M1",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Ammo Press",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 143,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Ammo Press - .45 ACP FMJ M1/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Ammo Press - .45 ACP FMJ M1/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Gun Powder",
+          "quantity": "4",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .45 ACP FMJ M1/Required/T_Inventory_Gun_Powder.png",
+          "imageDesc": "T_Inventory_Gun_Powder.png"
+        },
+        {
+          "name": ".45 ACP Bullet",
+          "quantity": "3K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .45 ACP FMJ M1/Required/T_Inventory_Icon_45ACP_Bullet.png",
+          "imageDesc": "T_Inventory_Icon_45ACP_Bullet.png"
+        },
+        {
+          "name": ".45 ACP Case",
+          "quantity": "3K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .45 ACP FMJ M1/Required/T_Inventory_Icon_45ACP_Case.png",
+          "imageDesc": "T_Inventory_Icon_45ACP_Case.png"
+        },
+        {
+          "name": "Small primer",
+          "quantity": "3K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .45 ACP FMJ M1/Required/T_Inventory_Icon_Medium_Primer.png",
+          "imageDesc": "T_Inventory_Icon_Medium_Primer.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": ".45 ACP FMJ M1",
+          "quantity": "3K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .45 ACP FMJ M1/Result/T_Inventory_Icon_45_ACP_FMJ_M1.png",
+          "imageDesc": "T_Inventory_Icon_45_ACP_FMJ_M1.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.45ACP FMJ M1/Result/T_Inventory_Icon_45_ACP_FMJ_M1.png",
+      "imageDesc": "T_Inventory_Icon_45_ACP_FMJ_M1.png"
+    },
+    {
+      "name": ".500 Magnum",
+      "type": "Recipe",
+      "level": 0,
+      "detail": ".500 Magnum crafting recipe. Station: Ammo Press. Module: Ammo - Beginner. Required: [1K] .500 Magnum Case; [1K] Medium primer; [1K] .500 Magnum Bullet; [8] Gun Powder. Result: [1K] .500 Magnum.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 144",
+        "Crafting station: Ammo Press",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Ammo Press - .500 Magnum/Required",
+        "Result folder: /db-assets/Crafting Recipes/Ammo Press - .500 Magnum/Result",
+        "Required: [1K] .500 Magnum Case; [1K] Medium primer; [1K] .500 Magnum Bullet; [8] Gun Powder",
+        "Result: [1K] .500 Magnum",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Minayev's Territory",
+        "Zapandnaya Mine (Big Village)",
+        "Tunnels",
+        "Canyon",
+        "Coast",
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Ammo Press",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 144,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Ammo Press - .500 Magnum/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Ammo Press - .500 Magnum/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Gun Powder",
+          "quantity": "8",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .500 Magnum/Required/T_Inventory_Gun_Powder.png",
+          "imageDesc": "T_Inventory_Gun_Powder.png"
+        },
+        {
+          "name": ".500 Magnum Bullet",
+          "quantity": "1K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .500 Magnum/Required/T_Inventory_Icon_500_Magnum_Bullet.png",
+          "imageDesc": "T_Inventory_Icon_500_Magnum_Bullet.png"
+        },
+        {
+          "name": ".500 Magnum Case",
+          "quantity": "1K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .500 Magnum/Required/T_Inventory_Icon_500_Magnum_Case.png",
+          "imageDesc": "T_Inventory_Icon_500_Magnum_Case.png"
+        },
+        {
+          "name": "Medium primer",
+          "quantity": "1K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .500 Magnum/Required/T_Inventory_Icon_Medium_Primer.png",
+          "imageDesc": "T_Inventory_Icon_Medium_Primer.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": ".500 Magnum",
+          "quantity": "1K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - .500 Magnum/Result/T_Inventory_Icon_500SWMagnum_FMJ.png",
+          "imageDesc": "T_Inventory_Icon_500SWMagnum_FMJ.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/.500 Magnum/Result/T_Inventory_Icon_500SWMagnum_FMJ.png",
+      "imageDesc": "T_Inventory_Icon_500SWMagnum_FMJ.png"
     },
     {
       "name": "12 Ga. Shot M1",
       "type": "Recipe",
       "level": 0,
-      "detail": "12 Ga. Shot M1 crafting recipe. Crafting station: Ammo Press. Module: Ammo - Beginner. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": "12 Ga. Shot M1 crafting recipe. Station: Ammo Press. Module: Ammo - Beginner. Required: [1K] 12 Ga. Case; [1K] Large primer; [1K] 5.56x45 Bullet; [6] Gun Powder. Result: [1K] 12 Ga. Shot M1.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 138",
+        "Recipe order: 145",
         "Crafting station: Ammo Press",
         "Crafting module: Ammo - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Shot M1/Required",
-        "Result folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Shot M1/Result",
-        "Source: Crafting Recipes list"
+        "Required folder: /db-assets/Crafting Recipes/Ammo Press - 12 Ga. Shot M1/Required",
+        "Result folder: /db-assets/Crafting Recipes/Ammo Press - 12 Ga. Shot M1/Result",
+        "Required: [1K] 12 Ga. Case; [1K] Large primer; [1K] 5.56x45 Bullet; [6] Gun Powder",
+        "Result: [1K] 12 Ga. Shot M1",
+        "Source: Pasted text(8).txt"
       ],
       "locations": [
         "Minayev's Territory",
@@ -46382,54 +47664,60 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Ammo Press",
       "craftingModule": "Ammo - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Shot M1/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Shot M1/Result",
+      "craftingRecipeOrder": 145,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Ammo Press - 12 Ga. Shot M1/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Ammo Press - 12 Ga. Shot M1/Result",
       "craftingRequiredImages": [
         {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Shot M1/Required/required-1.png",
-          "imageDesc": "12 Ga. Shot M1 required ingredient 1"
+          "name": "Gun Powder",
+          "quantity": "6",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 12 Ga. Shot M1/Required/T_Inventory_Gun_Powder.png",
+          "imageDesc": "T_Inventory_Gun_Powder.png"
         },
         {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Shot M1/Required/required-2.png",
-          "imageDesc": "12 Ga. Shot M1 required ingredient 2"
+          "name": "12Ga Shot M1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 12 Ga. Shot M1/Required/T_Inventory_Icon_12Ga_Shot_M1.png",
+          "imageDesc": "T_Inventory_Icon_12Ga_Shot_M1.png"
         },
         {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Shot M1/Required/required-3.png",
-          "imageDesc": "12 Ga. Shot M1 required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Shot M1/Required/required-4.png",
-          "imageDesc": "12 Ga. Shot M1 required ingredient 4"
+          "name": "Large primer",
+          "quantity": "1K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 12 Ga. Shot M1/Required/T_Inventory_Icon_Large_Primer.png",
+          "imageDesc": "T_Inventory_Icon_Large_Primer.png"
         }
       ],
       "craftingResultImages": [
         {
           "name": "12 Ga. Shot M1",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Shot M1/Result/12 Ga. Shot M1.png",
-          "imageDesc": "12 Ga. Shot M1 result image"
+          "quantity": "1K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 12 Ga. Shot M1/Result/T_Inventory_Icon_12Ga_Case.png",
+          "imageDesc": "T_Inventory_Icon_12Ga_Case.png"
         }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Shot M1/Result/12 Ga. Shot M1.png",
-      "imageDesc": "12 Ga. Shot M1 result image"
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 GAa Shot M1/Result/T_Inventory_Icon_12Ga_Case.png",
+      "imageDesc": "T_Inventory_Icon_12Ga_Case.png"
     },
     {
       "name": "12 Ga. Slug M1",
       "type": "Recipe",
       "level": 0,
-      "detail": "12 Ga. Slug M1 crafting recipe. Crafting station: Ammo Press. Module: Ammo - Beginner. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": "12 Ga. Slug M1 crafting recipe. Station: Ammo Press. Module: Ammo - Beginner. Required: [1K] 5.56x45 Case; [1K] Large primer; [1K] 5.56x45 Bullet; [6] Gun Powder. Result: [2K] 12 Ga. Slug M1.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
-        "Recipe order: 139",
+        "Recipe order: 146",
         "Crafting station: Ammo Press",
         "Crafting module: Ammo - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Slug M1/Required",
-        "Result folder: /db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Slug M1/Result",
-        "Source: Crafting Recipes list"
+        "Required folder: /db-assets/Crafting Recipes/Ammo Press - 12 Ga. Slug M1/Required",
+        "Result folder: /db-assets/Crafting Recipes/Ammo Press - 12 Ga. Slug M1/Result",
+        "Required: [1K] 5.56x45 Case; [1K] Large primer; [1K] 5.56x45 Bullet; [6] Gun Powder",
+        "Result: [2K] 12 Ga. Slug M1",
+        "Source: Pasted text(8).txt"
       ],
       "locations": [
         "Minayev's Territory",
@@ -46442,474 +47730,66 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Ammo Press",
       "craftingModule": "Ammo - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Slug M1/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Slug M1/Result",
+      "craftingRecipeOrder": 146,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Ammo Press - 12 Ga. Slug M1/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Ammo Press - 12 Ga. Slug M1/Result",
       "craftingRequiredImages": [
         {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Slug M1/Required/required-1.png",
-          "imageDesc": "12 Ga. Slug M1 required ingredient 1"
+          "name": "Gun Powder",
+          "quantity": "6",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 12 Ga. Slug M1/Required/T_Inventory_Gun_Powder.png",
+          "imageDesc": "T_Inventory_Gun_Powder.png"
         },
         {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Slug M1/Required/required-2.png",
-          "imageDesc": "12 Ga. Slug M1 required ingredient 2"
+          "name": "12Ga Case",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 12 Ga. Slug M1/Required/T_Inventory_Icon_12Ga_Case.png",
+          "imageDesc": "T_Inventory_Icon_12Ga_Case.png"
         },
         {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Slug M1/Required/required-3.png",
-          "imageDesc": "12 Ga. Slug M1 required ingredient 3"
+          "name": "12Ga Slug",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 12 Ga. Slug M1/Required/T_Inventory_Icon_12Ga_Slug.png",
+          "imageDesc": "T_Inventory_Icon_12Ga_Slug.png"
         },
         {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Slug M1/Required/required-4.png",
-          "imageDesc": "12 Ga. Slug M1 required ingredient 4"
+          "name": "Large primer",
+          "quantity": "1K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 12 Ga. Slug M1/Required/T_Inventory_Icon_Large_Primer.png",
+          "imageDesc": "T_Inventory_Icon_Large_Primer.png"
         }
       ],
       "craftingResultImages": [
         {
           "name": "12 Ga. Slug M1",
-          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Slug M1/Result/12 Ga. Slug M1.png",
-          "imageDesc": "12 Ga. Slug M1 result image"
+          "quantity": "2K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 12 Ga. Slug M1/Result/T_Inventory_Icon_12Ga_Slug_M1.png",
+          "imageDesc": "T_Inventory_Icon_12Ga_Slug_M1.png"
         }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga. Slug M1/Result/12 Ga. Slug M1.png",
-      "imageDesc": "12 Ga. Slug M1 result image"
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/12 Ga Slug M1/Result/T_Inventory_Icon_12Ga_Slug_M1.png",
+      "imageDesc": "T_Inventory_Icon_12Ga_Slug_M1.png"
     },
     {
-      "name": "Handgun Modification Kit - Damage",
+      "name": "5.45x39 FMJ M1",
       "type": "Recipe",
       "level": 0,
-      "detail": "Handgun Modification Kit - Damage crafting recipe. Crafting station: Inventory. Module: Weapon Modification. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 140",
-        "Crafting station: Inventory",
-        "Crafting module: Weapon Modification",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/Handgun Modification Kit - Damage/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/Handgun Modification Kit - Damage/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Inventory",
-      "craftingModule": "Weapon Modification",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Handgun Modification Kit - Damage/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Handgun Modification Kit - Damage/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Handgun Modification Kit - Damage/Required/required-1.png",
-          "imageDesc": "Handgun Modification Kit - Damage required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Handgun Modification Kit - Damage/Required/required-2.png",
-          "imageDesc": "Handgun Modification Kit - Damage required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Handgun Modification Kit - Damage/Required/required-3.png",
-          "imageDesc": "Handgun Modification Kit - Damage required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Handgun Modification Kit - Damage/Required/required-4.png",
-          "imageDesc": "Handgun Modification Kit - Damage required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Handgun Modification Kit - Damage",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Handgun Modification Kit - Damage/Result/Handgun Modification Kit - Damage.png",
-          "imageDesc": "Handgun Modification Kit - Damage result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Handgun Modification Kit - Damage/Result/Handgun Modification Kit - Damage.png",
-      "imageDesc": "Handgun Modification Kit - Damage result image"
-    },
-    {
-      "name": "Handgun Modification Kit - Accuracy",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Handgun Modification Kit - Accuracy crafting recipe. Crafting station: Inventory. Module: Weapon Modification. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 141",
-        "Crafting station: Inventory",
-        "Crafting module: Weapon Modification",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/Handgun Modification Kit - Accuracy/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/Handgun Modification Kit - Accuracy/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Inventory",
-      "craftingModule": "Weapon Modification",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Handgun Modification Kit - Accuracy/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Handgun Modification Kit - Accuracy/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Handgun Modification Kit - Accuracy/Required/required-1.png",
-          "imageDesc": "Handgun Modification Kit - Accuracy required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Handgun Modification Kit - Accuracy/Required/required-2.png",
-          "imageDesc": "Handgun Modification Kit - Accuracy required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Handgun Modification Kit - Accuracy/Required/required-3.png",
-          "imageDesc": "Handgun Modification Kit - Accuracy required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Handgun Modification Kit - Accuracy/Required/required-4.png",
-          "imageDesc": "Handgun Modification Kit - Accuracy required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Handgun Modification Kit - Accuracy",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Handgun Modification Kit - Accuracy/Result/Handgun Modification Kit - Accuracy.png",
-          "imageDesc": "Handgun Modification Kit - Accuracy result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Handgun Modification Kit - Accuracy/Result/Handgun Modification Kit - Accuracy.png",
-      "imageDesc": "Handgun Modification Kit - Accuracy result image"
-    },
-    {
-      "name": "Handgun Modification Kit - Durability",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Handgun Modification Kit - Durability crafting recipe. Crafting station: Inventory. Module: Weapon Modification. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 142",
-        "Crafting station: Inventory",
-        "Crafting module: Weapon Modification",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/Handgun Modification Kit - Durability/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/Handgun Modification Kit - Durability/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Inventory",
-      "craftingModule": "Weapon Modification",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Handgun Modification Kit - Durability/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Handgun Modification Kit - Durability/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Handgun Modification Kit - Durability/Required/required-1.png",
-          "imageDesc": "Handgun Modification Kit - Durability required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Handgun Modification Kit - Durability/Required/required-2.png",
-          "imageDesc": "Handgun Modification Kit - Durability required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Handgun Modification Kit - Durability/Required/required-3.png",
-          "imageDesc": "Handgun Modification Kit - Durability required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Handgun Modification Kit - Durability/Required/required-4.png",
-          "imageDesc": "Handgun Modification Kit - Durability required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Handgun Modification Kit - Durability",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Handgun Modification Kit - Durability/Result/Handgun Modification Kit - Durability.png",
-          "imageDesc": "Handgun Modification Kit - Durability result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Handgun Modification Kit - Durability/Result/Handgun Modification Kit - Durability.png",
-      "imageDesc": "Handgun Modification Kit - Durability result image"
-    },
-    {
-      "name": "Shotgun Modification Kit - Damage",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Shotgun Modification Kit - Damage crafting recipe. Crafting station: Inventory. Module: Weapon Modification. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 143",
-        "Crafting station: Inventory",
-        "Crafting module: Weapon Modification",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/Shotgun Modification Kit - Damage/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/Shotgun Modification Kit - Damage/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Inventory",
-      "craftingModule": "Weapon Modification",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Shotgun Modification Kit - Damage/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Shotgun Modification Kit - Damage/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Shotgun Modification Kit - Damage/Required/required-1.png",
-          "imageDesc": "Shotgun Modification Kit - Damage required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Shotgun Modification Kit - Damage/Required/required-2.png",
-          "imageDesc": "Shotgun Modification Kit - Damage required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Shotgun Modification Kit - Damage/Required/required-3.png",
-          "imageDesc": "Shotgun Modification Kit - Damage required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Shotgun Modification Kit - Damage/Required/required-4.png",
-          "imageDesc": "Shotgun Modification Kit - Damage required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Shotgun Modification Kit - Damage",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Shotgun Modification Kit - Damage/Result/Shotgun Modification Kit - Damage.png",
-          "imageDesc": "Shotgun Modification Kit - Damage result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Shotgun Modification Kit - Damage/Result/Shotgun Modification Kit - Damage.png",
-      "imageDesc": "Shotgun Modification Kit - Damage result image"
-    },
-    {
-      "name": "Shotgun Modification Kit - Accuracy",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Shotgun Modification Kit - Accuracy crafting recipe. Crafting station: Inventory. Module: Weapon Modification. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 144",
-        "Crafting station: Inventory",
-        "Crafting module: Weapon Modification",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/Shotgun Modification Kit - Accuracy/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/Shotgun Modification Kit - Accuracy/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Inventory",
-      "craftingModule": "Weapon Modification",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Shotgun Modification Kit - Accuracy/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Shotgun Modification Kit - Accuracy/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Shotgun Modification Kit - Accuracy/Required/required-1.png",
-          "imageDesc": "Shotgun Modification Kit - Accuracy required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Shotgun Modification Kit - Accuracy/Required/required-2.png",
-          "imageDesc": "Shotgun Modification Kit - Accuracy required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Shotgun Modification Kit - Accuracy/Required/required-3.png",
-          "imageDesc": "Shotgun Modification Kit - Accuracy required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Shotgun Modification Kit - Accuracy/Required/required-4.png",
-          "imageDesc": "Shotgun Modification Kit - Accuracy required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Shotgun Modification Kit - Accuracy",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Shotgun Modification Kit - Accuracy/Result/Shotgun Modification Kit - Accuracy.png",
-          "imageDesc": "Shotgun Modification Kit - Accuracy result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Shotgun Modification Kit - Accuracy/Result/Shotgun Modification Kit - Accuracy.png",
-      "imageDesc": "Shotgun Modification Kit - Accuracy result image"
-    },
-    {
-      "name": "Shotgun Modification Kit - Durability",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Shotgun Modification Kit - Durability crafting recipe. Crafting station: Inventory. Module: Weapon Modification. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 145",
-        "Crafting station: Inventory",
-        "Crafting module: Weapon Modification",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/Shotgun Modification Kit - Durability/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/Shotgun Modification Kit - Durability/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Inventory",
-      "craftingModule": "Weapon Modification",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Shotgun Modification Kit - Durability/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Shotgun Modification Kit - Durability/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Shotgun Modification Kit - Durability/Required/required-1.png",
-          "imageDesc": "Shotgun Modification Kit - Durability required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Shotgun Modification Kit - Durability/Required/required-2.png",
-          "imageDesc": "Shotgun Modification Kit - Durability required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Shotgun Modification Kit - Durability/Required/required-3.png",
-          "imageDesc": "Shotgun Modification Kit - Durability required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Shotgun Modification Kit - Durability/Required/required-4.png",
-          "imageDesc": "Shotgun Modification Kit - Durability required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Shotgun Modification Kit - Durability",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Shotgun Modification Kit - Durability/Result/Shotgun Modification Kit - Durability.png",
-          "imageDesc": "Shotgun Modification Kit - Durability result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Shotgun Modification Kit - Durability/Result/Shotgun Modification Kit - Durability.png",
-      "imageDesc": "Shotgun Modification Kit - Durability result image"
-    },
-    {
-      "name": "Assault Rifle Modification Kit - Damage",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Assault Rifle Modification Kit - Damage crafting recipe. Crafting station: Inventory. Module: Weapon Modification. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 146",
-        "Crafting station: Inventory",
-        "Crafting module: Weapon Modification",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/Assault Rifle Modification Kit - Damage/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/Assault Rifle Modification Kit - Damage/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Inventory",
-      "craftingModule": "Weapon Modification",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Assault Rifle Modification Kit - Damage/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Assault Rifle Modification Kit - Damage/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Assault Rifle Modification Kit - Damage/Required/required-1.png",
-          "imageDesc": "Assault Rifle Modification Kit - Damage required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Assault Rifle Modification Kit - Damage/Required/required-2.png",
-          "imageDesc": "Assault Rifle Modification Kit - Damage required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Assault Rifle Modification Kit - Damage/Required/required-3.png",
-          "imageDesc": "Assault Rifle Modification Kit - Damage required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Assault Rifle Modification Kit - Damage/Required/required-4.png",
-          "imageDesc": "Assault Rifle Modification Kit - Damage required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Assault Rifle Modification Kit - Damage",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Assault Rifle Modification Kit - Damage/Result/Assault Rifle Modification Kit - Damage.png",
-          "imageDesc": "Assault Rifle Modification Kit - Damage result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Assault Rifle Modification Kit - Damage/Result/Assault Rifle Modification Kit - Damage.png",
-      "imageDesc": "Assault Rifle Modification Kit - Damage result image"
-    },
-    {
-      "name": "Assault Rifle Modification Kit - Accuracy",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Assault Rifle Modification Kit - Accuracy crafting recipe. Crafting station: Inventory. Module: Weapon Modification. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": "5.45x39 FMJ M1 crafting recipe. Station: Ammo Press. Module: Ammo - Beginner. Required: [2K] 5.45x39 Case; [2K] Medium primer; [2K] 5.45x39 Bullet; [6] Gun Powder. Result: [2K] 5.45x39 FMJ M1.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
         "Recipe order: 147",
-        "Crafting station: Inventory",
-        "Crafting module: Weapon Modification",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/Assault Rifle Modification Kit - Accuracy/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/Assault Rifle Modification Kit - Accuracy/Result",
-        "Source: Crafting Recipes list"
+        "Crafting station: Ammo Press",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Ammo Press - 5.45x39 FMJ M1/Required",
+        "Result folder: /db-assets/Crafting Recipes/Ammo Press - 5.45x39 FMJ M1/Result",
+        "Required: [2K] 5.45x39 Case; [2K] Medium primer; [2K] 5.45x39 Bullet; [6] Gun Powder",
+        "Result: [2K] 5.45x39 FMJ M1",
+        "Source: Pasted text(8).txt"
       ],
       "locations": [
         "Minayev's Territory",
@@ -46920,56 +47800,70 @@ const WTLO_DATABASE_DATA = {
         "Testing Ground",
         "Foothills"
       ],
-      "craftingStation": "Inventory",
-      "craftingModule": "Weapon Modification",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Assault Rifle Modification Kit - Accuracy/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Assault Rifle Modification Kit - Accuracy/Result",
+      "craftingStation": "Ammo Press",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 147,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Ammo Press - 5.45x39 FMJ M1/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Ammo Press - 5.45x39 FMJ M1/Result",
       "craftingRequiredImages": [
         {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Assault Rifle Modification Kit - Accuracy/Required/required-1.png",
-          "imageDesc": "Assault Rifle Modification Kit - Accuracy required ingredient 1"
+          "name": "Gun Powder",
+          "quantity": "6",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 5.45x39 FMJ M1/Required/T_Inventory_Gun_Powder.png",
+          "imageDesc": "T_Inventory_Gun_Powder.png"
         },
         {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Assault Rifle Modification Kit - Accuracy/Required/required-2.png",
-          "imageDesc": "Assault Rifle Modification Kit - Accuracy required ingredient 2"
+          "name": "5.45x39 Bullet",
+          "quantity": "2K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 5.45x39 FMJ M1/Required/T_Inventory_Icon_5_45x39_Bullet.png",
+          "imageDesc": "T_Inventory_Icon_5_45x39_Bullet.png"
         },
         {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Assault Rifle Modification Kit - Accuracy/Required/required-3.png",
-          "imageDesc": "Assault Rifle Modification Kit - Accuracy required ingredient 3"
+          "name": "5.45x39 Case",
+          "quantity": "2K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 5.45x39 FMJ M1/Required/T_Inventory_Icon_5_45x39_Case.png",
+          "imageDesc": "T_Inventory_Icon_5_45x39_Case.png"
         },
         {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Assault Rifle Modification Kit - Accuracy/Required/required-4.png",
-          "imageDesc": "Assault Rifle Modification Kit - Accuracy required ingredient 4"
+          "name": "Medium primer",
+          "quantity": "2K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 5.45x39 FMJ M1/Required/T_Inventory_Icon_Medium_Primer.png",
+          "imageDesc": "T_Inventory_Icon_Medium_Primer.png"
         }
       ],
       "craftingResultImages": [
         {
-          "name": "Assault Rifle Modification Kit - Accuracy",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Assault Rifle Modification Kit - Accuracy/Result/Assault Rifle Modification Kit - Accuracy.png",
-          "imageDesc": "Assault Rifle Modification Kit - Accuracy result image"
+          "name": "5.45x39 FMJ M1",
+          "quantity": "2K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 5.45x39 FMJ M1/Result/T_Inventory_Icon_5_45x39_FMJ_M1.png",
+          "imageDesc": "T_Inventory_Icon_5_45x39_FMJ_M1.png"
         }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Assault Rifle Modification Kit - Accuracy/Result/Assault Rifle Modification Kit - Accuracy.png",
-      "imageDesc": "Assault Rifle Modification Kit - Accuracy result image"
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.45x39 FMJ M1/Result/T_Inventory_Icon_5_45x39_FMJ_M1.png",
+      "imageDesc": "T_Inventory_Icon_5_45x39_FMJ_M1.png"
     },
     {
-      "name": "Rifle Modification Kit - Durability",
+      "name": "5.56x45 FMJ M1",
       "type": "Recipe",
       "level": 0,
-      "detail": "Rifle Modification Kit - Durability crafting recipe. Crafting station: Inventory. Module: Weapon Modification. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": "5.56x45 FMJ M1 crafting recipe. Station: Ammo Press. Module: Ammo - Beginner. Required: [2K] 5.56x45 Case; [2K] Medium primer; [2K] 5.56x45 Bullet; [6] Gun Powder. Result: [2K] 5.56x45 FMJ M1.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
         "Recipe order: 148",
-        "Crafting station: Inventory",
-        "Crafting module: Weapon Modification",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Durability/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Durability/Result",
-        "Source: Crafting Recipes list"
+        "Crafting station: Ammo Press",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Ammo Press - 5.56x45 FMJ M1/Required",
+        "Result folder: /db-assets/Crafting Recipes/Ammo Press - 5.56x45 FMJ M1/Result",
+        "Required: [2K] 5.56x45 Case; [2K] Medium primer; [2K] 5.56x45 Bullet; [6] Gun Powder",
+        "Result: [2K] 5.56x45 FMJ M1",
+        "Source: Pasted text(8).txt"
       ],
       "locations": [
         "Minayev's Territory",
@@ -46980,56 +47874,70 @@ const WTLO_DATABASE_DATA = {
         "Testing Ground",
         "Foothills"
       ],
-      "craftingStation": "Inventory",
-      "craftingModule": "Weapon Modification",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Durability/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Durability/Result",
+      "craftingStation": "Ammo Press",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 148,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Ammo Press - 5.56x45 FMJ M1/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Ammo Press - 5.56x45 FMJ M1/Result",
       "craftingRequiredImages": [
         {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Durability/Required/required-1.png",
-          "imageDesc": "Rifle Modification Kit - Durability required ingredient 1"
+          "name": "Gun Powder",
+          "quantity": "6",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 5.56x45 FMJ M1/Required/T_Inventory_Gun_Powder.png",
+          "imageDesc": "T_Inventory_Gun_Powder.png"
         },
         {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Durability/Required/required-2.png",
-          "imageDesc": "Rifle Modification Kit - Durability required ingredient 2"
+          "name": "5.56x45 Bullet",
+          "quantity": "2K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 5.56x45 FMJ M1/Required/T_Inventory_Icon_5_56x45_Bullet.png",
+          "imageDesc": "T_Inventory_Icon_5_56x45_Bullet.png"
         },
         {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Durability/Required/required-3.png",
-          "imageDesc": "Rifle Modification Kit - Durability required ingredient 3"
+          "name": "5.56x45 Case",
+          "quantity": "2K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 5.56x45 FMJ M1/Required/T_Inventory_Icon_5_56x45_Case.png",
+          "imageDesc": "T_Inventory_Icon_5_56x45_Case.png"
         },
         {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Durability/Required/required-4.png",
-          "imageDesc": "Rifle Modification Kit - Durability required ingredient 4"
+          "name": "Medium primer",
+          "quantity": "2K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 5.56x45 FMJ M1/Required/T_Inventory_Icon_Medium_Primer.png",
+          "imageDesc": "T_Inventory_Icon_Medium_Primer.png"
         }
       ],
       "craftingResultImages": [
         {
-          "name": "Rifle Modification Kit - Durability",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Durability/Result/Rifle Modification Kit - Durability.png",
-          "imageDesc": "Rifle Modification Kit - Durability result image"
+          "name": "5.56x45 FMJ M1",
+          "quantity": "2K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 5.56x45 FMJ M1/Result/T_Inventory_Icon_5_56x45_FMJ_M1.png",
+          "imageDesc": "T_Inventory_Icon_5_56x45_FMJ_M1.png"
         }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Durability/Result/Rifle Modification Kit - Durability.png",
-      "imageDesc": "Rifle Modification Kit - Durability result image"
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.56x45 FMJ M1/Result/T_Inventory_Icon_5_56x45_FMJ_M1.png",
+      "imageDesc": "T_Inventory_Icon_5_56x45_FMJ_M1.png"
     },
     {
-      "name": "Rifle Modification Kit - Damage",
+      "name": "5.7x28 FMJ M1",
       "type": "Recipe",
       "level": 0,
-      "detail": "Rifle Modification Kit - Damage crafting recipe. Crafting station: Inventory. Module: Weapon Modification. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": "5.7x28 FMJ M1 crafting recipe. Station: Ammo Press. Module: Ammo - Beginner. Required: [3K] 5.7x28 Case; [3K] Small primer; [3K] 5.7x28 Bullet; [4] Gun Powder. Result: [3K] 5.7x28 FMJ M1.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
         "Recipe order: 149",
-        "Crafting station: Inventory",
-        "Crafting module: Weapon Modification",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Damage/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Damage/Result",
-        "Source: Crafting Recipes list"
+        "Crafting station: Ammo Press",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Ammo Press - 5.7x28 FMJ M1/Required",
+        "Result folder: /db-assets/Crafting Recipes/Ammo Press - 5.7x28 FMJ M1/Result",
+        "Required: [3K] 5.7x28 Case; [3K] Small primer; [3K] 5.7x28 Bullet; [4] Gun Powder",
+        "Result: [3K] 5.7x28 FMJ M1",
+        "Source: Pasted text(8).txt"
       ],
       "locations": [
         "Minayev's Territory",
@@ -47040,56 +47948,70 @@ const WTLO_DATABASE_DATA = {
         "Testing Ground",
         "Foothills"
       ],
-      "craftingStation": "Inventory",
-      "craftingModule": "Weapon Modification",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Damage/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Damage/Result",
+      "craftingStation": "Ammo Press",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 149,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Ammo Press - 5.7x28 FMJ M1/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Ammo Press - 5.7x28 FMJ M1/Result",
       "craftingRequiredImages": [
         {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Damage/Required/required-1.png",
-          "imageDesc": "Rifle Modification Kit - Damage required ingredient 1"
+          "name": "Gun Powder",
+          "quantity": "4",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 5.7x28 FMJ M1/Required/T_Inventory_Gun_Powder.png",
+          "imageDesc": "T_Inventory_Gun_Powder.png"
         },
         {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Damage/Required/required-2.png",
-          "imageDesc": "Rifle Modification Kit - Damage required ingredient 2"
+          "name": "5.7x28 Bullet",
+          "quantity": "3K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 5.7x28 FMJ M1/Required/T_Inventory_Icon_5_7x28_Bullet.png",
+          "imageDesc": "T_Inventory_Icon_5_7x28_Bullet.png"
         },
         {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Damage/Required/required-3.png",
-          "imageDesc": "Rifle Modification Kit - Damage required ingredient 3"
+          "name": "5.7x28 Case",
+          "quantity": "3K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 5.7x28 FMJ M1/Required/T_Inventory_Icon_5_7x28_Case.png",
+          "imageDesc": "T_Inventory_Icon_5_7x28_Case.png"
         },
         {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Damage/Required/required-4.png",
-          "imageDesc": "Rifle Modification Kit - Damage required ingredient 4"
+          "name": "Small primer",
+          "quantity": "3K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 5.7x28 FMJ M1/Required/T_Inventory_Icon_Small_Primer.png",
+          "imageDesc": "T_Inventory_Icon_Small_Primer.png"
         }
       ],
       "craftingResultImages": [
         {
-          "name": "Rifle Modification Kit - Damage",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Damage/Result/Rifle Modification Kit - Damage.png",
-          "imageDesc": "Rifle Modification Kit - Damage result image"
+          "name": "5.7x28 FMJ M1",
+          "quantity": "3K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 5.7x28 FMJ M1/Result/T_Inventory_Icon_5_7x28_FMJ_M1.png",
+          "imageDesc": "T_Inventory_Icon_5_7x28_FMJ_M1.png"
         }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Damage/Result/Rifle Modification Kit - Damage.png",
-      "imageDesc": "Rifle Modification Kit - Damage result image"
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/5.7x28 FMJ M1/Result/T_Inventory_Icon_5_7x28_FMJ_M1.png",
+      "imageDesc": "T_Inventory_Icon_5_7x28_FMJ_M1.png"
     },
     {
-      "name": "Rifle Modification Kit - Accuracy",
+      "name": "7.62x39 FMJ M1",
       "type": "Recipe",
       "level": 0,
-      "detail": "Rifle Modification Kit - Accuracy crafting recipe. Crafting station: Inventory. Module: Weapon Modification. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": "7.62x39 FMJ M1 crafting recipe. Station: Ammo Press. Module: Ammo - Beginner. Required: [2K] 7.62x39 Case; [2K] Medium primer; [2K] 7.62x39 Bullet; [6] Gun Powder. Result: [3K] 7.62x39 FMJ M1.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
         "Recipe order: 150",
-        "Crafting station: Inventory",
-        "Crafting module: Weapon Modification",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Accuracy/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Accuracy/Result",
-        "Source: Crafting Recipes list"
+        "Crafting station: Ammo Press",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Ammo Press - 7.62x39 FMJ M1/Required",
+        "Result folder: /db-assets/Crafting Recipes/Ammo Press - 7.62x39 FMJ M1/Result",
+        "Required: [2K] 7.62x39 Case; [2K] Medium primer; [2K] 7.62x39 Bullet; [6] Gun Powder",
+        "Result: [3K] 7.62x39 FMJ M1",
+        "Source: Pasted text(8).txt"
       ],
       "locations": [
         "Minayev's Territory",
@@ -47100,56 +48022,70 @@ const WTLO_DATABASE_DATA = {
         "Testing Ground",
         "Foothills"
       ],
-      "craftingStation": "Inventory",
-      "craftingModule": "Weapon Modification",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Accuracy/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Accuracy/Result",
+      "craftingStation": "Ammo Press",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 150,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Ammo Press - 7.62x39 FMJ M1/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Ammo Press - 7.62x39 FMJ M1/Result",
       "craftingRequiredImages": [
         {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Accuracy/Required/required-1.png",
-          "imageDesc": "Rifle Modification Kit - Accuracy required ingredient 1"
+          "name": "Gun Powder",
+          "quantity": "6",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 7.62x39 FMJ M1/Required/T_Inventory_Gun_Powder.png",
+          "imageDesc": "T_Inventory_Gun_Powder.png"
         },
         {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Accuracy/Required/required-2.png",
-          "imageDesc": "Rifle Modification Kit - Accuracy required ingredient 2"
+          "name": "7.62x39 Bullet",
+          "quantity": "2K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 7.62x39 FMJ M1/Required/T_Inventory_Icon_7_62x39_Bullet.png",
+          "imageDesc": "T_Inventory_Icon_7_62x39_Bullet.png"
         },
         {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Accuracy/Required/required-3.png",
-          "imageDesc": "Rifle Modification Kit - Accuracy required ingredient 3"
+          "name": "7.62x39 Case",
+          "quantity": "2K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 7.62x39 FMJ M1/Required/T_Inventory_Icon_7_62x39_Case.png",
+          "imageDesc": "T_Inventory_Icon_7_62x39_Case.png"
         },
         {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Accuracy/Required/required-4.png",
-          "imageDesc": "Rifle Modification Kit - Accuracy required ingredient 4"
+          "name": "Medium primer",
+          "quantity": "2K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 7.62x39 FMJ M1/Required/T_Inventory_Icon_Medium_Primer.png",
+          "imageDesc": "T_Inventory_Icon_Medium_Primer.png"
         }
       ],
       "craftingResultImages": [
         {
-          "name": "Rifle Modification Kit - Accuracy",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Accuracy/Result/Rifle Modification Kit - Accuracy.png",
-          "imageDesc": "Rifle Modification Kit - Accuracy result image"
+          "name": "7.62x39 FMJ M1",
+          "quantity": "3K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 7.62x39 FMJ M1/Result/T_Inventory_Icon_7_62x39_FMJ_M1.png",
+          "imageDesc": "T_Inventory_Icon_7_62x39_FMJ_M1.png"
         }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Accuracy/Result/Rifle Modification Kit - Accuracy.png",
-      "imageDesc": "Rifle Modification Kit - Accuracy result image"
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/7.62x39 FMJ M1/Result/T_Inventory_Icon_7_62x39_FMJ_M1.png",
+      "imageDesc": "T_Inventory_Icon_7_62x39_FMJ_M1.png"
     },
     {
-      "name": "Rifle Modification Kit - Durability",
+      "name": "7.62x54 FMJ M1",
       "type": "Recipe",
       "level": 0,
-      "detail": "Rifle Modification Kit - Durability crafting recipe. Crafting station: Inventory. Module: Weapon Modification. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": "7.62x54 FMJ M1 crafting recipe. Station: Ammo Press. Module: Ammo - Beginner. Required: [1K] 7.62x54 Case; [1K] Large primer; [1K] 7.62x54 Bullet; [8] Gun Powder. Result: [1K] 7.62x54 FMJ M1.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
         "Recipe order: 151",
-        "Crafting station: Inventory",
-        "Crafting module: Weapon Modification",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Durability/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Durability/Result",
-        "Source: Crafting Recipes list"
+        "Crafting station: Ammo Press",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Ammo Press - 7.62x54 FMJ M1/Required",
+        "Result folder: /db-assets/Crafting Recipes/Ammo Press - 7.62x54 FMJ M1/Result",
+        "Required: [1K] 7.62x54 Case; [1K] Large primer; [1K] 7.62x54 Bullet; [8] Gun Powder",
+        "Result: [1K] 7.62x54 FMJ M1",
+        "Source: Pasted text(8).txt"
       ],
       "locations": [
         "Minayev's Territory",
@@ -47160,56 +48096,70 @@ const WTLO_DATABASE_DATA = {
         "Testing Ground",
         "Foothills"
       ],
-      "craftingStation": "Inventory",
-      "craftingModule": "Weapon Modification",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Durability/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Durability/Result",
+      "craftingStation": "Ammo Press",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 151,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Ammo Press - 7.62x54 FMJ M1/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Ammo Press - 7.62x54 FMJ M1/Result",
       "craftingRequiredImages": [
         {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Durability/Required/required-1.png",
-          "imageDesc": "Rifle Modification Kit - Durability required ingredient 1"
+          "name": "Gun Powder",
+          "quantity": "8",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 7.62x54 FMJ M1/Required/T_Inventory_Gun_Powder.png",
+          "imageDesc": "T_Inventory_Gun_Powder.png"
         },
         {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Durability/Required/required-2.png",
-          "imageDesc": "Rifle Modification Kit - Durability required ingredient 2"
+          "name": "7.62x54 Bullet",
+          "quantity": "1K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 7.62x54 FMJ M1/Required/T_Inventory_Icon_7_62x54_Bullet.png",
+          "imageDesc": "T_Inventory_Icon_7_62x54_Bullet.png"
         },
         {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Durability/Required/required-3.png",
-          "imageDesc": "Rifle Modification Kit - Durability required ingredient 3"
+          "name": "7.62x54 Case",
+          "quantity": "1K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 7.62x54 FMJ M1/Required/T_Inventory_Icon_7_62x54_Case.png",
+          "imageDesc": "T_Inventory_Icon_7_62x54_Case.png"
         },
         {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Durability/Required/required-4.png",
-          "imageDesc": "Rifle Modification Kit - Durability required ingredient 4"
+          "name": "Large primer",
+          "quantity": "1K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 7.62x54 FMJ M1/Required/T_Inventory_Icon_Large_Primer.png",
+          "imageDesc": "T_Inventory_Icon_Large_Primer.png"
         }
       ],
       "craftingResultImages": [
         {
-          "name": "Rifle Modification Kit - Durability",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Durability/Result/Rifle Modification Kit - Durability.png",
-          "imageDesc": "Rifle Modification Kit - Durability result image"
+          "name": "7.62x54 FMJ M1",
+          "quantity": "1K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 7.62x54 FMJ M1/Result/T_Inventory_Icon_7_62x54_FMJ_M1.png",
+          "imageDesc": "T_Inventory_Icon_7_62x54_FMJ_M1.png"
         }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Durability/Result/Rifle Modification Kit - Durability.png",
-      "imageDesc": "Rifle Modification Kit - Durability result image"
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/7.62x54 FMJ M1/Result/T_Inventory_Icon_7_62x54_FMJ_M1.png",
+      "imageDesc": "T_Inventory_Icon_7_62x54_FMJ_M1.png"
     },
     {
-      "name": "Rifle Modification Kit - Durability",
+      "name": "9x19 FMJ M1",
       "type": "Recipe",
       "level": 0,
-      "detail": "Rifle Modification Kit - Durability crafting recipe. Crafting station: Inventory. Module: Weapon Modification. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": "9x19 FMJ M1 crafting recipe. Station: Ammo Press. Module: Ammo - Beginner. Required: [3K] 9x19 Case; [3K] Small primer; [3K] 9x19 Bullet; [4] Gun Powder. Result: [3K] 9x19 FMJ M1.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
         "Recipe order: 152",
-        "Crafting station: Inventory",
-        "Crafting module: Weapon Modification",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Durability/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Durability/Result",
-        "Source: Crafting Recipes list"
+        "Crafting station: Ammo Press",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Ammo Press - 9x19 FMJ M1/Required",
+        "Result folder: /db-assets/Crafting Recipes/Ammo Press - 9x19 FMJ M1/Result",
+        "Required: [3K] 9x19 Case; [3K] Small primer; [3K] 9x19 Bullet; [4] Gun Powder",
+        "Result: [3K] 9x19 FMJ M1",
+        "Source: Pasted text(8).txt"
       ],
       "locations": [
         "Minayev's Territory",
@@ -47220,56 +48170,70 @@ const WTLO_DATABASE_DATA = {
         "Testing Ground",
         "Foothills"
       ],
-      "craftingStation": "Inventory",
-      "craftingModule": "Weapon Modification",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Durability/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Durability/Result",
+      "craftingStation": "Ammo Press",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 152,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Ammo Press - 9x19 FMJ M1/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Ammo Press - 9x19 FMJ M1/Result",
       "craftingRequiredImages": [
         {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Durability/Required/required-1.png",
-          "imageDesc": "Rifle Modification Kit - Durability required ingredient 1"
+          "name": "Gun Powder",
+          "quantity": "4",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 9x19 FMJ M1/Required/T_Inventory_Gun_Powder.png",
+          "imageDesc": "T_Inventory_Gun_Powder.png"
         },
         {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Durability/Required/required-2.png",
-          "imageDesc": "Rifle Modification Kit - Durability required ingredient 2"
+          "name": "9x19 Bullet",
+          "quantity": "3K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 9x19 FMJ M1/Required/T_Inventory_Icon_9x19_Bullet.png",
+          "imageDesc": "T_Inventory_Icon_9x19_Bullet.png"
         },
         {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Durability/Required/required-3.png",
-          "imageDesc": "Rifle Modification Kit - Durability required ingredient 3"
+          "name": "9x19 Case",
+          "quantity": "3K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 9x19 FMJ M1/Required/T_Inventory_Icon_9x19_Case.png",
+          "imageDesc": "T_Inventory_Icon_9x19_Case.png"
         },
         {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Durability/Required/required-4.png",
-          "imageDesc": "Rifle Modification Kit - Durability required ingredient 4"
+          "name": "Small primer",
+          "quantity": "3K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 9x19 FMJ M1/Required/T_Inventory_Icon_Small_Primer.png",
+          "imageDesc": "T_Inventory_Icon_Small_Primer.png"
         }
       ],
       "craftingResultImages": [
         {
-          "name": "Rifle Modification Kit - Durability",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Durability/Result/Rifle Modification Kit - Durability.png",
-          "imageDesc": "Rifle Modification Kit - Durability result image"
+          "name": "9x19 FMJ M1",
+          "quantity": "3K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 9x19 FMJ M1/Result/T_Inventory_Icon_9x19_FMJ_M1.png",
+          "imageDesc": "T_Inventory_Icon_9x19_FMJ_M1.png"
         }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Rifle Modification Kit - Durability/Result/Rifle Modification Kit - Durability.png",
-      "imageDesc": "Rifle Modification Kit - Durability result image"
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x19 FMJ M1/Result/T_Inventory_Icon_9x19_FMJ_M1.png",
+      "imageDesc": "T_Inventory_Icon_9x19_FMJ_M1.png"
     },
     {
-      "name": "SMG Modification Kit - Damage",
+      "name": "9x21 FMJ M1",
       "type": "Recipe",
       "level": 0,
-      "detail": "SMG Modification Kit - Damage crafting recipe. Crafting station: Inventory. Module: Weapon Modification. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": "9x21 FMJ M1 crafting recipe. Station: Ammo Press. Module: Ammo - Beginner. Required: [3K] 9x21 Case; [3K] Small primer; [3K] 9x21 Bullet; [5] Gun Powder. Result: [3K] 9x21 FMJ M1.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
         "Recipe order: 153",
-        "Crafting station: Inventory",
-        "Crafting module: Weapon Modification",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/SMG Modification Kit - Damage/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/SMG Modification Kit - Damage/Result",
-        "Source: Crafting Recipes list"
+        "Crafting station: Ammo Press",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Ammo Press - 9x21 FMJ M1/Required",
+        "Result folder: /db-assets/Crafting Recipes/Ammo Press - 9x21 FMJ M1/Result",
+        "Required: [3K] 9x21 Case; [3K] Small primer; [3K] 9x21 Bullet; [5] Gun Powder",
+        "Result: [3K] 9x21 FMJ M1",
+        "Source: Pasted text(8).txt"
       ],
       "locations": [
         "Minayev's Territory",
@@ -47280,56 +48244,70 @@ const WTLO_DATABASE_DATA = {
         "Testing Ground",
         "Foothills"
       ],
-      "craftingStation": "Inventory",
-      "craftingModule": "Weapon Modification",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/SMG Modification Kit - Damage/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/SMG Modification Kit - Damage/Result",
+      "craftingStation": "Ammo Press",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 153,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Ammo Press - 9x21 FMJ M1/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Ammo Press - 9x21 FMJ M1/Result",
       "craftingRequiredImages": [
         {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/SMG Modification Kit - Damage/Required/required-1.png",
-          "imageDesc": "SMG Modification Kit - Damage required ingredient 1"
+          "name": "Gun Powder",
+          "quantity": "5",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 9x21 FMJ M1/Required/T_Inventory_Gun_Powder.png",
+          "imageDesc": "T_Inventory_Gun_Powder.png"
         },
         {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/SMG Modification Kit - Damage/Required/required-2.png",
-          "imageDesc": "SMG Modification Kit - Damage required ingredient 2"
+          "name": "9x21 Bullet",
+          "quantity": "3K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 9x21 FMJ M1/Required/T_Inventory_Icon_9x21_Bullet.png",
+          "imageDesc": "T_Inventory_Icon_9x21_Bullet.png"
         },
         {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/SMG Modification Kit - Damage/Required/required-3.png",
-          "imageDesc": "SMG Modification Kit - Damage required ingredient 3"
+          "name": "9x21 Case",
+          "quantity": "3K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 9x21 FMJ M1/Required/T_Inventory_Icon_9x21_Case.png",
+          "imageDesc": "T_Inventory_Icon_9x21_Case.png"
         },
         {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/SMG Modification Kit - Damage/Required/required-4.png",
-          "imageDesc": "SMG Modification Kit - Damage required ingredient 4"
+          "name": "Small primer",
+          "quantity": "3K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 9x21 FMJ M1/Required/T_Inventory_Icon_Small_Primer.png",
+          "imageDesc": "T_Inventory_Icon_Small_Primer.png"
         }
       ],
       "craftingResultImages": [
         {
-          "name": "SMG Modification Kit - Damage",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/SMG Modification Kit - Damage/Result/SMG Modification Kit - Damage.png",
-          "imageDesc": "SMG Modification Kit - Damage result image"
+          "name": "9x21 FMJ M1",
+          "quantity": "3K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 9x21 FMJ M1/Result/T_InventoryIcon_9x21_FMJ_M1.png",
+          "imageDesc": "T_InventoryIcon_9x21_FMJ_M1.png"
         }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/SMG Modification Kit - Damage/Result/SMG Modification Kit - Damage.png",
-      "imageDesc": "SMG Modification Kit - Damage result image"
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x21 FMJ M1/Result/T_InventoryIcon_9x21_FMJ_M1.png",
+      "imageDesc": "T_InventoryIcon_9x21_FMJ_M1.png"
     },
     {
-      "name": "SMG Modification Kit - Accuracy",
+      "name": "9x39 M1",
       "type": "Recipe",
       "level": 0,
-      "detail": "SMG Modification Kit - Accuracy crafting recipe. Crafting station: Inventory. Module: Weapon Modification. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": "9x39 M1 crafting recipe. Station: Ammo Press. Module: Ammo - Beginner. Required: [1K] 9x39 Case; [1K] Small primer; [1K] 9x19 Bullet; [4] Gun Powder. Result: [1K] 9x39 FMJ M1.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
         "Recipe order: 154",
-        "Crafting station: Inventory",
-        "Crafting module: Weapon Modification",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/SMG Modification Kit - Accuracy/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/SMG Modification Kit - Accuracy/Result",
-        "Source: Crafting Recipes list"
+        "Crafting station: Ammo Press",
+        "Crafting module: Ammo - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Ammo Press - 9x39 M1/Required",
+        "Result folder: /db-assets/Crafting Recipes/Ammo Press - 9x39 M1/Result",
+        "Required: [1K] 9x39 Case; [1K] Small primer; [1K] 9x19 Bullet; [4] Gun Powder",
+        "Result: [1K] 9x39 FMJ M1",
+        "Source: Pasted text(8).txt"
       ],
       "locations": [
         "Minayev's Territory",
@@ -47340,176 +48318,211 @@ const WTLO_DATABASE_DATA = {
         "Testing Ground",
         "Foothills"
       ],
-      "craftingStation": "Inventory",
-      "craftingModule": "Weapon Modification",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/SMG Modification Kit - Accuracy/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/SMG Modification Kit - Accuracy/Result",
+      "craftingStation": "Ammo Press",
+      "craftingModule": "Ammo - Beginner",
+      "craftingRecipeOrder": 154,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Ammo Press - 9x39 M1/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Ammo Press - 9x39 M1/Result",
       "craftingRequiredImages": [
         {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/SMG Modification Kit - Accuracy/Required/required-1.png",
-          "imageDesc": "SMG Modification Kit - Accuracy required ingredient 1"
+          "name": "Gun Powder",
+          "quantity": "4",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 9x39 M1/Required/T_Inventory_Gun_Powder.png",
+          "imageDesc": "T_Inventory_Gun_Powder.png"
         },
         {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/SMG Modification Kit - Accuracy/Required/required-2.png",
-          "imageDesc": "SMG Modification Kit - Accuracy required ingredient 2"
+          "name": "9x19 Bullet",
+          "quantity": "1K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 9x39 M1/Required/T_Inventory_Icon_9x39_Bullet.png",
+          "imageDesc": "T_Inventory_Icon_9x39_Bullet.png"
         },
         {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/SMG Modification Kit - Accuracy/Required/required-3.png",
-          "imageDesc": "SMG Modification Kit - Accuracy required ingredient 3"
+          "name": "9x39 Case",
+          "quantity": "1K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 9x39 M1/Required/T_Inventory_Icon_9x39_Case.png",
+          "imageDesc": "T_Inventory_Icon_9x39_Case.png"
         },
         {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/SMG Modification Kit - Accuracy/Required/required-4.png",
-          "imageDesc": "SMG Modification Kit - Accuracy required ingredient 4"
+          "name": "Small primer",
+          "quantity": "1K",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 9x39 M1/Required/T_Inventory_Icon_Medium_Primer.png",
+          "imageDesc": "T_Inventory_Icon_Medium_Primer.png"
         }
       ],
       "craftingResultImages": [
         {
-          "name": "SMG Modification Kit - Accuracy",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/SMG Modification Kit - Accuracy/Result/SMG Modification Kit - Accuracy.png",
-          "imageDesc": "SMG Modification Kit - Accuracy result image"
+          "name": "9x39 FMJ M1",
+          "quantity": "1K",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Ammo Press - 9x39 M1/Result/T_Inventory_Icon_9x39_M1.png",
+          "imageDesc": "T_Inventory_Icon_9x39_M1.png"
         }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/SMG Modification Kit - Accuracy/Result/SMG Modification Kit - Accuracy.png",
-      "imageDesc": "SMG Modification Kit - Accuracy result image"
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Ammo Press/Ammo - Beginner/9x39 M1/Result/T_Inventory_Icon_9x39_M1.png",
+      "imageDesc": "T_Inventory_Icon_9x39_M1.png"
     },
     {
-      "name": "SMG Modification Kit - Durability",
+      "name": "Drone Recon",
       "type": "Recipe",
       "level": 0,
-      "detail": "SMG Modification Kit - Durability crafting recipe. Crafting station: Inventory. Module: Weapon Modification. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": "Drone Recon crafting recipe. Station: Big CNC Machine. Module: Crafted Weapon - Beginner.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
         "Recipe order: 155",
-        "Crafting station: Inventory",
-        "Crafting module: Weapon Modification",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/SMG Modification Kit - Durability/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/SMG Modification Kit - Durability/Result",
-        "Source: Crafting Recipes list"
+        "Crafting station: Big CNC Machine",
+        "Crafting module: Crafted Weapon - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Big CNC Machine - Drone Recon/Required",
+        "Result folder: /db-assets/Crafting Recipes/Big CNC Machine - Drone Recon/Result"
       ],
       "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
         "Testing Ground",
         "Foothills"
       ],
-      "craftingStation": "Inventory",
-      "craftingModule": "Weapon Modification",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/SMG Modification Kit - Durability/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/SMG Modification Kit - Durability/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/SMG Modification Kit - Durability/Required/required-1.png",
-          "imageDesc": "SMG Modification Kit - Durability required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/SMG Modification Kit - Durability/Required/required-2.png",
-          "imageDesc": "SMG Modification Kit - Durability required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/SMG Modification Kit - Durability/Required/required-3.png",
-          "imageDesc": "SMG Modification Kit - Durability required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/SMG Modification Kit - Durability/Required/required-4.png",
-          "imageDesc": "SMG Modification Kit - Durability required ingredient 4"
-        }
+      "craftingStation": "Big CNC Machine",
+      "craftingModule": "Crafted Weapon - Beginner",
+      "craftingNotes": [
+        "Added from the updated flattened Crafting Recipes asset directory.",
+        "No result PNG was found in the current directory listing."
       ],
-      "craftingResultImages": [
-        {
-          "name": "SMG Modification Kit - Durability",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/SMG Modification Kit - Durability/Result/SMG Modification Kit - Durability.png",
-          "imageDesc": "SMG Modification Kit - Durability result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/SMG Modification Kit - Durability/Result/SMG Modification Kit - Durability.png",
-      "imageDesc": "SMG Modification Kit - Durability result image"
-    },
-    {
-      "name": "Armor Modification Kit",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Armor Modification Kit crafting recipe. Crafting station: Inventory. Module: Weapon Modification. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 156",
-        "Crafting station: Inventory",
-        "Crafting module: Weapon Modification",
-        "Required folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/Armor Modification Kit/Required",
-        "Result folder: /db-assets/Crafting Recipes/Inventory/Weapon Modification/Armor Modification Kit/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Minayev's Territory",
-        "Zapandnaya Mine (Big Village)",
-        "Tunnels",
-        "Canyon",
-        "Coast",
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Inventory",
-      "craftingModule": "Weapon Modification",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Armor Modification Kit/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Armor Modification Kit/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Armor Modification Kit/Required/required-1.png",
-          "imageDesc": "Armor Modification Kit required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Armor Modification Kit/Required/required-2.png",
-          "imageDesc": "Armor Modification Kit required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Armor Modification Kit/Required/required-3.png",
-          "imageDesc": "Armor Modification Kit required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Armor Modification Kit/Required/required-4.png",
-          "imageDesc": "Armor Modification Kit required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Armor Modification Kit",
-          "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Armor Modification Kit/Result/Armor Modification Kit.png",
-          "imageDesc": "Armor Modification Kit result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Inventory/Weapon Modification/Armor Modification Kit/Result/Armor Modification Kit.png",
-      "imageDesc": "Armor Modification Kit result image"
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Big CNC Machine - Drone Recon/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Big CNC Machine - Drone Recon/Result",
+      "craftingRequiredImages": [],
+      "craftingResultImages": [],
+      "craftingRecipeOrder": 155
     },
     {
       "name": "L96A1 - Crafted",
       "type": "Recipe",
       "level": 0,
-      "detail": "L96A1 - Crafted crafting recipe. Crafting station: Big CNC Machine. Module: Crafted Weapon - Beginner. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": "L96A1 - Crafted crafting recipe. Station: Big CNC Machine. Module: Crafted weapon - Beginner. Required: Production Module V1; Production Module V2; Production Module V3; Production Module V4; [8] Gun Steel; [3] Iron; [2] Armor Steel; [30] Hard Plastic; [5] Rubber; [10] Polymer; [311] NDP Polymer. Result: L96A1 - Crafted.",
+      "vendors": [],
+      "weaponClasses": [],
+      "parametersStats": [
+        "Recipe order: 156",
+        "Crafting station: Big CNC Machine",
+        "Crafting module: Crafted Weapon - Beginner",
+        "Required folder: /db-assets/Crafting Recipes/Big CNC Machine - L96A1 - Crafted/Required",
+        "Result folder: /db-assets/Crafting Recipes/Big CNC Machine - L96A1 - Crafted/Result",
+        "Required: Production Module V1; Production Module V2; Production Module V3; Production Module V4; [8] Gun Steel; [3] Iron; [2] Armor Steel; [30] Hard Plastic; [5] Rubber; [10] Polymer; [311] NDP Polymer",
+        "Result: L96A1 - Crafted",
+        "Source: Pasted text(8).txt"
+      ],
+      "locations": [
+        "Testing Ground",
+        "Foothills"
+      ],
+      "craftingStation": "Big CNC Machine",
+      "craftingModule": "Crafted Weapon - Beginner",
+      "craftingRecipeOrder": 156,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Big CNC Machine - L96A1 - Crafted/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Big CNC Machine - L96A1 - Crafted/Result",
+      "craftingRequiredImages": [
+        {
+          "name": "Armor Steel",
+          "quantity": "2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - L96A1 - Crafted/Required/T_Inventory_ArmorSteel.png",
+          "imageDesc": "T_Inventory_ArmorSteel.png"
+        },
+        {
+          "name": "Gun Steel",
+          "quantity": "8",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - L96A1 - Crafted/Required/T_Inventory_GunSteel.png",
+          "imageDesc": "T_Inventory_GunSteel.png"
+        },
+        {
+          "name": "Production Module V1",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - L96A1 - Crafted/Required/T_Inventory_Icon_ProductionModule_M1.png",
+          "imageDesc": "T_Inventory_Icon_ProductionModule_M1.png"
+        },
+        {
+          "name": "Production Module V2",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - L96A1 - Crafted/Required/T_Inventory_Icon_ProductionModule_M2.png",
+          "imageDesc": "T_Inventory_Icon_ProductionModule_M2.png"
+        },
+        {
+          "name": "Production Module V3",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - L96A1 - Crafted/Required/T_Inventory_Icon_ProductionModule_M3.png",
+          "imageDesc": "T_Inventory_Icon_ProductionModule_M3.png"
+        },
+        {
+          "name": "Production Module V4",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - L96A1 - Crafted/Required/T_Inventory_Icon_ProductionModule_M4.png",
+          "imageDesc": "T_Inventory_Icon_ProductionModule_M4.png"
+        },
+        {
+          "name": "Iron",
+          "quantity": "3",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - L96A1 - Crafted/Required/T_Inventory_Iron.png",
+          "imageDesc": "T_Inventory_Iron.png"
+        },
+        {
+          "name": "NDP Polymer",
+          "quantity": "311",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - L96A1 - Crafted/Required/T_Inventory_NDP_Polymer.png",
+          "imageDesc": "T_Inventory_NDP_Polymer.png"
+        },
+        {
+          "name": "Rubber",
+          "quantity": "5",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - L96A1 - Crafted/Required/T_Inventory_Rubber.png",
+          "imageDesc": "T_Inventory_Rubber.png"
+        },
+        {
+          "name": "Hard Plastic",
+          "quantity": "30",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - L96A1 - Crafted/Required/T_Inventory_StrongPlastic.png",
+          "imageDesc": "T_Inventory_StrongPlastic.png"
+        }
+      ],
+      "craftingResultImages": [
+        {
+          "name": "L96A1 - Crafted",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - L96A1 - Crafted/Result/T_L96_A1_Crafted_White.png",
+          "imageDesc": "T_L96_A1_Crafted_White.png"
+        }
+      ],
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/Result/T_L96_A1_Crafted_White.png",
+      "imageDesc": "T_L96_A1_Crafted_White.png"
+    },
+    {
+      "name": "MSR-10 - Crafted",
+      "type": "Recipe",
+      "level": 0,
+      "detail": "MSR-10 - Crafted crafting recipe. Station: Big CNC Machine. Module: Crafted weapon - Beginner. Required: Production Module V1; Production Module V2; Production Module V3; Production Module V4; [7] Gun Steel; [4] Iron; [1] Armor Steel; [25] Hard Plastic; [6] Rubber; [12] Polymer; [269] NDP Polymer. Result: MSR-10 - Crafted.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
         "Recipe order: 157",
         "Crafting station: Big CNC Machine",
         "Crafting module: Crafted Weapon - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/L96A1 - Crafted/Required",
-        "Result folder: /db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/L96A1 - Crafted/Result",
-        "Source: Crafting Recipes list"
+        "Required folder: /db-assets/Crafting Recipes/Big CNC Machine - MSR-10 - Crafted/Required",
+        "Result folder: /db-assets/Crafting Recipes/Big CNC Machine - MSR-10 - Crafted/Result",
+        "Required: Production Module V1; Production Module V2; Production Module V3; Production Module V4; [7] Gun Steel; [4] Iron; [1] Armor Steel; [25] Hard Plastic; [6] Rubber; [12] Polymer; [269] NDP Polymer",
+        "Result: MSR-10 - Crafted",
+        "Source: Pasted text(8).txt"
       ],
       "locations": [
         "Testing Ground",
@@ -47517,54 +48530,110 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Big CNC Machine",
       "craftingModule": "Crafted Weapon - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/L96A1 - Crafted/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/L96A1 - Crafted/Result",
+      "craftingRecipeOrder": 157,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Big CNC Machine - MSR-10 - Crafted/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Big CNC Machine - MSR-10 - Crafted/Result",
       "craftingRequiredImages": [
         {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/L96A1 - Crafted/Required/required-1.png",
-          "imageDesc": "L96A1 - Crafted required ingredient 1"
+          "name": "Armor Steel",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - MSR-10 - Crafted/Required/T_Inventory_ArmorSteel.png",
+          "imageDesc": "T_Inventory_ArmorSteel.png"
         },
         {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/L96A1 - Crafted/Required/required-2.png",
-          "imageDesc": "L96A1 - Crafted required ingredient 2"
+          "name": "Gun Steel",
+          "quantity": "7",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - MSR-10 - Crafted/Required/T_Inventory_GunSteel.png",
+          "imageDesc": "T_Inventory_GunSteel.png"
         },
         {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/L96A1 - Crafted/Required/required-3.png",
-          "imageDesc": "L96A1 - Crafted required ingredient 3"
+          "name": "Production Module V1",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - MSR-10 - Crafted/Required/T_Inventory_Icon_ProductionModule_M1.png",
+          "imageDesc": "T_Inventory_Icon_ProductionModule_M1.png"
         },
         {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/L96A1 - Crafted/Required/required-4.png",
-          "imageDesc": "L96A1 - Crafted required ingredient 4"
+          "name": "Production Module V2",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - MSR-10 - Crafted/Required/T_Inventory_Icon_ProductionModule_M2.png",
+          "imageDesc": "T_Inventory_Icon_ProductionModule_M2.png"
+        },
+        {
+          "name": "Production Module V3",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - MSR-10 - Crafted/Required/T_Inventory_Icon_ProductionModule_M3.png",
+          "imageDesc": "T_Inventory_Icon_ProductionModule_M3.png"
+        },
+        {
+          "name": "Production Module V4",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - MSR-10 - Crafted/Required/T_Inventory_Icon_ProductionModule_M4.png",
+          "imageDesc": "T_Inventory_Icon_ProductionModule_M4.png"
+        },
+        {
+          "name": "Iron",
+          "quantity": "4",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - MSR-10 - Crafted/Required/T_Inventory_Iron.png",
+          "imageDesc": "T_Inventory_Iron.png"
+        },
+        {
+          "name": "NDP Polymer",
+          "quantity": "269",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - MSR-10 - Crafted/Required/T_Inventory_NDP_Polymer.png",
+          "imageDesc": "T_Inventory_NDP_Polymer.png"
+        },
+        {
+          "name": "Rubber",
+          "quantity": "6",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - MSR-10 - Crafted/Required/T_Inventory_Rubber.png",
+          "imageDesc": "T_Inventory_Rubber.png"
+        },
+        {
+          "name": "Hard Plastic",
+          "quantity": "25",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - MSR-10 - Crafted/Required/T_Inventory_StrongPlastic.png",
+          "imageDesc": "T_Inventory_StrongPlastic.png"
         }
       ],
       "craftingResultImages": [
         {
-          "name": "L96A1 - Crafted",
-          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/L96A1 - Crafted/Result/L96A1 - Crafted.png",
-          "imageDesc": "L96A1 - Crafted result image"
+          "name": "MSR-10 - Crafted",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - MSR-10 - Crafted/Result/T_MSR-10_Crafted_White.png",
+          "imageDesc": "T_MSR-10_Crafted_White.png"
         }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/L96A1 - Crafted/Result/L96A1 - Crafted.png",
-      "imageDesc": "L96A1 - Crafted result image"
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/Result/T_MSR-10_Crafted_White.png",
+      "imageDesc": "T_MSR-10_Crafted_White.png"
     },
     {
-      "name": "MSR-10 - Crafted",
+      "name": "MSR-12 - Crafted",
       "type": "Recipe",
       "level": 0,
-      "detail": "MSR-10 - Crafted crafting recipe. Crafting station: Big CNC Machine. Module: Crafted Weapon - Beginner. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": "MSR-12 - Crafted crafting recipe. Station: Big CNC Machine. Module: Crafted weapon - Beginner. Required: Production Module V1; Production Module V2; Production Module V3; Production Module V4; [7] Gun Steel; [4] Iron; [1] Armor Steel; [25] Hard Plastic; [6] Rubber; [12] Polymer; [269] NDP Polymer. Result: MSR-12 - Crafted.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
         "Recipe order: 158",
         "Crafting station: Big CNC Machine",
         "Crafting module: Crafted Weapon - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/MSR-10 - Crafted/Required",
-        "Result folder: /db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/MSR-10 - Crafted/Result",
-        "Source: Crafting Recipes list"
+        "Required folder: /db-assets/Crafting Recipes/Big CNC Machine - MSR-12 - Crafted/Required",
+        "Result folder: /db-assets/Crafting Recipes/Big CNC Machine - MSR-12 - Crafted/Result",
+        "Required: Production Module V1; Production Module V2; Production Module V3; Production Module V4; [7] Gun Steel; [4] Iron; [1] Armor Steel; [25] Hard Plastic; [6] Rubber; [12] Polymer; [269] NDP Polymer",
+        "Result: MSR-12 - Crafted",
+        "Source: Pasted text(8).txt"
       ],
       "locations": [
         "Testing Ground",
@@ -47572,54 +48641,110 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Big CNC Machine",
       "craftingModule": "Crafted Weapon - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/MSR-10 - Crafted/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/MSR-10 - Crafted/Result",
+      "craftingRecipeOrder": 158,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Big CNC Machine - MSR-12 - Crafted/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Big CNC Machine - MSR-12 - Crafted/Result",
       "craftingRequiredImages": [
         {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/MSR-10 - Crafted/Required/required-1.png",
-          "imageDesc": "MSR-10 - Crafted required ingredient 1"
+          "name": "Armor Steel",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - MSR-12 - Crafted/Required/T_Inventory_ArmorSteel.png",
+          "imageDesc": "T_Inventory_ArmorSteel.png"
         },
         {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/MSR-10 - Crafted/Required/required-2.png",
-          "imageDesc": "MSR-10 - Crafted required ingredient 2"
+          "name": "Gun Steel",
+          "quantity": "7",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - MSR-12 - Crafted/Required/T_Inventory_GunSteel.png",
+          "imageDesc": "T_Inventory_GunSteel.png"
         },
         {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/MSR-10 - Crafted/Required/required-3.png",
-          "imageDesc": "MSR-10 - Crafted required ingredient 3"
+          "name": "Production Module V1",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - MSR-12 - Crafted/Required/T_Inventory_Icon_ProductionModule_M1.png",
+          "imageDesc": "T_Inventory_Icon_ProductionModule_M1.png"
         },
         {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/MSR-10 - Crafted/Required/required-4.png",
-          "imageDesc": "MSR-10 - Crafted required ingredient 4"
+          "name": "Production Module V2",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - MSR-12 - Crafted/Required/T_Inventory_Icon_ProductionModule_M2.png",
+          "imageDesc": "T_Inventory_Icon_ProductionModule_M2.png"
+        },
+        {
+          "name": "Production Module V3",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - MSR-12 - Crafted/Required/T_Inventory_Icon_ProductionModule_M3.png",
+          "imageDesc": "T_Inventory_Icon_ProductionModule_M3.png"
+        },
+        {
+          "name": "Production Module V4",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - MSR-12 - Crafted/Required/T_Inventory_Icon_ProductionModule_M4.png",
+          "imageDesc": "T_Inventory_Icon_ProductionModule_M4.png"
+        },
+        {
+          "name": "Iron",
+          "quantity": "4",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - MSR-12 - Crafted/Required/T_Inventory_Iron.png",
+          "imageDesc": "T_Inventory_Iron.png"
+        },
+        {
+          "name": "NDP Polymer",
+          "quantity": "269",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - MSR-12 - Crafted/Required/T_Inventory_NDP_Polymer.png",
+          "imageDesc": "T_Inventory_NDP_Polymer.png"
+        },
+        {
+          "name": "Rubber",
+          "quantity": "6",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - MSR-12 - Crafted/Required/T_Inventory_Rubber.png",
+          "imageDesc": "T_Inventory_Rubber.png"
+        },
+        {
+          "name": "Hard Plastic",
+          "quantity": "25",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - MSR-12 - Crafted/Required/T_Inventory_StrongPlastic.png",
+          "imageDesc": "T_Inventory_StrongPlastic.png"
         }
       ],
       "craftingResultImages": [
         {
-          "name": "MSR-10 - Crafted",
-          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/MSR-10 - Crafted/Result/MSR-10 - Crafted.png",
-          "imageDesc": "MSR-10 - Crafted result image"
+          "name": "MSR-12 - Crafted",
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - MSR-12 - Crafted/Result/T_MSR-12_Crafted_White.png",
+          "imageDesc": "T_MSR-12_Crafted_White.png"
         }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/MSR-10 - Crafted/Result/MSR-10 - Crafted.png",
-      "imageDesc": "MSR-10 - Crafted result image"
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/Result/T_MSR-12_Crafted_White.png",
+      "imageDesc": "T_MSR-12_Crafted_White.png"
     },
     {
       "name": "Vepr-12 - Crafted",
       "type": "Recipe",
       "level": 0,
-      "detail": "Vepr-12 - Crafted crafting recipe. Crafting station: Big CNC Machine. Module: Crafted Weapon - Beginner. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": "Vepr-12 - Crafted crafting recipe. Station: Big CNC Machine. Module: Crafted weapon - Beginner. Required: Production Module V1; Production Module V2; Production Module V3; Production Module V4; [5] Gun Steel; [5] Iron; [1] Armor Steel; [35] Hard Plastic; [7] Rubber; [14] Polymer; [242] NDP Polymer. Result: Vepr-12 - Crafted.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
         "Recipe order: 159",
         "Crafting station: Big CNC Machine",
         "Crafting module: Crafted Weapon - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/Vepr-12 - Crafted/Required",
-        "Result folder: /db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/Vepr-12 - Crafted/Result",
-        "Source: Crafting Recipes list"
+        "Required folder: /db-assets/Crafting Recipes/Big CNC Machine - Vepr-12 - Crafted/Required",
+        "Result folder: /db-assets/Crafting Recipes/Big CNC Machine - Vepr-12 - Crafted/Result",
+        "Required: Production Module V1; Production Module V2; Production Module V3; Production Module V4; [5] Gun Steel; [5] Iron; [1] Armor Steel; [35] Hard Plastic; [7] Rubber; [14] Polymer; [242] NDP Polymer",
+        "Result: Vepr-12 - Crafted",
+        "Source: Pasted text(8).txt"
       ],
       "locations": [
         "Testing Ground",
@@ -47627,54 +48752,110 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Big CNC Machine",
       "craftingModule": "Crafted Weapon - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/Vepr-12 - Crafted/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/Vepr-12 - Crafted/Result",
+      "craftingRecipeOrder": 159,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Big CNC Machine - Vepr-12 - Crafted/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Big CNC Machine - Vepr-12 - Crafted/Result",
       "craftingRequiredImages": [
         {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/Vepr-12 - Crafted/Required/required-1.png",
-          "imageDesc": "Vepr-12 - Crafted required ingredient 1"
+          "name": "Armor Steel",
+          "quantity": "1",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - Vepr-12 - Crafted/Required/T_Inventory_ArmorSteel.png",
+          "imageDesc": "T_Inventory_ArmorSteel.png"
         },
         {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/Vepr-12 - Crafted/Required/required-2.png",
-          "imageDesc": "Vepr-12 - Crafted required ingredient 2"
+          "name": "Gun Steel",
+          "quantity": "5",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - Vepr-12 - Crafted/Required/T_Inventory_GunSteel.png",
+          "imageDesc": "T_Inventory_GunSteel.png"
         },
         {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/Vepr-12 - Crafted/Required/required-3.png",
-          "imageDesc": "Vepr-12 - Crafted required ingredient 3"
+          "name": "Production Module V1",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - Vepr-12 - Crafted/Required/T_Inventory_Icon_ProductionModule_M1.png",
+          "imageDesc": "T_Inventory_Icon_ProductionModule_M1.png"
         },
         {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/Vepr-12 - Crafted/Required/required-4.png",
-          "imageDesc": "Vepr-12 - Crafted required ingredient 4"
+          "name": "Production Module V2",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - Vepr-12 - Crafted/Required/T_Inventory_Icon_ProductionModule_M2.png",
+          "imageDesc": "T_Inventory_Icon_ProductionModule_M2.png"
+        },
+        {
+          "name": "Production Module V3",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - Vepr-12 - Crafted/Required/T_Inventory_Icon_ProductionModule_M3.png",
+          "imageDesc": "T_Inventory_Icon_ProductionModule_M3.png"
+        },
+        {
+          "name": "Production Module V4",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - Vepr-12 - Crafted/Required/T_Inventory_Icon_ProductionModule_M4.png",
+          "imageDesc": "T_Inventory_Icon_ProductionModule_M4.png"
+        },
+        {
+          "name": "Iron",
+          "quantity": "5",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - Vepr-12 - Crafted/Required/T_Inventory_Iron.png",
+          "imageDesc": "T_Inventory_Iron.png"
+        },
+        {
+          "name": "NDP Polymer",
+          "quantity": "242",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - Vepr-12 - Crafted/Required/T_Inventory_NDP_Polymer.png",
+          "imageDesc": "T_Inventory_NDP_Polymer.png"
+        },
+        {
+          "name": "Rubber",
+          "quantity": "7",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - Vepr-12 - Crafted/Required/T_Inventory_Rubber.png",
+          "imageDesc": "T_Inventory_Rubber.png"
+        },
+        {
+          "name": "Hard Plastic",
+          "quantity": "35",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - Vepr-12 - Crafted/Required/T_Inventory_StrongPlastic.png",
+          "imageDesc": "T_Inventory_StrongPlastic.png"
         }
       ],
       "craftingResultImages": [
         {
           "name": "Vepr-12 - Crafted",
-          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/Vepr-12 - Crafted/Result/Vepr-12 - Crafted.png",
-          "imageDesc": "Vepr-12 - Crafted result image"
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - Vepr-12 - Crafted/Result/T_Vepr-12_Crafted_White.png",
+          "imageDesc": "T_Vepr-12_Crafted_White.png"
         }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/Vepr-12 - Crafted/Result/Vepr-12 - Crafted.png",
-      "imageDesc": "Vepr-12 - Crafted result image"
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/Result/T_Vepr-12_Crafted_White.png",
+      "imageDesc": "T_Vepr-12_Crafted_White.png"
     },
     {
       "name": "WSC PDW - Crafted",
       "type": "Recipe",
       "level": 0,
-      "detail": "WSC PDW - Crafted crafting recipe. Crafting station: Big CNC Machine. Module: Crafted Weapon - Beginner. Required images are loaded from Required folder and output image from Result folder.",
+      "detail": "WSC PDW - Crafted crafting recipe. Station: Big CNC Machine. Module: Crafted weapon - Beginner. Required: Production Module V1; Production Module V2; Production Module V3; Production Module V4; [4] Gun Steel; [4] Iron; [2] Armor Steel; [30] Hard Plastic; [7] Rubber; [20] Polymer; [216] NDP Polymer. Result: WSC PDW - Crafted.",
       "vendors": [],
       "weaponClasses": [],
       "parametersStats": [
         "Recipe order: 160",
         "Crafting station: Big CNC Machine",
         "Crafting module: Crafted Weapon - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/WSC PDW - Crafted/Required",
-        "Result folder: /db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/WSC PDW - Crafted/Result",
-        "Source: Crafting Recipes list"
+        "Required folder: /db-assets/Crafting Recipes/Big CNC Machine - WSC PDW - Crafted/Required",
+        "Result folder: /db-assets/Crafting Recipes/Big CNC Machine - WSC PDW - Crafted/Result",
+        "Required: Production Module V1; Production Module V2; Production Module V3; Production Module V4; [4] Gun Steel; [4] Iron; [2] Armor Steel; [30] Hard Plastic; [7] Rubber; [20] Polymer; [216] NDP Polymer",
+        "Result: WSC PDW - Crafted",
+        "Source: Pasted text(8).txt"
       ],
       "locations": [
         "Testing Ground",
@@ -47682,149 +48863,93 @@ const WTLO_DATABASE_DATA = {
       ],
       "craftingStation": "Big CNC Machine",
       "craftingModule": "Crafted Weapon - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/WSC PDW - Crafted/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/WSC PDW - Crafted/Result",
+      "craftingRecipeOrder": 160,
+      "requiredImageFolder": "/db-assets/Crafting Recipes/Big CNC Machine - WSC PDW - Crafted/Required",
+      "resultImageFolder": "/db-assets/Crafting Recipes/Big CNC Machine - WSC PDW - Crafted/Result",
       "craftingRequiredImages": [
         {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/WSC PDW - Crafted/Required/required-1.png",
-          "imageDesc": "WSC PDW - Crafted required ingredient 1"
+          "name": "Armor Steel",
+          "quantity": "2",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - WSC PDW - Crafted/Required/T_Inventory_ArmorSteel.png",
+          "imageDesc": "T_Inventory_ArmorSteel.png"
         },
         {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/WSC PDW - Crafted/Required/required-2.png",
-          "imageDesc": "WSC PDW - Crafted required ingredient 2"
+          "name": "Gun Steel",
+          "quantity": "4",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - WSC PDW - Crafted/Required/T_Inventory_GunSteel.png",
+          "imageDesc": "T_Inventory_GunSteel.png"
         },
         {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/WSC PDW - Crafted/Required/required-3.png",
-          "imageDesc": "WSC PDW - Crafted required ingredient 3"
+          "name": "Production Module V1",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - WSC PDW - Crafted/Required/T_Inventory_Icon_ProductionModule_M1.png",
+          "imageDesc": "T_Inventory_Icon_ProductionModule_M1.png"
         },
         {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/WSC PDW - Crafted/Required/required-4.png",
-          "imageDesc": "WSC PDW - Crafted required ingredient 4"
+          "name": "Production Module V2",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - WSC PDW - Crafted/Required/T_Inventory_Icon_ProductionModule_M2.png",
+          "imageDesc": "T_Inventory_Icon_ProductionModule_M2.png"
+        },
+        {
+          "name": "Production Module V3",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - WSC PDW - Crafted/Required/T_Inventory_Icon_ProductionModule_M3.png",
+          "imageDesc": "T_Inventory_Icon_ProductionModule_M3.png"
+        },
+        {
+          "name": "Production Module V4",
+          "quantity": "",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - WSC PDW - Crafted/Required/T_Inventory_Icon_ProductionModule_M4.png",
+          "imageDesc": "T_Inventory_Icon_ProductionModule_M4.png"
+        },
+        {
+          "name": "Iron",
+          "quantity": "4",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - WSC PDW - Crafted/Required/T_Inventory_Iron.png",
+          "imageDesc": "T_Inventory_Iron.png"
+        },
+        {
+          "name": "NDP Polymer",
+          "quantity": "216",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - WSC PDW - Crafted/Required/T_Inventory_NDP_Polymer.png",
+          "imageDesc": "T_Inventory_NDP_Polymer.png"
+        },
+        {
+          "name": "Rubber",
+          "quantity": "7",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - WSC PDW - Crafted/Required/T_Inventory_Rubber.png",
+          "imageDesc": "T_Inventory_Rubber.png"
+        },
+        {
+          "name": "Hard Plastic",
+          "quantity": "30",
+          "type": "Required",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - WSC PDW - Crafted/Required/T_Inventory_StrongPlastic.png",
+          "imageDesc": "T_Inventory_StrongPlastic.png"
         }
       ],
       "craftingResultImages": [
         {
           "name": "WSC PDW - Crafted",
-          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/WSC PDW - Crafted/Result/WSC PDW - Crafted.png",
-          "imageDesc": "WSC PDW - Crafted result image"
+          "quantity": "",
+          "type": "Result",
+          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine - WSC PDW - Crafted/Result/T_WSC_PDW_Crafted_White.png",
+          "imageDesc": "T_WSC_PDW_Crafted_White.png"
         }
       ],
-      "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/WSC PDW - Crafted/Result/WSC PDW - Crafted.png",
-      "imageDesc": "WSC PDW - Crafted result image"
-    },
-    {
-      "name": "MSR-12 - Crafted",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "MSR-12 - Crafted crafting recipe. Crafting station: Big CNC Machine. Module: Crafted Weapon - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 161",
-        "Crafting station: Big CNC Machine",
-        "Crafting module: Crafted Weapon - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/MSR-12 - Crafted/Required",
-        "Result folder: /db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/MSR-12 - Crafted/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Big CNC Machine",
-      "craftingModule": "Crafted Weapon - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/MSR-12 - Crafted/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/MSR-12 - Crafted/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/MSR-12 - Crafted/Required/required-1.png",
-          "imageDesc": "MSR-12 - Crafted required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/MSR-12 - Crafted/Required/required-2.png",
-          "imageDesc": "MSR-12 - Crafted required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/MSR-12 - Crafted/Required/required-3.png",
-          "imageDesc": "MSR-12 - Crafted required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/MSR-12 - Crafted/Required/required-4.png",
-          "imageDesc": "MSR-12 - Crafted required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "MSR-12 - Crafted",
-          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/MSR-12 - Crafted/Result/MSR-12 - Crafted.png",
-          "imageDesc": "MSR-12 - Crafted result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/MSR-12 - Crafted/Result/MSR-12 - Crafted.png",
-      "imageDesc": "MSR-12 - Crafted result image"
-    },
-    {
-      "name": "Drone Recon",
-      "type": "Recipe",
-      "level": 0,
-      "detail": "Drone Recon crafting recipe. Crafting station: Big CNC Machine. Module: Crafted Weapon - Beginner. Required images are loaded from Required folder and output image from Result folder.",
-      "vendors": [],
-      "weaponClasses": [],
-      "parametersStats": [
-        "Recipe order: 162",
-        "Crafting station: Big CNC Machine",
-        "Crafting module: Crafted Weapon - Beginner",
-        "Required folder: /db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/Drone Recon/Required",
-        "Result folder: /db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/Drone Recon/Result",
-        "Source: Crafting Recipes list"
-      ],
-      "locations": [
-        "Testing Ground",
-        "Foothills"
-      ],
-      "craftingStation": "Big CNC Machine",
-      "craftingModule": "Crafted Weapon - Beginner",
-      "requiredImageFolder": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/Drone Recon/Required",
-      "resultImageFolder": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/Drone Recon/Result",
-      "craftingRequiredImages": [
-        {
-          "name": "Required 1",
-          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/Drone Recon/Required/required-1.png",
-          "imageDesc": "Drone Recon required ingredient 1"
-        },
-        {
-          "name": "Required 2",
-          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/Drone Recon/Required/required-2.png",
-          "imageDesc": "Drone Recon required ingredient 2"
-        },
-        {
-          "name": "Required 3",
-          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/Drone Recon/Required/required-3.png",
-          "imageDesc": "Drone Recon required ingredient 3"
-        },
-        {
-          "name": "Required 4",
-          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/Drone Recon/Required/required-4.png",
-          "imageDesc": "Drone Recon required ingredient 4"
-        }
-      ],
-      "craftingResultImages": [
-        {
-          "name": "Drone Recon",
-          "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/Drone Recon/Result/Drone Recon.png",
-          "imageDesc": "Drone Recon result image"
-        }
-      ],
-      "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/Drone Recon/Result/Drone Recon.png",
-      "imageDesc": "Drone Recon result image"
+      "craftingNotes": [],
+      "imageUrl": "/db-assets/Crafting Recipes/Big CNC Machine/Crafted Weapon - Beginner/Result/T_WSC_PDW_Crafted_White.png",
+      "imageDesc": "T_WSC_PDW_Crafted_White.png"
     }
   ],
   "achievements": [

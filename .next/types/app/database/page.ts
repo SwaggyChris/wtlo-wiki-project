@@ -1,4 +1,4 @@
-// File: C:\Users\lianc\Desktop\WTLO Directory\wtlo-wiki-project\app\database\page.tsx
+// File: G:\Backup\WTLO Directory 2026\WTLO Directory\wtlo-wiki-project\app\database\page.tsx
 import * as entry from '../../../../app/database/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
