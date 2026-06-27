@@ -142,28 +142,7 @@ export function Navbar() {
             })}
           </div>
 
-          <div className="hidden items-center gap-2 lg:flex">
-            <Link
-              href="/login"
-              className="rounded-full px-4 py-2 text-sm font-medium text-zinc-700"
-            >
-              Login
-            </Link>
-
-            <motion.div whileTap={{ scale: 0.98 }}>
-              <Link
-                href="/signup"
-                className={`inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-medium transition-colors ${
-                  isScrolled || !isHome
-                    ? "bg-zinc-950 text-white shadow-md shadow-black/10"
-                    : "bg-transparent text-zinc-950 shadow-none"
-                }`}
-              >
-                Sign Up
-                <ArrowRight className="h-4 w-4" />
-              </Link>
-            </motion.div>
-          </div>
+          <div className="hidden lg:flex lg:min-w-[172px] lg:justify-end" aria-hidden="true" />
 
           <div className="flex items-center gap-2 lg:hidden">
             <button
@@ -199,8 +178,7 @@ export function Navbar() {
                     Navigation
                   </p>
                   <p className="mt-2 text-sm leading-6 text-zinc-600">
-                    Explore WTLO Wiki pages and account access in one mobile
-                    menu.
+                    Explore WTLO Wiki pages and resources in one mobile menu.
                   </p>
                 </div>
 
@@ -229,22 +207,7 @@ export function Navbar() {
                   })}
                 </div>
 
-                <div className="border-t border-zinc-200 p-3 sm:p-4">
-                  <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
-                    <Link
-                      href="/login"
-                      className="rounded-2xl border border-zinc-200 bg-white px-4 py-3 text-center text-sm font-medium text-zinc-800"
-                    >
-                      Login
-                    </Link>
-                    <Link
-                      href="/signup"
-                      className="rounded-2xl bg-zinc-950 px-4 py-3 text-center text-sm font-medium text-white"
-                    >
-                      Sign Up
-                    </Link>
-                  </div>
-                </div>
+
               </div>
             </motion.div>
           )}

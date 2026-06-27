@@ -1007,28 +1007,6 @@
   text-transform: uppercase;
 }
 
-.marker-chip__anchor-dot {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  z-index: 1;
-  border-radius: 9999px;
-  transform: translate(-50%, -50%);
-  box-shadow:
-    0 0 0 2px rgba(0, 0, 0, 0.34),
-    0 0 10px rgba(0, 170, 204, 0.55),
-    0 0 18px rgba(0, 170, 204, 0.38);
-  pointer-events: none;
-}
-
-.marker-chip__anchor-dot--standalone {
-  z-index: 3;
-}
-
-.marker-chip__image--with-anchor-dot {
-  transform-origin: center center;
-}
-
 .marker-chip.active .marker-chip__image,
 .marker-chip.active .marker-chip__tag {
   box-shadow:
@@ -2866,14 +2844,6 @@
 .marker-list-row__thumb--main {
   object-fit: contain;
   padding: 4px;
-}
-
-.marker-list-row__anchor-dot {
-  display: inline-block;
-  border-radius: 9999px;
-  box-shadow:
-    0 0 0 2px rgba(0, 0, 0, 0.34),
-    0 0 8px rgba(0, 170, 204, 0.44);
 }
 
 .marker-list-row__fixed-badge {

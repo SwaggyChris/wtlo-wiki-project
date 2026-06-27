@@ -15,9 +15,8 @@ export default function HomePage() {
             <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-zinc-500 sm:text-xs">Welcome</p>
             <h1 className="mt-3 max-w-5xl text-3xl font-semibold tracking-tight text-zinc-950 sm:mt-4 sm:text-5xl lg:text-6xl xl:text-7xl 2xl:text-[5rem]">Welcome to WTLO Wiki.</h1>
             <p className="mt-5 max-w-3xl text-sm leading-7 text-zinc-600 sm:mt-8 sm:text-base sm:leading-8 xl:text-lg xl:leading-9">A dedicated platform for Will To Live Online players built to organize game knowledge, explain systems clearly, and make it easier to explore items, maps, guides, and community resources in one place.</p>
-            <div className="mt-8 flex flex-col items-start gap-4 sm:mt-10 sm:flex-row sm:flex-wrap sm:items-center sm:gap-6">
+            <div className="mt-8 sm:mt-10">
               <Link href="/database" className="inline-flex items-center gap-2 border-b border-zinc-950 pb-1 text-sm font-semibold text-zinc-950">Browse WTLO Database<ArrowRight className="h-4 w-4" /></Link>
-              <Link href="/signup" className="inline-flex items-center gap-2 border-b border-transparent pb-1 text-sm font-medium text-zinc-600 transition hover:border-zinc-400 hover:text-zinc-950">Create Account</Link>
             </div>
           </div>
         </section>

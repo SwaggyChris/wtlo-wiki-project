@@ -98,10 +98,6 @@ type MarkerRecord = {
   createdAt: number;
   updatedAt: number;
   isDefault?: boolean;
-  anchorDotColor?: string;
-  anchorDotSize?: number;
-  iconOffsetY?: number;
-  dotOnly?: boolean;
 };
 
 type MarkerDraft = {
@@ -143,7 +139,6 @@ const ANIMATION_FACTOR = 0.2;
 
 const SOLAR_CITY_MAP_ID = "solar-city";
 const MAIN_MARKERS_CATEGORY = "Main Markers";
-const BLUE_MARKERS_CATEGORY = "Blue Markers";
 const MAIN_MARKER_SUBCATEGORIES = [
   "NPC Doctor",
   "NPC Gunsmith",
@@ -152,16 +147,9 @@ const MAIN_MARKER_SUBCATEGORIES = [
   "Portal",
   "Barrel",
 ];
-const BLUE_MARKER_SUBCATEGORIES = [
-  "NPC Doctor",
-  "NPC Gunsmith",
-  "NPC Stockman",
-  "NPC Trader",
-];
 
 const CATEGORY_TREE: MarkerCategory[] = [
   { name: MAIN_MARKERS_CATEGORY, subcategories: MAIN_MARKER_SUBCATEGORIES },
-  { name: BLUE_MARKERS_CATEGORY, subcategories: BLUE_MARKER_SUBCATEGORIES },
   {
     name: "Regular Bosses",
     subcategories: [
@@ -462,10 +450,6 @@ function createDefaultVisibilityState(mapId?: string): MarkerVisibilityMap[strin
     state.subcategories[MAIN_MARKERS_CATEGORY] = Object.fromEntries(
       MAIN_MARKER_SUBCATEGORIES.map((subcategory) => [subcategory, true]),
     );
-    state.categories[BLUE_MARKERS_CATEGORY] = true;
-    state.subcategories[BLUE_MARKERS_CATEGORY] = Object.fromEntries(
-      BLUE_MARKER_SUBCATEGORIES.map((subcategory) => [subcategory, true]),
-    );
   }
 
   return state;
@@ -481,7 +465,6 @@ function forceSolarCityMainMarkersVisible(
     categories: {
       ...visibility.categories,
       [MAIN_MARKERS_CATEGORY]: true,
-      [BLUE_MARKERS_CATEGORY]: true,
     },
     subcategories: {
       ...visibility.subcategories,
@@ -489,12 +472,6 @@ function forceSolarCityMainMarkersVisible(
         ...(visibility.subcategories[MAIN_MARKERS_CATEGORY] ?? {}),
         ...Object.fromEntries(
           MAIN_MARKER_SUBCATEGORIES.map((subcategory) => [subcategory, true]),
-        ),
-      },
-      [BLUE_MARKERS_CATEGORY]: {
-        ...(visibility.subcategories[BLUE_MARKERS_CATEGORY] ?? {}),
-        ...Object.fromEntries(
-          BLUE_MARKER_SUBCATEGORIES.map((subcategory) => [subcategory, true]),
         ),
       },
     },
@@ -780,141 +757,65 @@ const DEFAULT_MAP_MARKERS: MarkerStore = {
       id: "solar-city-npc-doctor",
       mapId: SOLAR_CITY_MAP_ID,
       name: "NPC Doctor",
-      grid: "C3 / D4 east route",
-      description: "Doctor NPC exact point from the blue-dot reference screenshot.",
+      grid: "C3 central courtyard",
+      description: "Doctor NPC marker inside Solar City, positioned from the marked reference screenshot.",
       icon: `${MAP_MARKERS_DIR}/NPCDoctor.png`,
       tag: "DOCTOR",
       category: MAIN_MARKERS_CATEGORY,
       subcategory: "NPC Doctor",
-      x: 0.5441,
-      y: 0.5929,
+      x: 0.537,
+      y: 0.438,
       createdAt: 0,
       updatedAt: 0,
       isDefault: true,
-      iconOffsetY: -10,
     },
     {
       id: "solar-city-npc-stockman",
       mapId: SOLAR_CITY_MAP_ID,
       name: "NPC Stockman",
-      grid: "C3 upper road",
-      description: "Stockman NPC exact point from the blue-dot reference screenshot.",
+      grid: "C3 north plaza",
+      description: "Stockman NPC marker inside Solar City, positioned from the marked reference screenshot.",
       icon: `${MAP_MARKERS_DIR}/NPCStockman.png`,
       tag: "STOCK",
       category: MAIN_MARKERS_CATEGORY,
       subcategory: "NPC Stockman",
-      x: 0.4489,
-      y: 0.4120,
+      x: 0.544,
+      y: 0.405,
       createdAt: 0,
       updatedAt: 0,
       isDefault: true,
-      iconOffsetY: -10,
     },
     {
       id: "solar-city-npc-gunsmith",
       mapId: SOLAR_CITY_MAP_ID,
       name: "NPC Gunsmith",
-      grid: "C3 upper road",
-      description: "Gunsmith NPC exact point from the blue-dot reference screenshot.",
+      grid: "C3 north plaza",
+      description: "Gunsmith NPC marker inside Solar City, positioned from the marked reference screenshot.",
       icon: `${MAP_MARKERS_DIR}/NPCGunsmith.png`,
       tag: "GUNSMITH",
       category: MAIN_MARKERS_CATEGORY,
       subcategory: "NPC Gunsmith",
-      x: 0.4628,
-      y: 0.4114,
+      x: 0.558,
+      y: 0.407,
       createdAt: 0,
       updatedAt: 0,
       isDefault: true,
-      iconOffsetY: -10,
     },
     {
       id: "solar-city-npc-trader",
       mapId: SOLAR_CITY_MAP_ID,
       name: "NPC Trader",
-      grid: "C3 upper road",
-      description: "Trader NPC exact point from the blue-dot reference screenshot.",
+      grid: "C3 north plaza",
+      description: "Trader NPC marker inside Solar City, positioned from the marked reference screenshot.",
       icon: `${MAP_MARKERS_DIR}/NPCTrader.png`,
       tag: "TRADER",
       category: MAIN_MARKERS_CATEGORY,
       subcategory: "NPC Trader",
-      x: 0.4691,
-      y: 0.4113,
+      x: 0.560,
+      y: 0.409,
       createdAt: 0,
       updatedAt: 0,
       isDefault: true,
-      iconOffsetY: -10,
-    },
-    {
-      id: "solar-city-blue-stockman",
-      mapId: SOLAR_CITY_MAP_ID,
-      name: "Blue Marker - NPC Stockman",
-      grid: "C3 upper road",
-      description: "Separate blue point marker for NPC Stockman.",
-      tag: "BLUE",
-      category: BLUE_MARKERS_CATEGORY,
-      subcategory: "NPC Stockman",
-      x: 0.4489,
-      y: 0.4120,
-      createdAt: 0,
-      updatedAt: 0,
-      isDefault: true,
-      dotOnly: true,
-      anchorDotColor: "#00aacc",
-      anchorDotSize: 8,
-    },
-    {
-      id: "solar-city-blue-gunsmith",
-      mapId: SOLAR_CITY_MAP_ID,
-      name: "Blue Marker - NPC Gunsmith",
-      grid: "C3 upper road",
-      description: "Separate blue point marker for NPC Gunsmith.",
-      tag: "BLUE",
-      category: BLUE_MARKERS_CATEGORY,
-      subcategory: "NPC Gunsmith",
-      x: 0.4628,
-      y: 0.4114,
-      createdAt: 0,
-      updatedAt: 0,
-      isDefault: true,
-      dotOnly: true,
-      anchorDotColor: "#00aacc",
-      anchorDotSize: 8,
-    },
-    {
-      id: "solar-city-blue-trader",
-      mapId: SOLAR_CITY_MAP_ID,
-      name: "Blue Marker - NPC Trader",
-      grid: "C3 upper road",
-      description: "Separate blue point marker for NPC Trader.",
-      tag: "BLUE",
-      category: BLUE_MARKERS_CATEGORY,
-      subcategory: "NPC Trader",
-      x: 0.4691,
-      y: 0.4113,
-      createdAt: 0,
-      updatedAt: 0,
-      isDefault: true,
-      dotOnly: true,
-      anchorDotColor: "#00aacc",
-      anchorDotSize: 8,
-    },
-    {
-      id: "solar-city-blue-doctor",
-      mapId: SOLAR_CITY_MAP_ID,
-      name: "Blue Marker - NPC Doctor",
-      grid: "C3 / D4 east route",
-      description: "Separate blue point marker for NPC Doctor.",
-      tag: "BLUE",
-      category: BLUE_MARKERS_CATEGORY,
-      subcategory: "NPC Doctor",
-      x: 0.5441,
-      y: 0.5929,
-      createdAt: 0,
-      updatedAt: 0,
-      isDefault: true,
-      dotOnly: true,
-      anchorDotColor: "#00aacc",
-      anchorDotSize: 8,
     },
   ],
 };
@@ -968,13 +869,6 @@ function normalizeMarkerStore(input: unknown): MarkerStore {
         picture: typeof marker.picture === "string" ? marker.picture : undefined,
         icon: typeof marker.icon === "string" ? marker.icon : undefined,
         isDefault: marker.isDefault === true,
-        anchorDotColor:
-          typeof marker.anchorDotColor === "string" ? marker.anchorDotColor : undefined,
-        anchorDotSize:
-          typeof marker.anchorDotSize === "number" ? marker.anchorDotSize : undefined,
-        iconOffsetY:
-          typeof marker.iconOffsetY === "number" ? marker.iconOffsetY : undefined,
-        dotOnly: marker.dotOnly === true,
         createdAt: typeof marker.createdAt === "number" ? marker.createdAt : Date.now(),
         updatedAt: typeof marker.updatedAt === "number" ? marker.updatedAt : Date.now(),
       }));
@@ -2828,20 +2722,6 @@ export default function MapPage() {
                                   src={marker.icon}
                                   alt=""
                                   className={`marker-list-row__thumb ${marker.isDefault ? "marker-list-row__thumb--main" : ""}`}
-                                  style={
-                                    typeof marker.iconOffsetY === "number"
-                                      ? { transform: `translateY(${marker.iconOffsetY}px)` }
-                                      : undefined
-                                  }
-                                />
-                              ) : marker.dotOnly ? (
-                                <span
-                                  className="marker-list-row__anchor-dot"
-                                  style={{
-                                    backgroundColor: marker.anchorDotColor ?? "#00aacc",
-                                    width: `${marker.anchorDotSize ?? 8}px`,
-                                    height: `${marker.anchorDotSize ?? 8}px`,
-                                  }}
                                 />
                               ) : (
                                 <span className="marker-list-row__dot">
@@ -2971,9 +2851,11 @@ export default function MapPage() {
                   if (!visible) return null;
 
                   const active = marker.id === selectedMarkerId;
-                  const markerSize = marker.dotOnly
-                    ? clamp(10 + zoom * 1.6 + (active ? 2 : 0), 10, active ? 18 : 14)
-                    : clamp(17 + zoom * 2.95 + (active ? 4.5 : 0), 19, active ? 36 : 32);
+                  const markerSize = clamp(
+                    17 + zoom * 2.95 + (active ? 4.5 : 0),
+                    19,
+                    active ? 36 : 32,
+                  );
 
                   return (
                     <button
@@ -2997,26 +2879,11 @@ export default function MapPage() {
                       title="Drag to move · click to open"
                     >
                       <span className="marker-chip__pulse" />
-                      {marker.anchorDotColor ? (
-                        <span
-                          className={`marker-chip__anchor-dot ${marker.dotOnly ? "marker-chip__anchor-dot--standalone" : ""}`}
-                          style={{
-                            backgroundColor: marker.anchorDotColor,
-                            width: `${marker.anchorDotSize ?? 8}px`,
-                            height: `${marker.anchorDotSize ?? 8}px`,
-                          }}
-                        />
-                      ) : null}
-                      {marker.dotOnly ? null : marker.icon ? (
+                      {marker.icon ? (
                         <img
                           src={marker.icon}
                           alt=""
-                          className={`marker-chip__image ${marker.isDefault ? "marker-chip__image--main" : ""} ${marker.anchorDotColor ? "marker-chip__image--with-anchor-dot" : ""}`}
-                          style={
-                            typeof marker.iconOffsetY === "number"
-                              ? { transform: `translateY(${marker.iconOffsetY}px)` }
-                              : undefined
-                          }
+                          className={`marker-chip__image ${marker.isDefault ? "marker-chip__image--main" : ""}`}
                         />
                       ) : (
                         <span className="marker-chip__tag">
